@@ -3,6 +3,7 @@
 #-----------------------------------------------------------------------
 
 rv64ui_sc_tests = \
+	fence_i \
 	add addi addiw addw \
 	and andi \
 	auipc \
