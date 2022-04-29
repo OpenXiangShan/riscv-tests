@@ -7,6 +7,10 @@
 #include <stdio.h>
 #include "util.h"
 
+// #define VM_START 0x80000000L
+#define VM_START 0x2000000000L
+#define VM_RANGE 0x00080000L
+
 volatile int trap_expected;
 volatile int granule;
 volatile int test_mode;
@@ -90,7 +94,8 @@ uintptr_t l3pt[RISCV_PGSIZE / sizeof(uintptr_t)] __attribute__((aligned(RISCV_PG
 static void init_pt()
 {
   l1pt[0] = ((uintptr_t)l2pt >> RISCV_PGSHIFT << PTE_PPN_SHIFT) | PTE_V;
-  l1pt[2] = ((uintptr_t)0x80000000L >> RISCV_PGSHIFT << PTE_PPN_SHIFT) | PTE_V | PTE_X | PTE_R | PTE_W | PTE_A | PTE_D;
+  l1pt[(VM_START >> (RISCV_PGSHIFT + RISCV_PGLEVEL_BITS + RISCV_PGLEVEL_BITS))] = ((uintptr_t)VM_START >> RISCV_PGSHIFT << PTE_PPN_SHIFT) | PTE_V | PTE_X | PTE_R | PTE_W | PTE_A | PTE_D;
+  // l1pt[2] = ((uintptr_t)0x80000000L >> RISCV_PGSHIFT << PTE_PPN_SHIFT) | PTE_V | PTE_X | PTE_R | PTE_W | PTE_A | PTE_D;
   l3pt[SCRATCH / RISCV_PGSIZE] = ((uintptr_t)scratch >> RISCV_PGSHIFT << PTE_PPN_SHIFT) | PTE_A | PTE_D | PTE_V | PTE_R | PTE_W;
 #if __riscv_xlen == 64
   l2pt[0] = ((uintptr_t)l3pt >> RISCV_PGSHIFT << PTE_PPN_SHIFT) | PTE_V;
@@ -351,7 +356,7 @@ INLINE void fetch_area(uintptr_t base, uintptr_t size) {
 // we need change priv mode to S mode.
 INLINE void test_instr() {
   fetch_ptw_area((uintptr_t )&l1pt[2], 8);
-  fetch_area((uintptr_t )0x80000000, 0x00080000);
+  fetch_area((uintptr_t )VM_START, VM_RANGE);
 }
 
 INLINE void access_ldst(uintptr_t addr, uintptr_t size, uintptr_t will_trap, int trap_code) {
