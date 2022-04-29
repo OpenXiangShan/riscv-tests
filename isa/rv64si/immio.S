@@ -15,7 +15,7 @@ RVTEST_RV64M
 RVTEST_CODE_BEGIN
 
 # what the test do:
-# xs starts from flash(0x1000_0000), which is mmio, then jumps to 0x8000_0000(this test)
+# xs starts from flash(0x1000_0000), which is mmio, then jumps to 0x8000_0000 / 0x20_0000_0000(this test)
 # this test will establish a page table, one page to flash, one page to ddr
 # then jump to the tail of flash, the mmio instruction will be divided into mmio and ddr part
 # 1. if the itlb miss for ddr part, total wrong paddr
@@ -31,6 +31,7 @@ RVTEST_CODE_BEGIN
 # remove flash's execute right, then jump to then same addr, trap_handler will take control.
 
 
+#define VM_START 0x2000000000
 #define FLASH_ADDR 0x10000000
 #define FLASH_TAIL (FLASH_ADDR + RISCV_PGSIZE - 2) # flash makes sure this will a part of instruction(not C)
 #define DDR_ADDR data_page
@@ -72,11 +73,16 @@ test_begin:
   MAKE_PTE
   sd a1, 8(a0)
 
-  # make map for current addr which should in 0x8000_0000
+  # make map for current addr which should in 0x8000_0000 / 0x20_0000_0000
   la a0, page_table_1
-  li a1, 0x80000000
+  li a1, VM_START
+  mv t0, a1 # save VM_START to t0
   MAKE_PTE
-  sd a1, 16(a0)
+  srli t0, t0, (12 + 9 + 9)
+  andi t0, t0, 0x1ff # ppn[2] of VM_START
+  slli t0, t0, 3 # ppn[2] * 8
+  add a0, a0, t0 # page_table_1 + ppn[2] * 8
+  sd a1, 0(a0)
 
   # jump to dest addr
   sfence.vma
