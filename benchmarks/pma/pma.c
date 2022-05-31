@@ -355,7 +355,7 @@ INLINE void fetch_area(uintptr_t base, uintptr_t size) {
 // instr is more conflict than ldst and ptw
 // we need change priv mode to S mode.
 INLINE void test_instr() {
-  fetch_ptw_area((uintptr_t )&l1pt[2], 8);
+  fetch_ptw_area((uintptr_t )&l1pt[(VM_START >> (RISCV_PGSHIFT + RISCV_PGLEVEL_BITS + RISCV_PGLEVEL_BITS))], 8);
   fetch_area((uintptr_t )VM_START, VM_RANGE);
 }
 
