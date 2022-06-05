@@ -32,6 +32,7 @@ bmarks = \
 	pmp \
 	pmp-modified \
 	pma \
+	memscan \
 
 #--------------------------------------------------------------------
 # Build rules
