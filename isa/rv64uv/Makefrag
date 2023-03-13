@@ -19,5 +19,9 @@ rv64uv_sc_tests = \
   vand \
   vor \
   vxor \
+  vwadd \
+  vwaddu \
+  vwsub \
+  vwsubu \
 
 rv64uv_p_tests = $(addprefix rv64uv-p-, $(rv64uv_sc_tests))
