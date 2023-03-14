@@ -8,16004 +8,16004 @@ RVTEST_CODE_BEGIN
   li t0, -1
 
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vv v16, v10, v17
+  vsll.vv v5, v20, v18
 
-  li t2, 0x69f1e7d1a1657bcd
+  li t2, 0x089b38b8800d30cf
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vx v29, v15, t2
+  vsll.vx v20, v24, t2
 
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vi v1, v9, 8
+  vsll.vi v6, v9, 29
 
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vv v11, v21, v19
+  vsll.vv v9, v30, v20
 
-  li t2, 0x9c3149a8d13b7bfe
+  li t2, 0xa852b5b43b0b1c1d
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vx v17, v1, t2
+  vsll.vx v8, v23, t2
 
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vi v21, v12, -12
+  vsll.vi v11, v30, 15
 
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vv v21, v31, v8
+  vsll.vv v15, v5, v26
 
-  li t2, 0x37e6e65b98843689
+  li t2, 0x2ea2d8213297af5b
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vx v2, v27, t2
+  vsll.vx v15, v4, t2
 
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vi v16, v13, 14
+  vsll.vi v13, v8, 22
 
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vv v17, v27, v18
+  vsll.vv v4, v31, v17
 
-  li t2, 0x328edc627547e954
+  li t2, 0x36b15f2d9faedf57
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vx v27, v14, t2
+  vsll.vx v8, v22, t2
 
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vi v12, v21, -15
+  vsll.vi v9, v31, 10
 
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vv v29, v28, v27
+  vsll.vv v21, v4, v14
 
-  li t2, 0x0cd6190810755a69
+  li t2, 0x7b870b9e68dec537
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vx v11, v21, t2
+  vsll.vx v27, v21, t2
 
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vi v19, v12, -6
+  vsll.vi v28, v30, 11
 
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vv v7, v18, v30
+  vsll.vv v23, v25, v7
 
-  li t2, 0xc7289bea62af1986
+  li t2, 0x21d4931762479dc6
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vx v18, v16, t2
+  vsll.vx v25, v19, t2
 
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vi v12, v8, 6
+  vsll.vi v17, v5, 1
 
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vv v7, v25, v19
+  vsll.vv v29, v20, v30
 
-  li t2, 0x9b73042639c4a25b
+  li t2, 0x36f11837a99f4ef7
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vx v24, v11, t2
+  vsll.vx v19, v21, t2
 
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vi v20, v30, 13
+  vsll.vi v13, v17, 24
 
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vv v10, v25, v3
+  vsll.vv v21, v25, v8
 
-  li t2, 0x117df248dae5c1eb
+  li t2, 0xa627b5949fda7dd6
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vx v8, v25, t2
+  vsll.vx v4, v30, t2
 
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vi v18, v7, 14
+  vsll.vi v25, v30, 17
 
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vv v26, v25, v8
+  vsll.vv v8, v14, v21
 
-  li t2, 0xb4afd14a1e07e883
+  li t2, 0xa34f7f8e347fd327
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vx v16, v23, t2
+  vsll.vx v28, v4, t2
 
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vi v27, v2, 12
+  vsll.vi v27, v23, 14
 
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vv v24, v5, v14
+  vsll.vv v30, v26, v14
 
-  li t2, 0xb42a6127f5cce527
+  li t2, 0x2694321e17ed3bfe
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vx v25, v20, t2
+  vsll.vx v14, v20, t2
 
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vi v24, v11, -13
+  vsll.vi v20, v26, 31
 
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vv v18, v11, v8
+  vsll.vv v25, v18, v19
 
-  li t2, 0x5bb4fa57f6bd442f
+  li t2, 0x0ce3c0f67bb6a5d1
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vx v3, v31, t2
+  vsll.vx v14, v8, t2
 
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vi v21, v6, 14
+  vsll.vi v29, v15, 14
 
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vv v27, v12, v3
+  vsll.vv v29, v17, v2
 
-  li t2, 0x98993767c6cfe8e2
+  li t2, 0x12bba4c19ae9fee3
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vx v9, v22, t2
+  vsll.vx v31, v8, t2
 
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vi v17, v28, -9
+  vsll.vi v1, v16, 3
 
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vv v26, v13, v10
+  vsll.vv v28, v11, v13
 
-  li t2, 0x4efebb16d83603e7
+  li t2, 0x3f91ef627e827fea
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vx v6, v14, t2
+  vsll.vx v20, v9, t2
 
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vi v10, v21, -3
+  vsll.vi v7, v2, 11
 
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vv v24, v5, v26
+  vsll.vv v14, v15, v9
 
-  li t2, 0x97439d92a2027691
+  li t2, 0x21081c7ad6e12115
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vx v11, v17, t2
+  vsll.vx v20, v11, t2
 
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vi v16, v27, -14
+  vsll.vi v26, v12, 7
 
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vv v10, v24, v11
+  vsll.vv v24, v6, v3
 
-  li t2, 0xa096d47c05c71076
+  li t2, 0x37d1da422a6f1111
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vx v29, v11, t2
+  vsll.vx v13, v7, t2
 
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vi v17, v10, -7
+  vsll.vi v12, v29, 1
 
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vv v8, v2, v19
+  vsll.vv v30, v15, v27
 
-  li t2, 0x6a70794544094148
+  li t2, 0x29a3eb3459de716c
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vx v27, v30, t2
+  vsll.vx v8, v21, t2
 
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vi v30, v24, -7
+  vsll.vi v10, v21, 27
 
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vv v3, v31, v5
+  vsll.vv v14, v1, v31
 
-  li t2, 0xa9dca9184a75125e
+  li t2, 0x1d63e87e674025c1
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vx v30, v21, t2
+  vsll.vx v25, v10, t2
 
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vi v22, v4, 3
+  vsll.vi v24, v5, 31
 
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vv v7, v10, v26
+  vsll.vv v19, v12, v27
 
-  li t2, 0xd8a1a438fe9f5221
+  li t2, 0x51e4e3a4339706f9
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vx v2, v26, t2
+  vsll.vx v31, v8, t2
 
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vi v23, v22, 15
+  vsll.vi v14, v25, 22
 
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vv v10, v1, v19
+  vsll.vv v20, v13, v6
 
-  li t2, 0xdec3fccb64e6bc93
+  li t2, 0x2b4db2112c1a9acf
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vx v4, v28, t2
+  vsll.vx v17, v31, t2
 
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vi v3, v16, -11
+  vsll.vi v27, v19, 6
 
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vv v6, v19, v28
+  vsll.vv v24, v21, v14
 
-  li t2, 0xdaa468f132dee6e8
+  li t2, 0x3c5f24244a9a4c73
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vx v20, v23, t2
+  vsll.vx v8, v30, t2
 
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vi v8, v4, 12
+  vsll.vi v15, v2, 8
 
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vv v31, v20, v29
+  vsll.vv v15, v2, v4
 
-  li t2, 0x3d211a3ac8b41f87
+  li t2, 0x36ff545ff9b7bafe
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vx v31, v21, t2
+  vsll.vx v2, v22, t2
 
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vi v14, v19, -16
+  vsll.vi v23, v1, 20
 
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vv v2, v20, v22
+  vsll.vv v2, v22, v31
 
-  li t2, 0x078e83f37edc0fe0
+  li t2, 0xea4a97622249dcbb
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vx v28, v27, t2
+  vsll.vx v16, v7, t2
 
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vi v21, v12, 11
+  vsll.vi v24, v28, 16
 
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vv v19, v4, v30
+  vsll.vv v15, v5, v14
 
-  li t2, 0xdbb0c4b9c5dfa4c5
+  li t2, 0x8da4942a4bcdf7c4
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vx v7, v23, t2
+  vsll.vx v6, v13, t2
 
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vi v13, v9, -6
+  vsll.vi v21, v8, 7
 
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vv v11, v8, v24
+  vsll.vv v2, v26, v1
 
-  li t2, 0x4e5b5472bc50c711
+  li t2, 0x29830115ee43901d
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vx v4, v16, t2
+  vsll.vx v21, v30, t2
 
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vi v29, v22, 6
+  vsll.vi v25, v1, 27
 
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vv v16, v6, v5
+  vsll.vv v28, v16, v21
 
-  li t2, 0x6ae6937992b2c4b4
+  li t2, 0x751ced221e26ae43
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vx v27, v21, t2
+  vsll.vx v27, v20, t2
 
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vi v21, v26, -14
+  vsll.vi v16, v22, 19
 
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vv v15, v2, v23
+  vsll.vv v6, v17, v5
 
-  li t2, 0xa8bf31546aaf4a18
+  li t2, 0xd6118b3c715dc0cc
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vx v18, v8, t2
+  vsll.vx v28, v4, t2
 
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vi v31, v5, 11
+  vsll.vi v9, v29, 30
 
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vv v2, v27, v29
+  vsll.vv v28, v23, v2
 
-  li t2, 0x60a7bb04a58baf1b
+  li t2, 0x3958a40728158a4e
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vx v26, v13, t2
+  vsll.vx v8, v15, t2
 
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vi v7, v19, 8
+  vsll.vi v31, v1, 8
 
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vv v16, v22, v6
+  vsll.vv v1, v10, v18
 
-  li t2, 0x8bb84d1580a36d27
+  li t2, 0x69ab0c3398371c6b
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vx v24, v16, t2
+  vsll.vx v22, v14, t2
 
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vi v21, v13, 9
+  vsll.vi v24, v14, 12
 
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vv v14, v6, v8
+  vsll.vv v8, v26, v9
 
-  li t2, 0x14ed64ec5f0be406
+  li t2, 0xf352291dfcd9188e
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vx v28, v11, t2
+  vsll.vx v2, v17, t2
 
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vi v2, v7, -11
+  vsll.vi v19, v15, 5
 
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vv v11, v30, v18
+  vsll.vv v26, v25, v22
 
-  li t2, 0xda510495e1ae48ee
+  li t2, 0x132f8de209c3472f
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vx v15, v10, t2
+  vsll.vx v7, v14, t2
 
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vi v28, v13, 7
+  vsll.vi v18, v3, 9
 
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vv v6, v10, v13
+  vsll.vv v30, v29, v4
 
-  li t2, 0x8f53c19c6899d83c
+  li t2, 0xd24157c19ea8f901
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vx v12, v1, t2
+  vsll.vx v3, v22, t2
 
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vi v27, v21, -11
+  vsll.vi v17, v9, 30
 
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vv v18, v11, v26
+  vsll.vv v10, v14, v7
 
-  li t2, 0xfe3b29d6c9937617
+  li t2, 0x167c6dd0391e2e3d
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vx v20, v3, t2
+  vsll.vx v30, v21, t2
 
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vi v9, v14, -6
+  vsll.vi v29, v3, 13
 
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vv v3, v23, v30
+  vsll.vv v10, v15, v30
 
-  li t2, 0x824a857744044f99
+  li t2, 0xaa74f9997d9785c4
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vx v26, v1, t2
+  vsll.vx v8, v9, t2
 
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vi v4, v13, -16
+  vsll.vi v16, v13, 24
 
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vv v19, v15, v7
+  vsll.vv v24, v31, v5
 
-  li t2, 0xa2f8a407812c1eec
+  li t2, 0x54223b38c0ed19b5
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vx v31, v12, t2
+  vsll.vx v16, v22, t2
 
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vi v28, v14, -6
+  vsll.vi v22, v15, 28
 
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vv v10, v20, v24
+  vsll.vv v14, v16, v9
 
-  li t2, 0x6514ee1e79e56cf1
+  li t2, 0xa24bcf7400e0ae8f
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vx v24, v17, t2
+  vsll.vx v7, v24, t2
 
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vi v22, v26, 6
+  vsll.vi v8, v12, 18
 
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vv v8, v16, v12
+  vsll.vv v16, v31, v3
 
-  li t2, 0x210049ee2854f820
+  li t2, 0xe11aa21bab3786bd
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vx v5, v14, t2
+  vsll.vx v28, v7, t2
 
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vi v22, v27, -6
+  vsll.vi v24, v22, 23
 
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vv v6, v22, v18
+  vsll.vv v15, v27, v12
 
-  li t2, 0x4ffcad1a2602eeed
+  li t2, 0xd31c39dc9aecbe3c
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vx v31, v1, t2
+  vsll.vx v9, v18, t2
 
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vi v1, v9, -2
+  vsll.vi v21, v18, 13
 
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vv v3, v19, v11
+  vsll.vv v24, v8, v31
 
-  li t2, 0x6d5708f090ebb0a8
+  li t2, 0x22929f5095aba163
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vx v10, v13, t2
+  vsll.vx v10, v25, t2
 
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vi v6, v30, -1
+  vsll.vi v26, v25, 12
 
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vv v24, v30, v23
+  vsll.vv v10, v24, v1
 
-  li t2, 0x39cf3f798df05718
+  li t2, 0x04a2966b3abe2fbf
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vx v21, v5, t2
+  vsll.vx v1, v30, t2
 
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vi v9, v30, -14
+  vsll.vi v27, v13, 6
 
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vv v31, v26, v4
+  vsll.vv v10, v4, v3
 
-  li t2, 0x2e3613e007bdc08d
+  li t2, 0xc546be927fb8ba78
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vx v8, v14, t2
+  vsll.vx v17, v6, t2
 
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vi v29, v22, 0
+  vsll.vi v14, v5, 9
 
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vv v14, v24, v7
+  vsll.vv v20, v14, v5
 
-  li t2, 0x35b6a5c2d604ae91
+  li t2, 0x73b05acfe27b60d9
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vx v22, v17, t2
+  vsll.vx v14, v8, t2
 
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vi v31, v16, -10
+  vsll.vi v17, v13, 10
 
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vv v7, v9, v8
+  vsll.vv v14, v6, v15
 
-  li t2, 0x65a4cb3f6e74ecfb
+  li t2, 0x1538e42e2e63f4ab
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vx v10, v24, t2
+  vsll.vx v23, v12, t2
 
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vi v9, v21, 13
+  vsll.vi v10, v6, 27
 
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vv v25, v1, v4
+  vsll.vv v21, v11, v10
 
-  li t2, 0xf8fc15f5b97ae27d
+  li t2, 0x5668e8ea090706b7
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vx v23, v5, t2
+  vsll.vx v5, v3, t2
 
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vi v28, v11, -3
+  vsll.vi v3, v15, 30
 
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vv v28, v18, v3
+  vsll.vv v10, v9, v4
 
-  li t2, 0xa3389b5ad464d097
+  li t2, 0xca818955b7fd2d8c
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vx v18, v13, t2
+  vsll.vx v25, v5, t2
 
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vi v30, v18, 13
+  vsll.vi v10, v6, 20
 
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vv v11, v16, v1
+  vsll.vv v5, v3, v2
 
-  li t2, 0x41683b6d2052e1b6
+  li t2, 0x29d3391d25e53b39
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vx v29, v21, t2
+  vsll.vx v28, v4, t2
 
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vi v2, v23, 4
+  vsll.vi v24, v13, 13
 
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vv v16, v4, v29
+  vsll.vv v29, v18, v5
 
-  li t2, 0xf6ee80a134241059
+  li t2, 0x2616759758362e5a
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vx v6, v3, t2
+  vsll.vx v24, v29, t2
 
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vi v17, v23, 4
+  vsll.vi v11, v21, 11
 
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vv v4, v22, v7
+  vsll.vv v13, v30, v7
 
-  li t2, 0xc27494505472b74b
+  li t2, 0xfbe17c740437feaf
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vx v8, v14, t2
+  vsll.vx v30, v4, t2
 
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vi v19, v23, -4
+  vsll.vi v20, v23, 23
 
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vv v13, v31, v3
+  vsll.vv v1, v4, v13
 
-  li t2, 0x16c5e129ee12a150
+  li t2, 0x691daefe716614d2
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vx v20, v3, t2
+  vsll.vx v13, v15, t2
 
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vi v21, v15, 4
+  vsll.vi v13, v25, 9
 
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vv v8, v17, v22
+  vsll.vv v31, v11, v25
 
-  li t2, 0x334f5ad26d2be740
+  li t2, 0x1e38cfc8fba409cf
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vx v31, v10, t2
+  vsll.vx v23, v5, t2
 
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vi v28, v9, -9
+  vsll.vi v25, v4, 4
 
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vv v30, v23, v18
+  vsll.vv v5, v3, v29
 
-  li t2, 0xb197bc8ac2fcfd95
+  li t2, 0x55b0b7064c6debe5
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vx v2, v9, t2
+  vsll.vx v12, v27, t2
 
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vi v20, v22, -9
+  vsll.vi v1, v31, 12
 
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vv v8, v31, v16
+  vsll.vv v15, v21, v27
 
-  li t2, 0x8b5f3327d98313b0
+  li t2, 0xae7b97f75446f1ff
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vx v12, v7, t2
+  vsll.vx v19, v2, t2
 
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vi v3, v12, 12
+  vsll.vi v28, v14, 16
 
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vv v14, v31, v25
+  vsll.vv v15, v19, v21
 
-  li t2, 0x462d96d93357b011
+  li t2, 0x2c929535f6f80495
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vx v6, v14, t2
+  vsll.vx v1, v20, t2
 
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vi v14, v3, -11
+  vsll.vi v17, v3, 25
 
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vv v20, v16, v25
+  vsll.vv v15, v25, v5
 
-  li t2, 0xa159e26d742d1cdf
+  li t2, 0x583e15e3992b1098
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vx v24, v23, t2
+  vsll.vx v11, v18, t2
 
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vi v3, v13, 5
+  vsll.vi v25, v19, 31
 
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vv v27, v26, v24
+  vsll.vv v14, v5, v21
 
-  li t2, 0x5399fedb3d3c41fb
+  li t2, 0x295a4a81ef5041d5
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vx v3, v23, t2
+  vsll.vx v27, v29, t2
 
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vi v3, v11, -5
+  vsll.vi v30, v24, 25
 
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vv v29, v9, v15
+  vsll.vv v28, v14, v27
 
-  li t2, 0x10bc021b71d51438
+  li t2, 0x64a05526cbd2a6e2
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vx v8, v7, t2
+  vsll.vx v13, v8, t2
 
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vi v15, v9, 10
+  vsll.vi v27, v12, 11
 
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vv v2, v19, v18
+  vsll.vv v18, v10, v2
 
-  li t2, 0xfab7502113124de8
+  li t2, 0x9b547a04a996a673
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vx v21, v10, t2
+  vsll.vx v29, v15, t2
 
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vi v13, v7, -15
+  vsll.vi v7, v12, 19
 
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vv v29, v9, v14
+  vsll.vv v21, v27, v30
 
-  li t2, 0x6ce30c505ef4e3bf
+  li t2, 0x58541d2f3214f380
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vx v31, v21, t2
+  vsll.vx v2, v16, t2
 
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vi v20, v22, 6
+  vsll.vi v5, v1, 1
 
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vv v28, v19, v5
+  vsll.vv v24, v21, v7
 
-  li t2, 0x30579862bda6c8cd
+  li t2, 0xde51d3aca505adac
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vx v12, v17, t2
+  vsll.vx v11, v8, t2
 
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vi v26, v22, 9
+  vsll.vi v21, v17, 30
 
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vv v6, v9, v12
+  vsll.vv v6, v14, v30
 
-  li t2, 0x2f3a770a05da21db
+  li t2, 0xbcbd9bc104a0ca3d
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vx v4, v6, t2
+  vsll.vx v24, v31, t2
 
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vi v2, v5, -4
+  vsll.vi v3, v15, 14
 
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vv v10, v2, v11
+  vsll.vv v16, v14, v22
 
-  li t2, 0x315438d37a3f9bf4
+  li t2, 0x5c4f2c45071db802
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vx v23, v8, t2
+  vsll.vx v11, v6, t2
 
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vi v29, v5, 8
+  vsll.vi v14, v7, 18
 
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vv v15, v21, v12
+  vsll.vv v24, v7, v16
 
-  li t2, 0x00a78799ec3e3be0
+  li t2, 0xd2474f38f41eade4
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vx v22, v6, t2
+  vsll.vx v26, v17, t2
 
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vi v24, v11, 8
+  vsll.vi v11, v30, 1
 
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vv v20, v13, v24
+  vsll.vv v2, v22, v21
 
-  li t2, 0x0edb192f66dcda21
+  li t2, 0x421cddd6122efb4c
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vx v29, v3, t2
+  vsll.vx v22, v13, t2
 
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vi v6, v8, -6
+  vsll.vi v6, v16, 11
 
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vv v11, v8, v29
+  vsll.vv v21, v29, v18
 
-  li t2, 0x6b2129ee8a4d08cc
+  li t2, 0xbce9961f9bd014f3
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vx v13, v18, t2
+  vsll.vx v12, v2, t2
 
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vi v23, v6, -7
+  vsll.vi v17, v14, 18
 
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vv v26, v22, v23
+  vsll.vv v24, v8, v15
 
-  li t2, 0x4705e9b189d61305
+  li t2, 0xbadae2b90573cf60
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vx v8, v5, t2
+  vsll.vx v8, v9, t2
 
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vi v4, v31, -8
+  vsll.vi v24, v14, 29
 
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vv v7, v1, v18
+  vsll.vv v7, v15, v19
 
-  li t2, 0x2da570298c722dd9
+  li t2, 0xd89bd25bdb7a410d
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vx v23, v17, t2
+  vsll.vx v12, v18, t2
 
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vi v18, v7, 1
+  vsll.vi v8, v25, 19
 
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vv v28, v11, v19
+  vsll.vv v24, v9, v5
 
-  li t2, 0x8b2a7eb0af543aad
+  li t2, 0xd757dfd66568450c
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vx v9, v14, t2
+  vsll.vx v3, v7, t2
 
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vi v21, v9, 12
+  vsll.vi v1, v18, 4
 
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vv v2, v7, v28
+  vsll.vv v24, v25, v13
 
-  li t2, 0xe40ddc2a1d1ad9d3
+  li t2, 0x2cbcc43de3820f1e
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vx v17, v25, t2
+  vsll.vx v16, v23, t2
 
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vi v8, v7, 4
+  vsll.vi v20, v21, 15
 
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vv v20, v7, v5
+  vsll.vv v13, v1, v3
 
-  li t2, 0x26a48930bf87fea9
+  li t2, 0x0533be3b122843b5
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vx v30, v31, t2
+  vsll.vx v2, v30, t2
 
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vi v16, v27, -8
+  vsll.vi v27, v8, 30
 
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vv v2, v28, v22
+  vsll.vv v5, v16, v6
 
-  li t2, 0xfa67682717ce6b0a
+  li t2, 0x4fe5f09c93993f11
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vx v8, v17, t2
+  vsll.vx v14, v8, t2
 
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vi v2, v20, -15
+  vsll.vi v20, v28, 1
 
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vv v13, v5, v25
+  vsll.vv v29, v24, v15
 
-  li t2, 0x2929512000e3c4bf
+  li t2, 0xa384de389fe81765
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vx v11, v8, t2
+  vsll.vx v31, v28, t2
 
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vi v17, v4, -5
+  vsll.vi v9, v25, 2
 
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vv v21, v28, v3
+  vsll.vv v4, v31, v26
 
-  li t2, 0x2018d09c8d0e72ad
+  li t2, 0x5d959b8301275940
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vx v11, v6, t2
+  vsll.vx v13, v17, t2
 
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vi v27, v13, 14
+  vsll.vi v17, v2, 8
 
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vv v22, v28, v8
+  vsll.vv v31, v10, v6
 
-  li t2, 0x6d97a35d5c7cd17e
+  li t2, 0x042d3d385be67965
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vx v4, v6, t2
+  vsll.vx v12, v26, t2
 
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vi v22, v18, -3
+  vsll.vi v25, v16, 15
 
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vv v18, v29, v12
+  vsll.vv v6, v8, v20
 
-  li t2, 0x728fd900e9d06b54
+  li t2, 0x3b70982d00d58776
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vx v1, v25, t2
+  vsll.vx v26, v1, t2
 
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vi v29, v7, -3
+  vsll.vi v15, v11, 7
 
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vv v26, v21, v9
+  vsll.vv v16, v10, v2
 
-  li t2, 0xd47a3099e8d616fd
+  li t2, 0x04b8c2c2947e92cb
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vx v30, v10, t2
+  vsll.vx v3, v17, t2
 
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vi v24, v4, 0
+  vsll.vi v31, v20, 20
 
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vv v15, v18, v10
+  vsll.vv v26, v5, v7
 
-  li t2, 0xf757577ab2a61c50
+  li t2, 0x6a5d62b55a1b3144
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vx v25, v19, t2
+  vsll.vx v19, v18, t2
 
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vi v24, v23, 8
+  vsll.vi v8, v13, 22
 
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vv v4, v21, v15
+  vsll.vv v1, v2, v30
 
-  li t2, 0x3bddf416897b5704
+  li t2, 0x334dbdca8e40b0d5
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vx v21, v28, t2
+  vsll.vx v14, v19, t2
 
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vi v12, v20, 0
+  vsll.vi v3, v6, 2
 
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vv v22, v3, v11
+  vsll.vv v11, v30, v16
 
-  li t2, 0x003b8a0976c80ad4
+  li t2, 0x787e4991a58f8ae9
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vx v16, v11, t2
+  vsll.vx v12, v13, t2
 
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vi v14, v5, -8
+  vsll.vi v18, v1, 21
 
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vv v13, v19, v14
+  vsll.vv v7, v26, v3
 
-  li t2, 0xef87e3832dbf782d
+  li t2, 0x511c1cd717b2d534
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vx v7, v26, t2
+  vsll.vx v25, v19, t2
 
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vi v19, v15, -16
+  vsll.vi v2, v1, 4
 
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vv v18, v28, v3
+  vsll.vv v6, v27, v30
 
-  li t2, 0x6d31cb9790e46a22
+  li t2, 0x80879d38da0bd014
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vx v9, v6, t2
+  vsll.vx v20, v14, t2
 
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vi v22, v19, -1
+  vsll.vi v12, v5, 9
 
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vv v20, v4, v18
+  vsll.vv v29, v16, v23
 
-  li t2, 0xbbbd2a083a01a979
+  li t2, 0xee7183086d0c2df9
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vx v28, v31, t2
+  vsll.vx v30, v24, t2
 
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vi v2, v25, 13
+  vsll.vi v30, v26, 18
 
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vv v3, v29, v5
+  vsll.vv v12, v1, v29
 
-  li t2, 0xda279a584f02c823
+  li t2, 0x381fb19a7df3b519
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vx v28, v9, t2
+  vsll.vx v29, v12, t2
 
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vi v17, v4, -3
+  vsll.vi v28, v2, 25
 
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vv v16, v7, v9
+  vsll.vv v31, v24, v12
 
-  li t2, 0x2437aaf0231b5fec
+  li t2, 0x572392a82558cab2
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vx v22, v10, t2
+  vsll.vx v29, v21, t2
 
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vi v9, v22, -13
+  vsll.vi v4, v26, 27
 
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vv v29, v8, v28
+  vsll.vv v25, v3, v31
 
-  li t2, 0xc4e9387913273872
+  li t2, 0x3ebfd321e2e71dc4
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vx v4, v1, t2
+  vsll.vx v24, v23, t2
 
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vi v21, v18, -1
+  vsll.vi v12, v2, 5
 
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vv v31, v7, v28
+  vsll.vv v13, v26, v31
 
-  li t2, 0x0d4a22a12e197bb0
+  li t2, 0xdc056b422f035352
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vx v3, v5, t2
+  vsll.vx v6, v14, t2
 
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vi v9, v7, -8
+  vsll.vi v15, v21, 17
 
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vv v15, v25, v3
+  vsll.vv v21, v27, v19
 
-  li t2, 0x82cd0ad8b07509ab
+  li t2, 0xa65ea617eb2c563b
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vx v30, v9, t2
+  vsll.vx v1, v16, t2
 
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vi v15, v25, -12
+  vsll.vi v9, v2, 14
 
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vv v16, v27, v19
+  vsll.vv v24, v4, v22
 
-  li t2, 0x86c9d2c92248c319
+  li t2, 0x96f5e4410b35010d
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vx v22, v9, t2
+  vsll.vx v22, v6, t2
 
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vi v21, v20, -2
+  vsll.vi v14, v15, 28
 
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vv v31, v14, v28
+  vsll.vv v5, v6, v25
 
-  li t2, 0xb772c376bb7cd603
+  li t2, 0x9208865672386e9f
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vx v3, v27, t2
+  vsll.vx v9, v17, t2
 
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vi v18, v27, 7
+  vsll.vi v18, v13, 23
 
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vv v19, v27, v3
+  vsll.vv v26, v6, v20
 
-  li t2, 0xc766b9b133f89222
+  li t2, 0xf60069d4c547a75d
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vx v13, v3, t2
+  vsll.vx v14, v12, t2
 
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vi v12, v30, -9
+  vsll.vi v29, v14, 20
 
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vv v20, v15, v9
+  vsll.vv v26, v17, v21
 
-  li t2, 0x2c8767e61b25083a
+  li t2, 0x1f4817fbe0edb30f
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vx v11, v2, t2
+  vsll.vx v15, v1, t2
 
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vi v20, v2, 4
+  vsll.vi v2, v4, 7
 
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vv v9, v28, v23
+  vsll.vv v2, v21, v18
 
-  li t2, 0xafdb656e792d611b
+  li t2, 0x61cee34b5c444d86
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vx v25, v10, t2
+  vsll.vx v18, v27, t2
 
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vi v4, v5, -7
+  vsll.vi v15, v12, 7
 
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vv v10, v24, v25
+  vsll.vv v13, v24, v3
 
-  li t2, 0x80205105404dde5f
+  li t2, 0xd76e7b7a39cb8eff
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vx v13, v21, t2
+  vsll.vx v20, v29, t2
 
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vi v2, v27, -15
+  vsll.vi v23, v7, 23
 
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vv v6, v30, v8
+  vsll.vv v6, v21, v4
 
-  li t2, 0xfea2f738c6435c94
+  li t2, 0x3310f1ba04df554a
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vx v25, v21, t2
+  vsll.vx v3, v11, t2
 
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vi v30, v26, 11
+  vsll.vi v8, v5, 28
 
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vv v12, v22, v3
+  vsll.vv v18, v6, v15
 
-  li t2, 0x248c09e5850c4e08
+  li t2, 0x23d475f929fe5966
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vx v27, v5, t2
+  vsll.vx v24, v31, t2
 
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vi v19, v23, 8
+  vsll.vi v21, v14, 16
 
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vv v21, v31, v3
+  vsll.vv v13, v12, v11
 
-  li t2, 0x7b4eb7e478c150d4
+  li t2, 0x41c6c5f094a0ada6
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vx v7, v20, t2
+  vsll.vx v1, v25, t2
 
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vi v23, v7, 5
+  vsll.vi v24, v1, 4
 
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vv v15, v29, v12
+  vsll.vv v7, v20, v9
 
-  li t2, 0xa01c4ba5c0b866d1
+  li t2, 0x9d429378d7eff866
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vx v20, v31, t2
+  vsll.vx v18, v22, t2
 
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vi v10, v6, 15
+  vsll.vi v19, v14, 27
 
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vv v5, v9, v31
+  vsll.vv v13, v16, v6
 
-  li t2, 0x25475c387ce194bd
+  li t2, 0x2e14bfefe3591f46
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vx v7, v10, t2
+  vsll.vx v27, v24, t2
 
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vi v23, v17, -13
+  vsll.vi v2, v18, 12
 
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vv v22, v5, v15
+  vsll.vv v11, v26, v15
 
-  li t2, 0xce62e39edc036106
+  li t2, 0xba49f380ed7899c9
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vx v19, v29, t2
+  vsll.vx v11, v27, t2
 
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vi v27, v14, 6
+  vsll.vi v16, v2, 26
 
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vv v19, v4, v26
+  vsll.vv v14, v15, v7
 
-  li t2, 0xa9231ef8bb3d7f57
+  li t2, 0x48a08a1ed1d79d74
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vx v4, v5, t2
+  vsll.vx v31, v12, t2
 
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vi v10, v4, -3
+  vsll.vi v6, v12, 31
 
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vv v25, v4, v2
+  vsll.vv v2, v25, v16
 
-  li t2, 0xf1713cd4b0935d4b
+  li t2, 0x2d614def290a78c1
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vx v30, v4, t2
+  vsll.vx v20, v23, t2
 
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vi v4, v24, 8
+  vsll.vi v14, v7, 18
 
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vv v24, v26, v19
+  vsll.vv v24, v11, v15
 
-  li t2, 0x5ee1d9b5da8d72f1
+  li t2, 0xb919aa0d17cfe69e
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vx v26, v22, t2
+  vsll.vx v3, v1, t2
 
   vsetvli t1, t0, e8, m1, ta, ma
-  vand.vi v1, v22, 11
+  vsll.vi v13, v11, 13
 
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vv v6, v12, v16
+  vsll.vv v20, v30, v10
 
-  li t2, 0x024b6d1a315484e1
+  li t2, 0xd41f7a22aaa3fe5e
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vx v16, v6, t2
+  vsll.vx v8, v12, t2
 
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vi v18, v10, -9
+  vsll.vi v26, v6, 28
 
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vv v12, v24, v18
+  vsll.vv v4, v2, v16
 
-  li t2, 0xe6ae61520fe75170
+  li t2, 0x39d568f13a09afb5
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vx v10, v30, t2
+  vsll.vx v14, v2, t2
 
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vi v4, v26, -13
+  vsll.vi v6, v2, 6
 
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vv v28, v2, v18
+  vsll.vv v12, v10, v2
 
-  li t2, 0x2a1183a1735c3974
+  li t2, 0xfb3e718b70ce71e1
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vx v12, v30, t2
+  vsll.vx v22, v6, t2
 
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vi v12, v20, 4
+  vsll.vi v6, v12, 31
 
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vv v8, v10, v24
+  vsll.vv v22, v30, v18
 
-  li t2, 0xe0c953aa7055e7a7
+  li t2, 0x0aecd95d0a620a02
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vx v24, v4, t2
+  vsll.vx v30, v28, t2
 
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vi v28, v30, 14
+  vsll.vi v22, v4, 14
 
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vv v30, v26, v22
+  vsll.vv v8, v4, v6
 
-  li t2, 0x17e6eba21b01bb4e
+  li t2, 0xb2a913c8f2f9f164
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vx v26, v28, t2
+  vsll.vx v8, v22, t2
 
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vi v16, v30, 8
+  vsll.vi v22, v28, 3
 
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vv v30, v6, v16
+  vsll.vv v30, v10, v28
 
-  li t2, 0x358d962b4f3bc2d3
+  li t2, 0xc7e8a53691b7f14a
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vx v16, v4, t2
+  vsll.vx v30, v24, t2
 
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vi v12, v16, 0
+  vsll.vi v2, v8, 14
 
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vv v4, v30, v22
+  vsll.vv v12, v28, v26
 
-  li t2, 0x373e95b7d09ad02e
+  li t2, 0x0bd4b6248dad021c
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vx v14, v2, t2
+  vsll.vx v6, v20, t2
 
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vi v18, v20, 15
+  vsll.vi v8, v4, 23
 
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vv v12, v24, v2
+  vsll.vv v10, v26, v30
 
-  li t2, 0xcfa01fab4b446616
+  li t2, 0xe4171c21df9a2b3b
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vx v14, v8, t2
+  vsll.vx v22, v14, t2
 
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vi v10, v24, -12
+  vsll.vi v8, v16, 20
 
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vv v22, v26, v16
+  vsll.vv v2, v22, v18
 
-  li t2, 0x5e19c84ab0306cc4
+  li t2, 0x8d919c8a06f3633c
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vx v6, v26, t2
+  vsll.vx v2, v26, t2
 
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vi v12, v14, 13
+  vsll.vi v10, v12, 6
 
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vv v22, v26, v18
+  vsll.vv v4, v6, v30
 
-  li t2, 0xeb6fcfebbab9e1e6
+  li t2, 0x32056909d00f5c53
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vx v10, v6, t2
+  vsll.vx v12, v26, t2
 
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vi v6, v28, 4
+  vsll.vi v26, v30, 6
 
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vv v28, v24, v10
+  vsll.vv v30, v6, v14
 
-  li t2, 0x23108d0999ffddbc
+  li t2, 0x877b8828f63929b5
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vx v8, v12, t2
+  vsll.vx v30, v4, t2
 
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vi v12, v18, 0
+  vsll.vi v20, v8, 9
 
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vv v26, v14, v28
+  vsll.vv v24, v2, v8
 
-  li t2, 0x80866a18f42d18db
+  li t2, 0xe073f335ed563e48
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vx v20, v24, t2
+  vsll.vx v6, v2, t2
 
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vi v20, v10, 4
+  vsll.vi v6, v20, 24
 
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vv v24, v12, v22
+  vsll.vv v12, v26, v22
 
-  li t2, 0x17cc7cb8e70c1ea6
+  li t2, 0xdfbde79ef601f811
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vx v26, v30, t2
+  vsll.vx v4, v30, t2
 
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vi v18, v20, -5
+  vsll.vi v12, v2, 28
 
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vv v30, v12, v24
+  vsll.vv v30, v6, v22
 
-  li t2, 0xcc2d4106768ec924
+  li t2, 0xbb18a50a6d363a33
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vx v30, v18, t2
+  vsll.vx v20, v8, t2
 
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vi v6, v28, 12
+  vsll.vi v4, v14, 21
 
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vv v28, v12, v10
+  vsll.vv v26, v2, v28
 
-  li t2, 0x540b0d6035012af7
+  li t2, 0x34f48a67153221dd
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vx v4, v20, t2
+  vsll.vx v14, v2, t2
 
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vi v12, v4, 8
+  vsll.vi v6, v4, 4
 
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vv v10, v16, v20
+  vsll.vv v16, v20, v22
 
-  li t2, 0x64fca152471a124e
+  li t2, 0x16ec0fbb6b854d11
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vx v16, v22, t2
+  vsll.vx v30, v26, t2
 
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vi v18, v8, -2
+  vsll.vi v16, v26, 7
 
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vv v16, v4, v6
+  vsll.vv v28, v2, v14
 
-  li t2, 0x5ef544d90c54e285
+  li t2, 0x9d4dd08619da1da5
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vx v8, v18, t2
+  vsll.vx v28, v20, t2
 
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vi v4, v14, -7
+  vsll.vi v8, v12, 23
 
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vv v18, v16, v22
+  vsll.vv v12, v10, v26
 
-  li t2, 0xba25ef243d24f0ae
+  li t2, 0x6c0fbc060471aa10
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vx v26, v6, t2
+  vsll.vx v16, v28, t2
 
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vi v24, v10, 1
+  vsll.vi v4, v18, 20
 
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vv v28, v14, v16
+  vsll.vv v20, v30, v22
 
-  li t2, 0x04ddbb0b73f006ad
+  li t2, 0x635abf0ab80e3a1b
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vx v18, v24, t2
+  vsll.vx v28, v20, t2
 
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vi v30, v22, 15
+  vsll.vi v16, v30, 28
 
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vv v14, v20, v18
+  vsll.vv v2, v22, v16
 
-  li t2, 0x3e35b9433e466938
+  li t2, 0xeef9bd60de7d41b9
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vx v8, v16, t2
+  vsll.vx v4, v24, t2
 
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vi v2, v28, 8
+  vsll.vi v12, v26, 25
 
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vv v8, v24, v28
+  vsll.vv v22, v24, v28
 
-  li t2, 0xf1d64725efbeb5df
+  li t2, 0x31c3ea826aa21346
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vx v22, v16, t2
+  vsll.vx v26, v8, t2
 
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vi v10, v8, 9
+  vsll.vi v2, v24, 9
 
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vv v10, v2, v12
+  vsll.vv v16, v18, v30
 
-  li t2, 0x856775dea0e412c1
+  li t2, 0xfdaffc1f5389fcec
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vx v8, v20, t2
+  vsll.vx v6, v16, t2
 
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vi v24, v22, -5
+  vsll.vi v10, v26, 15
 
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vv v16, v20, v4
+  vsll.vv v16, v10, v12
 
-  li t2, 0xbb3fd583d742dfea
+  li t2, 0x3568a6e19e404f92
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vx v18, v6, t2
+  vsll.vx v14, v20, t2
 
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vi v20, v30, 6
+  vsll.vi v20, v30, 5
 
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vv v30, v14, v22
+  vsll.vv v18, v2, v14
 
-  li t2, 0x8ad10a476d105029
+  li t2, 0x9f2739204cb529b2
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vx v4, v22, t2
+  vsll.vx v26, v4, t2
 
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vi v24, v22, -6
+  vsll.vi v20, v6, 9
 
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vv v2, v20, v6
+  vsll.vv v4, v26, v6
 
-  li t2, 0x36eda2203c74fe05
+  li t2, 0xc9a18b968005a9f2
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vx v26, v14, t2
+  vsll.vx v24, v16, t2
 
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vi v18, v8, -4
+  vsll.vi v10, v2, 20
 
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vv v10, v26, v18
+  vsll.vv v30, v16, v14
 
-  li t2, 0x124fce89a970662c
+  li t2, 0xfa83dac1c2e1f290
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vx v20, v6, t2
+  vsll.vx v30, v4, t2
 
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vi v20, v30, -3
+  vsll.vi v14, v6, 28
 
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vv v10, v20, v8
+  vsll.vv v24, v8, v14
 
-  li t2, 0xde4f1d904b2b68f6
+  li t2, 0xe24ddb8cd3d7e6b3
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vx v14, v2, t2
+  vsll.vx v30, v10, t2
 
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vi v26, v20, 12
+  vsll.vi v30, v14, 6
 
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vv v20, v18, v22
+  vsll.vv v22, v20, v6
 
-  li t2, 0x8d7b55f9bd0b5c23
+  li t2, 0xc3d2de3ceaceb7dd
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vx v4, v24, t2
+  vsll.vx v20, v10, t2
 
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vi v26, v14, 10
+  vsll.vi v18, v16, 13
 
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vv v14, v30, v12
+  vsll.vv v22, v8, v20
 
-  li t2, 0x514a7f1972acb235
+  li t2, 0x79f1499b7339de9b
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vx v14, v6, t2
+  vsll.vx v2, v6, t2
 
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vi v30, v10, 4
+  vsll.vi v24, v18, 28
 
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vv v6, v10, v16
+  vsll.vv v6, v20, v4
 
-  li t2, 0x8d2ddc2c8df8d51b
+  li t2, 0x97b33f63b9619c42
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vx v28, v30, t2
+  vsll.vx v28, v4, t2
 
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vi v26, v28, 0
+  vsll.vi v16, v24, 30
 
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vv v16, v30, v28
+  vsll.vv v4, v14, v24
 
-  li t2, 0x0b6af4d87027cdd3
+  li t2, 0x2f3bbfc048f708d2
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vx v12, v22, t2
+  vsll.vx v2, v24, t2
 
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vi v2, v30, -5
+  vsll.vi v8, v14, 10
 
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vv v30, v6, v16
+  vsll.vv v4, v14, v22
 
-  li t2, 0xc8a83eedf133886e
+  li t2, 0xf5f636a18048398e
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vx v20, v18, t2
+  vsll.vx v12, v20, t2
 
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vi v14, v24, -1
+  vsll.vi v24, v4, 21
 
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vv v28, v20, v10
+  vsll.vv v2, v30, v18
 
-  li t2, 0x90df401cde95e737
+  li t2, 0x8060f4b91f5e57b8
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vx v28, v6, t2
+  vsll.vx v16, v20, t2
 
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vi v2, v20, 11
+  vsll.vi v8, v28, 14
 
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vv v6, v2, v4
+  vsll.vv v12, v22, v24
 
-  li t2, 0x726818fe169fac0e
+  li t2, 0x736b5246e9beab9a
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vx v24, v16, t2
+  vsll.vx v16, v22, t2
 
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vi v26, v10, -3
+  vsll.vi v28, v16, 0
 
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vv v20, v26, v30
+  vsll.vv v8, v12, v22
 
-  li t2, 0x10105f49fa627579
+  li t2, 0x9f7a99c73f88afbf
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vx v24, v20, t2
+  vsll.vx v16, v28, t2
 
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vi v10, v28, 14
+  vsll.vi v12, v24, 10
 
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vv v14, v30, v18
+  vsll.vv v10, v18, v14
 
-  li t2, 0xbcb1622c303f0b04
+  li t2, 0xf7801b4341ccdb8b
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vx v2, v20, t2
+  vsll.vx v6, v22, t2
 
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vi v20, v30, 6
+  vsll.vi v18, v20, 20
 
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vv v12, v14, v18
+  vsll.vv v8, v28, v6
 
-  li t2, 0xe4ffd4ba35129c6d
+  li t2, 0x58db2589680fa8c3
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vx v14, v24, t2
+  vsll.vx v6, v10, t2
 
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vi v20, v18, 2
+  vsll.vi v12, v6, 19
 
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vv v12, v28, v22
+  vsll.vv v26, v8, v4
 
-  li t2, 0x1960fd8d71d95f68
+  li t2, 0x9ee6677081189d7c
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vx v14, v10, t2
+  vsll.vx v22, v8, t2
 
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vi v20, v30, -7
+  vsll.vi v8, v14, 14
 
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vv v14, v18, v30
+  vsll.vv v30, v10, v2
 
-  li t2, 0xf36cbfdae4987a3d
+  li t2, 0xea679dc8adb987b4
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vx v10, v22, t2
+  vsll.vx v12, v24, t2
 
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vi v10, v16, 4
+  vsll.vi v2, v28, 3
 
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vv v18, v16, v14
+  vsll.vv v24, v28, v22
 
-  li t2, 0xd7f0f3ebf49248c3
+  li t2, 0x9393902e7f87d0aa
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vx v8, v4, t2
+  vsll.vx v12, v18, t2
 
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vi v8, v16, 11
+  vsll.vi v20, v16, 15
 
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vv v2, v18, v28
+  vsll.vv v18, v20, v28
 
-  li t2, 0x30bbcf3f227558c9
+  li t2, 0x6c2cd0895bed37bc
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vx v16, v10, t2
+  vsll.vx v24, v18, t2
 
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vi v2, v28, 11
+  vsll.vi v16, v28, 3
 
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vv v26, v30, v4
+  vsll.vv v14, v6, v8
 
-  li t2, 0x72e57b4a85ecdc18
+  li t2, 0x49302da1e8d48f58
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vx v24, v12, t2
+  vsll.vx v16, v14, t2
 
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vi v18, v10, 8
+  vsll.vi v26, v18, 17
 
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vv v26, v10, v4
+  vsll.vv v10, v14, v22
 
-  li t2, 0x2327a1499c6b5000
+  li t2, 0x0d2f1aca20c4dd4b
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vx v22, v10, t2
+  vsll.vx v24, v30, t2
 
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vi v18, v2, -8
+  vsll.vi v22, v6, 20
 
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vv v18, v30, v12
+  vsll.vv v6, v2, v22
 
-  li t2, 0x2576bb4dd5938cee
+  li t2, 0xb82a3fdb83848401
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vx v8, v4, t2
+  vsll.vx v28, v24, t2
 
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vi v2, v12, -7
+  vsll.vi v6, v20, 24
 
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vv v18, v14, v2
+  vsll.vv v12, v20, v10
 
-  li t2, 0x708101adc5587252
+  li t2, 0x57d0a764ee4c714a
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vx v4, v20, t2
+  vsll.vx v16, v12, t2
 
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vi v16, v12, -16
+  vsll.vi v2, v4, 17
 
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vv v12, v2, v18
+  vsll.vv v18, v2, v30
 
-  li t2, 0x7f55a075b0b183df
+  li t2, 0xe85ca8cad6ffaa4d
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vx v8, v14, t2
+  vsll.vx v22, v2, t2
 
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vi v14, v2, -3
+  vsll.vi v24, v16, 15
 
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vv v22, v14, v18
+  vsll.vv v16, v14, v20
 
-  li t2, 0xe7dff480767d355f
+  li t2, 0x3745c0aa2f53d611
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vx v4, v20, t2
+  vsll.vx v20, v8, t2
 
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vi v2, v28, 9
+  vsll.vi v14, v4, 27
 
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vv v26, v22, v14
+  vsll.vv v18, v10, v28
 
-  li t2, 0x8dd95e2b10cc93f1
+  li t2, 0xe68ad50ebd2413f4
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vx v28, v16, t2
+  vsll.vx v24, v8, t2
 
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vi v6, v26, 14
+  vsll.vi v30, v2, 28
 
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vv v30, v28, v10
+  vsll.vv v18, v28, v24
 
-  li t2, 0x10e0c169af07a9f7
+  li t2, 0xad0b227bdb92906b
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vx v12, v20, t2
+  vsll.vx v8, v18, t2
 
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vi v14, v30, -1
+  vsll.vi v10, v24, 12
 
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vv v20, v30, v12
+  vsll.vv v24, v4, v30
 
-  li t2, 0x4a0c5761c74bda92
+  li t2, 0xb1633fccb6fcfd0e
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vx v6, v28, t2
+  vsll.vx v14, v4, t2
 
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vi v2, v12, -10
+  vsll.vi v10, v20, 6
 
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vv v10, v30, v24
+  vsll.vv v14, v2, v12
 
-  li t2, 0x7e207ac70bc3b901
+  li t2, 0x47fd62f7477e943d
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vx v8, v2, t2
+  vsll.vx v8, v14, t2
 
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vi v14, v24, -13
+  vsll.vi v24, v20, 10
 
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vv v24, v14, v30
+  vsll.vv v10, v18, v6
 
-  li t2, 0x47b4ed92eb1d414b
+  li t2, 0xa1dd6f06ae082042
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vx v8, v2, t2
+  vsll.vx v6, v30, t2
 
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vi v28, v26, 3
+  vsll.vi v18, v6, 6
 
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vv v24, v26, v12
+  vsll.vv v18, v26, v6
 
-  li t2, 0x1e8f34cb8ec12f58
+  li t2, 0xde773d806f3fd905
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vx v6, v10, t2
+  vsll.vx v6, v4, t2
 
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vi v6, v12, 12
+  vsll.vi v14, v10, 6
 
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vv v30, v26, v16
+  vsll.vv v2, v16, v22
 
-  li t2, 0x39b792721468de6f
+  li t2, 0x4b171bd9432e70de
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vx v12, v4, t2
+  vsll.vx v2, v4, t2
 
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vi v24, v14, -6
+  vsll.vi v24, v16, 21
 
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vv v16, v14, v10
+  vsll.vv v24, v14, v12
 
-  li t2, 0xa7630e1a12374d95
+  li t2, 0xc8c7b1e7988db5a9
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vx v24, v26, t2
+  vsll.vx v22, v2, t2
 
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vi v14, v10, 10
+  vsll.vi v6, v16, 15
 
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vv v18, v30, v10
+  vsll.vv v16, v6, v8
 
-  li t2, 0x76292ec6670ade8c
+  li t2, 0xe57ce6f39bd82f0f
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vx v12, v8, t2
+  vsll.vx v14, v12, t2
 
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vi v12, v26, -7
+  vsll.vi v22, v6, 7
 
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vv v18, v16, v30
+  vsll.vv v30, v16, v26
 
-  li t2, 0xab3a82b58308cdf4
+  li t2, 0x46dc47a6f84c8be3
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vx v18, v20, t2
+  vsll.vx v6, v30, t2
 
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vi v24, v26, -16
+  vsll.vi v20, v24, 30
 
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vv v28, v2, v26
+  vsll.vv v30, v6, v26
 
-  li t2, 0x799d8afaffee9527
+  li t2, 0x3f20ecca1496d2fb
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vx v10, v4, t2
+  vsll.vx v24, v8, t2
 
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vi v18, v14, -4
+  vsll.vi v24, v20, 3
 
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vv v22, v6, v4
+  vsll.vv v22, v6, v16
 
-  li t2, 0xcc5dc372acc2b246
+  li t2, 0x15846999981e2761
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vx v22, v12, t2
+  vsll.vx v22, v28, t2
 
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vi v18, v16, 9
+  vsll.vi v4, v20, 7
 
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vv v8, v10, v16
+  vsll.vv v20, v18, v8
 
-  li t2, 0x2fc6aae523c4f214
+  li t2, 0x8daee48a8e53cd6e
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vx v8, v18, t2
+  vsll.vx v30, v14, t2
 
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vi v14, v10, -9
+  vsll.vi v26, v28, 14
 
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vv v20, v18, v28
+  vsll.vv v28, v10, v4
 
-  li t2, 0x10c7d2952567f550
+  li t2, 0x6384daeda2f4759d
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vx v6, v14, t2
+  vsll.vx v6, v24, t2
 
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vi v10, v22, -6
+  vsll.vi v30, v6, 24
 
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vv v30, v24, v26
+  vsll.vv v12, v28, v14
 
-  li t2, 0x0804c7a811d11880
+  li t2, 0x920ca7882d96e2dd
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vx v28, v16, t2
+  vsll.vx v24, v26, t2
 
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vi v4, v2, -9
+  vsll.vi v2, v26, 4
 
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vv v8, v20, v14
+  vsll.vv v6, v20, v24
 
-  li t2, 0x4a02357efd12481e
+  li t2, 0x32b01102ac6b1388
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vx v26, v22, t2
+  vsll.vx v2, v20, t2
 
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vi v4, v26, -16
+  vsll.vi v18, v22, 28
 
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vv v14, v20, v10
+  vsll.vv v30, v18, v10
 
-  li t2, 0x971fb413f42c007c
+  li t2, 0xb4eae9c3fc8c78c9
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vx v20, v14, t2
+  vsll.vx v20, v4, t2
 
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vi v14, v22, 12
+  vsll.vi v6, v20, 14
 
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vv v28, v6, v14
+  vsll.vv v6, v22, v16
 
-  li t2, 0xbc65aa36449d82b4
+  li t2, 0x44fb443a31b5fbe1
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vx v26, v8, t2
+  vsll.vx v14, v12, t2
 
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vi v4, v14, -2
+  vsll.vi v12, v8, 0
 
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vv v22, v10, v28
+  vsll.vv v12, v20, v16
 
-  li t2, 0x2cf2b7c35f1b8b4d
+  li t2, 0xec7dd1857be0bde1
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vx v18, v20, t2
+  vsll.vx v14, v2, t2
 
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vi v2, v30, 6
+  vsll.vi v8, v22, 27
 
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vv v6, v30, v2
+  vsll.vv v12, v28, v20
 
-  li t2, 0xe76b609b1391ed50
+  li t2, 0xe43bacb50fa0a27a
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vx v2, v8, t2
+  vsll.vx v14, v6, t2
 
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vi v4, v2, -9
+  vsll.vi v26, v22, 13
 
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vv v26, v14, v20
+  vsll.vv v26, v8, v10
 
-  li t2, 0xeef6b811734642fa
+  li t2, 0xd5297dd4d35b5c15
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vx v4, v20, t2
+  vsll.vx v24, v6, t2
 
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vi v28, v16, 8
+  vsll.vi v2, v26, 9
 
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vv v14, v18, v2
+  vsll.vv v14, v26, v22
 
-  li t2, 0x4f092480be77cfc3
+  li t2, 0x5afbd60a9f6f63d4
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vx v20, v2, t2
+  vsll.vx v22, v2, t2
 
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vi v18, v24, -2
+  vsll.vi v18, v12, 2
 
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vv v2, v30, v28
+  vsll.vv v16, v18, v4
 
-  li t2, 0x037060cca0fd4c8e
+  li t2, 0xc65ca12785a2518e
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vx v6, v14, t2
+  vsll.vx v20, v6, t2
 
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vi v24, v30, -4
+  vsll.vi v26, v14, 19
 
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vv v16, v24, v26
+  vsll.vv v14, v16, v20
 
-  li t2, 0x5547ebb3a0f07c12
+  li t2, 0xb9a0079bc3e911dc
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vx v14, v18, t2
+  vsll.vx v20, v30, t2
 
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vi v26, v20, -9
+  vsll.vi v24, v14, 15
 
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vv v16, v18, v6
+  vsll.vv v24, v30, v6
 
-  li t2, 0xbc8fb08b3f2d17f4
+  li t2, 0xa9138574eb0e7945
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vx v8, v26, t2
+  vsll.vx v24, v4, t2
 
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vi v12, v4, 0
+  vsll.vi v30, v28, 13
 
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vv v10, v18, v8
+  vsll.vv v26, v18, v22
 
-  li t2, 0x257559fbf4762420
+  li t2, 0x8637da52ce4abc64
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vx v6, v18, t2
+  vsll.vx v24, v30, t2
 
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vi v22, v26, -13
+  vsll.vi v30, v18, 4
 
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vv v16, v14, v6
+  vsll.vv v14, v26, v4
 
-  li t2, 0xe609f7d7c1cb802a
+  li t2, 0xc034430ef0d84e1b
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vx v14, v20, t2
+  vsll.vx v8, v14, t2
 
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vi v6, v30, -8
+  vsll.vi v24, v2, 24
 
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vv v6, v20, v4
+  vsll.vv v26, v24, v16
 
-  li t2, 0xe5864209f4a50dab
+  li t2, 0x427846207d3301be
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vx v8, v6, t2
+  vsll.vx v12, v10, t2
 
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vi v16, v10, 7
+  vsll.vi v28, v8, 14
 
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vv v26, v20, v14
+  vsll.vv v6, v28, v24
 
-  li t2, 0x7666bd34db305a92
+  li t2, 0x3e2d7b9916418e3d
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vx v10, v16, t2
+  vsll.vx v6, v14, t2
 
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vi v6, v30, -11
+  vsll.vi v10, v6, 1
 
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vv v30, v4, v8
+  vsll.vv v18, v20, v26
 
-  li t2, 0xffa9491e89a71b66
+  li t2, 0x72ddf449d49cdad8
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vx v6, v2, t2
+  vsll.vx v16, v30, t2
 
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vi v2, v30, 3
+  vsll.vi v12, v6, 31
 
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vv v30, v18, v26
+  vsll.vv v6, v30, v14
 
-  li t2, 0x4506c45ad11c4e80
+  li t2, 0x9a3291945592fe06
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vx v12, v24, t2
+  vsll.vx v20, v12, t2
 
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vi v6, v8, -16
+  vsll.vi v6, v12, 3
 
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vv v8, v28, v24
+  vsll.vv v30, v12, v20
 
-  li t2, 0xccde51b523f054bf
+  li t2, 0xdf5cc22b55021325
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vx v4, v6, t2
+  vsll.vx v4, v14, t2
 
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vi v22, v16, 13
+  vsll.vi v12, v20, 9
 
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vv v24, v18, v10
+  vsll.vv v22, v18, v24
 
-  li t2, 0x55dd07f84ed6c6b7
+  li t2, 0x11b43ac465171827
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vx v30, v18, t2
+  vsll.vx v10, v18, t2
 
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vi v24, v10, -16
+  vsll.vi v22, v14, 30
 
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vv v16, v24, v6
+  vsll.vv v2, v26, v28
 
-  li t2, 0x0a0610a8356c0f73
+  li t2, 0xe6aebd7636cabe5d
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vx v24, v16, t2
+  vsll.vx v22, v6, t2
 
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vi v14, v28, -3
+  vsll.vi v28, v4, 17
 
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vv v8, v24, v20
+  vsll.vv v20, v24, v22
 
-  li t2, 0xf748f293928f51f7
+  li t2, 0xc8ba41f739e3e579
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vx v12, v20, t2
+  vsll.vx v16, v10, t2
 
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vi v12, v30, -6
+  vsll.vi v10, v6, 20
 
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vv v2, v14, v20
+  vsll.vv v18, v10, v20
 
-  li t2, 0x330604f1ae9eebc6
+  li t2, 0xbf9e50585ff1b1c3
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vx v8, v2, t2
+  vsll.vx v10, v24, t2
 
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vi v4, v24, 10
+  vsll.vi v20, v24, 31
 
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vv v18, v28, v26
+  vsll.vv v20, v8, v26
 
-  li t2, 0xa8ac01676097dc9c
+  li t2, 0x2e7066a2929b6d51
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vx v8, v22, t2
+  vsll.vx v30, v2, t2
 
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vi v26, v4, -2
+  vsll.vi v30, v2, 7
 
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vv v4, v6, v26
+  vsll.vv v14, v30, v16
 
-  li t2, 0xc0c6b7399e67b626
+  li t2, 0xe103ed621d4bd241
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vx v26, v18, t2
+  vsll.vx v6, v20, t2
 
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vi v6, v12, 5
+  vsll.vi v12, v10, 23
 
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vv v16, v20, v12
+  vsll.vv v14, v16, v10
 
-  li t2, 0x49f68e44174a6059
+  li t2, 0x9c063c8b8d67b36d
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vx v16, v10, t2
+  vsll.vx v26, v20, t2
 
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vi v2, v28, -4
+  vsll.vi v30, v12, 12
 
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vv v10, v4, v16
+  vsll.vv v26, v18, v12
 
-  li t2, 0x5ff90665879bbdfe
+  li t2, 0x6857be1415f174c8
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vx v18, v22, t2
+  vsll.vx v20, v8, t2
 
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vi v8, v10, -12
+  vsll.vi v28, v24, 25
 
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vv v26, v24, v28
+  vsll.vv v6, v14, v24
 
-  li t2, 0x00dd950f47c47cf3
+  li t2, 0x8238918eb0e1a627
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vx v14, v16, t2
+  vsll.vx v30, v6, t2
 
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vi v30, v14, 9
+  vsll.vi v22, v30, 17
 
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vv v4, v24, v6
+  vsll.vv v18, v8, v12
 
-  li t2, 0xc41c21dd622db891
+  li t2, 0x69e78018888ca24d
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vx v28, v22, t2
+  vsll.vx v12, v26, t2
 
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vi v6, v20, -7
+  vsll.vi v14, v2, 20
 
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vv v30, v20, v16
+  vsll.vv v8, v24, v16
 
-  li t2, 0x76b3681c46e64c5b
+  li t2, 0x08889b02c7759fda
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vx v22, v24, t2
+  vsll.vx v10, v24, t2
 
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vi v24, v12, -5
+  vsll.vi v12, v20, 17
 
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vv v22, v4, v28
+  vsll.vv v24, v30, v14
 
-  li t2, 0x2bb729ac3dc877c4
+  li t2, 0xb2537bd116f19ff9
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vx v22, v8, t2
+  vsll.vx v14, v26, t2
 
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vi v30, v2, 9
+  vsll.vi v12, v26, 4
 
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vv v2, v4, v22
+  vsll.vv v2, v6, v4
 
-  li t2, 0xac57b1abd1002488
+  li t2, 0xc2b120e785e92c2e
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vx v6, v20, t2
+  vsll.vx v26, v4, t2
 
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vi v26, v20, 7
+  vsll.vi v8, v28, 26
 
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vv v16, v12, v14
+  vsll.vv v16, v24, v2
 
-  li t2, 0x8d8520fa4c822c1d
+  li t2, 0x40c27772c575f46b
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vx v2, v12, t2
+  vsll.vx v28, v10, t2
 
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vi v2, v26, 14
+  vsll.vi v20, v30, 26
 
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vv v24, v6, v22
+  vsll.vv v14, v26, v6
 
-  li t2, 0x95a9eb373ae66131
+  li t2, 0xf4db6daf42610531
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vx v22, v2, t2
+  vsll.vx v22, v20, t2
 
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vi v8, v20, 3
+  vsll.vi v20, v10, 23
 
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vv v26, v10, v22
+  vsll.vv v12, v24, v30
 
-  li t2, 0x6961cd0bca1075f6
+  li t2, 0x9a597a3a106bd1a5
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vx v8, v4, t2
+  vsll.vx v30, v22, t2
 
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vi v6, v22, -7
+  vsll.vi v6, v10, 16
 
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vv v16, v24, v28
+  vsll.vv v8, v10, v14
 
-  li t2, 0x2f459e0182a0637f
+  li t2, 0x21b1f32d1da4b6ca
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vx v4, v16, t2
+  vsll.vx v2, v14, t2
 
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vi v14, v22, -4
+  vsll.vi v16, v12, 21
 
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vv v26, v4, v10
+  vsll.vv v22, v4, v6
 
-  li t2, 0x663ef18b253a1a49
+  li t2, 0xf98a697ceb44692e
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vx v2, v26, t2
+  vsll.vx v4, v14, t2
 
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vi v28, v8, 8
+  vsll.vi v28, v12, 12
 
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vv v6, v2, v4
+  vsll.vv v4, v24, v18
 
-  li t2, 0x728a1641fa195f2c
+  li t2, 0xba7db9ec1d480993
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vx v18, v22, t2
+  vsll.vx v30, v2, t2
 
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vi v10, v2, -16
+  vsll.vi v12, v4, 11
 
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vv v26, v10, v2
+  vsll.vv v4, v18, v28
 
-  li t2, 0xd9258ca07bd92317
+  li t2, 0xbcbfbe2f089f3a42
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vx v16, v20, t2
+  vsll.vx v26, v8, t2
 
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vi v18, v6, 13
+  vsll.vi v22, v24, 26
 
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vv v28, v24, v30
+  vsll.vv v2, v22, v10
 
-  li t2, 0xa30259a229928200
+  li t2, 0x72e34e29c94c2bfe
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vx v30, v6, t2
+  vsll.vx v8, v26, t2
 
   vsetvli t1, t0, e8, m2, ta, ma
-  vand.vi v4, v2, -13
+  vsll.vi v16, v10, 23
 
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vv v4, v16, v20
+  vsll.vv v28, v16, v4
 
-  li t2, 0xc187056e579a5f77
+  li t2, 0xb1dd4a334c8c36aa
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vx v20, v16, t2
+  vsll.vx v12, v16, t2
 
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vi v8, v28, 6
+  vsll.vi v28, v16, 0
 
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vv v24, v12, v16
+  vsll.vv v20, v4, v12
 
-  li t2, 0x037b86c15d474a66
+  li t2, 0x2f2362da30a65997
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vx v16, v20, t2
+  vsll.vx v28, v20, t2
 
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vi v12, v28, 14
+  vsll.vi v16, v20, 18
 
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vv v20, v16, v28
+  vsll.vv v16, v20, v24
 
-  li t2, 0x8b2e97e437c5226e
+  li t2, 0x4332f12a3b133ef9
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vx v4, v20, t2
+  vsll.vx v16, v12, t2
 
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vi v4, v12, 15
+  vsll.vi v24, v4, 10
 
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vv v28, v8, v24
+  vsll.vv v24, v4, v28
 
-  li t2, 0x14075f6a7b71dca8
+  li t2, 0xdf7e9789f00602fe
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vx v28, v12, t2
+  vsll.vx v8, v12, t2
 
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vi v12, v4, 10
+  vsll.vi v28, v4, 17
 
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vv v20, v28, v4
+  vsll.vv v20, v28, v16
 
-  li t2, 0x90bd4fe4f121c186
+  li t2, 0xe04f3bfc51709abd
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vx v20, v16, t2
+  vsll.vx v8, v4, t2
 
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vi v12, v20, -3
+  vsll.vi v16, v8, 13
 
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vv v20, v4, v24
+  vsll.vv v16, v4, v12
 
-  li t2, 0xe7d5eb781f44623a
+  li t2, 0xbc69d7b74829771b
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vx v24, v20, t2
+  vsll.vx v20, v4, t2
 
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vi v28, v20, -3
+  vsll.vi v20, v4, 22
 
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vv v12, v20, v4
+  vsll.vv v24, v8, v28
 
-  li t2, 0x9b60105423f7edfe
+  li t2, 0x872bd6ab51de3aee
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vx v24, v20, t2
+  vsll.vx v4, v12, t2
 
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vi v4, v16, -4
+  vsll.vi v28, v12, 15
 
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vv v4, v28, v24
+  vsll.vv v28, v4, v24
 
-  li t2, 0xe6478ca0cb717dbb
+  li t2, 0x68bdc09bf956756f
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vx v16, v4, t2
+  vsll.vx v8, v28, t2
 
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vi v20, v12, -1
+  vsll.vi v28, v20, 5
 
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vv v4, v8, v16
+  vsll.vv v8, v28, v24
 
-  li t2, 0x5e8c0766c5d3413f
+  li t2, 0xc50b9eec28f0050e
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vx v8, v16, t2
+  vsll.vx v28, v12, t2
 
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vi v12, v8, 11
+  vsll.vi v16, v28, 5
 
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vv v28, v4, v12
+  vsll.vv v20, v12, v16
 
-  li t2, 0x75d42fcf92b5fe52
+  li t2, 0x60b57a4b261aaff0
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vx v20, v12, t2
+  vsll.vx v4, v24, t2
 
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vi v28, v4, 12
+  vsll.vi v16, v20, 8
 
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vv v8, v4, v24
+  vsll.vv v28, v24, v12
 
-  li t2, 0x362ae831a29d53de
+  li t2, 0x0b6931bff5d681c8
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vx v20, v8, t2
+  vsll.vx v16, v24, t2
 
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vi v20, v16, -9
+  vsll.vi v24, v28, 31
 
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vv v24, v8, v12
+  vsll.vv v16, v20, v24
 
-  li t2, 0xb6d6b57c95832974
+  li t2, 0x1e8c8120c319c687
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vx v8, v12, t2
+  vsll.vx v28, v12, t2
 
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vi v28, v4, 8
+  vsll.vi v28, v24, 28
 
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vv v24, v4, v20
+  vsll.vv v4, v24, v28
 
-  li t2, 0x5ce5b97da830c380
+  li t2, 0x3cf162d5a3fffb0d
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vx v28, v24, t2
+  vsll.vx v12, v4, t2
 
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vi v8, v28, 12
+  vsll.vi v12, v24, 28
 
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vv v12, v4, v16
+  vsll.vv v28, v8, v12
 
-  li t2, 0x79a7a8a7d8fcf55e
+  li t2, 0xe48d910275b67df4
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vx v20, v8, t2
+  vsll.vx v16, v28, t2
 
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vi v24, v12, -5
+  vsll.vi v12, v20, 20
 
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vv v28, v12, v24
+  vsll.vv v8, v4, v20
 
-  li t2, 0xe89ec4b4b693167e
+  li t2, 0xd7a25fddcc11b48c
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vx v4, v24, t2
+  vsll.vx v28, v20, t2
 
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vi v20, v12, 3
+  vsll.vi v24, v4, 0
 
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vv v28, v4, v16
+  vsll.vv v28, v12, v8
 
-  li t2, 0x7304b538bf67814f
+  li t2, 0x459238432c453dd0
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vx v12, v16, t2
+  vsll.vx v24, v28, t2
 
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vi v20, v12, 4
+  vsll.vi v16, v24, 9
 
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vv v24, v16, v8
+  vsll.vv v8, v12, v20
 
-  li t2, 0x86eae64a518b1b08
+  li t2, 0xff86f1eec0f6881a
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vx v20, v8, t2
+  vsll.vx v16, v20, t2
 
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vi v4, v28, 3
+  vsll.vi v24, v28, 1
 
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vv v8, v28, v4
+  vsll.vv v12, v20, v4
 
-  li t2, 0x4ed94026a489e4bd
+  li t2, 0x151724700e9782da
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vx v24, v4, t2
+  vsll.vx v28, v4, t2
 
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vi v28, v8, -4
+  vsll.vi v12, v16, 12
 
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vv v12, v16, v28
+  vsll.vv v28, v4, v8
 
-  li t2, 0x96b51ceeb83f2cf6
+  li t2, 0x193bf97601a720a1
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vx v24, v4, t2
+  vsll.vx v4, v24, t2
 
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vi v24, v12, -2
+  vsll.vi v28, v24, 14
 
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vv v4, v24, v12
+  vsll.vv v16, v24, v4
 
-  li t2, 0x9f69ebd98687680a
+  li t2, 0x616b235649ac5199
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vx v20, v16, t2
+  vsll.vx v28, v16, t2
 
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vi v4, v16, -8
+  vsll.vi v8, v20, 11
 
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vv v16, v28, v8
+  vsll.vv v4, v20, v12
 
-  li t2, 0x43701cf31b1c127f
+  li t2, 0x249e942a7b7fe400
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vx v12, v4, t2
+  vsll.vx v8, v16, t2
 
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vi v16, v4, -5
+  vsll.vi v4, v28, 22
 
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vv v24, v16, v28
+  vsll.vv v28, v20, v24
 
-  li t2, 0xb34a12956af9c8c1
+  li t2, 0x52869a1cde7710a5
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vx v20, v4, t2
+  vsll.vx v16, v8, t2
 
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vi v24, v16, -2
+  vsll.vi v8, v20, 4
 
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vv v24, v28, v20
+  vsll.vv v12, v4, v20
 
-  li t2, 0x335be95a1d0c2591
+  li t2, 0x81faa02b2c105737
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vx v12, v20, t2
+  vsll.vx v20, v16, t2
 
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vi v20, v28, 15
+  vsll.vi v12, v4, 3
 
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vv v28, v12, v4
+  vsll.vv v24, v16, v8
 
-  li t2, 0xe874ef723a05552a
+  li t2, 0x2b3d580572c0c73b
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vx v12, v4, t2
+  vsll.vx v16, v12, t2
 
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vi v20, v28, -7
+  vsll.vi v12, v28, 2
 
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vv v28, v16, v20
+  vsll.vv v24, v20, v8
 
-  li t2, 0xe16f82679580ed10
+  li t2, 0x4e5ebfaf8a26c34b
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vx v20, v16, t2
+  vsll.vx v8, v4, t2
 
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vi v4, v24, -3
+  vsll.vi v24, v12, 7
 
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vv v16, v8, v12
+  vsll.vv v28, v16, v4
 
-  li t2, 0x8f168b860cdcfa16
+  li t2, 0x96124dffa86f11dc
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vx v4, v28, t2
+  vsll.vx v4, v8, t2
 
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vi v20, v24, -9
+  vsll.vi v20, v12, 20
 
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vv v16, v24, v12
+  vsll.vv v4, v28, v8
 
-  li t2, 0xbeea523600624caa
+  li t2, 0xf0d4d17e566696ce
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vx v28, v12, t2
+  vsll.vx v24, v12, t2
 
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vi v12, v20, -7
+  vsll.vi v20, v16, 0
 
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vv v24, v20, v28
+  vsll.vv v24, v28, v8
 
-  li t2, 0x7b9479d5234bd1f5
+  li t2, 0xe24da1bb56f5125e
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vx v28, v24, t2
+  vsll.vx v4, v8, t2
 
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vi v4, v8, 2
+  vsll.vi v20, v4, 5
 
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vv v28, v16, v24
+  vsll.vv v4, v12, v8
 
-  li t2, 0x8595c08289d4f29e
+  li t2, 0x88b0bc726572b1cb
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vx v8, v24, t2
+  vsll.vx v8, v24, t2
 
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vi v8, v16, 12
+  vsll.vi v20, v16, 5
 
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vv v12, v4, v28
+  vsll.vv v16, v24, v28
 
-  li t2, 0x04ec3cbee6f587fc
+  li t2, 0x21eb738bff8bf374
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vx v16, v24, t2
+  vsll.vx v24, v4, t2
 
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vi v24, v8, 7
+  vsll.vi v16, v8, 13
 
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vv v24, v8, v12
+  vsll.vv v8, v4, v24
 
-  li t2, 0x8dd3c92c3abab69a
+  li t2, 0x7bf783fd74651479
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vx v4, v12, t2
+  vsll.vx v24, v8, t2
 
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vi v24, v4, -11
+  vsll.vi v16, v28, 0
 
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vv v4, v28, v12
+  vsll.vv v16, v12, v24
 
-  li t2, 0x8fa73a60b46fea05
+  li t2, 0x1ddac14ec2cdfe2d
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vx v28, v24, t2
+  vsll.vx v12, v8, t2
 
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vi v16, v24, -16
+  vsll.vi v4, v28, 18
 
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vv v16, v28, v4
+  vsll.vv v12, v8, v4
 
-  li t2, 0xa55b9aaf96ffa5fe
+  li t2, 0x7d20b51fd7488ea1
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vx v24, v16, t2
+  vsll.vx v28, v4, t2
 
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vi v4, v8, 14
+  vsll.vi v28, v24, 29
 
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vv v8, v12, v4
+  vsll.vv v4, v12, v8
 
-  li t2, 0x33bc387b179aeffd
+  li t2, 0x1ed6b599ad5f334f
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vx v20, v8, t2
+  vsll.vx v28, v12, t2
 
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vi v8, v4, -7
+  vsll.vi v12, v28, 26
 
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vv v4, v8, v24
+  vsll.vv v20, v16, v12
 
-  li t2, 0xeb427aa9c20c8461
+  li t2, 0xf02ba290b952aa86
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vx v20, v8, t2
+  vsll.vx v20, v28, t2
 
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vi v24, v8, 8
+  vsll.vi v16, v12, 3
 
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vv v12, v24, v28
+  vsll.vv v8, v20, v4
 
-  li t2, 0xbbdc764c5709524b
+  li t2, 0x71808d672737a6b0
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vx v8, v20, t2
+  vsll.vx v16, v4, t2
 
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vi v8, v16, -11
+  vsll.vi v12, v4, 23
 
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vv v8, v12, v24
+  vsll.vv v24, v16, v12
 
-  li t2, 0x02301d274c4916c9
+  li t2, 0x0c48b5b08131b977
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vx v8, v16, t2
+  vsll.vx v12, v24, t2
 
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vi v28, v12, 4
+  vsll.vi v20, v24, 25
 
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vv v28, v8, v16
+  vsll.vv v24, v20, v8
 
-  li t2, 0x6a6c5b172356fc79
+  li t2, 0x81ebad8348c32d6b
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vx v4, v24, t2
+  vsll.vx v12, v4, t2
 
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vi v8, v4, 15
+  vsll.vi v4, v28, 31
 
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vv v4, v8, v16
+  vsll.vv v8, v28, v20
 
-  li t2, 0x53269d2a04a3565a
+  li t2, 0x0a3ab142f484dc45
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vx v4, v24, t2
+  vsll.vx v16, v8, t2
 
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vi v8, v12, -2
+  vsll.vi v28, v12, 5
 
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vv v4, v28, v20
+  vsll.vv v4, v16, v20
 
-  li t2, 0x653436e811c5c1a9
+  li t2, 0x896f0f5cc23c9bdb
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vx v12, v20, t2
+  vsll.vx v16, v8, t2
 
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vi v4, v28, 14
+  vsll.vi v12, v28, 3
 
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vv v8, v20, v28
+  vsll.vv v12, v28, v16
 
-  li t2, 0xa28140c8dfd1d1ac
+  li t2, 0xf31fd3075224dfc1
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vx v20, v16, t2
+  vsll.vx v24, v20, t2
 
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vi v8, v24, -14
+  vsll.vi v28, v16, 23
 
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vv v8, v24, v16
+  vsll.vv v12, v24, v8
 
-  li t2, 0x7fbf86ae0ec55a18
+  li t2, 0x0958e10b1629bbfa
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vx v16, v28, t2
+  vsll.vx v4, v16, t2
 
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vi v24, v8, -9
+  vsll.vi v8, v24, 10
 
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vv v16, v8, v12
+  vsll.vv v16, v24, v28
 
-  li t2, 0x84d81f5d552ba005
+  li t2, 0x51b61c3a435bcc28
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vx v4, v12, t2
+  vsll.vx v28, v16, t2
 
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vi v4, v12, 8
+  vsll.vi v28, v8, 27
 
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vv v28, v16, v24
+  vsll.vv v20, v24, v4
 
-  li t2, 0xd5b4c6a387e8fd10
+  li t2, 0x636140fab5227d9b
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vx v4, v16, t2
+  vsll.vx v20, v24, t2
 
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vi v16, v8, -8
+  vsll.vi v16, v28, 30
 
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vv v4, v28, v8
+  vsll.vv v8, v4, v28
 
-  li t2, 0x31f175ca190ac3cc
+  li t2, 0x7b74bbebb414a23e
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vx v4, v8, t2
+  vsll.vx v16, v24, t2
 
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vi v20, v8, -4
+  vsll.vi v24, v4, 2
 
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vv v20, v8, v16
+  vsll.vv v28, v12, v16
 
-  li t2, 0xbbd3c1d2d95201f5
+  li t2, 0xd4b8a373cc5d45d2
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vx v24, v8, t2
+  vsll.vx v28, v8, t2
 
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vi v20, v12, 12
+  vsll.vi v28, v8, 6
 
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vv v4, v20, v8
+  vsll.vv v12, v8, v16
 
-  li t2, 0x5ef573228ee82706
+  li t2, 0xc499ebae239977fd
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vx v24, v28, t2
+  vsll.vx v12, v8, t2
 
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vi v20, v28, 6
+  vsll.vi v8, v24, 9
 
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vv v24, v4, v16
+  vsll.vv v12, v24, v8
 
-  li t2, 0xd7ce27e07aae9dc5
+  li t2, 0xc6c484ddd6e3c4aa
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vx v20, v28, t2
+  vsll.vx v28, v4, t2
 
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vi v12, v28, -7
+  vsll.vi v8, v4, 31
 
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vv v4, v12, v8
+  vsll.vv v20, v16, v24
 
-  li t2, 0x06a636268d881d30
+  li t2, 0x44802200c64f3685
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vx v28, v16, t2
+  vsll.vx v12, v28, t2
 
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vi v28, v16, 14
+  vsll.vi v8, v28, 31
 
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vv v28, v12, v24
+  vsll.vv v20, v24, v8
 
-  li t2, 0x0752762f45f43bc2
+  li t2, 0x69be7e99e3a07528
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vx v4, v24, t2
+  vsll.vx v8, v4, t2
 
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vi v24, v8, -9
+  vsll.vi v4, v8, 25
 
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vv v20, v24, v12
+  vsll.vv v28, v20, v4
 
-  li t2, 0xe3acbdb24fbbc9d6
+  li t2, 0xa916ac6ce7626d22
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vx v8, v4, t2
+  vsll.vx v12, v20, t2
 
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vi v16, v8, 2
+  vsll.vi v28, v24, 16
 
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vv v16, v8, v24
+  vsll.vv v20, v12, v8
 
-  li t2, 0x47e1fbeca3b0c365
+  li t2, 0x87f6572e0f7f6321
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vx v16, v24, t2
+  vsll.vx v8, v16, t2
 
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vi v24, v28, 12
+  vsll.vi v8, v20, 24
 
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vv v24, v28, v8
+  vsll.vv v8, v28, v24
 
-  li t2, 0x0a661d1568825f7d
+  li t2, 0x9cc741f3002da1ee
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vx v4, v20, t2
+  vsll.vx v20, v4, t2
 
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vi v28, v4, 5
+  vsll.vi v28, v20, 27
 
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vv v4, v12, v28
+  vsll.vv v24, v28, v12
 
-  li t2, 0xbca338faa132139f
+  li t2, 0x8099f51bb8b43d00
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vx v12, v20, t2
+  vsll.vx v28, v12, t2
 
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vi v24, v12, -5
+  vsll.vi v16, v24, 1
 
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vv v4, v12, v24
+  vsll.vv v8, v12, v4
 
-  li t2, 0x021cd27eef3bb2ba
+  li t2, 0x8b58694f701a0a1f
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vx v4, v16, t2
+  vsll.vx v8, v4, t2
 
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vi v8, v24, -15
+  vsll.vi v4, v28, 27
 
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vv v16, v4, v28
+  vsll.vv v12, v16, v4
 
-  li t2, 0xed9d893ff997d6d8
+  li t2, 0x19c7d568a19c3e05
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vx v28, v8, t2
+  vsll.vx v12, v24, t2
 
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vi v24, v28, -16
+  vsll.vi v4, v16, 13
 
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vv v16, v20, v8
+  vsll.vv v20, v24, v12
 
-  li t2, 0x61f3fe59bb7b2876
+  li t2, 0x1d22d74df1bf8ae1
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vx v20, v16, t2
+  vsll.vx v16, v24, t2
 
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vi v24, v12, 10
+  vsll.vi v12, v4, 14
 
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vv v8, v16, v20
+  vsll.vv v4, v20, v28
 
-  li t2, 0xe7c6e130a86baa3a
+  li t2, 0x387e593c45e5e7fe
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vx v4, v24, t2
+  vsll.vx v24, v8, t2
 
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vi v16, v20, 6
+  vsll.vi v28, v12, 29
 
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vv v4, v16, v20
+  vsll.vv v20, v8, v4
 
-  li t2, 0xec295d0d1a4355a0
+  li t2, 0x68795d4e67b995a7
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vx v4, v24, t2
+  vsll.vx v16, v4, t2
 
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vi v4, v20, 2
+  vsll.vi v20, v28, 24
 
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vv v4, v12, v8
+  vsll.vv v4, v20, v28
 
-  li t2, 0x914fe9de5500f001
+  li t2, 0x4a8e4faa0a4488a6
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vx v12, v4, t2
+  vsll.vx v4, v12, t2
 
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vi v28, v8, 0
+  vsll.vi v12, v24, 31
 
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vv v20, v28, v12
+  vsll.vv v12, v16, v4
 
-  li t2, 0x14f94120825bc899
+  li t2, 0xd17657e184b1dd44
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vx v20, v28, t2
+  vsll.vx v28, v24, t2
 
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vi v12, v28, 7
+  vsll.vi v20, v24, 8
 
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vv v12, v4, v16
+  vsll.vv v8, v28, v24
 
-  li t2, 0xe7dbd66434cac8c6
+  li t2, 0xaac2dbccac941a36
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vx v24, v20, t2
+  vsll.vx v8, v12, t2
 
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vi v24, v4, 12
+  vsll.vi v16, v4, 17
 
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vv v4, v12, v24
+  vsll.vv v20, v24, v12
 
-  li t2, 0x3eca141a6bdd5480
+  li t2, 0x9b2dd63f5a30486a
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vx v24, v20, t2
+  vsll.vx v16, v4, t2
 
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vi v12, v16, -2
+  vsll.vi v16, v4, 14
 
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vv v20, v8, v24
+  vsll.vv v12, v28, v24
 
-  li t2, 0xf72a294bc60fb6a0
+  li t2, 0xbed1a06fb1de7bfb
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vx v8, v20, t2
+  vsll.vx v12, v4, t2
 
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vi v12, v20, 9
+  vsll.vi v20, v16, 6
 
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vv v8, v28, v12
+  vsll.vv v8, v4, v12
 
-  li t2, 0x93a47883be5fb653
+  li t2, 0x64a607ed79f79939
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vx v20, v16, t2
+  vsll.vx v28, v24, t2
 
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vi v28, v4, 11
+  vsll.vi v24, v16, 24
 
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vv v28, v16, v8
+  vsll.vv v28, v20, v4
 
-  li t2, 0x7da71f561b297254
+  li t2, 0xe2a2770f2c1da9d6
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vx v24, v28, t2
+  vsll.vx v28, v4, t2
 
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vi v16, v4, 0
+  vsll.vi v8, v28, 12
 
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vv v24, v12, v8
+  vsll.vv v4, v12, v24
 
-  li t2, 0x154034ad45257cb8
+  li t2, 0x2c74fefe069c588f
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vx v4, v16, t2
+  vsll.vx v20, v28, t2
 
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vi v16, v12, 6
+  vsll.vi v16, v20, 14
 
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vv v12, v24, v28
+  vsll.vv v4, v20, v24
 
-  li t2, 0xb5ab44b799d53d3a
+  li t2, 0x7039f5c932bd5e50
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vx v28, v20, t2
+  vsll.vx v16, v20, t2
 
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vi v20, v28, 6
+  vsll.vi v24, v20, 3
 
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vv v28, v24, v4
+  vsll.vv v28, v24, v8
 
-  li t2, 0xd27ac50e6dc61f1e
+  li t2, 0xf12173ceb5abd822
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vx v24, v12, t2
+  vsll.vx v20, v28, t2
 
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vi v28, v12, 6
+  vsll.vi v28, v20, 29
 
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vv v28, v4, v8
+  vsll.vv v12, v24, v20
 
-  li t2, 0x26d266835e27b906
+  li t2, 0x10067e463d6385ce
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vx v12, v20, t2
+  vsll.vx v28, v4, t2
 
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vi v20, v12, 1
+  vsll.vi v4, v12, 28
 
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vv v12, v28, v8
+  vsll.vv v8, v20, v24
 
-  li t2, 0xaabe5503933bb2b9
+  li t2, 0x5a4a567b114e13b8
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vx v12, v24, t2
+  vsll.vx v4, v8, t2
 
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vi v12, v20, 3
+  vsll.vi v28, v12, 10
 
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vv v8, v4, v12
+  vsll.vv v28, v24, v4
 
-  li t2, 0xdce19c5d34504893
+  li t2, 0x4642534817d2b38e
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vx v8, v28, t2
+  vsll.vx v20, v12, t2
 
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vi v16, v28, -10
+  vsll.vi v12, v24, 15
 
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vv v24, v8, v20
+  vsll.vv v4, v12, v8
 
-  li t2, 0x3908e744e8061581
+  li t2, 0xf6645ff01330c1f6
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vx v20, v4, t2
+  vsll.vx v28, v8, t2
 
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vi v24, v8, -4
+  vsll.vi v12, v4, 29
 
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vv v4, v12, v20
+  vsll.vv v4, v24, v8
 
-  li t2, 0xa025e8c42874e524
+  li t2, 0xa1a955f16e460122
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vx v28, v8, t2
+  vsll.vx v8, v28, t2
 
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vi v16, v12, 8
+  vsll.vi v16, v24, 4
 
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vv v16, v12, v8
+  vsll.vv v20, v24, v28
 
-  li t2, 0x1463dc7f4ac806ec
+  li t2, 0xee7fb55167ce1933
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vx v20, v16, t2
+  vsll.vx v20, v12, t2
 
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vi v28, v24, 13
+  vsll.vi v4, v16, 17
 
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vv v24, v4, v8
+  vsll.vv v20, v28, v4
 
-  li t2, 0x580ddf5ee0790fd7
+  li t2, 0x3fc74ab8202e9fea
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vx v20, v4, t2
+  vsll.vx v24, v12, t2
 
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vi v4, v28, -2
+  vsll.vi v12, v8, 27
 
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vv v12, v4, v28
+  vsll.vv v20, v16, v4
 
-  li t2, 0xde17b9c6bd31c225
+  li t2, 0xd49c508e461442a2
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vx v20, v12, t2
+  vsll.vx v16, v12, t2
 
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vi v20, v16, -12
+  vsll.vi v24, v20, 13
 
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vv v16, v8, v4
+  vsll.vv v8, v24, v16
 
-  li t2, 0x8055386f8123fed5
+  li t2, 0x78d32cd1b78017c1
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vx v4, v8, t2
+  vsll.vx v20, v4, t2
 
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vi v20, v12, -12
+  vsll.vi v20, v28, 7
 
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vv v12, v16, v4
+  vsll.vv v20, v28, v8
 
-  li t2, 0x8a0bcb686997a5c6
+  li t2, 0xcd5a78685e18cd98
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vx v12, v28, t2
+  vsll.vx v4, v8, t2
 
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vi v16, v20, 12
+  vsll.vi v8, v28, 21
 
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vv v4, v24, v20
+  vsll.vv v4, v20, v16
 
-  li t2, 0x75bd1d9277e6f4e7
+  li t2, 0x7cff6d6cc4ff32a6
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vx v12, v4, t2
+  vsll.vx v4, v20, t2
 
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vi v24, v4, 10
+  vsll.vi v8, v20, 20
 
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vv v8, v12, v4
+  vsll.vv v12, v20, v24
 
-  li t2, 0x5e42ac0be3f9e486
+  li t2, 0x666b130a59da809e
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vx v12, v20, t2
+  vsll.vx v8, v16, t2
 
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vi v20, v28, -1
+  vsll.vi v4, v8, 26
 
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vv v8, v4, v24
+  vsll.vv v4, v12, v8
 
-  li t2, 0xae8fd77d47fdac75
+  li t2, 0x215f726e7cacd56c
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vx v8, v20, t2
+  vsll.vx v28, v16, t2
 
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vi v24, v16, -3
+  vsll.vi v4, v12, 5
 
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vv v4, v24, v20
+  vsll.vv v4, v16, v12
 
-  li t2, 0xff978d9651e2e414
+  li t2, 0x33baf4daf2f6bcbc
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vx v24, v12, t2
+  vsll.vx v4, v8, t2
 
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vi v8, v12, 3
+  vsll.vi v8, v20, 8
 
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vv v24, v16, v12
+  vsll.vv v20, v4, v24
 
-  li t2, 0xbf561fe0285aabdd
+  li t2, 0x1e1c6939d1b5dbfb
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vx v24, v28, t2
+  vsll.vx v24, v12, t2
 
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vi v12, v24, 15
+  vsll.vi v8, v16, 9
 
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vv v28, v20, v12
+  vsll.vv v16, v20, v28
 
-  li t2, 0xf1915f54f2a9c3cf
+  li t2, 0xf48737e8abe51cca
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vx v8, v24, t2
+  vsll.vx v20, v4, t2
 
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vi v28, v12, 11
+  vsll.vi v4, v24, 9
 
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vv v20, v8, v16
+  vsll.vv v20, v12, v16
 
-  li t2, 0x56a109ee5e3aa225
+  li t2, 0x65f81237677e474b
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vx v24, v28, t2
+  vsll.vx v4, v24, t2
 
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vi v4, v16, 3
+  vsll.vi v4, v8, 31
 
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vv v24, v8, v12
+  vsll.vv v8, v20, v4
 
-  li t2, 0x861ec5cc57b92260
+  li t2, 0xb599b4e45a15f926
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vx v16, v24, t2
+  vsll.vx v4, v24, t2
 
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vi v24, v4, 4
+  vsll.vi v12, v8, 19
 
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vv v8, v28, v16
+  vsll.vv v24, v16, v20
 
-  li t2, 0xe81d591ead3a8a5c
+  li t2, 0x547eaec9775ef6cd
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vx v28, v16, t2
+  vsll.vx v24, v12, t2
 
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vi v20, v4, -13
+  vsll.vi v12, v16, 24
 
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vv v16, v24, v28
+  vsll.vv v16, v28, v12
 
-  li t2, 0x443b9ffe465d6f1f
+  li t2, 0x22bbda2acd526f48
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vx v4, v20, t2
+  vsll.vx v8, v24, t2
 
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vi v16, v12, 9
+  vsll.vi v20, v28, 0
 
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vv v8, v12, v24
+  vsll.vv v28, v8, v12
 
-  li t2, 0x341bb24ef17a6ddf
+  li t2, 0x41b635cff29fc0db
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vx v20, v4, t2
+  vsll.vx v4, v24, t2
 
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vi v4, v12, -14
+  vsll.vi v28, v12, 16
 
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vv v12, v28, v20
+  vsll.vv v20, v4, v24
 
-  li t2, 0x461f42f5723766f0
+  li t2, 0xbd43060409203684
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vx v20, v16, t2
+  vsll.vx v12, v4, t2
 
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vi v24, v20, 2
+  vsll.vi v28, v4, 8
 
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vv v28, v8, v4
+  vsll.vv v12, v4, v24
 
-  li t2, 0xdda457648a1885cd
+  li t2, 0xacd4bfa562f20731
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vx v24, v8, t2
+  vsll.vx v8, v24, t2
 
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vi v16, v20, 13
+  vsll.vi v24, v28, 14
 
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vv v8, v16, v24
+  vsll.vv v16, v12, v20
 
-  li t2, 0x2d9275233d414c62
+  li t2, 0x33e495e30da9a4ae
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vx v24, v12, t2
+  vsll.vx v12, v16, t2
 
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vi v4, v8, 0
+  vsll.vi v4, v8, 14
 
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vv v4, v20, v8
+  vsll.vv v20, v16, v24
 
-  li t2, 0xfb595dfe3192bf91
+  li t2, 0xb010bb0b2941c222
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vx v20, v12, t2
+  vsll.vx v28, v24, t2
 
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vi v8, v20, -11
+  vsll.vi v20, v28, 16
 
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vv v28, v8, v4
+  vsll.vv v24, v4, v16
 
-  li t2, 0x8b6451626e68601b
+  li t2, 0x2bb1ce93224d3d12
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vx v24, v20, t2
+  vsll.vx v4, v16, t2
 
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vi v4, v28, 12
+  vsll.vi v16, v4, 10
 
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vv v8, v20, v12
+  vsll.vv v8, v4, v24
 
-  li t2, 0xe74ec5d57ac96396
+  li t2, 0xf61cc4f064e8e9d5
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vx v12, v4, t2
+  vsll.vx v4, v8, t2
 
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vi v4, v24, 2
+  vsll.vi v16, v8, 25
 
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vv v8, v16, v20
+  vsll.vv v4, v28, v12
 
-  li t2, 0x0e643c0c51ba88f3
+  li t2, 0xc8a4f2ce52a81dd7
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vx v16, v20, t2
+  vsll.vx v12, v16, t2
 
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vi v24, v20, -4
+  vsll.vi v12, v20, 19
 
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vv v8, v24, v12
+  vsll.vv v20, v24, v16
 
-  li t2, 0x31d3d05629e13e90
+  li t2, 0x4902d6a1b5943dad
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vx v8, v12, t2
+  vsll.vx v16, v8, t2
 
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vi v28, v20, 9
+  vsll.vi v20, v24, 1
 
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vv v28, v20, v16
+  vsll.vv v12, v28, v8
 
-  li t2, 0xb76163e60e4e09b5
+  li t2, 0xd3328475f502a617
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vx v20, v24, t2
+  vsll.vx v16, v28, t2
 
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vi v4, v20, -12
+  vsll.vi v24, v20, 2
 
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vv v24, v20, v16
+  vsll.vv v8, v12, v24
 
-  li t2, 0xba3a73377dcd3770
+  li t2, 0xafa2d12480ca56b8
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vx v8, v24, t2
+  vsll.vx v8, v12, t2
 
   vsetvli t1, t0, e8, m4, ta, ma
-  vand.vi v8, v20, 11
+  vsll.vi v24, v4, 14
 
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vv v24, v8, v16
+  vsll.vv v24, v8, v16
 
-  li t2, 0x68fd93a78ae157b0
+  li t2, 0x568cb18b9303d35f
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vx v16, v8, t2
+  vsll.vx v16, v24, t2
 
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vi v16, v24, -7
+  vsll.vi v24, v8, 27
 
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vv v24, v16, v8
+  vsll.vv v16, v8, v24
 
-  li t2, 0x6f5c639be02b7639
+  li t2, 0x593903da685dac28
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vx v24, v16, t2
+  vsll.vx v8, v16, t2
 
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vi v8, v24, 6
+  vsll.vi v8, v24, 1
 
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vv v8, v24, v16
+  vsll.vv v16, v8, v24
 
-  li t2, 0x2f400a113ee6261e
+  li t2, 0x5a73fade29f08523
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vx v24, v8, t2
+  vsll.vx v8, v24, t2
 
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vi v16, v8, 14
+  vsll.vi v24, v8, 31
 
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vv v16, v8, v24
+  vsll.vv v24, v8, v16
 
-  li t2, 0x5361f7e4ff11c18d
+  li t2, 0xc0a3a1d9ec20bc67
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vx v24, v16, t2
+  vsll.vx v24, v16, t2
 
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vi v8, v16, -11
+  vsll.vi v16, v24, 19
 
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vv v24, v16, v8
+  vsll.vv v24, v16, v8
 
-  li t2, 0xcd50a018e9235ea9
+  li t2, 0xd14e412ddf373e0b
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vx v24, v8, t2
+  vsll.vx v8, v16, t2
 
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vi v16, v8, -16
+  vsll.vi v16, v8, 3
 
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vv v8, v24, v16
+  vsll.vv v24, v8, v16
 
-  li t2, 0x9bfefb2f3a808017
+  li t2, 0xddbabe5551bc4bd0
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vx v16, v24, t2
+  vsll.vx v16, v8, t2
 
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vi v24, v8, -10
+  vsll.vi v24, v16, 10
 
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vv v16, v24, v8
+  vsll.vv v24, v8, v16
 
-  li t2, 0x2c152c447b670b2d
+  li t2, 0xe9018f43cccb6d92
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vx v24, v16, t2
+  vsll.vx v16, v8, t2
 
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vi v24, v8, 1
+  vsll.vi v24, v8, 11
 
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vv v8, v24, v16
+  vsll.vv v24, v16, v8
 
-  li t2, 0x97939904a5c1bae3
+  li t2, 0x43997e5bb2450774
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vx v24, v8, t2
+  vsll.vx v8, v24, t2
 
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vi v16, v8, -2
+  vsll.vi v8, v16, 22
 
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vv v24, v16, v8
+  vsll.vv v16, v24, v8
 
-  li t2, 0x055c0dd76dcd6751
+  li t2, 0x52edfda537e57b7e
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vx v16, v8, t2
+  vsll.vx v24, v16, t2
 
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vi v24, v8, -10
+  vsll.vi v24, v8, 16
 
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vv v8, v24, v16
+  vsll.vv v8, v16, v24
 
-  li t2, 0x41b7c4c05e277c0d
+  li t2, 0x1099f49f273dce09
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vx v16, v8, t2
+  vsll.vx v8, v24, t2
 
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vi v16, v24, -2
+  vsll.vi v16, v8, 1
 
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vv v24, v16, v8
+  vsll.vv v24, v16, v8
 
-  li t2, 0x50af1e8c8e019524
+  li t2, 0xea09fad34777c608
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vx v16, v24, t2
+  vsll.vx v16, v8, t2
 
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vi v16, v8, -6
+  vsll.vi v8, v24, 23
 
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vv v16, v8, v24
+  vsll.vv v8, v16, v24
 
-  li t2, 0x74f47aaf5fec55ab
+  li t2, 0x58af7ce9e90b877f
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vx v24, v16, t2
+  vsll.vx v24, v16, t2
 
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vi v16, v24, -8
+  vsll.vi v8, v16, 21
 
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vv v8, v16, v24
+  vsll.vv v16, v24, v8
 
-  li t2, 0x4c8831364564d25d
+  li t2, 0x23846a2f60438ced
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vx v16, v8, t2
+  vsll.vx v8, v24, t2
 
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vi v24, v8, -6
+  vsll.vi v24, v16, 27
 
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vv v8, v24, v16
+  vsll.vv v24, v16, v8
 
-  li t2, 0x4414ccfb9a2f011a
+  li t2, 0x86b7c121890ef2cf
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vx v16, v24, t2
+  vsll.vx v16, v8, t2
 
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vi v8, v16, 5
+  vsll.vi v24, v16, 19
 
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vv v8, v16, v24
+  vsll.vv v16, v24, v8
 
-  li t2, 0xf7d4dda89d2f780c
+  li t2, 0x4e1faf52fc23e87c
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vx v8, v24, t2
+  vsll.vx v8, v24, t2
 
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vi v16, v24, 8
+  vsll.vi v16, v24, 23
 
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vv v24, v8, v16
+  vsll.vv v16, v24, v8
 
-  li t2, 0x10ef1becefe8b1d4
+  li t2, 0x3c2f23bfff992bab
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vx v8, v24, t2
+  vsll.vx v24, v16, t2
 
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vi v24, v16, 5
+  vsll.vi v16, v24, 7
 
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vv v24, v8, v16
+  vsll.vv v8, v16, v24
 
-  li t2, 0x91283ddf8dc83de7
+  li t2, 0xa401cbeb223cf7e9
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vx v16, v24, t2
+  vsll.vx v24, v8, t2
 
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vi v16, v24, 15
+  vsll.vi v24, v8, 9
 
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vv v16, v8, v24
+  vsll.vv v16, v8, v24
 
-  li t2, 0x6c1098747d57d07c
+  li t2, 0xb6fe2819fe93cb35
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vx v16, v8, t2
+  vsll.vx v8, v24, t2
 
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vi v24, v16, 7
+  vsll.vi v8, v16, 2
 
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vv v24, v16, v8
+  vsll.vv v8, v24, v16
 
-  li t2, 0xdfc4497ea79c71a0
+  li t2, 0x9f12b59637587b45
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vx v16, v8, t2
+  vsll.vx v8, v24, t2
 
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vi v16, v8, 11
+  vsll.vi v8, v16, 0
 
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vv v16, v24, v8
+  vsll.vv v8, v24, v16
 
-  li t2, 0x5e59f9c3d4e9def2
+  li t2, 0x92cce6862ae0eecb
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vx v16, v8, t2
+  vsll.vx v16, v24, t2
 
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vi v24, v16, 1
+  vsll.vi v8, v24, 23
 
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vv v8, v16, v24
+  vsll.vv v8, v16, v24
 
-  li t2, 0x82bd0087870901cb
+  li t2, 0xb6be79f7456a8b6c
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vx v24, v8, t2
+  vsll.vx v24, v8, t2
 
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vi v16, v8, 9
+  vsll.vi v16, v24, 12
 
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vv v8, v24, v16
+  vsll.vv v8, v16, v24
 
-  li t2, 0x4d7ad281aff99163
+  li t2, 0xfee305c693e6d041
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vx v8, v16, t2
+  vsll.vx v16, v24, t2
 
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vi v8, v16, 15
+  vsll.vi v24, v8, 20
 
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vv v8, v16, v24
+  vsll.vv v8, v24, v16
 
-  li t2, 0xdd239183f3e31b34
+  li t2, 0xe8e0b48812ea6905
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vx v16, v8, t2
+  vsll.vx v24, v16, t2
 
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vi v24, v8, -10
+  vsll.vi v8, v16, 4
 
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vv v24, v16, v8
+  vsll.vv v16, v8, v24
 
-  li t2, 0x7f4611a0af1a48a4
+  li t2, 0xc332e0eccdbba1fd
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vx v8, v24, t2
+  vsll.vx v8, v16, t2
 
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vi v24, v8, -7
+  vsll.vi v24, v8, 3
 
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vv v16, v24, v8
+  vsll.vv v24, v8, v16
 
-  li t2, 0xb9e27a1faa9a046a
+  li t2, 0x208165a84399645b
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vx v24, v8, t2
+  vsll.vx v24, v16, t2
 
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vi v16, v8, -14
+  vsll.vi v16, v24, 15
 
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vv v16, v8, v24
+  vsll.vv v24, v8, v16
 
-  li t2, 0xb039eb3cd467c34e
+  li t2, 0xb36423ecdb7ae235
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vx v16, v8, t2
+  vsll.vx v24, v8, t2
 
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vi v16, v24, 4
+  vsll.vi v16, v24, 4
 
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vv v8, v24, v16
+  vsll.vv v16, v24, v8
 
-  li t2, 0xc87e592d70aa27f4
+  li t2, 0xcb65de404a972d3c
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vx v8, v16, t2
+  vsll.vx v24, v16, t2
 
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vi v16, v8, -5
+  vsll.vi v24, v8, 23
 
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vv v8, v16, v24
+  vsll.vv v8, v24, v16
 
-  li t2, 0xd5b757b6be8c4e0c
+  li t2, 0x31f2ddc7a2a87943
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vx v16, v24, t2
+  vsll.vx v8, v16, t2
 
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vi v24, v16, 4
+  vsll.vi v8, v16, 23
 
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vv v8, v24, v16
+  vsll.vv v16, v8, v24
 
-  li t2, 0x1cffc6e2fe8b95cc
+  li t2, 0xe023b2e462258bf0
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vx v8, v24, t2
+  vsll.vx v8, v24, t2
 
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vi v16, v24, -15
+  vsll.vi v24, v16, 8
 
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vv v16, v24, v8
+  vsll.vv v8, v24, v16
 
-  li t2, 0x740598ff772ffc34
+  li t2, 0xb161ae0829033dd0
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vx v8, v24, t2
+  vsll.vx v24, v8, t2
 
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vi v16, v24, -2
+  vsll.vi v16, v8, 7
 
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vv v16, v8, v24
+  vsll.vv v24, v8, v16
 
-  li t2, 0x41ea24e84f9aa761
+  li t2, 0xf1ed6e346f62c7f1
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vx v8, v16, t2
+  vsll.vx v16, v8, t2
 
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vi v24, v8, 4
+  vsll.vi v16, v24, 9
 
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vv v24, v8, v16
+  vsll.vv v16, v24, v8
 
-  li t2, 0x1d04debb617c580f
+  li t2, 0xda9d3cac9eea039e
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vx v24, v8, t2
+  vsll.vx v16, v24, t2
 
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vi v24, v8, 1
+  vsll.vi v8, v16, 13
 
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vv v24, v16, v8
+  vsll.vv v24, v16, v8
 
-  li t2, 0x62339e81c33b80e7
+  li t2, 0xfe124347a9b6aa68
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vx v24, v16, t2
+  vsll.vx v16, v8, t2
 
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vi v24, v8, -11
+  vsll.vi v8, v16, 1
 
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vv v24, v16, v8
+  vsll.vv v24, v8, v16
 
-  li t2, 0xca16cfcdc9005470
+  li t2, 0x9c6e8f9567f9bfd3
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vx v16, v8, t2
+  vsll.vx v8, v24, t2
 
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vi v24, v16, -4
+  vsll.vi v8, v16, 24
 
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vv v16, v24, v8
+  vsll.vv v16, v24, v8
 
-  li t2, 0x4a692dadb608cb64
+  li t2, 0xb6a3786276e3a3a3
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vx v24, v16, t2
+  vsll.vx v24, v8, t2
 
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vi v8, v16, -8
+  vsll.vi v16, v8, 0
 
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vv v24, v8, v16
+  vsll.vv v16, v8, v24
 
-  li t2, 0xf70cb8a9fb02a6dc
+  li t2, 0x695864998494a07d
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vx v8, v16, t2
+  vsll.vx v16, v24, t2
 
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vi v24, v8, 13
+  vsll.vi v8, v24, 5
 
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vv v16, v24, v8
+  vsll.vv v16, v24, v8
 
-  li t2, 0xf3db4d5a411c99f8
+  li t2, 0x799132ac9a28da30
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vx v8, v24, t2
+  vsll.vx v24, v8, t2
 
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vi v16, v8, 14
+  vsll.vi v8, v24, 15
 
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vv v16, v8, v24
+  vsll.vv v8, v16, v24
 
-  li t2, 0x60033b30dbd1d921
+  li t2, 0xc105a2af9e42d436
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vx v8, v16, t2
+  vsll.vx v8, v24, t2
 
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vi v8, v16, -15
+  vsll.vi v24, v8, 31
 
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vv v24, v16, v8
+  vsll.vv v24, v8, v16
 
-  li t2, 0xc035ec764aa01bef
+  li t2, 0xbda085de8c531104
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vx v8, v16, t2
+  vsll.vx v8, v16, t2
 
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vi v8, v16, -4
+  vsll.vi v16, v24, 11
 
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vv v16, v24, v8
+  vsll.vv v24, v16, v8
 
-  li t2, 0x0047a079c8e68a76
+  li t2, 0xdabcd53a279d207d
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vx v16, v8, t2
+  vsll.vx v24, v8, t2
 
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vi v8, v16, 13
+  vsll.vi v24, v16, 19
 
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vv v8, v24, v16
+  vsll.vv v16, v8, v24
 
-  li t2, 0x830f9d7c86a9ca0a
+  li t2, 0x558adae0291468cc
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vx v8, v24, t2
+  vsll.vx v8, v24, t2
 
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vi v24, v8, -16
+  vsll.vi v8, v24, 19
 
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vv v24, v16, v8
+  vsll.vv v16, v24, v8
 
-  li t2, 0x9d03bb8381d18a00
+  li t2, 0x362b5e9103bfdb85
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vx v8, v16, t2
+  vsll.vx v16, v8, t2
 
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vi v24, v16, -4
+  vsll.vi v24, v16, 24
 
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vv v16, v24, v8
+  vsll.vv v24, v16, v8
 
-  li t2, 0x40d00910fbdb2c45
+  li t2, 0x8fb404126d9cccb3
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vx v8, v16, t2
+  vsll.vx v24, v16, t2
 
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vi v8, v16, 10
+  vsll.vi v8, v16, 25
 
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vv v24, v8, v16
+  vsll.vv v24, v8, v16
 
-  li t2, 0x1ad31dac4375540f
+  li t2, 0x21498c5c8e75de56
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vx v24, v16, t2
+  vsll.vx v8, v24, t2
 
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vi v16, v8, -4
+  vsll.vi v8, v16, 18
 
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vv v16, v24, v8
+  vsll.vv v16, v8, v24
 
-  li t2, 0x50e7e79e1ea98229
+  li t2, 0x39ad9a63d8565fc4
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vx v16, v24, t2
+  vsll.vx v16, v24, t2
 
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vi v16, v24, 0
+  vsll.vi v8, v16, 19
 
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vv v24, v8, v16
+  vsll.vv v16, v8, v24
 
-  li t2, 0x5d5f6a1c4c78bdff
+  li t2, 0x81356377704bd060
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vx v8, v24, t2
+  vsll.vx v24, v16, t2
 
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vi v24, v8, 8
+  vsll.vi v16, v24, 10
 
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vv v24, v8, v16
+  vsll.vv v8, v16, v24
 
-  li t2, 0xb98704b5b5ec21ce
+  li t2, 0x052f1da9efd4d650
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vx v16, v8, t2
+  vsll.vx v16, v8, t2
 
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vi v8, v16, 7
+  vsll.vi v16, v24, 23
 
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vv v8, v24, v16
+  vsll.vv v16, v8, v24
 
-  li t2, 0xc1cd0306487d3588
+  li t2, 0xcd1bdcac6a8eb737
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vx v16, v8, t2
+  vsll.vx v24, v8, t2
 
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vi v8, v16, 2
+  vsll.vi v8, v16, 6
 
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vv v8, v24, v16
+  vsll.vv v16, v24, v8
 
-  li t2, 0xe559140a307e929a
+  li t2, 0x50777b54fde5ac20
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vx v24, v8, t2
+  vsll.vx v8, v24, t2
 
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vi v24, v16, 13
+  vsll.vi v8, v24, 3
 
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vv v16, v24, v8
+  vsll.vv v24, v16, v8
 
-  li t2, 0xa240eb2df5b75c5d
+  li t2, 0x9c319254c74ba51b
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vx v16, v8, t2
+  vsll.vx v8, v16, t2
 
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vi v16, v24, -9
+  vsll.vi v24, v8, 15
 
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vv v24, v8, v16
+  vsll.vv v8, v24, v16
 
-  li t2, 0x0bd357327746b308
+  li t2, 0x08f817091d5bc339
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vx v8, v24, t2
+  vsll.vx v24, v16, t2
 
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vi v8, v24, -8
+  vsll.vi v8, v16, 20
 
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vv v24, v8, v16
+  vsll.vv v24, v16, v8
 
-  li t2, 0x38fab06a24ce4cac
+  li t2, 0x76e3d51cefaa1618
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vx v24, v8, t2
+  vsll.vx v16, v8, t2
 
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vi v8, v24, 0
+  vsll.vi v24, v16, 21
 
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vv v16, v24, v8
+  vsll.vv v16, v24, v8
 
-  li t2, 0xdf6c04cb6b03b5d1
+  li t2, 0x618e8109d71573e6
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vx v16, v24, t2
+  vsll.vx v8, v16, t2
 
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vi v16, v8, 7
+  vsll.vi v8, v24, 20
 
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vv v8, v16, v24
+  vsll.vv v8, v16, v24
 
-  li t2, 0x895522c9d094558b
+  li t2, 0x5b6658b46a225504
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vx v8, v24, t2
+  vsll.vx v8, v24, t2
 
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vi v24, v16, 5
+  vsll.vi v8, v24, 0
 
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vv v24, v16, v8
+  vsll.vv v8, v24, v16
 
-  li t2, 0xf425db02883e577c
+  li t2, 0xd1e3fa63c019631b
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vx v8, v16, t2
+  vsll.vx v16, v24, t2
 
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vi v16, v8, -12
+  vsll.vi v24, v8, 22
 
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vv v8, v16, v24
+  vsll.vv v24, v8, v16
 
-  li t2, 0xe4a3de2dc8faf6b5
+  li t2, 0xee98566ca54f5e44
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vx v16, v24, t2
+  vsll.vx v24, v16, t2
 
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vi v8, v16, -5
+  vsll.vi v8, v16, 27
 
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vv v16, v24, v8
+  vsll.vv v16, v8, v24
 
-  li t2, 0xa00e18baf0eef8f1
+  li t2, 0x2e68d430c7fda986
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vx v16, v8, t2
+  vsll.vx v16, v8, t2
 
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vi v24, v8, -1
+  vsll.vi v8, v16, 30
 
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vv v24, v8, v16
+  vsll.vv v24, v16, v8
 
-  li t2, 0x983afc509fc462ae
+  li t2, 0x9c1e2b5c672a29ed
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vx v24, v8, t2
+  vsll.vx v16, v24, t2
 
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vi v16, v8, 5
+  vsll.vi v24, v8, 6
 
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vv v8, v16, v24
+  vsll.vv v24, v16, v8
 
-  li t2, 0xb79ace60899e0e4f
+  li t2, 0x592fa8674185ed54
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vx v24, v16, t2
+  vsll.vx v16, v8, t2
 
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vi v24, v16, 11
+  vsll.vi v16, v24, 21
 
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vv v16, v24, v8
+  vsll.vv v8, v24, v16
 
-  li t2, 0x85a746c454cd9fae
+  li t2, 0x6d199b8b610b2906
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vx v8, v24, t2
+  vsll.vx v8, v16, t2
 
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vi v8, v24, -13
+  vsll.vi v8, v16, 14
 
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vv v8, v16, v24
+  vsll.vv v8, v24, v16
 
-  li t2, 0x68c29ce5c0faa1fc
+  li t2, 0x6a5cb24d1e73c366
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vx v24, v8, t2
+  vsll.vx v16, v8, t2
 
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vi v8, v16, 7
+  vsll.vi v8, v24, 27
 
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vv v8, v16, v24
+  vsll.vv v24, v16, v8
 
-  li t2, 0x088c22fc1595f219
+  li t2, 0xcc600dfbc31e4645
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vx v16, v8, t2
+  vsll.vx v8, v16, t2
 
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vi v8, v16, -6
+  vsll.vi v24, v16, 25
 
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vv v16, v8, v24
+  vsll.vv v24, v16, v8
 
-  li t2, 0xeaa97d9c5b57ded9
+  li t2, 0x8fe831a32fa29ce8
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vx v16, v24, t2
+  vsll.vx v16, v24, t2
 
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vi v24, v8, -15
+  vsll.vi v24, v8, 10
 
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vv v8, v24, v16
+  vsll.vv v16, v24, v8
 
-  li t2, 0xbd3d4f7bd4e57ef4
+  li t2, 0x5d10a12df9fa96af
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vx v24, v8, t2
+  vsll.vx v24, v8, t2
 
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vi v8, v24, 8
+  vsll.vi v8, v16, 26
 
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vv v8, v16, v24
+  vsll.vv v24, v16, v8
 
-  li t2, 0xe60c6b7da74b9e5f
+  li t2, 0x5b183fdd85d221e1
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vx v8, v16, t2
+  vsll.vx v8, v16, t2
 
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vi v16, v8, -2
+  vsll.vi v8, v24, 26
 
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vv v8, v16, v24
+  vsll.vv v24, v16, v8
 
-  li t2, 0x2d960d1412f01cdc
+  li t2, 0x23b6add0db93e42b
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vx v24, v16, t2
+  vsll.vx v24, v16, t2
 
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vi v8, v24, 3
+  vsll.vi v16, v24, 11
 
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vv v16, v8, v24
+  vsll.vv v24, v16, v8
 
-  li t2, 0x41499b3c3524a99b
+  li t2, 0xfa82ff39568a897c
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vx v8, v16, t2
+  vsll.vx v24, v16, t2
 
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vi v16, v8, -10
+  vsll.vi v8, v16, 19
 
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vv v16, v8, v24
+  vsll.vv v16, v24, v8
 
-  li t2, 0xce6ddd5bc9dec61c
+  li t2, 0x1684402afe82ec43
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vx v16, v8, t2
+  vsll.vx v24, v16, t2
 
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vi v24, v8, 10
+  vsll.vi v24, v16, 11
 
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vv v24, v8, v16
+  vsll.vv v16, v24, v8
 
-  li t2, 0x54578c7397b16a80
+  li t2, 0x09ffc40e8f7e844f
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vx v8, v24, t2
+  vsll.vx v16, v8, t2
 
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vi v16, v8, -12
+  vsll.vi v8, v24, 26
 
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vv v8, v24, v16
+  vsll.vv v8, v24, v16
 
-  li t2, 0x41d2dc2755b7bd9e
+  li t2, 0xb4f111c6655318a2
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vx v16, v8, t2
+  vsll.vx v8, v16, t2
 
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vi v16, v8, 14
+  vsll.vi v16, v24, 6
 
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vv v8, v16, v24
+  vsll.vv v24, v16, v8
 
-  li t2, 0x64cc2487fcf24af1
+  li t2, 0x644c78a24da0bb7b
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vx v16, v8, t2
+  vsll.vx v16, v24, t2
 
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vi v16, v24, 8
+  vsll.vi v8, v24, 3
 
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vv v8, v24, v16
+  vsll.vv v8, v16, v24
 
-  li t2, 0x699abac7caa8a6d7
+  li t2, 0x3bad89214ffabbd1
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vx v8, v16, t2
+  vsll.vx v24, v16, t2
 
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vi v8, v16, 13
+  vsll.vi v16, v8, 28
 
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vv v16, v8, v24
+  vsll.vv v8, v24, v16
 
-  li t2, 0x68a79dae0a655ca4
+  li t2, 0xbe4b162659100788
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vx v24, v8, t2
+  vsll.vx v16, v8, t2
 
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vi v24, v8, -11
+  vsll.vi v16, v8, 12
 
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vv v8, v24, v16
+  vsll.vv v16, v24, v8
 
-  li t2, 0xcc0c153afdc1139f
+  li t2, 0x9a8624a0d1ba1232
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vx v16, v24, t2
+  vsll.vx v24, v16, t2
 
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vi v16, v8, 6
+  vsll.vi v16, v24, 31
 
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vv v16, v8, v24
+  vsll.vv v16, v8, v24
 
-  li t2, 0x1e668388d25cbf83
+  li t2, 0xb8b0c8be6254d4ab
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vx v8, v24, t2
+  vsll.vx v16, v24, t2
 
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vi v24, v8, -1
+  vsll.vi v8, v16, 6
 
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vv v16, v24, v8
+  vsll.vv v16, v8, v24
 
-  li t2, 0x1d1589fc6df01476
+  li t2, 0xd991831fdc06edfb
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vx v16, v8, t2
+  vsll.vx v24, v8, t2
 
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vi v16, v24, 5
+  vsll.vi v16, v8, 21
 
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vv v24, v16, v8
+  vsll.vv v24, v8, v16
 
-  li t2, 0x183d8bc49b76a0a9
+  li t2, 0x71f09e4a8f038d95
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vx v16, v24, t2
+  vsll.vx v8, v16, t2
 
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vi v24, v8, -5
+  vsll.vi v16, v8, 13
 
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vv v24, v16, v8
+  vsll.vv v8, v24, v16
 
-  li t2, 0x0c88c6bee18ebfd3
+  li t2, 0x115e14cd19dcd648
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vx v8, v24, t2
+  vsll.vx v8, v24, t2
 
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vi v24, v8, 8
+  vsll.vi v16, v8, 16
 
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vv v8, v16, v24
+  vsll.vv v16, v24, v8
 
-  li t2, 0xe91d715774d2e595
+  li t2, 0xa8845f4f2a012327
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vx v8, v16, t2
+  vsll.vx v16, v24, t2
 
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vi v8, v16, 3
+  vsll.vi v16, v8, 14
 
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vv v8, v16, v24
+  vsll.vv v16, v24, v8
 
-  li t2, 0x6c8b1d2d07f585db
+  li t2, 0xed92ca09b18fcb75
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vx v16, v8, t2
+  vsll.vx v24, v8, t2
 
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vi v16, v8, -6
+  vsll.vi v16, v8, 19
 
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vv v16, v8, v24
+  vsll.vv v16, v24, v8
 
-  li t2, 0xad34a7fcd2ac0d9d
+  li t2, 0x212d97546a5380e9
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vx v24, v16, t2
+  vsll.vx v24, v16, t2
 
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vi v8, v24, 11
+  vsll.vi v8, v16, 30
 
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vv v24, v16, v8
+  vsll.vv v16, v24, v8
 
-  li t2, 0x159f695d2086c09a
+  li t2, 0x65376e58c4eea0c3
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vx v8, v16, t2
+  vsll.vx v24, v8, t2
 
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vi v16, v8, 0
+  vsll.vi v16, v24, 11
 
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vv v16, v8, v24
+  vsll.vv v24, v16, v8
 
-  li t2, 0x88531bb7e003cca8
+  li t2, 0x58e8ee1f821625db
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vx v24, v16, t2
+  vsll.vx v8, v16, t2
 
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vi v8, v24, -10
+  vsll.vi v16, v8, 8
 
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vv v16, v24, v8
+  vsll.vv v16, v24, v8
 
-  li t2, 0xe436cebe838f6058
+  li t2, 0xe058cb3f67854375
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vx v24, v16, t2
+  vsll.vx v24, v16, t2
 
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vi v16, v8, 0
+  vsll.vi v24, v16, 24
 
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vv v16, v24, v8
+  vsll.vv v8, v24, v16
 
-  li t2, 0x42446f5379baa161
+  li t2, 0x4d0a5486ce9cdffb
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vx v24, v16, t2
+  vsll.vx v16, v8, t2
 
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vi v8, v24, 14
+  vsll.vi v8, v24, 16
 
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vv v24, v8, v16
+  vsll.vv v16, v8, v24
 
-  li t2, 0x072cdd088c4804f4
+  li t2, 0x9b14ed81e7e2a3e9
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vx v24, v16, t2
+  vsll.vx v24, v8, t2
 
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vi v8, v16, -3
+  vsll.vi v16, v24, 11
 
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vv v8, v16, v24
+  vsll.vv v16, v24, v8
 
-  li t2, 0x7e7f94119dc3a60a
+  li t2, 0xa20909807532ea94
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vx v8, v24, t2
+  vsll.vx v24, v8, t2
 
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vi v16, v8, 11
+  vsll.vi v24, v16, 20
 
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vv v16, v24, v8
+  vsll.vv v24, v16, v8
 
-  li t2, 0xdd39a9d0ba0a2b77
+  li t2, 0xa5bdbdec2b9f2baf
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vx v24, v16, t2
+  vsll.vx v24, v16, t2
 
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vi v24, v16, 11
+  vsll.vi v16, v24, 7
 
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vv v24, v16, v8
+  vsll.vv v16, v8, v24
 
-  li t2, 0xbbd61acb3ab629b5
+  li t2, 0x4604390d361fbd78
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vx v8, v24, t2
+  vsll.vx v8, v24, t2
 
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vi v24, v8, -16
+  vsll.vi v16, v8, 26
 
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vv v16, v8, v24
+  vsll.vv v16, v24, v8
 
-  li t2, 0xc681bdfc7bf8d72f
+  li t2, 0x5d614b538d17ccd0
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vx v24, v8, t2
+  vsll.vx v24, v16, t2
 
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vi v16, v8, -7
+  vsll.vi v16, v8, 14
 
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vv v16, v24, v8
+  vsll.vv v8, v24, v16
 
-  li t2, 0xecd10114045dd2c2
+  li t2, 0x3b6b85660129b645
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vx v8, v16, t2
+  vsll.vx v16, v8, t2
 
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vi v24, v16, 14
+  vsll.vi v24, v8, 16
 
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vv v8, v16, v24
+  vsll.vv v24, v16, v8
 
-  li t2, 0x224463560f325d50
+  li t2, 0x48b07dd3c299fd3e
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vx v24, v16, t2
+  vsll.vx v16, v8, t2
 
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vi v8, v16, -9
+  vsll.vi v8, v16, 12
 
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vv v16, v24, v8
+  vsll.vv v8, v16, v24
 
-  li t2, 0x353b861ed07dff20
+  li t2, 0x8ec56c270de1d44f
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vx v8, v16, t2
+  vsll.vx v16, v8, t2
 
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vi v24, v16, -12
+  vsll.vi v8, v24, 23
 
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vv v24, v16, v8
+  vsll.vv v8, v16, v24
 
-  li t2, 0x309dbe5a93b0f536
+  li t2, 0x133cc1fe11776d2d
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vx v16, v8, t2
+  vsll.vx v24, v16, t2
 
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vi v24, v16, -3
+  vsll.vi v16, v8, 5
 
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vv v16, v24, v8
+  vsll.vv v24, v16, v8
 
-  li t2, 0xb672ee09af66844e
+  li t2, 0x7d922946eab26551
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vx v16, v24, t2
+  vsll.vx v16, v8, t2
 
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vi v16, v8, 8
+  vsll.vi v24, v8, 23
 
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vv v24, v8, v16
+  vsll.vv v16, v24, v8
 
-  li t2, 0x14fe2645156d8091
+  li t2, 0x8cd3e632b2c7d4e8
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vx v8, v16, t2
+  vsll.vx v16, v8, t2
 
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vi v8, v24, -10
+  vsll.vi v16, v8, 28
 
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vv v8, v16, v24
+  vsll.vv v16, v24, v8
 
-  li t2, 0xbf411cc001dca3a0
+  li t2, 0xcb66207a7679f717
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vx v16, v8, t2
+  vsll.vx v16, v8, t2
 
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vi v16, v24, -1
+  vsll.vi v8, v16, 21
 
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vv v8, v16, v24
+  vsll.vv v16, v8, v24
 
-  li t2, 0xbf1de0f20c683275
+  li t2, 0x4e205c0fe1b1b9a8
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vx v24, v16, t2
+  vsll.vx v24, v8, t2
 
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vi v24, v8, -6
+  vsll.vi v16, v8, 28
 
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vv v16, v8, v24
+  vsll.vv v24, v8, v16
 
-  li t2, 0x09af1fc497a577af
+  li t2, 0x3ce17941457ccaec
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vx v24, v8, t2
+  vsll.vx v8, v16, t2
 
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vi v8, v16, -12
+  vsll.vi v16, v24, 6
 
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vv v16, v24, v8
+  vsll.vv v24, v8, v16
 
-  li t2, 0x54357c6c89a1a9cb
+  li t2, 0x0a9819106ce536c7
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vx v24, v16, t2
+  vsll.vx v8, v24, t2
 
   vsetvli t1, t0, e8, m8, ta, ma
-  vand.vi v8, v16, -6
+  vsll.vi v8, v16, 15
 
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vv v28, v2, v10
+  vsll.vv v22, v30, v25
 
-  li t2, 0x9f959dd2f44ab186
+  li t2, 0x53822dac0e1ab0bc
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vx v3, v30, t2
+  vsll.vx v2, v11, t2
 
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vi v23, v15, -2
+  vsll.vi v23, v20, 12
 
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vv v4, v5, v10
+  vsll.vv v27, v4, v12
 
-  li t2, 0x275efc0826b32304
+  li t2, 0xb0b4811e1bbb8cb8
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vx v29, v7, t2
+  vsll.vx v5, v1, t2
 
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vi v10, v1, -6
+  vsll.vi v4, v29, 30
 
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vv v23, v6, v12
+  vsll.vv v11, v17, v28
 
-  li t2, 0xe9a82fd2ada578b4
+  li t2, 0xdd97372c9673ad08
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vx v3, v28, t2
+  vsll.vx v5, v23, t2
 
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vi v19, v16, -12
+  vsll.vi v7, v25, 17
 
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vv v14, v10, v18
+  vsll.vv v25, v28, v2
 
-  li t2, 0x46cac486b2f9b421
+  li t2, 0x037b3403f075942e
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vx v12, v6, t2
+  vsll.vx v12, v14, t2
 
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vi v13, v19, 9
+  vsll.vi v18, v13, 17
 
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vv v24, v10, v29
+  vsll.vv v5, v15, v26
 
-  li t2, 0x66b9fd5b750150b4
+  li t2, 0xe74be67d22b73da5
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vx v11, v19, t2
+  vsll.vx v4, v13, t2
 
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vi v5, v26, 1
+  vsll.vi v6, v26, 25
 
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vv v19, v22, v31
+  vsll.vv v15, v29, v12
 
-  li t2, 0x5c76c398def74728
+  li t2, 0xcbaac254c66ff7f0
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vx v18, v22, t2
+  vsll.vx v9, v10, t2
 
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vi v30, v6, 12
+  vsll.vi v9, v2, 31
 
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vv v7, v4, v21
+  vsll.vv v27, v17, v31
 
-  li t2, 0x9cc84af5f3db2577
+  li t2, 0x43c3705717d35d37
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vx v8, v15, t2
+  vsll.vx v9, v12, t2
 
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vi v7, v19, -1
+  vsll.vi v8, v24, 20
 
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vv v29, v5, v20
+  vsll.vv v25, v14, v12
 
-  li t2, 0x4e1f24b29557706e
+  li t2, 0x86ba31fb6102cf53
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vx v5, v28, t2
+  vsll.vx v29, v14, t2
 
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vi v11, v9, -2
+  vsll.vi v5, v10, 26
 
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vv v18, v28, v3
+  vsll.vv v6, v30, v22
 
-  li t2, 0x9880ca0934238620
+  li t2, 0xc4fda5af43b46354
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vx v7, v9, t2
+  vsll.vx v15, v9, t2
 
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vi v2, v23, -10
+  vsll.vi v28, v12, 16
 
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vv v3, v15, v18
+  vsll.vv v10, v1, v25
 
-  li t2, 0x5f987a0088a2cce9
+  li t2, 0x575e7c8d4b9de973
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vx v27, v16, t2
+  vsll.vx v16, v13, t2
 
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vi v21, v2, 1
+  vsll.vi v22, v29, 19
 
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vv v14, v30, v2
+  vsll.vv v31, v17, v25
 
-  li t2, 0x39697f7a87969475
+  li t2, 0x950c499b6a612dda
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vx v6, v16, t2
+  vsll.vx v13, v29, t2
 
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vi v6, v26, 0
+  vsll.vi v29, v20, 30
 
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vv v16, v14, v6
+  vsll.vv v16, v28, v4
 
-  li t2, 0xc3f3ada652eca490
+  li t2, 0x95a868d69a23d958
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vx v2, v9, t2
+  vsll.vx v3, v4, t2
 
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vi v4, v15, 10
+  vsll.vi v26, v30, 9
 
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vv v8, v23, v18
+  vsll.vv v25, v1, v17
 
-  li t2, 0x3d5b2b49e7706d86
+  li t2, 0x128ac7b4fb1bcfbc
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vx v5, v7, t2
+  vsll.vx v27, v28, t2
 
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vi v18, v27, -1
+  vsll.vi v22, v1, 17
 
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vv v14, v13, v5
+  vsll.vv v9, v1, v28
 
-  li t2, 0xa224501a131252b8
+  li t2, 0xc8653e02c1847569
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vx v2, v10, t2
+  vsll.vx v18, v12, t2
 
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vi v30, v21, 6
+  vsll.vi v17, v21, 7
 
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vv v11, v3, v16
+  vsll.vv v17, v7, v25
 
-  li t2, 0xcf7c0ff77e61399e
+  li t2, 0xf1bf2833df06f397
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vx v28, v22, t2
+  vsll.vx v10, v19, t2
 
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vi v14, v23, 0
+  vsll.vi v20, v10, 16
 
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vv v27, v22, v16
+  vsll.vv v24, v31, v10
 
-  li t2, 0x37b9fe5303196353
+  li t2, 0x92482175ae02d35f
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vx v29, v25, t2
+  vsll.vx v11, v1, t2
 
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vi v6, v28, -5
+  vsll.vi v25, v30, 16
 
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vv v1, v15, v10
+  vsll.vv v5, v6, v28
 
-  li t2, 0x70e56405d2422f28
+  li t2, 0xfe03d7e3d81567b3
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vx v31, v24, t2
+  vsll.vx v3, v10, t2
 
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vi v13, v9, -13
+  vsll.vi v17, v19, 20
 
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vv v20, v29, v1
+  vsll.vv v15, v31, v16
 
-  li t2, 0x10b9cf7aeb48beab
+  li t2, 0x1de4198a7c8324ba
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vx v7, v15, t2
+  vsll.vx v9, v11, t2
 
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vi v9, v11, 3
+  vsll.vi v9, v4, 9
 
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vv v22, v1, v28
+  vsll.vv v28, v5, v19
 
-  li t2, 0xf3a2d46842ae42ba
+  li t2, 0xc53691c9a3aceb69
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vx v23, v9, t2
+  vsll.vx v12, v29, t2
 
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vi v12, v7, -10
+  vsll.vi v19, v16, 11
 
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vv v7, v1, v16
+  vsll.vv v22, v3, v6
 
-  li t2, 0xab1fee9ae25a0085
+  li t2, 0x66f47ed43e42d1a1
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vx v25, v18, t2
+  vsll.vx v5, v24, t2
 
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vi v10, v5, 14
+  vsll.vi v4, v25, 26
 
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vv v12, v31, v8
+  vsll.vv v28, v23, v31
 
-  li t2, 0x5865160207e8c611
+  li t2, 0x5967ed22a14b5532
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vx v27, v11, t2
+  vsll.vx v28, v15, t2
 
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vi v28, v12, -11
+  vsll.vi v23, v6, 23
 
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vv v24, v16, v15
+  vsll.vv v11, v5, v24
 
-  li t2, 0x55930497a4074a09
+  li t2, 0x1be8ae25b1bb818b
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vx v15, v4, t2
+  vsll.vx v8, v27, t2
 
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vi v12, v4, 7
+  vsll.vi v26, v20, 0
 
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vv v15, v24, v7
+  vsll.vv v22, v21, v7
 
-  li t2, 0xf8a621daf903e58b
+  li t2, 0x0556061179afafcb
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vx v8, v27, t2
+  vsll.vx v4, v5, t2
 
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vi v21, v15, -1
+  vsll.vi v30, v10, 10
 
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vv v26, v1, v13
+  vsll.vv v20, v28, v12
 
-  li t2, 0xe144ffcb56a51009
+  li t2, 0x006bf7438df79aea
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vx v16, v30, t2
+  vsll.vx v5, v27, t2
 
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vi v24, v4, 2
+  vsll.vi v8, v16, 10
 
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vv v11, v4, v31
+  vsll.vv v29, v7, v13
 
-  li t2, 0x3472c371bc652fa5
+  li t2, 0x7fd6aa4fa7e951bd
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vx v21, v10, t2
+  vsll.vx v16, v13, t2
 
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vi v29, v11, 10
+  vsll.vi v3, v21, 0
 
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vv v11, v12, v16
+  vsll.vv v26, v6, v25
 
-  li t2, 0x66bb8039be84c161
+  li t2, 0x81202e96b9576651
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vx v18, v26, t2
+  vsll.vx v30, v27, t2
 
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vi v13, v29, -14
+  vsll.vi v17, v21, 2
 
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vv v13, v7, v24
+  vsll.vv v26, v19, v20
 
-  li t2, 0x7afbbf21f5a6487e
+  li t2, 0x62081bdf251f79c5
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vx v15, v16, t2
+  vsll.vx v8, v16, t2
 
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vi v1, v7, 10
+  vsll.vi v16, v14, 25
 
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vv v6, v19, v5
+  vsll.vv v28, v22, v14
 
-  li t2, 0xc0339b8e2765acd2
+  li t2, 0xbb0b55dcd3082d3f
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vx v19, v17, t2
+  vsll.vx v12, v19, t2
 
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vi v16, v7, 13
+  vsll.vi v30, v8, 29
 
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vv v1, v3, v30
+  vsll.vv v14, v15, v18
 
-  li t2, 0x3d55e5fe43d48d97
+  li t2, 0x18fcf6868180cebf
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vx v20, v29, t2
+  vsll.vx v21, v12, t2
 
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vi v23, v6, 0
+  vsll.vi v14, v19, 26
 
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vv v24, v27, v13
+  vsll.vv v1, v31, v14
 
-  li t2, 0xe400c4ced673d400
+  li t2, 0x44ac26526c073cf8
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vx v23, v12, t2
+  vsll.vx v1, v14, t2
 
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vi v5, v19, -15
+  vsll.vi v12, v27, 28
 
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vv v22, v30, v20
+  vsll.vv v8, v5, v25
 
-  li t2, 0xfc7c1ccb165dcde8
+  li t2, 0x84f144d0dd42f21f
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vx v12, v3, t2
+  vsll.vx v30, v9, t2
 
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vi v2, v24, 2
+  vsll.vi v20, v1, 23
 
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vv v20, v23, v27
+  vsll.vv v27, v19, v7
 
-  li t2, 0xadce6bced8896dfa
+  li t2, 0xc17cd81cba0b98ab
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vx v8, v24, t2
+  vsll.vx v15, v14, t2
 
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vi v20, v22, 5
+  vsll.vi v28, v3, 8
 
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vv v12, v9, v7
+  vsll.vv v12, v21, v25
 
-  li t2, 0xd7a66eb6926d98f0
+  li t2, 0x1c31f58060d1989d
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vx v30, v9, t2
+  vsll.vx v23, v11, t2
 
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vi v11, v18, 14
+  vsll.vi v30, v1, 13
 
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vv v3, v27, v12
+  vsll.vv v27, v16, v30
 
-  li t2, 0x684b63122fd69b9f
+  li t2, 0x691ff381414e31fb
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vx v23, v15, t2
+  vsll.vx v13, v7, t2
 
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vi v15, v12, 10
+  vsll.vi v21, v3, 10
 
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vv v22, v6, v4
+  vsll.vv v17, v3, v31
 
-  li t2, 0xff8b64d5dd4bbee9
+  li t2, 0x6c7da9d260aed15c
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vx v22, v17, t2
+  vsll.vx v28, v26, t2
 
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vi v2, v27, -3
+  vsll.vi v11, v13, 16
 
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vv v24, v3, v4
+  vsll.vv v28, v31, v22
 
-  li t2, 0x716a338ce31f2d15
+  li t2, 0x3e3dd82531798639
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vx v9, v27, t2
+  vsll.vx v24, v30, t2
 
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vi v2, v31, 3
+  vsll.vi v6, v16, 25
 
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vv v27, v14, v24
+  vsll.vv v5, v14, v25
 
-  li t2, 0xf93e6037daa5ef15
+  li t2, 0xbbb5c66580369444
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vx v23, v4, t2
+  vsll.vx v2, v31, t2
 
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vi v14, v13, -2
+  vsll.vi v1, v28, 6
 
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vv v30, v27, v8
+  vsll.vv v7, v30, v10
 
-  li t2, 0xecd73d78650fe4f3
+  li t2, 0xdcb437cecc90a671
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vx v31, v24, t2
+  vsll.vx v23, v3, t2
 
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vi v10, v31, -2
+  vsll.vi v30, v29, 14
 
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vv v23, v12, v28
+  vsll.vv v6, v30, v26
 
-  li t2, 0x60196994990efcfb
+  li t2, 0x102ed5d297b7cf0f
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vx v22, v30, t2
+  vsll.vx v9, v26, t2
 
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vi v29, v18, 5
+  vsll.vi v29, v16, 10
 
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vv v28, v6, v29
+  vsll.vv v17, v1, v14
 
-  li t2, 0xed236a5cd8c7ff77
+  li t2, 0x74c81bb170fad9d5
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vx v26, v24, t2
+  vsll.vx v18, v9, t2
 
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vi v18, v15, -15
+  vsll.vi v13, v11, 15
 
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vv v18, v20, v17
+  vsll.vv v3, v21, v18
 
-  li t2, 0x8ad322f1e01783ae
+  li t2, 0x1ae25edfc3913db9
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vx v3, v18, t2
+  vsll.vx v31, v11, t2
 
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vi v8, v9, -8
+  vsll.vi v4, v9, 22
 
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vv v27, v14, v19
+  vsll.vv v9, v7, v30
 
-  li t2, 0x25406e25b81b6672
+  li t2, 0x489d7320d53014ef
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vx v8, v25, t2
+  vsll.vx v26, v10, t2
 
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vi v10, v19, 12
+  vsll.vi v5, v12, 21
 
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vv v22, v8, v5
+  vsll.vv v12, v20, v6
 
-  li t2, 0xc5edc44d202e320c
+  li t2, 0x465445967e293f91
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vx v28, v20, t2
+  vsll.vx v30, v14, t2
 
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vi v14, v25, 10
+  vsll.vi v10, v24, 28
 
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vv v27, v8, v21
+  vsll.vv v30, v15, v8
 
-  li t2, 0x41903d31b7596f14
+  li t2, 0xb511cce9aeedd151
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vx v15, v22, t2
+  vsll.vx v21, v10, t2
 
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vi v15, v19, 10
+  vsll.vi v22, v13, 27
 
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vv v21, v30, v10
+  vsll.vv v19, v20, v12
 
-  li t2, 0xb942a4d00e5c5dbd
+  li t2, 0x71d997db6dba178e
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vx v21, v6, t2
+  vsll.vx v11, v24, t2
 
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vi v14, v1, -2
+  vsll.vi v1, v6, 31
 
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vv v24, v14, v22
+  vsll.vv v6, v1, v4
 
-  li t2, 0x6be8d4bc0f9fa20b
+  li t2, 0xb0d2d495451e6731
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vx v25, v22, t2
+  vsll.vx v12, v18, t2
 
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vi v10, v15, 8
+  vsll.vi v8, v19, 16
 
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vv v27, v11, v7
+  vsll.vv v14, v7, v24
 
-  li t2, 0x827b34241b1bd09f
+  li t2, 0x96a8865246c6a432
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vx v24, v30, t2
+  vsll.vx v28, v12, t2
 
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vi v20, v11, -9
+  vsll.vi v25, v18, 2
 
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vv v30, v29, v4
+  vsll.vv v1, v16, v27
 
-  li t2, 0x345001d4e9dfcf77
+  li t2, 0x4c734fdf529e9fd1
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vx v7, v14, t2
+  vsll.vx v17, v16, t2
 
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vi v10, v5, -3
+  vsll.vi v21, v7, 16
 
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vv v22, v30, v20
+  vsll.vv v14, v8, v17
 
-  li t2, 0x176963e82fb75f8e
+  li t2, 0xc4312f82622d866a
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vx v4, v7, t2
+  vsll.vx v22, v20, t2
 
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vi v11, v8, -9
+  vsll.vi v13, v2, 29
 
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vv v13, v9, v4
+  vsll.vv v21, v28, v12
 
-  li t2, 0xe95d9de350b23885
+  li t2, 0xd5f99aafbc693d4a
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vx v12, v18, t2
+  vsll.vx v14, v10, t2
 
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vi v19, v9, -7
+  vsll.vi v17, v21, 26
 
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vv v1, v11, v10
+  vsll.vv v8, v10, v7
 
-  li t2, 0x0ec2d920f54e8e21
+  li t2, 0x61688372149c471d
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vx v21, v11, t2
+  vsll.vx v24, v8, t2
 
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vi v26, v23, -16
+  vsll.vi v16, v12, 16
 
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vv v20, v24, v17
+  vsll.vv v30, v21, v15
 
-  li t2, 0x240089db1fcd38e1
+  li t2, 0x24b59031e2fa88f5
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vx v28, v11, t2
+  vsll.vx v5, v6, t2
 
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vi v12, v10, 1
+  vsll.vi v3, v12, 5
 
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vv v3, v13, v10
+  vsll.vv v8, v26, v22
 
-  li t2, 0x8d089d7c62f05e8b
+  li t2, 0x2b230c8ab67d09ca
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vx v22, v31, t2
+  vsll.vx v3, v23, t2
 
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vi v25, v5, 0
+  vsll.vi v12, v16, 20
 
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vv v16, v24, v19
+  vsll.vv v9, v26, v6
 
-  li t2, 0xe7b1066d478622b1
+  li t2, 0xbc9712ce19602fff
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vx v18, v19, t2
+  vsll.vx v26, v18, t2
 
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vi v22, v14, 3
+  vsll.vi v1, v31, 4
 
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vv v27, v4, v24
+  vsll.vv v29, v7, v31
 
-  li t2, 0xa8ec6e0cfa14874c
+  li t2, 0x9f179a1aba828d2c
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vx v23, v15, t2
+  vsll.vx v8, v22, t2
 
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vi v17, v16, 4
+  vsll.vi v7, v28, 22
 
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vv v7, v12, v27
+  vsll.vv v16, v29, v3
 
-  li t2, 0x843b7305ceda42b8
+  li t2, 0x8b5d4dfc79fac1d0
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vx v22, v19, t2
+  vsll.vx v21, v29, t2
 
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vi v28, v25, -2
+  vsll.vi v6, v14, 26
 
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vv v6, v12, v3
+  vsll.vv v14, v17, v18
 
-  li t2, 0xfa4a9a203e92be48
+  li t2, 0xc9b1148fae5d3548
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vx v31, v4, t2
+  vsll.vx v5, v30, t2
 
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vi v2, v18, 2
+  vsll.vi v2, v13, 4
 
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vv v16, v17, v19
+  vsll.vv v17, v28, v26
 
-  li t2, 0x43ca7d1eebda3a0f
+  li t2, 0x6d26ba2718d2f664
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vx v11, v12, t2
+  vsll.vx v4, v11, t2
 
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vi v28, v10, 7
+  vsll.vi v25, v6, 29
 
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vv v13, v18, v29
+  vsll.vv v27, v10, v6
 
-  li t2, 0x911d04ae77b7a66a
+  li t2, 0x54602098e5f801ce
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vx v13, v9, t2
+  vsll.vx v28, v17, t2
 
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vi v20, v12, 6
+  vsll.vi v10, v30, 27
 
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vv v16, v10, v7
+  vsll.vv v24, v4, v29
 
-  li t2, 0x6e4d1a77d470558a
+  li t2, 0x4d7fc5a3e1c6e531
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vx v7, v16, t2
+  vsll.vx v10, v15, t2
 
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vi v17, v8, -8
+  vsll.vi v15, v13, 28
 
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vv v6, v26, v22
+  vsll.vv v21, v23, v11
 
-  li t2, 0x5abdc637da669740
+  li t2, 0x373636e7487d736f
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vx v19, v29, t2
+  vsll.vx v13, v30, t2
 
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vi v27, v9, 5
+  vsll.vi v8, v5, 19
 
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vv v13, v28, v25
+  vsll.vv v20, v21, v23
 
-  li t2, 0xf702955b0e1384e9
+  li t2, 0xbbcf7b6117147ac7
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vx v4, v16, t2
+  vsll.vx v16, v31, t2
 
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vi v29, v17, 11
+  vsll.vi v31, v12, 6
 
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vv v18, v10, v12
+  vsll.vv v23, v25, v1
 
-  li t2, 0x06eaa01732fdb3da
+  li t2, 0xcf37c03084697e0e
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vx v22, v23, t2
+  vsll.vx v21, v1, t2
 
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vi v2, v8, 13
+  vsll.vi v22, v7, 23
 
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vv v28, v21, v1
+  vsll.vv v19, v29, v9
 
-  li t2, 0x3ead3eb6be61b62b
+  li t2, 0x8c848d7262c0f29e
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vx v26, v21, t2
+  vsll.vx v7, v9, t2
 
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vi v29, v15, -13
+  vsll.vi v17, v21, 12
 
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vv v29, v10, v15
+  vsll.vv v10, v22, v7
 
-  li t2, 0xfbc8a8cb5f1197bc
+  li t2, 0x899df839bb11ee5d
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vx v15, v31, t2
+  vsll.vx v20, v9, t2
 
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vi v25, v1, 10
+  vsll.vi v11, v8, 4
 
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vv v25, v17, v21
+  vsll.vv v12, v10, v23
 
-  li t2, 0xca5cf07cb64d483a
+  li t2, 0x318ef0c6376df49f
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vx v7, v3, t2
+  vsll.vx v11, v13, t2
 
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vi v29, v28, 4
+  vsll.vi v31, v19, 7
 
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vv v26, v21, v15
+  vsll.vv v8, v20, v21
 
-  li t2, 0x60c8b3dd0d3e47fd
+  li t2, 0xa82f9b8120f1ecdb
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vx v2, v14, t2
+  vsll.vx v13, v5, t2
 
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vi v30, v8, 7
+  vsll.vi v5, v22, 0
 
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vv v26, v18, v31
+  vsll.vv v24, v20, v30
 
-  li t2, 0x88cdf82b4ada77e7
+  li t2, 0xf074d73e0d20d529
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vx v23, v29, t2
+  vsll.vx v21, v8, t2
 
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vi v21, v8, 5
+  vsll.vi v8, v9, 9
 
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vv v31, v16, v18
+  vsll.vv v1, v30, v26
 
-  li t2, 0xb94b6870a260d912
+  li t2, 0xc2244f1e359c4d09
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vx v1, v20, t2
+  vsll.vx v16, v15, t2
 
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vi v30, v1, -14
+  vsll.vi v1, v16, 30
 
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vv v7, v10, v11
+  vsll.vv v13, v25, v6
 
-  li t2, 0x2d76e1aa9dc0e9c2
+  li t2, 0xb9ce7f98412b2076
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vx v10, v23, t2
+  vsll.vx v14, v23, t2
 
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vi v18, v14, 12
+  vsll.vi v8, v6, 18
 
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vv v17, v12, v18
+  vsll.vv v2, v14, v29
 
-  li t2, 0x9006aa7ea0794478
+  li t2, 0x1223bcad1d3289a2
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vx v20, v28, t2
+  vsll.vx v25, v3, t2
 
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vi v17, v29, 5
+  vsll.vi v14, v29, 10
 
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vv v8, v1, v15
+  vsll.vv v20, v13, v16
 
-  li t2, 0x2e96cee1fae32a84
+  li t2, 0x79121f73eaf9c8fe
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vx v19, v14, t2
+  vsll.vx v21, v8, t2
 
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vi v7, v18, 8
+  vsll.vi v7, v27, 22
 
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vv v31, v17, v3
+  vsll.vv v12, v25, v19
 
-  li t2, 0x1a25bed217de40ef
+  li t2, 0xa5fc950ef7de9c52
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vx v27, v12, t2
+  vsll.vx v24, v9, t2
 
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vi v30, v2, -6
+  vsll.vi v1, v4, 2
 
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vv v14, v19, v26
+  vsll.vv v22, v15, v17
 
-  li t2, 0x1bbef97776d35157
+  li t2, 0x4d9d7055ec0fb1c5
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vx v16, v10, t2
+  vsll.vx v30, v9, t2
 
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vi v28, v15, -8
+  vsll.vi v8, v24, 15
 
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vv v19, v26, v28
+  vsll.vv v16, v24, v12
 
-  li t2, 0x409f8e2c016dab53
+  li t2, 0x7c340645514e4535
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vx v29, v23, t2
+  vsll.vx v22, v19, t2
 
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vi v28, v3, 10
+  vsll.vi v18, v5, 31
 
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vv v13, v2, v5
+  vsll.vv v9, v10, v7
 
-  li t2, 0x1d7b7574f2d64eaf
+  li t2, 0x059cbcb664ad46c2
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vx v20, v17, t2
+  vsll.vx v28, v9, t2
 
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vi v10, v27, -11
+  vsll.vi v1, v7, 14
 
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vv v16, v31, v14
+  vsll.vv v7, v1, v6
 
-  li t2, 0x9c1d712af5285ef6
+  li t2, 0x78c76a1d1198bf61
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vx v20, v6, t2
+  vsll.vx v30, v31, t2
 
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vi v21, v14, 9
+  vsll.vi v23, v27, 29
 
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vv v12, v16, v23
+  vsll.vv v4, v3, v1
 
-  li t2, 0xf08e8bccb68db2dd
+  li t2, 0xc2cf1cc9216510da
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vx v7, v15, t2
+  vsll.vx v2, v30, t2
 
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vi v27, v6, 11
+  vsll.vi v4, v26, 14
 
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vv v17, v4, v2
+  vsll.vv v27, v16, v3
 
-  li t2, 0x65289b80384edf23
+  li t2, 0x2e79efc7d0acf66e
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vx v27, v9, t2
+  vsll.vx v17, v16, t2
 
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vi v22, v30, 7
+  vsll.vi v8, v11, 25
 
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vv v7, v28, v25
+  vsll.vv v11, v10, v4
 
-  li t2, 0x4c2d67057751d3ab
+  li t2, 0x4afea51681be2a75
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vx v4, v23, t2
+  vsll.vx v16, v26, t2
 
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vi v5, v3, 7
+  vsll.vi v14, v21, 29
 
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vv v3, v4, v25
+  vsll.vv v14, v31, v25
 
-  li t2, 0x4e5dd68bdd2272c7
+  li t2, 0xae296a34690f4f3b
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vx v8, v16, t2
+  vsll.vx v22, v4, t2
 
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vi v5, v12, 0
+  vsll.vi v25, v7, 9
 
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vv v21, v5, v11
+  vsll.vv v24, v21, v6
 
-  li t2, 0x77cf74eba8bb7ba9
+  li t2, 0xaf24657b62969486
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vx v3, v11, t2
+  vsll.vx v13, v3, t2
 
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vi v25, v6, -12
+  vsll.vi v3, v20, 30
 
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vv v25, v24, v15
+  vsll.vv v12, v17, v26
 
-  li t2, 0x13af341e5a879f19
+  li t2, 0xa7b0b39118058aeb
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vx v30, v8, t2
+  vsll.vx v13, v27, t2
 
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vi v29, v7, 9
+  vsll.vi v27, v10, 7
 
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vv v18, v28, v4
+  vsll.vv v15, v28, v5
 
-  li t2, 0xc8519dccf3a49d2d
+  li t2, 0x2c982de468e6d543
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vx v26, v28, t2
+  vsll.vx v30, v27, t2
 
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vi v7, v8, -7
+  vsll.vi v16, v13, 0
 
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vv v28, v25, v20
+  vsll.vv v26, v8, v18
 
-  li t2, 0x7591c30e91f12514
+  li t2, 0x7765df1d2dc28637
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vx v27, v30, t2
+  vsll.vx v28, v4, t2
 
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vi v29, v20, -16
+  vsll.vi v25, v4, 24
 
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vv v26, v15, v24
+  vsll.vv v10, v28, v2
 
-  li t2, 0x8002847565540440
+  li t2, 0xf83f9ebc73228f02
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vx v31, v13, t2
+  vsll.vx v10, v16, t2
 
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vi v20, v24, 0
+  vsll.vi v22, v9, 7
 
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vv v20, v3, v1
+  vsll.vv v11, v22, v21
 
-  li t2, 0x853977e67e798051
+  li t2, 0x5b8b1af1c753eb87
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vx v13, v6, t2
+  vsll.vx v23, v28, t2
 
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vi v29, v27, 5
+  vsll.vi v21, v15, 5
 
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vv v21, v31, v9
+  vsll.vv v23, v10, v28
 
-  li t2, 0xb3d997a84a387ff3
+  li t2, 0x1b1a7b399e691f91
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vx v5, v25, t2
+  vsll.vx v16, v11, t2
 
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vi v29, v21, -15
+  vsll.vi v8, v23, 21
 
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vv v11, v16, v2
+  vsll.vv v9, v15, v17
 
-  li t2, 0xf26a61c667efe433
+  li t2, 0x04924e01ed9524fe
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vx v6, v8, t2
+  vsll.vx v30, v19, t2
 
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vi v5, v3, 14
+  vsll.vi v17, v23, 19
 
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vv v30, v11, v25
+  vsll.vv v26, v21, v7
 
-  li t2, 0x1c43888a9ac1a6dd
+  li t2, 0xf947b37e9e2befe1
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vx v21, v8, t2
+  vsll.vx v12, v5, t2
 
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vi v30, v2, 8
+  vsll.vi v27, v4, 9
 
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vv v15, v28, v6
+  vsll.vv v6, v29, v15
 
-  li t2, 0x1f81ada5391dfe2b
+  li t2, 0x6beeef517315a6fc
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vx v27, v11, t2
+  vsll.vx v20, v4, t2
 
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vi v8, v18, 13
+  vsll.vi v10, v31, 22
 
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vv v27, v31, v23
+  vsll.vv v12, v6, v31
 
-  li t2, 0x76946b3e35f44df5
+  li t2, 0xbbb8dcff44f825a4
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vx v30, v28, t2
+  vsll.vx v23, v30, t2
 
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vi v5, v2, 15
+  vsll.vi v24, v17, 31
 
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vv v2, v28, v29
+  vsll.vv v6, v14, v2
 
-  li t2, 0x790821831850890c
+  li t2, 0x670bd75f277c1b77
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vx v7, v24, t2
+  vsll.vx v2, v18, t2
 
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vi v23, v13, 13
+  vsll.vi v2, v6, 19
 
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vv v21, v3, v16
+  vsll.vv v23, v9, v3
 
-  li t2, 0x11b723d82d5c42f0
+  li t2, 0xaa703c53d4243805
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vx v8, v7, t2
+  vsll.vx v23, v1, t2
 
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vi v18, v17, -11
+  vsll.vi v27, v28, 27
 
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vv v19, v26, v16
+  vsll.vv v16, v24, v11
 
-  li t2, 0x3e936e14ddcbf863
+  li t2, 0x4bdafd4003d260e8
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vx v9, v4, t2
+  vsll.vx v24, v25, t2
 
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vi v31, v12, 6
+  vsll.vi v20, v15, 19
 
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vv v21, v25, v20
+  vsll.vv v17, v2, v14
 
-  li t2, 0x7ea550859aa4f8b3
+  li t2, 0xc08d94a8ce4fc041
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vx v31, v1, t2
+  vsll.vx v28, v19, t2
 
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vi v22, v6, 5
+  vsll.vi v6, v25, 14
 
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vv v5, v13, v17
+  vsll.vv v25, v1, v29
 
-  li t2, 0x4b56b1aedebc1ce4
+  li t2, 0xd39d4945ca2a96a5
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vx v7, v14, t2
+  vsll.vx v30, v28, t2
 
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vi v17, v5, -7
+  vsll.vi v8, v18, 31
 
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vv v9, v2, v16
+  vsll.vv v8, v9, v13
 
-  li t2, 0xdfa4145d8bf08537
+  li t2, 0xf413d0711ad66573
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vx v14, v24, t2
+  vsll.vx v23, v26, t2
 
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vi v12, v16, 3
+  vsll.vi v15, v12, 16
 
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vv v16, v19, v5
+  vsll.vv v7, v4, v23
 
-  li t2, 0x0713ea8add376b00
+  li t2, 0xfbf641071a136c6a
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vx v12, v22, t2
+  vsll.vx v19, v17, t2
 
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vi v10, v8, 15
+  vsll.vi v4, v5, 17
 
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vv v31, v11, v17
+  vsll.vv v1, v27, v31
 
-  li t2, 0x2f3517bf9eb1dab3
+  li t2, 0x4e02369e5fa740f4
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vx v21, v19, t2
+  vsll.vx v22, v15, t2
 
   vsetvli t1, t0, e16, m1, ta, ma
-  vand.vi v2, v23, -12
+  vsll.vi v16, v3, 5
 
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vv v8, v16, v20
+  vsll.vv v6, v2, v4
 
-  li t2, 0x66231341be137f34
+  li t2, 0xe1cad8a55df29096
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vx v14, v6, t2
+  vsll.vx v28, v22, t2
 
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vi v12, v24, 5
+  vsll.vi v24, v20, 21
 
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vv v18, v14, v10
+  vsll.vv v10, v18, v2
 
-  li t2, 0xe19538de88ead8ad
+  li t2, 0xe7c944fab7622544
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vx v12, v22, t2
+  vsll.vx v2, v14, t2
 
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vi v22, v2, -8
+  vsll.vi v6, v4, 10
 
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vv v8, v30, v12
+  vsll.vv v20, v6, v26
 
-  li t2, 0x4616ff9e581985b5
+  li t2, 0xce8f19c115312c93
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vx v2, v16, t2
+  vsll.vx v22, v10, t2
 
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vi v14, v8, 9
+  vsll.vi v14, v18, 0
 
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vv v8, v24, v16
+  vsll.vv v28, v6, v18
 
-  li t2, 0x40073aa0202e7800
+  li t2, 0x382ceee218093097
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vx v26, v22, t2
+  vsll.vx v26, v18, t2
 
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vi v8, v28, -7
+  vsll.vi v12, v22, 13
 
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vv v6, v14, v26
+  vsll.vv v26, v4, v10
 
-  li t2, 0x237f1399e18bdae3
+  li t2, 0x3fc9016a11b9f007
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vx v2, v30, t2
+  vsll.vx v16, v10, t2
 
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vi v8, v2, 0
+  vsll.vi v20, v18, 23
 
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vv v26, v8, v28
+  vsll.vv v22, v16, v6
 
-  li t2, 0x2bb9fc9ea18b7653
+  li t2, 0xfc77dff1326cea0f
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vx v8, v22, t2
+  vsll.vx v18, v22, t2
 
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vi v2, v8, -14
+  vsll.vi v24, v16, 28
 
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vv v24, v16, v10
+  vsll.vv v30, v26, v24
 
-  li t2, 0x8039d2beee9b4bef
+  li t2, 0xae8012af407d1a0d
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vx v4, v12, t2
+  vsll.vx v28, v8, t2
 
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vi v26, v24, -9
+  vsll.vi v30, v12, 19
 
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vv v26, v16, v28
+  vsll.vv v2, v14, v6
 
-  li t2, 0xa9cb11358c506703
+  li t2, 0x59af4f01fc95e158
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vx v18, v20, t2
+  vsll.vx v22, v16, t2
 
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vi v4, v16, 13
+  vsll.vi v18, v12, 21
 
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vv v14, v30, v10
+  vsll.vv v12, v20, v30
 
-  li t2, 0x2a2bfe5490ffae95
+  li t2, 0xc701aea89a3289dc
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vx v22, v18, t2
+  vsll.vx v6, v30, t2
 
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vi v6, v12, -2
+  vsll.vi v28, v12, 22
 
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vv v18, v12, v10
+  vsll.vv v2, v6, v10
 
-  li t2, 0x686b27a4e098d916
+  li t2, 0xb0ac15dc2404de7c
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vx v2, v10, t2
+  vsll.vx v16, v10, t2
 
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vi v14, v2, -2
+  vsll.vi v8, v28, 9
 
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vv v24, v4, v18
+  vsll.vv v18, v6, v30
 
-  li t2, 0xe8747c9e6d97be6d
+  li t2, 0xdc540ef79fe61a02
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vx v24, v2, t2
+  vsll.vx v6, v16, t2
 
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vi v18, v14, 1
+  vsll.vi v14, v6, 11
 
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vv v30, v2, v14
+  vsll.vv v30, v10, v4
 
-  li t2, 0xcb6b56e308abd3e7
+  li t2, 0xc10ee343e262248b
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vx v6, v26, t2
+  vsll.vx v12, v10, t2
 
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vi v10, v16, -9
+  vsll.vi v14, v12, 17
 
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vv v20, v26, v10
+  vsll.vv v28, v10, v16
 
-  li t2, 0xc937eb7ace2b3b7d
+  li t2, 0xff7d7ea9b79177db
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vx v2, v14, t2
+  vsll.vx v22, v18, t2
 
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vi v30, v6, 9
+  vsll.vi v26, v10, 6
 
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vv v30, v22, v10
+  vsll.vv v24, v28, v26
 
-  li t2, 0xe5865c3492d1c31a
+  li t2, 0x6f928518f1475904
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vx v6, v26, t2
+  vsll.vx v22, v20, t2
 
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vi v12, v10, 11
+  vsll.vi v24, v22, 27
 
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vv v10, v4, v30
+  vsll.vv v2, v18, v30
 
-  li t2, 0x58d8b8900ecf9174
+  li t2, 0x3cb3ecd3881ac5a4
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vx v4, v22, t2
+  vsll.vx v2, v12, t2
 
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vi v30, v12, -4
+  vsll.vi v16, v30, 10
 
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vv v10, v22, v8
+  vsll.vv v12, v14, v20
 
-  li t2, 0x234c82355db8ea22
+  li t2, 0xcc8d1768ffca441d
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vx v16, v10, t2
+  vsll.vx v20, v18, t2
 
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vi v10, v26, -16
+  vsll.vi v26, v4, 15
 
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vv v2, v10, v30
+  vsll.vv v12, v30, v22
 
-  li t2, 0x199c158d1a3b7947
+  li t2, 0xfe8b1e79719e19d6
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vx v6, v14, t2
+  vsll.vx v10, v16, t2
 
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vi v6, v30, -16
+  vsll.vi v12, v10, 7
 
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vv v28, v20, v30
+  vsll.vv v18, v14, v26
 
-  li t2, 0xa6b65e9b3ff3bf24
+  li t2, 0x2e521c15413414a1
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vx v10, v6, t2
+  vsll.vx v8, v30, t2
 
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vi v10, v18, 7
+  vsll.vi v2, v28, 6
 
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vv v6, v14, v26
+  vsll.vv v16, v12, v10
 
-  li t2, 0x12bd0d41c5536361
+  li t2, 0x48f686176df86128
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vx v10, v2, t2
+  vsll.vx v14, v22, t2
 
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vi v28, v2, 2
+  vsll.vi v8, v14, 3
 
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vv v28, v14, v4
+  vsll.vv v4, v24, v26
 
-  li t2, 0x4122c4431b333c2e
+  li t2, 0xc4ae4415975d2951
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vx v24, v14, t2
+  vsll.vx v30, v22, t2
 
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vi v4, v18, 8
+  vsll.vi v16, v22, 26
 
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vv v24, v4, v28
+  vsll.vv v16, v26, v20
 
-  li t2, 0x669188cb03c1db41
+  li t2, 0x5f47938db77c0b32
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vx v10, v12, t2
+  vsll.vx v24, v10, t2
 
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vi v30, v12, 2
+  vsll.vi v8, v4, 27
 
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vv v2, v14, v28
+  vsll.vv v12, v20, v26
 
-  li t2, 0xb1d7f2ae1173457d
+  li t2, 0x406b08bd2fff75e0
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vx v8, v14, t2
+  vsll.vx v26, v8, t2
 
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vi v4, v16, 2
+  vsll.vi v22, v30, 28
 
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vv v12, v26, v6
+  vsll.vv v12, v4, v14
 
-  li t2, 0x20db98f71ea0b2ca
+  li t2, 0x1a4af44dea40447a
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vx v24, v14, t2
+  vsll.vx v24, v28, t2
 
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vi v12, v2, -9
+  vsll.vi v8, v6, 23
 
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vv v16, v28, v22
+  vsll.vv v24, v12, v22
 
-  li t2, 0x2b4ff563796d8ba5
+  li t2, 0xd6e9928a8332f92d
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vx v24, v4, t2
+  vsll.vx v28, v6, t2
 
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vi v2, v24, -11
+  vsll.vi v22, v24, 30
 
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vv v20, v26, v24
+  vsll.vv v30, v8, v2
 
-  li t2, 0x2c6732a39f0edf84
+  li t2, 0xa80adef900f17731
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vx v18, v22, t2
+  vsll.vx v14, v10, t2
 
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vi v6, v26, -8
+  vsll.vi v24, v30, 1
 
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vv v28, v6, v24
+  vsll.vv v18, v28, v10
 
-  li t2, 0xdd4ea528353bf1dd
+  li t2, 0x01fe4d99e5a41c19
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vx v2, v8, t2
+  vsll.vx v20, v8, t2
 
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vi v6, v30, 9
+  vsll.vi v12, v26, 0
 
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vv v22, v12, v28
+  vsll.vv v8, v4, v22
 
-  li t2, 0xb7600a16294da278
+  li t2, 0xffd938cfb15181d8
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vx v14, v4, t2
+  vsll.vx v10, v18, t2
 
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vi v22, v4, -9
+  vsll.vi v6, v24, 27
 
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vv v12, v14, v20
+  vsll.vv v8, v30, v2
 
-  li t2, 0xefc2a31fc019c6bb
+  li t2, 0x7f837550e1408ca0
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vx v4, v14, t2
+  vsll.vx v2, v8, t2
 
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vi v6, v30, -5
+  vsll.vi v6, v26, 29
 
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vv v6, v16, v24
+  vsll.vv v10, v22, v2
 
-  li t2, 0x7573fca1efe7dfeb
+  li t2, 0x23c09ba8b003484e
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vx v22, v10, t2
+  vsll.vx v28, v20, t2
 
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vi v30, v10, -12
+  vsll.vi v28, v2, 8
 
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vv v14, v10, v30
+  vsll.vv v10, v6, v14
 
-  li t2, 0x21ca938da02755ba
+  li t2, 0x4da43147fd2202b3
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vx v6, v28, t2
+  vsll.vx v24, v4, t2
 
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vi v26, v24, 3
+  vsll.vi v6, v26, 25
 
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vv v12, v24, v14
+  vsll.vv v30, v12, v24
 
-  li t2, 0x5a3984a10b8f5e04
+  li t2, 0xa00c8e7826e72cc4
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vx v30, v18, t2
+  vsll.vx v24, v2, t2
 
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vi v30, v12, 6
+  vsll.vi v22, v8, 6
 
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vv v6, v26, v4
+  vsll.vv v2, v30, v4
 
-  li t2, 0x0b111ed10f05ec99
+  li t2, 0xcef14c88ca9c66a8
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vx v22, v8, t2
+  vsll.vx v8, v30, t2
 
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vi v2, v16, -14
+  vsll.vi v22, v14, 17
 
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vv v16, v10, v18
+  vsll.vv v26, v28, v18
 
-  li t2, 0x4e91cea6045bb44b
+  li t2, 0x9935878349098595
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vx v16, v14, t2
+  vsll.vx v8, v30, t2
 
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vi v28, v10, -13
+  vsll.vi v2, v28, 13
 
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vv v26, v24, v30
+  vsll.vv v10, v16, v26
 
-  li t2, 0x6f3c397fc34f6187
+  li t2, 0x188837e013305185
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vx v12, v26, t2
+  vsll.vx v24, v20, t2
 
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vi v28, v30, -7
+  vsll.vi v28, v24, 11
 
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vv v4, v12, v14
+  vsll.vv v26, v6, v22
 
-  li t2, 0x7862da8c22a4a318
+  li t2, 0x7f9f4e5ea65a71f9
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vx v30, v4, t2
+  vsll.vx v4, v24, t2
 
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vi v10, v6, -16
+  vsll.vi v8, v2, 17
 
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vv v10, v2, v14
+  vsll.vv v4, v8, v14
 
-  li t2, 0x9fca568f30f42913
+  li t2, 0x305b4d59fde1c728
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vx v28, v6, t2
+  vsll.vx v22, v2, t2
 
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vi v12, v14, 7
+  vsll.vi v18, v10, 18
 
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vv v2, v24, v12
+  vsll.vv v8, v20, v16
 
-  li t2, 0xbc4777c13dea76fd
+  li t2, 0xc386cb06d448b814
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vx v6, v14, t2
+  vsll.vx v4, v24, t2
 
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vi v16, v20, -16
+  vsll.vi v28, v4, 1
 
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vv v4, v22, v12
+  vsll.vv v22, v12, v4
 
-  li t2, 0x79b3c4599e5d79c2
+  li t2, 0x2daf90e4d8307d41
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vx v30, v8, t2
+  vsll.vx v4, v8, t2
 
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vi v24, v6, -3
+  vsll.vi v12, v22, 12
 
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vv v4, v12, v8
+  vsll.vv v2, v12, v26
 
-  li t2, 0x125e2cf613af995a
+  li t2, 0x7c89cb118670c104
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vx v6, v26, t2
+  vsll.vx v8, v12, t2
 
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vi v6, v14, -9
+  vsll.vi v8, v14, 0
 
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vv v6, v18, v8
+  vsll.vv v26, v20, v6
 
-  li t2, 0x97b1f426acb86c57
+  li t2, 0x56dbe10a99fcc778
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vx v22, v4, t2
+  vsll.vx v2, v10, t2
 
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vi v14, v24, -9
+  vsll.vi v16, v24, 30
 
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vv v28, v16, v8
+  vsll.vv v26, v30, v12
 
-  li t2, 0xbcd7587baf68cda4
+  li t2, 0xb757e25b8ed9bb6d
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vx v4, v26, t2
+  vsll.vx v30, v10, t2
 
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vi v24, v20, 0
+  vsll.vi v12, v28, 21
 
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vv v20, v8, v6
+  vsll.vv v6, v4, v12
 
-  li t2, 0xecd779b5599beeab
+  li t2, 0x3886a3ea5dda0cbc
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vx v10, v8, t2
+  vsll.vx v10, v24, t2
 
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vi v20, v18, -1
+  vsll.vi v26, v18, 8
 
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vv v2, v22, v8
+  vsll.vv v22, v16, v18
 
-  li t2, 0xec97d3f0fb95e237
+  li t2, 0x55ef31eadbcfde40
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vx v20, v28, t2
+  vsll.vx v6, v12, t2
 
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vi v14, v12, 0
+  vsll.vi v12, v22, 0
 
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vv v2, v22, v8
+  vsll.vv v12, v20, v4
 
-  li t2, 0x432ad9a0a74e0dc5
+  li t2, 0x54dd96ed1fcb01aa
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vx v30, v12, t2
+  vsll.vx v2, v12, t2
 
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vi v2, v8, 1
+  vsll.vi v16, v12, 11
 
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vv v2, v20, v8
+  vsll.vv v12, v20, v4
 
-  li t2, 0x2ef7ded6b48e64e0
+  li t2, 0x8cdfd21f98acaa35
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vx v14, v20, t2
+  vsll.vx v28, v16, t2
 
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vi v4, v2, 4
+  vsll.vi v4, v26, 11
 
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vv v20, v16, v30
+  vsll.vv v26, v2, v14
 
-  li t2, 0x118fc2cc6c9d21c8
+  li t2, 0x787b9762423aadb0
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vx v18, v8, t2
+  vsll.vx v24, v18, t2
 
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vi v24, v4, -7
+  vsll.vi v20, v14, 6
 
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vv v6, v4, v22
+  vsll.vv v4, v18, v16
 
-  li t2, 0x42be87b1f1a34041
+  li t2, 0x3a05d27ac741d454
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vx v18, v2, t2
+  vsll.vx v12, v24, t2
 
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vi v12, v26, 1
+  vsll.vi v18, v28, 9
 
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vv v28, v2, v30
+  vsll.vv v24, v26, v22
 
-  li t2, 0x7945ce8df0be8977
+  li t2, 0xee8be99f914c7c52
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vx v14, v2, t2
+  vsll.vx v12, v18, t2
 
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vi v18, v8, 8
+  vsll.vi v6, v10, 12
 
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vv v2, v20, v6
+  vsll.vv v10, v4, v22
 
-  li t2, 0x9496ba695babca21
+  li t2, 0xe5942c93e6602de5
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vx v4, v22, t2
+  vsll.vx v18, v14, t2
 
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vi v24, v26, 2
+  vsll.vi v30, v14, 16
 
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vv v30, v20, v10
+  vsll.vv v12, v30, v24
 
-  li t2, 0x01cd8ef8703ab0d5
+  li t2, 0xcbb0c2d083caa5b9
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vx v10, v22, t2
+  vsll.vx v30, v8, t2
 
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vi v22, v16, 2
+  vsll.vi v4, v30, 12
 
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vv v12, v16, v18
+  vsll.vv v12, v2, v14
 
-  li t2, 0xd8b903496be803aa
+  li t2, 0xc7d11bba4522d361
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vx v14, v6, t2
+  vsll.vx v20, v2, t2
 
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vi v12, v24, -9
+  vsll.vi v8, v24, 28
 
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vv v24, v16, v12
+  vsll.vv v8, v22, v6
 
-  li t2, 0x0cb048de65ccc63a
+  li t2, 0x9f8fde804302e488
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vx v6, v4, t2
+  vsll.vx v26, v18, t2
 
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vi v20, v14, 1
+  vsll.vi v12, v10, 29
 
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vv v10, v2, v24
+  vsll.vv v20, v4, v12
 
-  li t2, 0x7d1c7c8d425eacb8
+  li t2, 0x895fbb02b1090491
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vx v14, v10, t2
+  vsll.vx v18, v6, t2
 
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vi v26, v16, -3
+  vsll.vi v8, v12, 27
 
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vv v28, v10, v6
+  vsll.vv v18, v8, v26
 
-  li t2, 0xb307aac7d30bb870
+  li t2, 0x16fb3bd6f462310a
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vx v6, v30, t2
+  vsll.vx v14, v24, t2
 
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vi v10, v4, 11
+  vsll.vi v16, v30, 9
 
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vv v30, v8, v6
+  vsll.vv v10, v18, v4
 
-  li t2, 0xee2242469d1416cc
+  li t2, 0xa0f2757760b4f8ae
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vx v20, v30, t2
+  vsll.vx v20, v24, t2
 
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vi v22, v12, -4
+  vsll.vi v26, v2, 7
 
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vv v28, v4, v24
+  vsll.vv v12, v8, v4
 
-  li t2, 0x05bf5e1b930fe7f0
+  li t2, 0xad74e252d186a74f
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vx v30, v22, t2
+  vsll.vx v14, v2, t2
 
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vi v6, v4, -2
+  vsll.vi v10, v18, 16
 
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vv v28, v22, v10
+  vsll.vv v18, v10, v14
 
-  li t2, 0x9ba782fb25e85d5d
+  li t2, 0x3d807ff376291b11
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vx v22, v14, t2
+  vsll.vx v30, v24, t2
 
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vi v26, v4, -5
+  vsll.vi v4, v16, 13
 
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vv v4, v28, v10
+  vsll.vv v6, v2, v10
 
-  li t2, 0x008a4fa09b2144aa
+  li t2, 0x44f4496128aa7d1e
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vx v14, v24, t2
+  vsll.vx v28, v18, t2
 
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vi v4, v6, -4
+  vsll.vi v22, v2, 19
 
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vv v2, v22, v24
+  vsll.vv v18, v28, v30
 
-  li t2, 0x31abe27c1f6ff96b
+  li t2, 0x60378a3312d2e604
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vx v30, v8, t2
+  vsll.vx v14, v22, t2
 
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vi v16, v30, 9
+  vsll.vi v22, v28, 0
 
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vv v8, v20, v2
+  vsll.vv v26, v14, v30
 
-  li t2, 0x2809db5335f77c7a
+  li t2, 0x4529594b015ff67a
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vx v24, v22, t2
+  vsll.vx v26, v4, t2
 
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vi v18, v6, 8
+  vsll.vi v4, v10, 28
 
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vv v22, v28, v24
+  vsll.vv v2, v20, v8
 
-  li t2, 0xca0499b1473df91b
+  li t2, 0x0096b45c3ef3bffc
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vx v28, v4, t2
+  vsll.vx v2, v4, t2
 
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vi v14, v12, 6
+  vsll.vi v26, v30, 23
 
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vv v12, v26, v24
+  vsll.vv v26, v24, v2
 
-  li t2, 0xe7a6df8f908c9068
+  li t2, 0xfbd3cd4e700c50b4
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vx v6, v24, t2
+  vsll.vx v16, v30, t2
 
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vi v24, v6, -11
+  vsll.vi v6, v22, 9
 
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vv v22, v10, v8
+  vsll.vv v24, v10, v28
 
-  li t2, 0x5807870c9d794908
+  li t2, 0xedd49abb2e18417d
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vx v22, v12, t2
+  vsll.vx v22, v2, t2
 
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vi v22, v10, -4
+  vsll.vi v30, v10, 10
 
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vv v4, v2, v30
+  vsll.vv v22, v28, v4
 
-  li t2, 0x841ce07347148f81
+  li t2, 0xcd61b2fb7ebb54e9
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vx v18, v8, t2
+  vsll.vx v30, v24, t2
 
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vi v2, v4, -10
+  vsll.vi v4, v28, 23
 
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vv v30, v20, v26
+  vsll.vv v4, v26, v6
 
-  li t2, 0x8113d10f1f935094
+  li t2, 0xd8336620d8b60541
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vx v14, v4, t2
+  vsll.vx v26, v8, t2
 
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vi v20, v16, 8
+  vsll.vi v10, v22, 19
 
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vv v8, v30, v2
+  vsll.vv v6, v18, v2
 
-  li t2, 0x6428f0a60f0a5ce0
+  li t2, 0x9aafdf8649137fbd
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vx v20, v10, t2
+  vsll.vx v26, v18, t2
 
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vi v2, v6, 14
+  vsll.vi v20, v2, 22
 
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vv v30, v14, v20
+  vsll.vv v12, v22, v16
 
-  li t2, 0x6ac130da75edba43
+  li t2, 0x817c062467ebc518
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vx v12, v18, t2
+  vsll.vx v18, v26, t2
 
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vi v8, v16, -3
+  vsll.vi v6, v22, 1
 
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vv v24, v12, v20
+  vsll.vv v18, v4, v8
 
-  li t2, 0x78100f0b9b1b60a6
+  li t2, 0x745a54e9eaf7db49
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vx v14, v12, t2
+  vsll.vx v2, v28, t2
 
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vi v14, v20, -14
+  vsll.vi v12, v4, 27
 
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vv v18, v24, v20
+  vsll.vv v22, v10, v8
 
-  li t2, 0x9e15210b28283992
+  li t2, 0x03c3f8d7b16dba9e
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vx v28, v20, t2
+  vsll.vx v8, v22, t2
 
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vi v6, v24, 10
+  vsll.vi v26, v20, 28
 
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vv v6, v24, v2
+  vsll.vv v20, v2, v14
 
-  li t2, 0xd46d2cbe9912bb85
+  li t2, 0xd27b38ef1170a1b0
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vx v4, v10, t2
+  vsll.vx v14, v20, t2
 
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vi v4, v10, -5
+  vsll.vi v8, v12, 4
 
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vv v30, v24, v8
+  vsll.vv v16, v24, v12
 
-  li t2, 0x267d9112c6b816d9
+  li t2, 0x054087f412a8448f
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vx v26, v20, t2
+  vsll.vx v18, v22, t2
 
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vi v30, v18, -1
+  vsll.vi v24, v28, 24
 
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vv v24, v28, v18
+  vsll.vv v24, v2, v22
 
-  li t2, 0x98e3033299072ff3
+  li t2, 0x298da840db6ffed7
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vx v24, v18, t2
+  vsll.vx v26, v8, t2
 
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vi v30, v2, 6
+  vsll.vi v28, v22, 12
 
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vv v26, v10, v20
+  vsll.vv v20, v16, v8
 
-  li t2, 0xc89de303c19c6404
+  li t2, 0xc04aec0aa8da4b1d
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vx v14, v18, t2
+  vsll.vx v4, v10, t2
 
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vi v2, v8, -7
+  vsll.vi v8, v20, 2
 
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vv v6, v12, v26
+  vsll.vv v18, v12, v30
 
-  li t2, 0xf94a3a99c255c009
+  li t2, 0xd983447223736236
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vx v20, v6, t2
+  vsll.vx v16, v30, t2
 
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vi v14, v18, -8
+  vsll.vi v4, v20, 31
 
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vv v12, v24, v18
+  vsll.vv v18, v20, v12
 
-  li t2, 0x0ffe524f0391a069
+  li t2, 0x24347206845ff39d
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vx v12, v30, t2
+  vsll.vx v26, v16, t2
 
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vi v30, v10, -7
+  vsll.vi v28, v24, 28
 
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vv v6, v14, v8
+  vsll.vv v12, v18, v24
 
-  li t2, 0xd97f9856f0bd2130
+  li t2, 0xa37c8851429ed5a5
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vx v8, v10, t2
+  vsll.vx v14, v22, t2
 
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vi v18, v6, -14
+  vsll.vi v30, v14, 24
 
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vv v10, v20, v18
+  vsll.vv v22, v24, v10
 
-  li t2, 0x37d1331cd6a44658
+  li t2, 0x57bf45d261538d39
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vx v6, v16, t2
+  vsll.vx v10, v20, t2
 
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vi v20, v30, 12
+  vsll.vi v20, v8, 2
 
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vv v2, v12, v18
+  vsll.vv v2, v16, v6
 
-  li t2, 0x4ea2a805fc1906e5
+  li t2, 0xe19849f4a01beb0b
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vx v10, v12, t2
+  vsll.vx v16, v20, t2
 
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vi v6, v26, 3
+  vsll.vi v10, v30, 27
 
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vv v8, v22, v20
+  vsll.vv v30, v24, v4
 
-  li t2, 0x682805e3ba913bad
+  li t2, 0x3ba5cae568c98b3b
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vx v24, v16, t2
+  vsll.vx v26, v8, t2
 
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vi v26, v22, -4
+  vsll.vi v26, v2, 23
 
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vv v2, v30, v16
+  vsll.vv v6, v20, v18
 
-  li t2, 0x8552b62f596f6d28
+  li t2, 0x97d8bcad6b30af20
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vx v4, v14, t2
+  vsll.vx v2, v30, t2
 
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vi v4, v28, 4
+  vsll.vi v28, v2, 26
 
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vv v14, v28, v18
+  vsll.vv v12, v16, v2
 
-  li t2, 0xf18b89a3939a4f60
+  li t2, 0x8597ad31e191120c
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vx v30, v10, t2
+  vsll.vx v2, v24, t2
 
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vi v18, v4, -11
+  vsll.vi v28, v6, 21
 
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vv v16, v14, v22
+  vsll.vv v30, v20, v16
 
-  li t2, 0x088036813e83d514
+  li t2, 0x00125c7c4aa3d713
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vx v28, v18, t2
+  vsll.vx v22, v26, t2
 
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vi v22, v6, 15
+  vsll.vi v18, v10, 23
 
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vv v4, v10, v14
+  vsll.vv v4, v18, v26
 
-  li t2, 0x6f1d8e73271fc768
+  li t2, 0x5cf967815283de34
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vx v6, v24, t2
+  vsll.vx v26, v4, t2
 
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vi v14, v30, -14
+  vsll.vi v14, v2, 18
 
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vv v16, v28, v24
+  vsll.vv v10, v12, v22
 
-  li t2, 0x3c7f1bfb6315599f
+  li t2, 0x25da0fafdba3efe1
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vx v6, v12, t2
+  vsll.vx v12, v6, t2
 
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vi v16, v6, 5
+  vsll.vi v18, v2, 25
 
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vv v10, v26, v14
+  vsll.vv v14, v16, v2
 
-  li t2, 0x822e3ad1a7c0a5df
+  li t2, 0x78cafdd09a74909f
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vx v4, v6, t2
+  vsll.vx v18, v16, t2
 
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vi v22, v10, -13
+  vsll.vi v12, v20, 21
 
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vv v4, v30, v20
+  vsll.vv v20, v26, v8
 
-  li t2, 0x6cba7aaa6a708f91
+  li t2, 0x46f1c805b470727a
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vx v30, v12, t2
+  vsll.vx v16, v10, t2
 
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vi v8, v10, 5
+  vsll.vi v18, v16, 9
 
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vv v18, v6, v2
+  vsll.vv v12, v8, v30
 
-  li t2, 0xbbe82313731cebb7
+  li t2, 0xfca387111a7e85c3
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vx v20, v28, t2
+  vsll.vx v18, v20, t2
 
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vi v20, v4, -15
+  vsll.vi v30, v22, 16
 
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vv v2, v8, v16
+  vsll.vv v14, v24, v22
 
-  li t2, 0x675f76b05cb3b8a6
+  li t2, 0x2d1ac01a3920dea1
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vx v20, v4, t2
+  vsll.vx v10, v12, t2
 
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vi v18, v24, 4
+  vsll.vi v6, v20, 19
 
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vv v8, v10, v2
+  vsll.vv v30, v8, v26
 
-  li t2, 0xf5ed54c85a5a4abd
+  li t2, 0x21441a46808e169a
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vx v14, v26, t2
+  vsll.vx v30, v14, t2
 
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vi v12, v20, -3
+  vsll.vi v26, v6, 23
 
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vv v2, v6, v26
+  vsll.vv v26, v14, v20
 
-  li t2, 0xf58a359eec0b2ea3
+  li t2, 0xcfa1f5521b5938e1
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vx v20, v2, t2
+  vsll.vx v2, v4, t2
 
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vi v2, v10, -13
+  vsll.vi v6, v12, 29
 
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vv v6, v20, v2
+  vsll.vv v26, v22, v12
 
-  li t2, 0xedf57b0bed6c7b1e
+  li t2, 0xb4642bedcbd41244
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vx v28, v26, t2
+  vsll.vx v24, v16, t2
 
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vi v24, v2, -1
+  vsll.vi v22, v30, 21
 
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vv v8, v12, v20
+  vsll.vv v4, v12, v14
 
-  li t2, 0x77837f042c12306e
+  li t2, 0x86a0d718f6559e65
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vx v28, v4, t2
+  vsll.vx v18, v2, t2
 
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vi v8, v10, 6
+  vsll.vi v16, v30, 22
 
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vv v2, v20, v18
+  vsll.vv v8, v4, v24
 
-  li t2, 0x64af26ff32d6b9c9
+  li t2, 0x247a7de9591938ca
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vx v6, v28, t2
+  vsll.vx v12, v24, t2
 
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vi v28, v14, -10
+  vsll.vi v24, v26, 8
 
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vv v2, v12, v28
+  vsll.vv v12, v28, v6
 
-  li t2, 0x6cfbc1b0ee6b832f
+  li t2, 0x5ba1a099791d5612
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vx v30, v22, t2
+  vsll.vx v8, v10, t2
 
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vi v10, v18, -5
+  vsll.vi v30, v26, 13
 
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vv v22, v6, v12
+  vsll.vv v16, v20, v30
 
-  li t2, 0x70568bef4f2b6771
+  li t2, 0xe7fd9379eb0e3456
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vx v6, v14, t2
+  vsll.vx v30, v22, t2
 
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vi v2, v22, -3
+  vsll.vi v26, v6, 30
 
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vv v4, v14, v6
+  vsll.vv v24, v12, v22
 
-  li t2, 0x0caa1ff8ce474549
+  li t2, 0x9f3c69dda6505faa
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vx v20, v2, t2
+  vsll.vx v20, v16, t2
 
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vi v24, v2, -15
+  vsll.vi v20, v18, 29
 
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vv v2, v4, v10
+  vsll.vv v16, v14, v2
 
-  li t2, 0xc5bf7ea5fc2532b8
+  li t2, 0xaf9983210867b29d
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vx v10, v6, t2
+  vsll.vx v4, v28, t2
 
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vi v4, v22, 3
+  vsll.vi v18, v26, 12
 
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vv v20, v10, v24
+  vsll.vv v30, v10, v12
 
-  li t2, 0xa8239a5adf509469
+  li t2, 0x227f3147b909a41f
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vx v4, v16, t2
+  vsll.vx v18, v4, t2
 
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vi v14, v8, -12
+  vsll.vi v20, v24, 7
 
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vv v2, v22, v24
+  vsll.vv v8, v22, v28
 
-  li t2, 0xfc43c77aff4b8f44
+  li t2, 0x16bbf6edf28b13f6
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vx v4, v26, t2
+  vsll.vx v22, v10, t2
 
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vi v16, v6, -9
+  vsll.vi v24, v12, 13
 
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vv v6, v2, v16
+  vsll.vv v8, v2, v12
 
-  li t2, 0x18c6ec159466b036
+  li t2, 0x1b2c554d97fcaab5
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vx v26, v16, t2
+  vsll.vx v24, v22, t2
 
   vsetvli t1, t0, e16, m2, ta, ma
-  vand.vi v4, v8, 8
+  vsll.vi v10, v22, 6
 
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vv v16, v8, v12
+  vsll.vv v12, v4, v20
 
-  li t2, 0x4c97d76ce8f03429
+  li t2, 0x5982b2a17cb7d749
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vx v28, v16, t2
+  vsll.vx v12, v20, t2
 
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vi v4, v24, -3
+  vsll.vi v4, v8, 28
 
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vv v28, v16, v4
+  vsll.vv v12, v20, v28
 
-  li t2, 0x4e12a22df57995c2
+  li t2, 0x7abe0317262914d2
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vx v24, v20, t2
+  vsll.vx v12, v24, t2
 
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vi v4, v24, -2
+  vsll.vi v24, v20, 8
 
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vv v12, v8, v4
+  vsll.vv v24, v16, v4
 
-  li t2, 0x2d20a725ada8c22f
+  li t2, 0x1f0aef8d12f7dff6
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vx v4, v8, t2
+  vsll.vx v16, v28, t2
 
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vi v4, v20, -7
+  vsll.vi v16, v4, 21
 
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vv v16, v28, v8
+  vsll.vv v4, v20, v16
 
-  li t2, 0x7a407e5409e4ab9c
+  li t2, 0x6d47cf08bbcb7cc6
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vx v4, v12, t2
+  vsll.vx v16, v28, t2
 
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vi v24, v28, 12
+  vsll.vi v16, v28, 10
 
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vv v24, v20, v28
+  vsll.vv v20, v8, v12
 
-  li t2, 0xe48fca8a675b96f9
+  li t2, 0x22ea223a1c692864
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vx v8, v20, t2
+  vsll.vx v12, v4, t2
 
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vi v24, v4, -1
+  vsll.vi v12, v8, 0
 
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vv v4, v16, v28
+  vsll.vv v28, v24, v16
 
-  li t2, 0x7cade9b65af472c1
+  li t2, 0x478ebd4824224bdf
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vx v20, v4, t2
+  vsll.vx v20, v28, t2
 
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vi v28, v8, 2
+  vsll.vi v4, v8, 4
 
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vv v24, v20, v8
+  vsll.vv v20, v4, v24
 
-  li t2, 0x46c65ff72b70194b
+  li t2, 0x855195c0d7b362dc
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vx v20, v12, t2
+  vsll.vx v8, v28, t2
 
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vi v12, v4, -10
+  vsll.vi v8, v12, 6
 
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vv v20, v8, v28
+  vsll.vv v4, v24, v28
 
-  li t2, 0x6a0dbb784553199d
+  li t2, 0x5c4b13aa32e6c33a
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vx v20, v12, t2
+  vsll.vx v8, v12, t2
 
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vi v4, v12, 7
+  vsll.vi v28, v4, 6
 
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vv v28, v20, v8
+  vsll.vv v12, v16, v28
 
-  li t2, 0x371dc28561e5f3d5
+  li t2, 0x741ca0f5d9c4f6fe
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vx v12, v4, t2
+  vsll.vx v28, v20, t2
 
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vi v20, v4, -11
+  vsll.vi v4, v24, 28
 
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vv v8, v12, v16
+  vsll.vv v16, v12, v28
 
-  li t2, 0x3b77c6ef67aa2a50
+  li t2, 0x8197b5f46b5669b7
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vx v28, v8, t2
+  vsll.vx v16, v20, t2
 
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vi v20, v28, 15
+  vsll.vi v8, v28, 7
 
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vv v24, v20, v8
+  vsll.vv v28, v4, v12
 
-  li t2, 0xacb35a697ba3c501
+  li t2, 0x376d5bebe90093b5
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vx v4, v24, t2
+  vsll.vx v8, v12, t2
 
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vi v12, v16, -11
+  vsll.vi v16, v28, 17
 
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vv v20, v4, v24
+  vsll.vv v16, v20, v8
 
-  li t2, 0x92c1da954540c30f
+  li t2, 0x5a00183998e796a7
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vx v4, v8, t2
+  vsll.vx v4, v8, t2
 
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vi v4, v20, 14
+  vsll.vi v12, v4, 4
 
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vv v12, v16, v4
+  vsll.vv v20, v8, v4
 
-  li t2, 0xbf4285147f3a990f
+  li t2, 0x77b7981273609d84
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vx v12, v20, t2
+  vsll.vx v12, v24, t2
 
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vi v4, v16, 12
+  vsll.vi v4, v16, 2
 
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vv v20, v28, v12
+  vsll.vv v20, v12, v4
 
-  li t2, 0x7e3723e082087cab
+  li t2, 0x708b2856c5e6aae7
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vx v28, v4, t2
+  vsll.vx v4, v12, t2
 
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vi v12, v20, -12
+  vsll.vi v12, v16, 13
 
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vv v8, v24, v20
+  vsll.vv v12, v16, v24
 
-  li t2, 0x2853c9fae1903a42
+  li t2, 0xe2b64763c8f2eef5
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vx v4, v24, t2
+  vsll.vx v12, v4, t2
 
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vi v16, v24, -8
+  vsll.vi v20, v8, 7
 
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vv v16, v12, v4
+  vsll.vv v16, v8, v20
 
-  li t2, 0x15073c15b2cc0cb1
+  li t2, 0xdb72171c1245bf13
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vx v16, v8, t2
+  vsll.vx v28, v20, t2
 
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vi v4, v24, 7
+  vsll.vi v16, v24, 16
 
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vv v8, v12, v28
+  vsll.vv v28, v24, v12
 
-  li t2, 0x8e370c571055a96e
+  li t2, 0x51c210dfcb7a75cb
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vx v4, v8, t2
+  vsll.vx v24, v20, t2
 
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vi v16, v20, 7
+  vsll.vi v4, v12, 28
 
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vv v24, v20, v16
+  vsll.vv v8, v20, v12
 
-  li t2, 0x56433b9c044c40c0
+  li t2, 0x6d78ef93d631df77
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vx v12, v28, t2
+  vsll.vx v4, v12, t2
 
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vi v20, v12, -14
+  vsll.vi v28, v24, 15
 
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vv v12, v8, v20
+  vsll.vv v12, v16, v4
 
-  li t2, 0x41b7892765faa70e
+  li t2, 0x363359556f8d76c0
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vx v16, v12, t2
+  vsll.vx v4, v12, t2
 
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vi v24, v4, 1
+  vsll.vi v28, v20, 7
 
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vv v20, v4, v8
+  vsll.vv v8, v28, v24
 
-  li t2, 0x08b79577ab7aea90
+  li t2, 0x1752ae6b253a59bc
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vx v12, v8, t2
+  vsll.vx v4, v16, t2
 
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vi v20, v8, -14
+  vsll.vi v8, v20, 23
 
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vv v28, v12, v24
+  vsll.vv v4, v12, v28
 
-  li t2, 0x85a0bd29b09394a0
+  li t2, 0xb16e2a4962eb3c44
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vx v28, v24, t2
+  vsll.vx v28, v4, t2
 
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vi v8, v16, 4
+  vsll.vi v4, v16, 18
 
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vv v8, v24, v28
+  vsll.vv v28, v12, v16
 
-  li t2, 0x0356d0d1e763f521
+  li t2, 0xd5bf11a5fa0149da
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vx v20, v16, t2
+  vsll.vx v24, v12, t2
 
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vi v4, v20, -12
+  vsll.vi v16, v20, 31
 
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vv v16, v12, v24
+  vsll.vv v24, v16, v28
 
-  li t2, 0x15601beb4bbee764
+  li t2, 0xfe5bbd1625316639
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vx v8, v24, t2
+  vsll.vx v12, v28, t2
 
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vi v20, v12, -10
+  vsll.vi v8, v16, 27
 
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vv v16, v24, v12
+  vsll.vv v24, v4, v28
 
-  li t2, 0xa8b475aa02a9879c
+  li t2, 0x6d3e98c97fb447bf
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vx v28, v12, t2
+  vsll.vx v12, v20, t2
 
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vi v12, v24, 9
+  vsll.vi v8, v28, 17
 
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vv v20, v28, v8
+  vsll.vv v4, v28, v8
 
-  li t2, 0xc6f84a1ead96614b
+  li t2, 0xe72ff98d912df3ad
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vx v8, v12, t2
+  vsll.vx v4, v8, t2
 
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vi v4, v20, -9
+  vsll.vi v20, v12, 29
 
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vv v4, v20, v12
+  vsll.vv v8, v16, v24
 
-  li t2, 0x23abc373a0d023d4
+  li t2, 0x784d28ef00f2c851
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vx v24, v8, t2
+  vsll.vx v8, v28, t2
 
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vi v24, v12, 15
+  vsll.vi v16, v24, 22
 
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vv v20, v16, v28
+  vsll.vv v24, v4, v16
 
-  li t2, 0xe9d47c19b41e074d
+  li t2, 0x126fc27648f6bc32
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vx v20, v16, t2
+  vsll.vx v12, v20, t2
 
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vi v4, v28, 3
+  vsll.vi v4, v28, 6
 
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vv v4, v12, v16
+  vsll.vv v28, v12, v20
 
-  li t2, 0xf3e7d86ec031ee29
+  li t2, 0xbec0dad1a753cc7d
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vx v28, v12, t2
+  vsll.vx v8, v12, t2
 
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vi v24, v28, 5
+  vsll.vi v12, v8, 13
 
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vv v24, v4, v28
+  vsll.vv v16, v20, v12
 
-  li t2, 0x9573bccfc8a25a76
+  li t2, 0x3de5f83ab0235ed3
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vx v24, v16, t2
+  vsll.vx v16, v4, t2
 
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vi v12, v16, -16
+  vsll.vi v28, v24, 3
 
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vv v12, v20, v8
+  vsll.vv v12, v8, v16
 
-  li t2, 0x454255ccb607cf9e
+  li t2, 0xdd498d59e1444520
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vx v8, v4, t2
+  vsll.vx v8, v24, t2
 
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vi v24, v12, 11
+  vsll.vi v4, v20, 22
 
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vv v8, v4, v12
+  vsll.vv v28, v12, v4
 
-  li t2, 0x5b7f45af36f389ad
+  li t2, 0x741515da9d407876
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vx v16, v8, t2
+  vsll.vx v16, v8, t2
 
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vi v24, v12, -11
+  vsll.vi v8, v28, 11
 
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vv v16, v20, v4
+  vsll.vv v16, v20, v28
 
-  li t2, 0xb5ec9617c8ac2736
+  li t2, 0x07a700a558ef2ffe
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vx v4, v8, t2
+  vsll.vx v16, v4, t2
 
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vi v24, v4, 10
+  vsll.vi v16, v12, 29
 
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vv v28, v4, v20
+  vsll.vv v24, v28, v8
 
-  li t2, 0x10b2b127d38a51ce
+  li t2, 0x9350e6ca7977408e
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vx v12, v4, t2
+  vsll.vx v4, v28, t2
 
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vi v20, v8, 15
+  vsll.vi v20, v8, 18
 
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vv v28, v16, v4
+  vsll.vv v8, v12, v24
 
-  li t2, 0x5e58aa59bd3fa5b3
+  li t2, 0xed142599099a063f
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vx v8, v20, t2
+  vsll.vx v24, v28, t2
 
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vi v16, v12, -7
+  vsll.vi v28, v16, 10
 
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vv v20, v4, v28
+  vsll.vv v8, v16, v24
 
-  li t2, 0x62712f71bc47ecb7
+  li t2, 0xb60e183021c68990
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vx v28, v24, t2
+  vsll.vx v24, v8, t2
 
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vi v12, v8, 14
+  vsll.vi v8, v28, 7
 
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vv v28, v8, v20
+  vsll.vv v16, v4, v28
 
-  li t2, 0x88417ca1f2f1cb7d
+  li t2, 0x17db2b08642e393b
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vx v12, v28, t2
+  vsll.vx v8, v16, t2
 
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vi v16, v4, -1
+  vsll.vi v24, v16, 1
 
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vv v4, v20, v24
+  vsll.vv v4, v12, v24
 
-  li t2, 0xd906ecdcc89db033
+  li t2, 0x2b58b14a77c25c5f
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vx v4, v8, t2
+  vsll.vx v4, v16, t2
 
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vi v24, v20, 3
+  vsll.vi v4, v16, 18
 
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vv v16, v24, v8
+  vsll.vv v4, v8, v24
 
-  li t2, 0xab3b78cf167db051
+  li t2, 0xf86c9729858de360
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vx v16, v4, t2
+  vsll.vx v12, v4, t2
 
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vi v28, v16, 0
+  vsll.vi v24, v8, 12
 
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vv v12, v20, v16
+  vsll.vv v4, v28, v12
 
-  li t2, 0x949db4feb0560284
+  li t2, 0x796a5af367790cb5
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vx v4, v16, t2
+  vsll.vx v4, v20, t2
 
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vi v16, v20, 12
+  vsll.vi v4, v28, 2
 
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vv v16, v20, v4
+  vsll.vv v8, v20, v24
 
-  li t2, 0xae71b65483f2291d
+  li t2, 0x69d6ec2d0a5f2829
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vx v4, v16, t2
+  vsll.vx v8, v20, t2
 
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vi v16, v4, 1
+  vsll.vi v12, v20, 28
 
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vv v28, v12, v20
+  vsll.vv v24, v16, v20
 
-  li t2, 0x2efc9334b0fd4aa7
+  li t2, 0x349cc39869883855
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vx v28, v4, t2
+  vsll.vx v12, v8, t2
 
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vi v4, v20, -14
+  vsll.vi v4, v20, 12
 
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vv v28, v8, v20
+  vsll.vv v4, v20, v24
 
-  li t2, 0xbaf0622c8b2e6bd1
+  li t2, 0x9c6543b19e42fede
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vx v20, v12, t2
+  vsll.vx v8, v12, t2
 
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vi v12, v16, 0
+  vsll.vi v4, v16, 17
 
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vv v24, v8, v20
+  vsll.vv v8, v4, v16
 
-  li t2, 0xf269b3a1efb25326
+  li t2, 0xb96b7a334ad4a52e
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vx v28, v16, t2
+  vsll.vx v20, v28, t2
 
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vi v28, v8, -6
+  vsll.vi v28, v4, 12
 
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vv v16, v28, v24
+  vsll.vv v16, v24, v8
 
-  li t2, 0x5cba3949b47bfe09
+  li t2, 0x67f3604642c1dccd
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vx v20, v4, t2
+  vsll.vx v12, v16, t2
 
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vi v16, v24, -4
+  vsll.vi v8, v20, 5
 
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vv v12, v16, v28
+  vsll.vv v20, v16, v12
 
-  li t2, 0x59cec641c09525d1
+  li t2, 0xab512dde0b3e3945
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vx v12, v20, t2
+  vsll.vx v20, v8, t2
 
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vi v8, v24, 2
+  vsll.vi v16, v8, 15
 
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vv v8, v16, v20
+  vsll.vv v20, v4, v24
 
-  li t2, 0xfe6c1776cca7996d
+  li t2, 0xd8103c52a7b56899
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vx v24, v4, t2
+  vsll.vx v16, v28, t2
 
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vi v12, v28, 6
+  vsll.vi v20, v12, 24
 
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vv v8, v12, v4
+  vsll.vv v12, v16, v20
 
-  li t2, 0x6f0e711ae7f2e7d4
+  li t2, 0xfd2bd1856b21ef13
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vx v28, v12, t2
+  vsll.vx v16, v24, t2
 
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vi v24, v16, 4
+  vsll.vi v20, v28, 20
 
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vv v8, v4, v12
+  vsll.vv v28, v8, v16
 
-  li t2, 0x67ae764f419e4d2c
+  li t2, 0xb47df9eb48b11971
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vx v20, v24, t2
+  vsll.vx v20, v4, t2
 
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vi v20, v16, 13
+  vsll.vi v28, v12, 30
 
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vv v4, v20, v12
+  vsll.vv v8, v20, v24
 
-  li t2, 0xde329fa1e512fdb1
+  li t2, 0x53404619c91d88ae
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vx v12, v24, t2
+  vsll.vx v24, v12, t2
 
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vi v20, v4, 13
+  vsll.vi v24, v8, 2
 
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vv v16, v28, v20
+  vsll.vv v12, v20, v28
 
-  li t2, 0x495aaa622601a660
+  li t2, 0x786638ebc8e1ded7
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vx v20, v24, t2
+  vsll.vx v16, v24, t2
 
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vi v28, v4, 14
+  vsll.vi v16, v8, 18
 
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vv v24, v4, v12
+  vsll.vv v24, v4, v8
 
-  li t2, 0xc09568c5a308e027
+  li t2, 0xaf0adbbaa67f1661
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vx v4, v8, t2
+  vsll.vx v12, v8, t2
 
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vi v12, v8, 12
+  vsll.vi v16, v20, 27
 
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vv v24, v12, v28
+  vsll.vv v8, v24, v20
 
-  li t2, 0x9aa81934676fa04d
+  li t2, 0x6f5a7851fdc44919
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vx v24, v28, t2
+  vsll.vx v24, v28, t2
 
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vi v4, v28, -11
+  vsll.vi v12, v8, 0
 
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vv v24, v8, v16
+  vsll.vv v28, v24, v8
 
-  li t2, 0xa806b85c4d2a303f
+  li t2, 0xbe747138a2f054d9
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vx v4, v12, t2
+  vsll.vx v4, v28, t2
 
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vi v12, v16, 14
+  vsll.vi v4, v28, 2
 
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vv v20, v16, v4
+  vsll.vv v8, v20, v24
 
-  li t2, 0x68bab745d8bfe574
+  li t2, 0x0691498299af4973
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vx v8, v28, t2
+  vsll.vx v28, v8, t2
 
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vi v16, v8, -4
+  vsll.vi v4, v24, 2
 
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vv v28, v4, v8
+  vsll.vv v24, v8, v4
 
-  li t2, 0xa1abd5d1964daca3
+  li t2, 0xe434aaa3530ed743
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vx v8, v20, t2
+  vsll.vx v20, v4, t2
 
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vi v24, v8, 2
+  vsll.vi v4, v8, 10
 
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vv v16, v12, v24
+  vsll.vv v12, v4, v16
 
-  li t2, 0xcc6beee63f860937
+  li t2, 0x056d62a828a76ed4
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vx v8, v24, t2
+  vsll.vx v28, v16, t2
 
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vi v4, v28, -8
+  vsll.vi v12, v16, 12
 
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vv v24, v4, v8
+  vsll.vv v20, v12, v4
 
-  li t2, 0x190d3d0781ee45c9
+  li t2, 0x8ba0de06df0a798e
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vx v28, v4, t2
+  vsll.vx v20, v24, t2
 
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vi v8, v4, 14
+  vsll.vi v12, v8, 12
 
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vv v20, v28, v16
+  vsll.vv v28, v4, v8
 
-  li t2, 0x874573474998afa6
+  li t2, 0x11c652e688fa91ce
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vx v12, v4, t2
+  vsll.vx v24, v20, t2
 
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vi v24, v16, -15
+  vsll.vi v8, v4, 10
 
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vv v12, v24, v20
+  vsll.vv v8, v16, v28
 
-  li t2, 0x7fde535ea2584a3c
+  li t2, 0x8e214c5439e5f356
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vx v4, v20, t2
+  vsll.vx v20, v24, t2
 
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vi v4, v12, 0
+  vsll.vi v16, v8, 29
 
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vv v28, v4, v8
+  vsll.vv v12, v8, v28
 
-  li t2, 0xc8ae75c485fc231a
+  li t2, 0x1679c17373a8a465
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vx v24, v4, t2
+  vsll.vx v12, v20, t2
 
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vi v20, v24, 2
+  vsll.vi v20, v28, 0
 
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vv v12, v20, v24
+  vsll.vv v8, v24, v20
 
-  li t2, 0x2aaccdf26629fb40
+  li t2, 0xbf4ccbc84ddbcdc6
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vx v12, v4, t2
+  vsll.vx v16, v20, t2
 
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vi v16, v28, 11
+  vsll.vi v12, v16, 22
 
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vv v20, v4, v16
+  vsll.vv v16, v8, v4
 
-  li t2, 0x68b2cd853c4d8d50
+  li t2, 0xe57cc5a13052400f
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vx v12, v16, t2
+  vsll.vx v4, v24, t2
 
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vi v12, v24, 1
+  vsll.vi v12, v4, 11
 
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vv v4, v12, v16
+  vsll.vv v24, v8, v4
 
-  li t2, 0xa7699aa7541e7ece
+  li t2, 0x15eee86327b03bbc
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vx v24, v28, t2
+  vsll.vx v28, v24, t2
 
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vi v20, v4, 11
+  vsll.vi v28, v24, 8
 
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vv v20, v24, v4
+  vsll.vv v16, v8, v20
 
-  li t2, 0xebdffc1595972a0a
+  li t2, 0xf7035669acfaf1cd
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vx v20, v16, t2
+  vsll.vx v12, v20, t2
 
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vi v12, v28, -15
+  vsll.vi v4, v16, 23
 
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vv v20, v4, v24
+  vsll.vv v8, v24, v12
 
-  li t2, 0x8a779dc36ce517ad
+  li t2, 0xb853f0c6cdbd0b38
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vx v24, v20, t2
+  vsll.vx v20, v8, t2
 
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vi v16, v24, 0
+  vsll.vi v4, v16, 4
 
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vv v16, v28, v12
+  vsll.vv v4, v16, v12
 
-  li t2, 0x72a9a289e724307e
+  li t2, 0x364a5c33b1c86470
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vx v20, v28, t2
+  vsll.vx v20, v28, t2
 
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vi v28, v12, -5
+  vsll.vi v20, v4, 9
 
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vv v12, v20, v8
+  vsll.vv v16, v4, v24
 
-  li t2, 0x8d1e28d3cb7343e3
+  li t2, 0xdb1e09d40b3fb8ab
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vx v16, v28, t2
+  vsll.vx v24, v28, t2
 
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vi v16, v8, 7
+  vsll.vi v16, v24, 6
 
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vv v8, v4, v24
+  vsll.vv v12, v20, v4
 
-  li t2, 0xb13090cf15087295
+  li t2, 0x427ce3fc0a9b65f2
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vx v12, v8, t2
+  vsll.vx v12, v28, t2
 
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vi v20, v24, -12
+  vsll.vi v16, v20, 17
 
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vv v12, v24, v28
+  vsll.vv v8, v20, v16
 
-  li t2, 0xd1f29e09f1ae38f9
+  li t2, 0xf70e48a6a69729aa
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vx v24, v4, t2
+  vsll.vx v28, v12, t2
 
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vi v16, v4, -6
+  vsll.vi v24, v20, 31
 
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vv v8, v4, v28
+  vsll.vv v12, v20, v4
 
-  li t2, 0xeebf9416c4cc9574
+  li t2, 0x4dd4cac16ebb2fb2
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vx v20, v4, t2
+  vsll.vx v12, v16, t2
 
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vi v28, v20, 6
+  vsll.vi v4, v20, 26
 
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vv v8, v24, v16
+  vsll.vv v12, v20, v28
 
-  li t2, 0x6ab5632fd24e20f7
+  li t2, 0x35dea044cd6617c1
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vx v4, v24, t2
+  vsll.vx v16, v8, t2
 
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vi v8, v4, -15
+  vsll.vi v12, v4, 9
 
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vv v8, v20, v4
+  vsll.vv v4, v16, v12
 
-  li t2, 0xaed91b8b00e9fdae
+  li t2, 0x7e58b1b45816ae6a
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vx v4, v8, t2
+  vsll.vx v28, v8, t2
 
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vi v16, v20, 8
+  vsll.vi v24, v8, 29
 
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vv v8, v20, v24
+  vsll.vv v16, v12, v20
 
-  li t2, 0xc5ab2495e598b78f
+  li t2, 0xccf604bb9216e5bc
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vx v16, v28, t2
+  vsll.vx v4, v20, t2
 
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vi v24, v4, 10
+  vsll.vi v8, v16, 31
 
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vv v8, v28, v12
+  vsll.vv v24, v8, v20
 
-  li t2, 0x78c60e1cd0bf0ab5
+  li t2, 0xb0bc78f974bdb950
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vx v12, v4, t2
+  vsll.vx v20, v24, t2
 
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vi v12, v20, -1
+  vsll.vi v12, v8, 28
 
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vv v16, v12, v20
+  vsll.vv v16, v12, v8
 
-  li t2, 0x0862ac94d59aa31c
+  li t2, 0xb1fb00f6cf2eb03d
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vx v8, v16, t2
+  vsll.vx v8, v4, t2
 
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vi v20, v24, -9
+  vsll.vi v20, v8, 12
 
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vv v24, v16, v4
+  vsll.vv v28, v12, v16
 
-  li t2, 0xbcfd56f5b59a170d
+  li t2, 0xb01d1006515bb07f
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vx v24, v12, t2
+  vsll.vx v24, v16, t2
 
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vi v4, v8, -14
+  vsll.vi v4, v16, 15
 
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vv v12, v20, v8
+  vsll.vv v16, v28, v24
 
-  li t2, 0x056fe2fef0d0af06
+  li t2, 0x10a81f917bd9ace2
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vx v20, v12, t2
+  vsll.vx v16, v24, t2
 
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vi v16, v20, -9
+  vsll.vi v4, v28, 20
 
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vv v16, v28, v4
+  vsll.vv v16, v8, v24
 
-  li t2, 0x08e00f5bb61ffa55
+  li t2, 0xaa64aec3422d9f3f
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vx v28, v16, t2
+  vsll.vx v24, v16, t2
 
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vi v20, v12, 11
+  vsll.vi v4, v24, 24
 
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vv v20, v12, v16
+  vsll.vv v24, v20, v28
 
-  li t2, 0xefd641485af05854
+  li t2, 0x19d96947d5a52264
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vx v24, v28, t2
+  vsll.vx v28, v24, t2
 
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vi v16, v4, -11
+  vsll.vi v28, v4, 4
 
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vv v28, v12, v20
+  vsll.vv v8, v4, v24
 
-  li t2, 0xc9774ef6f271103d
+  li t2, 0xd5f697ea769a1ac6
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vx v20, v4, t2
+  vsll.vx v8, v28, t2
 
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vi v12, v8, 5
+  vsll.vi v28, v4, 29
 
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vv v24, v8, v12
+  vsll.vv v4, v12, v16
 
-  li t2, 0x196f6a2f48f2c0ef
+  li t2, 0xf2d5a8b104be9059
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vx v16, v24, t2
+  vsll.vx v28, v8, t2
 
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vi v28, v12, 9
+  vsll.vi v8, v12, 5
 
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vv v4, v16, v12
+  vsll.vv v8, v20, v12
 
-  li t2, 0x43c3e02abef8e237
+  li t2, 0x4a4bc250ea7faf90
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vx v24, v8, t2
+  vsll.vx v24, v20, t2
 
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vi v12, v8, 0
+  vsll.vi v8, v4, 8
 
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vv v20, v8, v16
+  vsll.vv v8, v16, v12
 
-  li t2, 0x7d16b6e2cd88499b
+  li t2, 0x52806b91f3b73996
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vx v12, v20, t2
+  vsll.vx v24, v4, t2
 
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vi v8, v4, -12
+  vsll.vi v12, v8, 2
 
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vv v8, v28, v16
+  vsll.vv v16, v20, v8
 
-  li t2, 0xa8e6916a25aca1f4
+  li t2, 0x6b9553b0043f1cca
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vx v4, v28, t2
+  vsll.vx v4, v8, t2
 
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vi v24, v8, 6
+  vsll.vi v8, v4, 26
 
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vv v4, v8, v16
+  vsll.vv v20, v16, v24
 
-  li t2, 0x38af42b16767c368
+  li t2, 0xa76dc9c5302ea275
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vx v16, v20, t2
+  vsll.vx v8, v28, t2
 
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vi v16, v20, 9
+  vsll.vi v24, v12, 2
 
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vv v20, v12, v24
+  vsll.vv v8, v24, v28
 
-  li t2, 0xf36b8d5ca641f1eb
+  li t2, 0xb6ecdaaaaa57dcbd
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vx v16, v20, t2
+  vsll.vx v24, v4, t2
 
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vi v20, v16, 12
+  vsll.vi v20, v16, 25
 
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vv v24, v20, v12
+  vsll.vv v12, v28, v20
 
-  li t2, 0x90094edcec732e60
+  li t2, 0xa62413926aaf9ce8
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vx v12, v16, t2
+  vsll.vx v12, v28, t2
 
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vi v12, v20, -10
+  vsll.vi v24, v20, 14
 
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vv v16, v12, v20
+  vsll.vv v28, v16, v12
 
-  li t2, 0xc9b567e89d0138e2
+  li t2, 0x84061224badd10f2
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vx v20, v4, t2
+  vsll.vx v20, v24, t2
 
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vi v12, v4, 5
+  vsll.vi v12, v8, 11
 
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vv v8, v16, v24
+  vsll.vv v24, v20, v4
 
-  li t2, 0xfc2a2b13af59767e
+  li t2, 0xd3aaeac0df1dc041
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vx v24, v20, t2
+  vsll.vx v20, v8, t2
 
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vi v4, v12, 9
+  vsll.vi v12, v28, 1
 
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vv v12, v20, v28
+  vsll.vv v8, v20, v28
 
-  li t2, 0xf51eb843a7491638
+  li t2, 0xadd4a300dc5ce800
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vx v28, v8, t2
+  vsll.vx v8, v12, t2
 
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vi v4, v28, -13
+  vsll.vi v4, v20, 14
 
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vv v8, v16, v24
+  vsll.vv v28, v8, v12
 
-  li t2, 0x32f1e9836f2befef
+  li t2, 0x629537d23e5b9ec6
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vx v20, v4, t2
+  vsll.vx v12, v24, t2
 
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vi v4, v12, -16
+  vsll.vi v8, v4, 9
 
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vv v16, v20, v8
+  vsll.vv v20, v4, v8
 
-  li t2, 0x030b2b9e1c174649
+  li t2, 0x4b0e11fe4e71274c
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vx v8, v16, t2
+  vsll.vx v4, v12, t2
 
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vi v12, v20, 15
+  vsll.vi v28, v4, 19
 
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vv v16, v12, v4
+  vsll.vv v28, v16, v12
 
-  li t2, 0xff8b60f05531b798
+  li t2, 0xafe8e2d23f3e07a8
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vx v4, v8, t2
+  vsll.vx v8, v20, t2
 
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vi v4, v24, -3
+  vsll.vi v8, v28, 6
 
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vv v24, v28, v8
+  vsll.vv v4, v24, v8
 
-  li t2, 0x0f78603bc82aaed3
+  li t2, 0x9adb874ed585cfcd
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vx v4, v8, t2
+  vsll.vx v28, v12, t2
 
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vi v28, v8, 4
+  vsll.vi v16, v24, 3
 
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vv v8, v20, v28
+  vsll.vv v16, v28, v12
 
-  li t2, 0xdc36ccfe0c9ddebf
+  li t2, 0xfd68f07f04151fdd
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vx v8, v28, t2
+  vsll.vx v12, v20, t2
 
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vi v12, v8, 9
+  vsll.vi v28, v4, 24
 
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vv v4, v24, v16
+  vsll.vv v28, v24, v16
 
-  li t2, 0x8cfb2de1c667d7d1
+  li t2, 0xdf79e494170c34be
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vx v4, v16, t2
+  vsll.vx v4, v24, t2
 
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vi v28, v8, -12
+  vsll.vi v28, v20, 13
 
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vv v12, v28, v8
+  vsll.vv v24, v8, v20
 
-  li t2, 0xde014f84fcf923ea
+  li t2, 0xaeeaf00387ff9aed
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vx v24, v8, t2
+  vsll.vx v8, v4, t2
 
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vi v20, v28, 9
+  vsll.vi v16, v20, 16
 
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vv v12, v8, v16
+  vsll.vv v28, v4, v16
 
-  li t2, 0xeffe0b7e88a82694
+  li t2, 0xceec46acd983ab3b
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vx v16, v20, t2
+  vsll.vx v16, v8, t2
 
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vi v16, v24, -16
+  vsll.vi v16, v20, 4
 
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vv v12, v8, v4
+  vsll.vv v8, v16, v4
 
-  li t2, 0x78e2acbb627e4120
+  li t2, 0xbe64c13e23b4e988
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vx v8, v12, t2
+  vsll.vx v4, v12, t2
 
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vi v20, v24, -16
+  vsll.vi v4, v16, 21
 
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vv v24, v8, v16
+  vsll.vv v28, v8, v16
 
-  li t2, 0x38c0d0a7a8f54a15
+  li t2, 0x0d88e6c641545aa4
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vx v8, v16, t2
+  vsll.vx v12, v8, t2
 
   vsetvli t1, t0, e16, m4, ta, ma
-  vand.vi v20, v24, 12
+  vsll.vi v28, v16, 18
 
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vv v24, v8, v16
+  vsll.vv v8, v16, v24
 
-  li t2, 0x380bd27d1b7b908e
+  li t2, 0xc0d5b98a686c6cfa
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vx v8, v24, t2
+  vsll.vx v24, v16, t2
 
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vi v16, v8, 11
+  vsll.vi v24, v8, 12
 
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vv v16, v8, v24
+  vsll.vv v8, v24, v16
 
-  li t2, 0xb530f76cfb7d3c57
+  li t2, 0x16d996b8eba24ce8
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vx v24, v8, t2
+  vsll.vx v16, v24, t2
 
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vi v24, v16, -2
+  vsll.vi v24, v8, 28
 
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vv v24, v8, v16
+  vsll.vv v16, v8, v24
 
-  li t2, 0x42093a883d070588
+  li t2, 0xa040fd4f63c2faf2
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vx v8, v24, t2
+  vsll.vx v16, v24, t2
 
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vi v8, v16, -6
+  vsll.vi v16, v8, 3
 
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vv v8, v24, v16
+  vsll.vv v24, v16, v8
 
-  li t2, 0xc9fe7b3a67a82b26
+  li t2, 0x6ce5c4c6c4452051
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vx v8, v24, t2
+  vsll.vx v16, v8, t2
 
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vi v8, v16, 5
+  vsll.vi v24, v16, 0
 
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vv v16, v24, v8
+  vsll.vv v8, v24, v16
 
-  li t2, 0xede07346dcd834cb
+  li t2, 0xe20901cee733a677
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vx v16, v8, t2
+  vsll.vx v8, v16, t2
 
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vi v16, v24, -15
+  vsll.vi v16, v24, 7
 
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vv v8, v16, v24
+  vsll.vv v8, v16, v24
 
-  li t2, 0x21ddb3b7c9fd53c4
+  li t2, 0xefba834e7a1b4b2c
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vx v8, v16, t2
+  vsll.vx v8, v24, t2
 
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vi v16, v8, -16
+  vsll.vi v24, v8, 11
 
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vv v24, v8, v16
+  vsll.vv v8, v16, v24
 
-  li t2, 0x5a9f124dffed77e3
+  li t2, 0x44854fba796429b2
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vx v8, v16, t2
+  vsll.vx v24, v16, t2
 
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vi v24, v16, 7
+  vsll.vi v8, v16, 3
 
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vv v24, v16, v8
+  vsll.vv v8, v16, v24
 
-  li t2, 0x72664b66f991d288
+  li t2, 0xf7af180628a3a431
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vx v8, v24, t2
+  vsll.vx v16, v24, t2
 
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vi v16, v24, 1
+  vsll.vi v24, v16, 7
 
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vv v16, v8, v24
+  vsll.vv v8, v16, v24
 
-  li t2, 0x4c96f265e1399ebf
+  li t2, 0x859b6099a5228dee
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vx v8, v24, t2
+  vsll.vx v16, v24, t2
 
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vi v8, v16, 1
+  vsll.vi v8, v16, 9
 
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vv v16, v8, v24
+  vsll.vv v24, v16, v8
 
-  li t2, 0x92bfbf2bcae796d3
+  li t2, 0x59bd309a0f274dfc
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vx v8, v16, t2
+  vsll.vx v16, v24, t2
 
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vi v8, v16, 12
+  vsll.vi v8, v16, 20
 
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vv v16, v8, v24
+  vsll.vv v16, v8, v24
 
-  li t2, 0xd2ef61fdb2e44035
+  li t2, 0x561da3c1ab63b0ce
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vx v16, v8, t2
+  vsll.vx v8, v24, t2
 
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vi v8, v24, -2
+  vsll.vi v16, v8, 24
 
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vv v16, v24, v8
+  vsll.vv v16, v8, v24
 
-  li t2, 0xb2efa3dad4b5d1b9
+  li t2, 0x003ac38f72c9e067
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vx v24, v8, t2
+  vsll.vx v16, v8, t2
 
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vi v8, v24, -2
+  vsll.vi v16, v24, 4
 
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vv v8, v24, v16
+  vsll.vv v24, v8, v16
 
-  li t2, 0xf7afb7ec0962b622
+  li t2, 0xb46837431971db01
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vx v8, v24, t2
+  vsll.vx v16, v8, t2
 
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vi v8, v24, -9
+  vsll.vi v24, v16, 6
 
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vv v24, v16, v8
+  vsll.vv v24, v8, v16
 
-  li t2, 0x8450e1775a54ed42
+  li t2, 0xd2dce568b7635859
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vx v8, v24, t2
+  vsll.vx v8, v16, t2
 
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vi v8, v24, 8
+  vsll.vi v8, v24, 29
 
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vv v24, v16, v8
+  vsll.vv v8, v24, v16
 
-  li t2, 0x2976070f34275857
+  li t2, 0x67c3fde22f7401fa
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vx v24, v16, t2
+  vsll.vx v8, v24, t2
 
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vi v24, v8, -2
+  vsll.vi v8, v16, 4
 
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vv v24, v16, v8
+  vsll.vv v16, v8, v24
 
-  li t2, 0xd52b27ce0d1839f2
+  li t2, 0xaae1f6c9b204d6cf
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vx v8, v24, t2
+  vsll.vx v8, v24, t2
 
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vi v8, v16, -14
+  vsll.vi v8, v16, 1
 
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vv v8, v24, v16
+  vsll.vv v24, v16, v8
 
-  li t2, 0x14bd41bad250ad90
+  li t2, 0xfc894fbe3853f888
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vx v24, v16, t2
+  vsll.vx v24, v16, t2
 
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vi v24, v16, -5
+  vsll.vi v8, v24, 29
 
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vv v24, v8, v16
+  vsll.vv v8, v16, v24
 
-  li t2, 0xe1e78bd143602ffe
+  li t2, 0x7127ec3b57dac4db
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vx v8, v16, t2
+  vsll.vx v24, v8, t2
 
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vi v16, v24, 5
+  vsll.vi v24, v16, 22
 
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vv v16, v24, v8
+  vsll.vv v16, v8, v24
 
-  li t2, 0x1e19b36c4f4f1653
+  li t2, 0x0f31119230b66947
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vx v8, v24, t2
+  vsll.vx v24, v8, t2
 
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vi v24, v8, 3
+  vsll.vi v24, v16, 6
 
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vv v24, v8, v16
+  vsll.vv v24, v8, v16
 
-  li t2, 0x16059e5893464ce3
+  li t2, 0x4eddf5e8895aad1c
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vx v16, v8, t2
+  vsll.vx v24, v16, t2
 
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vi v16, v24, -5
+  vsll.vi v16, v24, 10
 
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vv v16, v24, v8
+  vsll.vv v8, v16, v24
 
-  li t2, 0xadbb142823c14fc2
+  li t2, 0x4540292b7029bb95
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vx v16, v8, t2
+  vsll.vx v24, v8, t2
 
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vi v16, v8, -3
+  vsll.vi v16, v8, 6
 
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vv v16, v24, v8
+  vsll.vv v8, v24, v16
 
-  li t2, 0x2b321372d1323b6f
+  li t2, 0x25a7278636f92c22
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vx v8, v16, t2
+  vsll.vx v16, v8, t2
 
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vi v8, v16, 7
+  vsll.vi v24, v16, 25
 
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vv v8, v24, v16
+  vsll.vv v8, v16, v24
 
-  li t2, 0xf40fd2ee15d533d2
+  li t2, 0xc0f8e125d8c07545
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vx v24, v16, t2
+  vsll.vx v8, v16, t2
 
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vi v8, v16, 13
+  vsll.vi v16, v8, 4
 
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vv v16, v24, v8
+  vsll.vv v8, v24, v16
 
-  li t2, 0x828f16e111feafdb
+  li t2, 0x1799e4c57829274c
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vx v16, v8, t2
+  vsll.vx v8, v16, t2
 
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vi v24, v16, 9
+  vsll.vi v24, v8, 1
 
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vv v8, v24, v16
+  vsll.vv v24, v8, v16
 
-  li t2, 0x30e7048cd35881aa
+  li t2, 0x13ad2db02fb36e2e
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vx v8, v16, t2
+  vsll.vx v16, v8, t2
 
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vi v8, v16, -4
+  vsll.vi v8, v16, 11
 
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vv v8, v16, v24
+  vsll.vv v8, v16, v24
 
-  li t2, 0x5a5ed06818fa4fd9
+  li t2, 0x5634fcae41373039
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vx v8, v24, t2
+  vsll.vx v8, v24, t2
 
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vi v16, v8, -2
+  vsll.vi v24, v8, 8
 
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vv v8, v16, v24
+  vsll.vv v16, v24, v8
 
-  li t2, 0x62e8c81d8569ee16
+  li t2, 0x3beafbc0451f0340
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vx v24, v16, t2
+  vsll.vx v16, v24, t2
 
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vi v16, v8, -13
+  vsll.vi v8, v16, 24
 
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vv v8, v16, v24
+  vsll.vv v8, v16, v24
 
-  li t2, 0x6bed9040d8ca30ba
+  li t2, 0xc0511bd4c410f99b
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vx v24, v8, t2
+  vsll.vx v8, v24, t2
 
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vi v24, v8, 6
+  vsll.vi v8, v24, 22
 
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vv v24, v16, v8
+  vsll.vv v24, v8, v16
 
-  li t2, 0xf1b057f02c528f94
+  li t2, 0xb4e8b06d6460b19d
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vx v24, v8, t2
+  vsll.vx v8, v16, t2
 
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vi v16, v8, -9
+  vsll.vi v16, v24, 3
 
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vv v8, v24, v16
+  vsll.vv v24, v16, v8
 
-  li t2, 0xa5322ea31bba4777
+  li t2, 0xdfc89705ab02ed96
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vx v24, v16, t2
+  vsll.vx v16, v24, t2
 
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vi v24, v8, 12
+  vsll.vi v8, v16, 4
 
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vv v24, v16, v8
+  vsll.vv v8, v24, v16
 
-  li t2, 0x3defbb0744fc31a0
+  li t2, 0x84f29325b79393df
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vx v24, v8, t2
+  vsll.vx v24, v16, t2
 
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vi v16, v8, 6
+  vsll.vi v8, v24, 25
 
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vv v24, v16, v8
+  vsll.vv v24, v8, v16
 
-  li t2, 0x4610f4146b1e0fd9
+  li t2, 0x5438279ac14e88c9
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vx v24, v16, t2
+  vsll.vx v8, v16, t2
 
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vi v24, v16, -8
+  vsll.vi v16, v24, 28
 
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vv v8, v24, v16
+  vsll.vv v16, v24, v8
 
-  li t2, 0xdbe7c2b63c8d5028
+  li t2, 0x79f8f40e8f965bdb
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vx v16, v24, t2
+  vsll.vx v24, v16, t2
 
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vi v24, v8, -12
+  vsll.vi v16, v24, 5
 
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vv v24, v8, v16
+  vsll.vv v8, v24, v16
 
-  li t2, 0x8f99e38838d74cf3
+  li t2, 0x39ba5f5d74ef7558
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vx v24, v16, t2
+  vsll.vx v24, v16, t2
 
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vi v16, v8, -15
+  vsll.vi v8, v16, 23
 
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vv v8, v24, v16
+  vsll.vv v8, v24, v16
 
-  li t2, 0x4a16ecc068923e10
+  li t2, 0xa91a1fbf5f943a8b
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vx v16, v8, t2
+  vsll.vx v16, v8, t2
 
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vi v24, v8, -3
+  vsll.vi v24, v8, 12
 
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vv v24, v16, v8
+  vsll.vv v24, v8, v16
 
-  li t2, 0x24fb3635d0827ece
+  li t2, 0x16389d2901f9205b
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vx v24, v16, t2
+  vsll.vx v24, v16, t2
 
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vi v24, v8, 0
+  vsll.vi v8, v24, 0
 
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vv v8, v16, v24
+  vsll.vv v8, v24, v16
 
-  li t2, 0x9d324f60444b94ec
+  li t2, 0x5e6921bf9ab6bf4b
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vx v8, v16, t2
+  vsll.vx v8, v24, t2
 
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vi v24, v8, -3
+  vsll.vi v16, v24, 12
 
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vv v16, v8, v24
+  vsll.vv v8, v16, v24
 
-  li t2, 0xb31d4f15f17d92fc
+  li t2, 0x8a5b9659bc720745
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vx v16, v8, t2
+  vsll.vx v16, v8, t2
 
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vi v16, v8, -4
+  vsll.vi v16, v8, 19
 
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vv v24, v16, v8
+  vsll.vv v8, v16, v24
 
-  li t2, 0xbb23ade850b0871c
+  li t2, 0xbf67bc392dd1bd54
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vx v24, v8, t2
+  vsll.vx v16, v8, t2
 
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vi v24, v16, -4
+  vsll.vi v8, v24, 10
 
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vv v8, v16, v24
+  vsll.vv v8, v16, v24
 
-  li t2, 0x281ad93547a6bc46
+  li t2, 0x370c8e677dcd2993
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vx v16, v8, t2
+  vsll.vx v24, v8, t2
 
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vi v8, v16, -3
+  vsll.vi v24, v16, 17
 
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vv v16, v8, v24
+  vsll.vv v16, v24, v8
 
-  li t2, 0xff118637c9137ef1
+  li t2, 0x3d4d3e63ad3789f3
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vx v16, v8, t2
+  vsll.vx v16, v24, t2
 
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vi v8, v24, 0
+  vsll.vi v24, v16, 27
 
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vv v8, v24, v16
+  vsll.vv v8, v16, v24
 
-  li t2, 0x7c166eb0d1eebf96
+  li t2, 0xcc47f6c49336ab47
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vx v8, v16, t2
+  vsll.vx v8, v16, t2
 
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vi v24, v8, -8
+  vsll.vi v24, v16, 24
 
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vv v16, v24, v8
+  vsll.vv v16, v24, v8
 
-  li t2, 0x4bafafa56fe711f9
+  li t2, 0x4bdf4438cac1627e
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vx v16, v8, t2
+  vsll.vx v24, v8, t2
 
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vi v16, v24, 3
+  vsll.vi v16, v24, 19
 
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vv v16, v24, v8
+  vsll.vv v24, v16, v8
 
-  li t2, 0xc165ce27c29ef2f0
+  li t2, 0x9a617b10ac6d488b
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vx v16, v24, t2
+  vsll.vx v16, v8, t2
 
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vi v8, v24, 9
+  vsll.vi v16, v8, 20
 
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vv v16, v8, v24
+  vsll.vv v16, v24, v8
 
-  li t2, 0x1c1ed69315b0546e
+  li t2, 0x0df5cdf06e16ee57
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vx v24, v8, t2
+  vsll.vx v24, v16, t2
 
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vi v24, v8, -1
+  vsll.vi v24, v16, 31
 
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vv v8, v16, v24
+  vsll.vv v16, v24, v8
 
-  li t2, 0xe235b236b42de4ec
+  li t2, 0x561a88724dde9152
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vx v16, v24, t2
+  vsll.vx v24, v8, t2
 
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vi v16, v24, -16
+  vsll.vi v8, v24, 2
 
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vv v16, v24, v8
+  vsll.vv v8, v16, v24
 
-  li t2, 0x058513a7b012c719
+  li t2, 0xc63da6c460f49708
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vx v24, v16, t2
+  vsll.vx v24, v16, t2
 
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vi v8, v16, -15
+  vsll.vi v16, v24, 22
 
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vv v8, v24, v16
+  vsll.vv v8, v16, v24
 
-  li t2, 0xfe97c71cbb99e386
+  li t2, 0xb2f7201a0f5ce4fa
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vx v24, v8, t2
+  vsll.vx v16, v24, t2
 
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vi v24, v8, 4
+  vsll.vi v8, v16, 6
 
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vv v8, v24, v16
+  vsll.vv v8, v16, v24
 
-  li t2, 0xf4df0c536543d8d4
+  li t2, 0x443800c097842de3
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vx v16, v24, t2
+  vsll.vx v16, v8, t2
 
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vi v24, v8, -2
+  vsll.vi v24, v8, 14
 
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vv v24, v8, v16
+  vsll.vv v16, v24, v8
 
-  li t2, 0x5e65cc2ea39e08bd
+  li t2, 0xc7cf37b9625eca34
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vx v24, v8, t2
+  vsll.vx v16, v8, t2
 
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vi v24, v8, -14
+  vsll.vi v8, v24, 19
 
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vv v16, v24, v8
+  vsll.vv v24, v16, v8
 
-  li t2, 0x5408458c9bb7743a
+  li t2, 0x40b79c6f0cdbfac5
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vx v16, v8, t2
+  vsll.vx v24, v8, t2
 
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vi v8, v24, 8
+  vsll.vi v16, v8, 16
 
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vv v8, v24, v16
+  vsll.vv v24, v16, v8
 
-  li t2, 0x68e0ca010e3301d9
+  li t2, 0x39d5f4ae44cddda8
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vx v24, v8, t2
+  vsll.vx v8, v24, t2
 
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vi v16, v24, -9
+  vsll.vi v16, v24, 16
 
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vv v16, v24, v8
+  vsll.vv v16, v24, v8
 
-  li t2, 0x08ff610368425d4b
+  li t2, 0xebaea0821285c92e
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vx v8, v16, t2
+  vsll.vx v8, v16, t2
 
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vi v24, v8, -16
+  vsll.vi v16, v24, 14
 
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vv v16, v24, v8
+  vsll.vv v24, v8, v16
 
-  li t2, 0x96eb537070b8f969
+  li t2, 0xd2ef625eebf9c1c5
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vx v8, v24, t2
+  vsll.vx v8, v16, t2
 
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vi v8, v24, -16
+  vsll.vi v8, v16, 16
 
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vv v24, v8, v16
+  vsll.vv v16, v24, v8
 
-  li t2, 0x9bba53fb25f70d33
+  li t2, 0xb3c3dae2b11e6cd2
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vx v8, v16, t2
+  vsll.vx v24, v16, t2
 
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vi v8, v24, -10
+  vsll.vi v8, v16, 6
 
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vv v8, v16, v24
+  vsll.vv v16, v24, v8
 
-  li t2, 0x034c8fc38c941628
+  li t2, 0x5088ca1e2a16d3cf
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vx v24, v16, t2
+  vsll.vx v24, v8, t2
 
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vi v16, v8, -15
+  vsll.vi v8, v24, 5
 
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vv v16, v8, v24
+  vsll.vv v16, v8, v24
 
-  li t2, 0xc0e223967e3cddae
+  li t2, 0x5693be987096a036
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vx v24, v16, t2
+  vsll.vx v24, v16, t2
 
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vi v16, v8, -10
+  vsll.vi v16, v8, 1
 
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vv v16, v8, v24
+  vsll.vv v16, v8, v24
 
-  li t2, 0x11a437f082b4ab32
+  li t2, 0xa3a852c9d9db102b
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vx v16, v24, t2
+  vsll.vx v24, v16, t2
 
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vi v24, v16, 0
+  vsll.vi v24, v8, 21
 
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vv v16, v24, v8
+  vsll.vv v24, v8, v16
 
-  li t2, 0x3c6df1acb7809030
+  li t2, 0xc3a3fdee3b62c779
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vx v16, v24, t2
+  vsll.vx v16, v8, t2
 
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vi v8, v16, -6
+  vsll.vi v24, v16, 20
 
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vv v8, v24, v16
+  vsll.vv v24, v16, v8
 
-  li t2, 0xe4d70895fed536c1
+  li t2, 0x3062186dd5502362
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vx v16, v8, t2
+  vsll.vx v16, v8, t2
 
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vi v16, v24, 1
+  vsll.vi v8, v24, 0
 
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vv v8, v16, v24
+  vsll.vv v24, v8, v16
 
-  li t2, 0xcab3510fb557c05e
+  li t2, 0x07948dc25a9bde1c
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vx v8, v24, t2
+  vsll.vx v16, v8, t2
 
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vi v16, v8, -1
+  vsll.vi v8, v16, 18
 
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vv v8, v24, v16
+  vsll.vv v16, v8, v24
 
-  li t2, 0x2bd498359b7e2018
+  li t2, 0x09323b48635b81b9
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vx v8, v16, t2
+  vsll.vx v16, v8, t2
 
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vi v8, v16, -6
+  vsll.vi v24, v8, 7
 
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vv v24, v8, v16
+  vsll.vv v16, v24, v8
 
-  li t2, 0xea3e6e6e50bf73b3
+  li t2, 0x3107fc6ebf7cd38e
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vx v8, v24, t2
+  vsll.vx v24, v8, t2
 
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vi v24, v16, -3
+  vsll.vi v8, v24, 19
 
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vv v8, v24, v16
+  vsll.vv v16, v8, v24
 
-  li t2, 0xf1fba943f331e498
+  li t2, 0x0c2fe4f853d8fa6e
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vx v8, v24, t2
+  vsll.vx v8, v24, t2
 
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vi v24, v16, -3
+  vsll.vi v8, v16, 8
 
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vv v16, v24, v8
+  vsll.vv v16, v24, v8
 
-  li t2, 0x6906429aa926dd7b
+  li t2, 0x71034b28edc62af7
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vx v16, v24, t2
+  vsll.vx v24, v8, t2
 
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vi v8, v16, 6
+  vsll.vi v16, v24, 9
 
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vv v8, v24, v16
+  vsll.vv v24, v16, v8
 
-  li t2, 0xcc74005faf3b055d
+  li t2, 0x7752bd22ec0672f8
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vx v16, v8, t2
+  vsll.vx v16, v8, t2
 
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vi v8, v24, -2
+  vsll.vi v8, v16, 27
 
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vv v16, v24, v8
+  vsll.vv v24, v8, v16
 
-  li t2, 0x5a458325d853b6bd
+  li t2, 0x0db3f09cf4b506fa
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vx v24, v8, t2
+  vsll.vx v16, v24, t2
 
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vi v24, v8, 9
+  vsll.vi v24, v16, 4
 
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vv v8, v24, v16
+  vsll.vv v24, v16, v8
 
-  li t2, 0xfc35248b047561ea
+  li t2, 0xa5cb104838332393
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vx v24, v16, t2
+  vsll.vx v16, v8, t2
 
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vi v8, v24, -10
+  vsll.vi v24, v16, 30
 
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vv v16, v8, v24
+  vsll.vv v16, v24, v8
 
-  li t2, 0x5b077c075aa303c8
+  li t2, 0xf7d3d2ce3481b634
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vx v8, v24, t2
+  vsll.vx v8, v16, t2
 
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vi v8, v16, 1
+  vsll.vi v24, v8, 3
 
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vv v8, v24, v16
+  vsll.vv v24, v8, v16
 
-  li t2, 0xf6febae6b7abbe8d
+  li t2, 0x45141a3c6080b1ea
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vx v8, v24, t2
+  vsll.vx v24, v8, t2
 
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vi v16, v8, -4
+  vsll.vi v16, v8, 23
 
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vv v24, v16, v8
+  vsll.vv v24, v16, v8
 
-  li t2, 0x8af8ec2b09031a6c
+  li t2, 0x5a930d11ae0f2f22
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vx v8, v16, t2
+  vsll.vx v16, v8, t2
 
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vi v8, v24, 14
+  vsll.vi v16, v24, 16
 
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vv v16, v8, v24
+  vsll.vv v16, v24, v8
 
-  li t2, 0x1daf3cbb6de89912
+  li t2, 0x27df958ea258bf3c
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vx v8, v16, t2
+  vsll.vx v16, v8, t2
 
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vi v8, v16, 8
+  vsll.vi v24, v8, 31
 
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vv v8, v16, v24
+  vsll.vv v24, v8, v16
 
-  li t2, 0xf81c466919b18c03
+  li t2, 0xf2d7407881d6bba7
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vx v16, v8, t2
+  vsll.vx v24, v8, t2
 
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vi v16, v8, -3
+  vsll.vi v24, v8, 17
 
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vv v8, v16, v24
+  vsll.vv v16, v8, v24
 
-  li t2, 0x2df4d313fdf4df9d
+  li t2, 0x5e56df4431623bfd
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vx v16, v8, t2
+  vsll.vx v8, v24, t2
 
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vi v8, v16, -16
+  vsll.vi v24, v8, 11
 
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vv v16, v24, v8
+  vsll.vv v16, v24, v8
 
-  li t2, 0xf9d17dca7d1e33f4
+  li t2, 0x8197dd99482b7ff6
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vx v16, v8, t2
+  vsll.vx v24, v8, t2
 
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vi v8, v24, -11
+  vsll.vi v24, v16, 2
 
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vv v24, v8, v16
+  vsll.vv v16, v24, v8
 
-  li t2, 0xedb56e66bb1c8f72
+  li t2, 0x526e8a0aa6b54765
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vx v8, v24, t2
+  vsll.vx v16, v24, t2
 
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vi v16, v8, 11
+  vsll.vi v16, v8, 4
 
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vv v8, v24, v16
+  vsll.vv v24, v8, v16
 
-  li t2, 0x95f5fc55a03f7676
+  li t2, 0x1d037b73491b2877
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vx v24, v8, t2
+  vsll.vx v16, v8, t2
 
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vi v8, v16, 11
+  vsll.vi v8, v16, 6
 
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vv v8, v16, v24
+  vsll.vv v24, v8, v16
 
-  li t2, 0x0310b79393653cae
+  li t2, 0xfe35c47998d41a5b
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vx v16, v8, t2
+  vsll.vx v24, v16, t2
 
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vi v16, v8, 14
+  vsll.vi v8, v24, 12
 
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vv v16, v8, v24
+  vsll.vv v24, v16, v8
 
-  li t2, 0x3f4fee0c0ce1b9fd
+  li t2, 0xefe0a435c7823211
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vx v16, v24, t2
+  vsll.vx v24, v16, t2
 
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vi v16, v8, -9
+  vsll.vi v24, v16, 3
 
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vv v16, v24, v8
+  vsll.vv v24, v8, v16
 
-  li t2, 0x94640cd6e00d30bb
+  li t2, 0xae0450c42aa1b40c
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vx v24, v16, t2
+  vsll.vx v8, v24, t2
 
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vi v16, v8, -2
+  vsll.vi v24, v8, 11
 
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vv v8, v16, v24
+  vsll.vv v24, v16, v8
 
-  li t2, 0x44541af869a07267
+  li t2, 0x1697114dc7d3ff5c
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vx v16, v24, t2
+  vsll.vx v24, v16, t2
 
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vi v16, v8, -3
+  vsll.vi v16, v24, 1
 
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vv v8, v16, v24
+  vsll.vv v16, v8, v24
 
-  li t2, 0xefaaf8de8ca548c0
+  li t2, 0xadb617449544e0b1
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vx v8, v24, t2
+  vsll.vx v16, v8, t2
 
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vi v16, v8, 2
+  vsll.vi v24, v16, 20
 
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vv v16, v24, v8
+  vsll.vv v16, v24, v8
 
-  li t2, 0x6abf981a012719bc
+  li t2, 0x5fb94ef1368c9af2
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vx v8, v16, t2
+  vsll.vx v8, v24, t2
 
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vi v24, v16, 0
+  vsll.vi v24, v8, 10
 
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vv v8, v16, v24
+  vsll.vv v24, v8, v16
 
-  li t2, 0xf99c8482b4e04dde
+  li t2, 0xce719141828e1bd3
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vx v8, v24, t2
+  vsll.vx v8, v16, t2
 
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vi v16, v8, 10
+  vsll.vi v24, v8, 27
 
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vv v16, v8, v24
+  vsll.vv v16, v8, v24
 
-  li t2, 0xd2153de7da6c7638
+  li t2, 0x1ef5e6181137c745
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vx v16, v8, t2
+  vsll.vx v24, v16, t2
 
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vi v8, v16, 5
+  vsll.vi v16, v8, 26
 
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vv v16, v8, v24
+  vsll.vv v24, v8, v16
 
-  li t2, 0x6a14372a4df01978
+  li t2, 0xd1d3fe805229cc98
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vx v8, v16, t2
+  vsll.vx v16, v24, t2
 
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vi v8, v16, 0
+  vsll.vi v24, v8, 1
 
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vv v24, v16, v8
+  vsll.vv v8, v24, v16
 
-  li t2, 0x697ad9edfc881866
+  li t2, 0x4c0f8337ca2f2618
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vx v24, v16, t2
+  vsll.vx v8, v24, t2
 
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vi v24, v16, -1
+  vsll.vi v8, v16, 3
 
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vv v24, v16, v8
+  vsll.vv v16, v8, v24
 
-  li t2, 0xc2a6231339f6ee16
+  li t2, 0x8fadd45b3d4420ad
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vx v16, v24, t2
+  vsll.vx v16, v8, t2
 
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vi v16, v24, -12
+  vsll.vi v16, v24, 13
 
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vv v16, v24, v8
+  vsll.vv v24, v8, v16
 
-  li t2, 0xe55bb669617ce38d
+  li t2, 0x79e3c90e9acd6041
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vx v16, v24, t2
+  vsll.vx v8, v16, t2
 
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vi v24, v8, 12
+  vsll.vi v24, v8, 1
 
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vv v16, v24, v8
+  vsll.vv v8, v16, v24
 
-  li t2, 0xe545140d2c7b0431
+  li t2, 0x15a32a1e42a5957e
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vx v16, v24, t2
+  vsll.vx v24, v16, t2
 
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vi v24, v8, -5
+  vsll.vi v16, v24, 16
 
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vv v16, v24, v8
+  vsll.vv v24, v16, v8
 
-  li t2, 0x6b55bf0362ad4389
+  li t2, 0x337ef47641244186
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vx v24, v16, t2
+  vsll.vx v8, v16, t2
 
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vi v8, v16, -12
+  vsll.vi v8, v16, 11
 
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vv v24, v16, v8
+  vsll.vv v24, v8, v16
 
-  li t2, 0xb508569c58acb41e
+  li t2, 0x34ba77ff2cbbdbd5
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vx v16, v24, t2
+  vsll.vx v24, v8, t2
 
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vi v8, v16, -11
+  vsll.vi v24, v8, 22
 
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vv v16, v24, v8
+  vsll.vv v8, v24, v16
 
-  li t2, 0x4e7e622337891257
+  li t2, 0x3587d13f5e364a82
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vx v24, v8, t2
+  vsll.vx v8, v24, t2
 
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vi v8, v24, -11
+  vsll.vi v8, v16, 17
 
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vv v24, v16, v8
+  vsll.vv v8, v24, v16
 
-  li t2, 0x5bfc67622d3988fa
+  li t2, 0x1699284795bb212d
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vx v16, v8, t2
+  vsll.vx v24, v8, t2
 
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vi v24, v16, 7
+  vsll.vi v16, v24, 16
 
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vv v8, v16, v24
+  vsll.vv v8, v16, v24
 
-  li t2, 0xf37f8ee2a80b1f87
+  li t2, 0x0dd60cdf7113910e
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vx v24, v8, t2
+  vsll.vx v24, v16, t2
 
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vi v8, v24, -2
+  vsll.vi v8, v16, 9
 
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vv v8, v16, v24
+  vsll.vv v8, v16, v24
 
-  li t2, 0xf603c95749fe9311
+  li t2, 0x20a13e84088f1b68
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vx v24, v8, t2
+  vsll.vx v24, v8, t2
 
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vi v16, v8, -2
+  vsll.vi v8, v24, 31
 
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vv v16, v24, v8
+  vsll.vv v24, v8, v16
 
-  li t2, 0xb142c83072f65416
+  li t2, 0x76eb37d4bfbb0593
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vx v24, v16, t2
+  vsll.vx v24, v16, t2
 
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vi v16, v8, 6
+  vsll.vi v16, v8, 15
 
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vv v8, v24, v16
+  vsll.vv v16, v8, v24
 
-  li t2, 0x264b364c4bca2fbf
+  li t2, 0x54e3baef629cc697
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vx v16, v24, t2
+  vsll.vx v24, v16, t2
 
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vi v24, v8, 1
+  vsll.vi v16, v8, 20
 
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vv v24, v8, v16
+  vsll.vv v16, v8, v24
 
-  li t2, 0xd7099b164b426283
+  li t2, 0x1bd69088de97d2a2
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vx v24, v16, t2
+  vsll.vx v24, v8, t2
 
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vi v8, v16, -4
+  vsll.vi v24, v8, 8
 
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vv v16, v24, v8
+  vsll.vv v24, v16, v8
 
-  li t2, 0x9f9a13cf80cc2298
+  li t2, 0x93e581956a40ce38
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vx v8, v16, t2
+  vsll.vx v16, v8, t2
 
   vsetvli t1, t0, e16, m8, ta, ma
-  vand.vi v24, v16, 3
+  vsll.vi v24, v16, 10
 
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vv v29, v24, v25
+  vsll.vv v8, v30, v20
 
-  li t2, 0xb9232ceb672e1387
+  li t2, 0xbc886cc0eb21de76
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vx v8, v25, t2
+  vsll.vx v6, v13, t2
 
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vi v30, v21, 0
+  vsll.vi v18, v20, 16
 
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vv v10, v17, v6
+  vsll.vv v24, v3, v11
 
-  li t2, 0x624c1165273b07f2
+  li t2, 0xe5aaf0ac3e55a980
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vx v9, v16, t2
+  vsll.vx v5, v28, t2
 
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vi v26, v4, 3
+  vsll.vi v28, v7, 20
 
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vv v4, v21, v2
+  vsll.vv v31, v2, v6
 
-  li t2, 0x5901d7128f238bc8
+  li t2, 0x30e479be56f1a6dc
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vx v25, v24, t2
+  vsll.vx v18, v16, t2
 
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vi v24, v30, 5
+  vsll.vi v26, v12, 26
 
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vv v19, v2, v22
+  vsll.vv v5, v1, v22
 
-  li t2, 0xa940095bf3f1dbcc
+  li t2, 0x668700590c73cab4
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vx v3, v21, t2
+  vsll.vx v2, v14, t2
 
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vi v11, v4, 4
+  vsll.vi v17, v2, 9
 
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vv v24, v10, v25
+  vsll.vv v20, v7, v16
 
-  li t2, 0x4bbea43a4bb36dcd
+  li t2, 0xd235dbdae66abf28
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vx v1, v13, t2
+  vsll.vx v23, v14, t2
 
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vi v27, v26, 12
+  vsll.vi v24, v27, 12
 
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vv v2, v17, v23
+  vsll.vv v30, v24, v17
 
-  li t2, 0x284d01b501217dd1
+  li t2, 0xc3c5e5408d7799a8
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vx v12, v16, t2
+  vsll.vx v26, v21, t2
 
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vi v22, v11, -16
+  vsll.vi v25, v13, 9
 
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vv v9, v7, v23
+  vsll.vv v4, v1, v12
 
-  li t2, 0xccdd840cffe26b49
+  li t2, 0xf7b79f307c9f9080
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vx v28, v19, t2
+  vsll.vx v17, v23, t2
 
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vi v1, v10, 15
+  vsll.vi v23, v22, 27
 
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vv v6, v20, v29
+  vsll.vv v29, v14, v20
 
-  li t2, 0x00aa267d4bc9f0c2
+  li t2, 0x740c3d7e958cd52e
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vx v30, v25, t2
+  vsll.vx v8, v18, t2
 
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vi v24, v11, -11
+  vsll.vi v3, v20, 4
 
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vv v15, v1, v29
+  vsll.vv v3, v31, v14
 
-  li t2, 0x827e1629452f82f2
+  li t2, 0x01f56bd17c2ca9a4
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vx v24, v19, t2
+  vsll.vx v7, v29, t2
 
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vi v24, v8, -14
+  vsll.vi v29, v22, 27
 
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vv v27, v16, v6
+  vsll.vv v21, v22, v6
 
-  li t2, 0xcd2ffa659d304f54
+  li t2, 0x18d34461ddf6b764
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vx v9, v3, t2
+  vsll.vx v15, v2, t2
 
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vi v30, v28, -8
+  vsll.vi v10, v14, 24
 
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vv v17, v14, v7
+  vsll.vv v22, v9, v25
 
-  li t2, 0x4356306f7d0db19d
+  li t2, 0xa0b4caac8c21259d
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vx v9, v23, t2
+  vsll.vx v4, v17, t2
 
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vi v23, v25, -7
+  vsll.vi v19, v6, 15
 
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vv v30, v6, v7
+  vsll.vv v10, v14, v21
 
-  li t2, 0x00f5f92c0e329b37
+  li t2, 0x9fea58bfb7792285
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vx v20, v6, t2
+  vsll.vx v25, v10, t2
 
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vi v28, v15, -5
+  vsll.vi v3, v24, 23
 
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vv v16, v20, v7
+  vsll.vv v21, v8, v29
 
-  li t2, 0x3914d6e2623d1bbe
+  li t2, 0xe9895b38879f9e54
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vx v17, v7, t2
+  vsll.vx v20, v19, t2
 
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vi v10, v17, 11
+  vsll.vi v31, v14, 9
 
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vv v7, v21, v17
+  vsll.vv v25, v28, v21
 
-  li t2, 0x74ac1d5c8581b75a
+  li t2, 0x0e11717f7469ba93
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vx v10, v29, t2
+  vsll.vx v10, v15, t2
 
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vi v22, v18, -2
+  vsll.vi v25, v22, 27
 
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vv v26, v29, v14
+  vsll.vv v24, v15, v16
 
-  li t2, 0x66ce729bdd41880e
+  li t2, 0x5aeb7c7356f459c8
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vx v11, v21, t2
+  vsll.vx v31, v20, t2
 
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vi v10, v24, 11
+  vsll.vi v7, v24, 15
 
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vv v8, v23, v22
+  vsll.vv v5, v14, v20
 
-  li t2, 0x17f9ef0d0f396bbf
+  li t2, 0xa89c24eb377bd88c
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vx v25, v4, t2
+  vsll.vx v4, v8, t2
 
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vi v20, v21, -2
+  vsll.vi v2, v16, 25
 
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vv v1, v11, v28
+  vsll.vv v21, v19, v4
 
-  li t2, 0x5149de271b96c984
+  li t2, 0x626d3497f120d03d
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vx v7, v2, t2
+  vsll.vx v27, v14, t2
 
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vi v16, v24, 2
+  vsll.vi v22, v12, 1
 
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vv v26, v29, v13
+  vsll.vv v22, v2, v13
 
-  li t2, 0x95a1b9435023b52e
+  li t2, 0x9751ef0b4c6a11cc
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vx v3, v2, t2
+  vsll.vx v30, v27, t2
 
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vi v28, v2, -16
+  vsll.vi v7, v18, 23
 
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vv v10, v16, v6
+  vsll.vv v1, v16, v17
 
-  li t2, 0xb24981e90ca4e990
+  li t2, 0x5efabe3ffa2f97bd
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vx v20, v24, t2
+  vsll.vx v18, v31, t2
 
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vi v22, v14, -12
+  vsll.vi v28, v16, 18
 
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vv v3, v11, v13
+  vsll.vv v2, v18, v11
 
-  li t2, 0x4a91dc51f0908c05
+  li t2, 0xf7fcd9a6be07a3de
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vx v7, v22, t2
+  vsll.vx v9, v17, t2
 
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vi v12, v26, -2
+  vsll.vi v17, v5, 9
 
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vv v21, v18, v15
+  vsll.vv v9, v10, v4
 
-  li t2, 0x101d0ed027a4c46a
+  li t2, 0xc021c8bc14204434
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vx v24, v5, t2
+  vsll.vx v4, v2, t2
 
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vi v31, v18, -3
+  vsll.vi v30, v22, 25
 
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vv v16, v29, v27
+  vsll.vv v28, v2, v3
 
-  li t2, 0x898bcb51edc70935
+  li t2, 0x8f9e6da6654e2fbc
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vx v6, v23, t2
+  vsll.vx v12, v20, t2
 
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vi v23, v22, 3
+  vsll.vi v6, v24, 25
 
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vv v16, v20, v26
+  vsll.vv v26, v15, v22
 
-  li t2, 0x35967c3a25826d59
+  li t2, 0x9824861e0fb1dc1d
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vx v14, v28, t2
+  vsll.vx v9, v20, t2
 
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vi v24, v21, -1
+  vsll.vi v12, v14, 7
 
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vv v5, v29, v23
+  vsll.vv v22, v15, v11
 
-  li t2, 0xd15d54e96344b9a1
+  li t2, 0x2e2628df956c349a
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vx v6, v12, t2
+  vsll.vx v20, v5, t2
 
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vi v17, v14, 15
+  vsll.vi v1, v18, 19
 
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vv v20, v4, v3
+  vsll.vv v23, v4, v14
 
-  li t2, 0x1d3b6a7aba670791
+  li t2, 0x0970996bc7d5f0a5
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vx v15, v24, t2
+  vsll.vx v31, v26, t2
 
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vi v20, v24, 15
+  vsll.vi v18, v13, 9
 
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vv v17, v24, v10
+  vsll.vv v6, v15, v5
 
-  li t2, 0xd5a39a5df402d2b6
+  li t2, 0xa2c40fc07269c21f
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vx v2, v4, t2
+  vsll.vx v22, v4, t2
 
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vi v18, v19, -11
+  vsll.vi v30, v21, 3
 
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vv v28, v9, v18
+  vsll.vv v17, v4, v2
 
-  li t2, 0xaccdd2f6b2e482e9
+  li t2, 0x290a361a19b69fa9
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vx v14, v29, t2
+  vsll.vx v6, v1, t2
 
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vi v22, v15, 12
+  vsll.vi v13, v22, 26
 
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vv v3, v13, v18
+  vsll.vv v22, v13, v23
 
-  li t2, 0x068ae390679a8768
+  li t2, 0x4db7f50d3d761f10
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vx v14, v30, t2
+  vsll.vx v8, v16, t2
 
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vi v2, v25, -3
+  vsll.vi v4, v24, 8
 
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vv v9, v29, v16
+  vsll.vv v16, v2, v23
 
-  li t2, 0xd5b9596e6194d057
+  li t2, 0x031e6e83b66513b2
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vx v28, v4, t2
+  vsll.vx v9, v17, t2
 
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vi v14, v5, -13
+  vsll.vi v8, v17, 18
 
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vv v30, v25, v23
+  vsll.vv v9, v30, v16
 
-  li t2, 0x679a3146a06f8e39
+  li t2, 0xfd1467094e9d55db
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vx v15, v10, t2
+  vsll.vx v30, v4, t2
 
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vi v31, v11, 0
+  vsll.vi v29, v3, 19
 
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vv v22, v27, v31
+  vsll.vv v22, v14, v15
 
-  li t2, 0xdfb4d2f86571f607
+  li t2, 0x43913de8fb61ee5e
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vx v15, v3, t2
+  vsll.vx v20, v24, t2
 
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vi v24, v18, 11
+  vsll.vi v24, v31, 21
 
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vv v3, v5, v7
+  vsll.vv v14, v21, v3
 
-  li t2, 0xcaaabf659bd20fe9
+  li t2, 0xc1e035a59b7807d8
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vx v24, v20, t2
+  vsll.vx v6, v13, t2
 
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vi v8, v16, -14
+  vsll.vi v5, v22, 10
 
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vv v2, v8, v16
+  vsll.vv v13, v20, v10
 
-  li t2, 0xefd750561c50ba16
+  li t2, 0x5d6d4e0f5da60df4
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vx v17, v23, t2
+  vsll.vx v26, v29, t2
 
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vi v11, v26, 11
+  vsll.vi v20, v31, 18
 
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vv v17, v11, v2
+  vsll.vv v26, v17, v30
 
-  li t2, 0x75049cf94ab25154
+  li t2, 0xeffa296c00ac4f04
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vx v22, v16, t2
+  vsll.vx v24, v30, t2
 
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vi v1, v4, 0
+  vsll.vi v3, v25, 18
 
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vv v7, v12, v4
+  vsll.vv v14, v24, v4
 
-  li t2, 0xa350fcb7cf39fb3b
+  li t2, 0x39b602e9762c652a
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vx v14, v26, t2
+  vsll.vx v23, v28, t2
 
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vi v30, v6, -3
+  vsll.vi v24, v25, 7
 
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vv v26, v21, v13
+  vsll.vv v23, v4, v6
 
-  li t2, 0x84591276c25fd2a6
+  li t2, 0x8a2cf7660bfc9949
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vx v19, v1, t2
+  vsll.vx v15, v11, t2
 
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vi v3, v29, 10
+  vsll.vi v13, v6, 6
 
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vv v31, v1, v12
+  vsll.vv v5, v26, v18
 
-  li t2, 0x586c61282335c224
+  li t2, 0xd2c1edf93251fe54
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vx v13, v9, t2
+  vsll.vx v5, v22, t2
 
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vi v1, v11, -5
+  vsll.vi v19, v9, 11
 
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vv v31, v7, v1
+  vsll.vv v6, v20, v22
 
-  li t2, 0x1774c298f5455ac5
+  li t2, 0x51ac6d5497c410f0
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vx v16, v1, t2
+  vsll.vx v13, v30, t2
 
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vi v19, v15, -5
+  vsll.vi v30, v24, 7
 
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vv v1, v18, v30
+  vsll.vv v31, v18, v6
 
-  li t2, 0xa69173eb2b69ca0e
+  li t2, 0x992795ac959133e5
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vx v26, v6, t2
+  vsll.vx v17, v5, t2
 
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vi v8, v11, 12
+  vsll.vi v9, v7, 29
 
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vv v17, v11, v24
+  vsll.vv v11, v4, v2
 
-  li t2, 0xa349594482e251f8
+  li t2, 0x4d6a5ff3cdd6aaeb
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vx v13, v21, t2
+  vsll.vx v21, v8, t2
 
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vi v24, v28, 6
+  vsll.vi v26, v1, 29
 
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vv v25, v6, v26
+  vsll.vv v23, v30, v24
 
-  li t2, 0x9e3732218754d6b2
+  li t2, 0xd3bc08f768db0d82
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vx v9, v29, t2
+  vsll.vx v15, v28, t2
 
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vi v2, v28, -12
+  vsll.vi v28, v18, 26
 
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vv v22, v29, v30
+  vsll.vv v25, v30, v10
 
-  li t2, 0x106d3595d3dafb9c
+  li t2, 0x94fc82d32e3bd1c0
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vx v7, v10, t2
+  vsll.vx v10, v9, t2
 
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vi v12, v9, 7
+  vsll.vi v29, v31, 15
 
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vv v6, v3, v17
+  vsll.vv v2, v23, v14
 
-  li t2, 0xa70ae096272b2efb
+  li t2, 0x9171d4dca4fa4e14
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vx v25, v7, t2
+  vsll.vx v10, v15, t2
 
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vi v21, v30, 14
+  vsll.vi v17, v24, 26
 
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vv v25, v16, v10
+  vsll.vv v28, v21, v16
 
-  li t2, 0xa9ff2f4df9135711
+  li t2, 0x1a86df9a7deb8cfa
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vx v20, v11, t2
+  vsll.vx v15, v4, t2
 
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vi v13, v14, -11
+  vsll.vi v18, v31, 10
 
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vv v18, v7, v19
+  vsll.vv v11, v18, v7
 
-  li t2, 0xff1917d48dd9d61b
+  li t2, 0x1adb54d43625ccbc
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vx v21, v2, t2
+  vsll.vx v15, v27, t2
 
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vi v15, v28, 10
+  vsll.vi v14, v18, 12
 
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vv v9, v19, v10
+  vsll.vv v28, v27, v10
 
-  li t2, 0x87c86f35a174d9a8
+  li t2, 0x7e24290d99fa3746
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vx v19, v13, t2
+  vsll.vx v24, v2, t2
 
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vi v7, v8, -15
+  vsll.vi v29, v31, 5
 
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vv v30, v5, v24
+  vsll.vv v7, v29, v8
 
-  li t2, 0x029e7cc348558f1c
+  li t2, 0xab68f9b8a764a676
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vx v11, v24, t2
+  vsll.vx v11, v25, t2
 
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vi v27, v3, 8
+  vsll.vi v12, v3, 27
 
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vv v1, v7, v6
+  vsll.vv v31, v13, v23
 
-  li t2, 0x63462248a403aaca
+  li t2, 0x3b5de09dd1d7c051
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vx v14, v10, t2
+  vsll.vx v16, v7, t2
 
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vi v30, v25, -3
+  vsll.vi v26, v30, 8
 
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vv v17, v21, v27
+  vsll.vv v9, v15, v25
 
-  li t2, 0x1efec66c9162b5aa
+  li t2, 0xbab808555e75046a
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vx v28, v11, t2
+  vsll.vx v17, v8, t2
 
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vi v13, v21, 8
+  vsll.vi v19, v9, 19
 
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vv v26, v10, v14
+  vsll.vv v13, v19, v24
 
-  li t2, 0xe126abf851eb837c
+  li t2, 0x0667e7d1628448a8
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vx v24, v11, t2
+  vsll.vx v5, v31, t2
 
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vi v8, v3, 3
+  vsll.vi v11, v22, 29
 
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vv v27, v14, v24
+  vsll.vv v17, v14, v9
 
-  li t2, 0xfac7dbb2b43f970a
+  li t2, 0xc6e32ce5d041cb6c
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vx v4, v27, t2
+  vsll.vx v10, v28, t2
 
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vi v11, v1, -8
+  vsll.vi v29, v27, 20
 
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vv v1, v25, v6
+  vsll.vv v1, v26, v4
 
-  li t2, 0x85c7f5a22c2e7127
+  li t2, 0x8f6837aa5f5f04f2
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vx v27, v25, t2
+  vsll.vx v3, v26, t2
 
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vi v6, v1, -12
+  vsll.vi v19, v14, 16
 
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vv v21, v14, v18
+  vsll.vv v10, v2, v15
 
-  li t2, 0x7e7193256bd41460
+  li t2, 0x3ea742422c2579ec
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vx v12, v31, t2
+  vsll.vx v17, v21, t2
 
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vi v28, v29, 12
+  vsll.vi v1, v24, 14
 
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vv v18, v28, v6
+  vsll.vv v26, v3, v11
 
-  li t2, 0xe967e040a9ec9cb2
+  li t2, 0x8ed817a2f9d77b24
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vx v10, v8, t2
+  vsll.vx v7, v26, t2
 
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vi v27, v17, -1
+  vsll.vi v10, v29, 16
 
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vv v21, v8, v13
+  vsll.vv v21, v5, v4
 
-  li t2, 0x3d7a2013124bfbbf
+  li t2, 0xb6c7178600d1d76b
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vx v21, v2, t2
+  vsll.vx v26, v12, t2
 
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vi v16, v6, 1
+  vsll.vi v12, v8, 27
 
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vv v3, v27, v21
+  vsll.vv v20, v8, v15
 
-  li t2, 0x8d0650ec5a310fac
+  li t2, 0x466d88e54456a6ed
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vx v11, v8, t2
+  vsll.vx v2, v29, t2
 
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vi v28, v10, -2
+  vsll.vi v15, v27, 12
 
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vv v8, v5, v10
+  vsll.vv v20, v9, v29
 
-  li t2, 0xdd7e27d4828283c6
+  li t2, 0x27449f3891df84d6
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vx v16, v30, t2
+  vsll.vx v19, v15, t2
 
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vi v31, v27, -2
+  vsll.vi v24, v16, 13
 
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vv v29, v22, v8
+  vsll.vv v14, v4, v24
 
-  li t2, 0x606cd65edc0fa41c
+  li t2, 0xf90bc200d612dde5
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vx v6, v29, t2
+  vsll.vx v10, v24, t2
 
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vi v5, v22, -13
+  vsll.vi v8, v26, 22
 
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vv v31, v22, v16
+  vsll.vv v12, v26, v5
 
-  li t2, 0x8c43c402e415e14d
+  li t2, 0x507aed1bebf6378a
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vx v30, v4, t2
+  vsll.vx v29, v3, t2
 
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vi v8, v5, -10
+  vsll.vi v6, v14, 26
 
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vv v20, v25, v26
+  vsll.vv v20, v14, v6
 
-  li t2, 0x8ae1bdc9ad240980
+  li t2, 0x8f78814d3e622ce8
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vx v18, v15, t2
+  vsll.vx v7, v23, t2
 
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vi v15, v4, -12
+  vsll.vi v7, v15, 27
 
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vv v31, v12, v28
+  vsll.vv v23, v29, v7
 
-  li t2, 0x6ca1a85bd6084e1d
+  li t2, 0xeaaadad47a4dfb24
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vx v4, v21, t2
+  vsll.vx v13, v8, t2
 
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vi v12, v20, 8
+  vsll.vi v30, v13, 28
 
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vv v11, v1, v26
+  vsll.vv v12, v23, v30
 
-  li t2, 0xfe843b0badc177d6
+  li t2, 0x1f82818b2dfffdad
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vx v24, v10, t2
+  vsll.vx v4, v29, t2
 
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vi v31, v2, -7
+  vsll.vi v27, v19, 28
 
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vv v11, v14, v4
+  vsll.vv v22, v17, v21
 
-  li t2, 0xe3c30ffe884fa2d2
+  li t2, 0x470ac5ec8b143320
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vx v3, v11, t2
+  vsll.vx v11, v10, t2
 
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vi v2, v4, -12
+  vsll.vi v5, v28, 11
 
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vv v16, v18, v6
+  vsll.vv v15, v16, v1
 
-  li t2, 0xa35a159c50f5694b
+  li t2, 0xf51ac28f3250f0b4
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vx v5, v6, t2
+  vsll.vx v30, v18, t2
 
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vi v31, v26, 4
+  vsll.vi v3, v8, 3
 
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vv v26, v7, v6
+  vsll.vv v19, v29, v27
 
-  li t2, 0x761d6b7dbcf28669
+  li t2, 0xec1aeb78caa529d9
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vx v11, v3, t2
+  vsll.vx v10, v24, t2
 
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vi v31, v25, -7
+  vsll.vi v19, v12, 25
 
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vv v25, v8, v24
+  vsll.vv v29, v27, v13
 
-  li t2, 0xd66152e8e34ff251
+  li t2, 0x9b6029fccb719475
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vx v4, v2, t2
+  vsll.vx v3, v19, t2
 
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vi v20, v3, -4
+  vsll.vi v7, v8, 26
 
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vv v20, v14, v26
+  vsll.vv v17, v30, v19
 
-  li t2, 0x7e7f3227f8d629f0
+  li t2, 0x0c3b77b566581e06
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vx v18, v10, t2
+  vsll.vx v20, v29, t2
 
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vi v10, v4, 1
+  vsll.vi v6, v21, 31
 
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vv v31, v4, v22
+  vsll.vv v29, v1, v18
 
-  li t2, 0x3f3ade1f8d64aac4
+  li t2, 0xe1c4d622455dbd01
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vx v8, v27, t2
+  vsll.vx v30, v22, t2
 
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vi v23, v20, 5
+  vsll.vi v30, v5, 12
 
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vv v17, v14, v6
+  vsll.vv v2, v9, v28
 
-  li t2, 0x8c1f764733b2d0ea
+  li t2, 0x716ac5f5716797c9
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vx v12, v19, t2
+  vsll.vx v10, v21, t2
 
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vi v18, v14, 6
+  vsll.vi v15, v20, 1
 
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vv v2, v23, v17
+  vsll.vv v19, v12, v21
 
-  li t2, 0x298c5397cf1045f0
+  li t2, 0xe1081c6b6dea49a7
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vx v23, v9, t2
+  vsll.vx v24, v10, t2
 
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vi v9, v14, -11
+  vsll.vi v11, v20, 1
 
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vv v21, v29, v16
+  vsll.vv v6, v16, v19
 
-  li t2, 0x2c900e9c1b352b71
+  li t2, 0xc9d81e9f9e5383da
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vx v18, v20, t2
+  vsll.vx v5, v20, t2
 
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vi v11, v21, -3
+  vsll.vi v17, v8, 2
 
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vv v5, v22, v20
+  vsll.vv v20, v7, v22
 
-  li t2, 0x973037a74801b049
+  li t2, 0xba653422b1514f15
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vx v23, v17, t2
+  vsll.vx v27, v16, t2
 
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vi v10, v6, -14
+  vsll.vi v19, v26, 15
 
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vv v10, v30, v13
+  vsll.vv v28, v24, v18
 
-  li t2, 0x23d4eddde5d64e0a
+  li t2, 0xfff755a2cc3f77fb
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vx v28, v18, t2
+  vsll.vx v9, v16, t2
 
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vi v27, v9, -12
+  vsll.vi v10, v12, 26
 
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vv v29, v26, v11
+  vsll.vv v14, v12, v28
 
-  li t2, 0xc4b357c8cb0ff7fc
+  li t2, 0x5f37a003398fc8b8
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vx v19, v6, t2
+  vsll.vx v1, v11, t2
 
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vi v22, v10, 7
+  vsll.vi v30, v8, 10
 
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vv v23, v6, v9
+  vsll.vv v3, v16, v7
 
-  li t2, 0x3f00945029a16f69
+  li t2, 0x44ab1ee73c0d8f3f
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vx v22, v6, t2
+  vsll.vx v14, v24, t2
 
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vi v29, v4, -15
+  vsll.vi v10, v20, 11
 
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vv v20, v7, v6
+  vsll.vv v3, v24, v17
 
-  li t2, 0x4b4a1c8e46728400
+  li t2, 0xc721f2ed4c5c708e
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vx v22, v13, t2
+  vsll.vx v17, v5, t2
 
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vi v22, v17, 14
+  vsll.vi v22, v26, 21
 
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vv v31, v16, v23
+  vsll.vv v29, v3, v11
 
-  li t2, 0x4417f1ab87ead187
+  li t2, 0xf1ef8f39618c9349
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vx v24, v29, t2
+  vsll.vx v27, v18, t2
 
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vi v21, v3, -2
+  vsll.vi v27, v16, 4
 
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vv v10, v11, v1
+  vsll.vv v24, v22, v13
 
-  li t2, 0x8120a618ccb9e530
+  li t2, 0xa5fcb7458f28fab8
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vx v2, v26, t2
+  vsll.vx v13, v27, t2
 
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vi v16, v30, -5
+  vsll.vi v3, v12, 9
 
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vv v24, v3, v11
+  vsll.vv v7, v14, v9
 
-  li t2, 0x10ac3ec472f27d32
+  li t2, 0x845f0906fc17292d
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vx v26, v5, t2
+  vsll.vx v15, v3, t2
 
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vi v16, v27, 8
+  vsll.vi v1, v11, 25
 
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vv v31, v30, v14
+  vsll.vv v24, v21, v8
 
-  li t2, 0xbd6a316f4284867a
+  li t2, 0xf40c79e6829abfb4
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vx v31, v27, t2
+  vsll.vx v21, v2, t2
 
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vi v5, v25, 15
+  vsll.vi v9, v2, 7
 
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vv v20, v30, v19
+  vsll.vv v28, v13, v2
 
-  li t2, 0x34da199f290ad223
+  li t2, 0xea28db32a543e5c5
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vx v3, v21, t2
+  vsll.vx v20, v23, t2
 
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vi v14, v2, -6
+  vsll.vi v31, v18, 17
 
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vv v29, v18, v12
+  vsll.vv v12, v18, v4
 
-  li t2, 0x1bb24bc23d60ac3e
+  li t2, 0x27e0f412cce4f420
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vx v26, v31, t2
+  vsll.vx v6, v29, t2
 
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vi v9, v10, -2
+  vsll.vi v9, v22, 26
 
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vv v20, v21, v5
+  vsll.vv v4, v8, v1
 
-  li t2, 0xf16d4c67a01b41c4
+  li t2, 0x59b24f7f65213e90
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vx v16, v23, t2
+  vsll.vx v6, v18, t2
 
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vi v5, v26, 6
+  vsll.vi v27, v5, 25
 
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vv v15, v11, v18
+  vsll.vv v28, v18, v6
 
-  li t2, 0x9fc3fbf6ae56d0be
+  li t2, 0x7a7ac40f0f3be8b1
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vx v3, v16, t2
+  vsll.vx v30, v13, t2
 
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vi v4, v6, -7
+  vsll.vi v31, v10, 25
 
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vv v26, v17, v21
+  vsll.vv v10, v26, v4
 
-  li t2, 0x495aae25bf50225c
+  li t2, 0x4d2134512d426320
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vx v8, v17, t2
+  vsll.vx v29, v21, t2
 
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vi v1, v16, -14
+  vsll.vi v24, v14, 13
 
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vv v8, v27, v22
+  vsll.vv v31, v22, v28
 
-  li t2, 0x0dc58922baa411f6
+  li t2, 0x033e0eda57e0655d
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vx v2, v4, t2
+  vsll.vx v22, v31, t2
 
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vi v18, v14, 5
+  vsll.vi v14, v12, 21
 
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vv v19, v5, v18
+  vsll.vv v3, v27, v6
 
-  li t2, 0x402854066ca3e777
+  li t2, 0xff986150ce94cbe7
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vx v16, v27, t2
+  vsll.vx v29, v9, t2
 
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vi v23, v31, 2
+  vsll.vi v6, v2, 17
 
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vv v14, v30, v22
+  vsll.vv v8, v1, v24
 
-  li t2, 0x8ca81037bd5d3a9a
+  li t2, 0x4fd696af6c455085
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vx v21, v25, t2
+  vsll.vx v11, v19, t2
 
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vi v5, v30, 10
+  vsll.vi v4, v29, 10
 
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vv v20, v17, v27
+  vsll.vv v23, v13, v9
 
-  li t2, 0x7e02d529ff85865d
+  li t2, 0xdce6e325029060e6
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vx v23, v27, t2
+  vsll.vx v21, v31, t2
 
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vi v5, v18, -8
+  vsll.vi v14, v22, 21
 
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vv v12, v31, v1
+  vsll.vv v6, v20, v18
 
-  li t2, 0x99257c5b9a8b80e1
+  li t2, 0x87674ecf616fadc1
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vx v6, v4, t2
+  vsll.vx v2, v6, t2
 
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vi v25, v18, -15
+  vsll.vi v15, v14, 13
 
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vv v26, v20, v28
+  vsll.vv v23, v24, v27
 
-  li t2, 0xa9f48f87d9889bdf
+  li t2, 0x3b178ffe72e70770
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vx v19, v27, t2
+  vsll.vx v31, v4, t2
 
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vi v22, v8, -2
+  vsll.vi v28, v31, 0
 
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vv v12, v14, v5
+  vsll.vv v30, v4, v31
 
-  li t2, 0x352d9da679078402
+  li t2, 0x64ae4aa3ceddb0c8
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vx v13, v29, t2
+  vsll.vx v10, v15, t2
 
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vi v11, v7, 8
+  vsll.vi v7, v17, 18
 
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vv v13, v24, v27
+  vsll.vv v2, v29, v11
 
-  li t2, 0x8d319fca0d497840
+  li t2, 0xdabe77fed83c5251
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vx v4, v5, t2
+  vsll.vx v18, v17, t2
 
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vi v5, v12, 0
+  vsll.vi v3, v24, 3
 
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vv v24, v5, v20
+  vsll.vv v30, v8, v13
 
-  li t2, 0xedb226b2af93ef47
+  li t2, 0xb88195d2ad2b1875
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vx v15, v2, t2
+  vsll.vx v17, v1, t2
 
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vi v3, v15, -10
+  vsll.vi v8, v13, 18
 
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vv v2, v9, v26
+  vsll.vv v11, v14, v5
 
-  li t2, 0xa8393e1494a1f2bd
+  li t2, 0xa203161f219c1dd4
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vx v31, v25, t2
+  vsll.vx v6, v19, t2
 
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vi v13, v31, -3
+  vsll.vi v26, v24, 30
 
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vv v29, v15, v30
+  vsll.vv v14, v26, v30
 
-  li t2, 0x0e81fc8fb75aae04
+  li t2, 0x3d995e77d1b1aef2
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vx v21, v22, t2
+  vsll.vx v4, v2, t2
 
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vi v20, v14, -7
+  vsll.vi v18, v24, 3
 
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vv v26, v29, v15
+  vsll.vv v13, v8, v25
 
-  li t2, 0xe1d53d984b07d6b8
+  li t2, 0xaf7acde5b0074fe7
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vx v10, v3, t2
+  vsll.vx v5, v4, t2
 
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vi v22, v11, 9
+  vsll.vi v7, v9, 23
 
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vv v13, v20, v30
+  vsll.vv v28, v9, v20
 
-  li t2, 0xe455b5a5c440e732
+  li t2, 0x36c6ac425020ea0c
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vx v23, v2, t2
+  vsll.vx v14, v7, t2
 
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vi v5, v1, -13
+  vsll.vi v24, v22, 24
 
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vv v26, v12, v16
+  vsll.vv v9, v17, v13
 
-  li t2, 0x75737121441d1604
+  li t2, 0x2f0486c7c6fd52a9
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vx v21, v3, t2
+  vsll.vx v12, v9, t2
 
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vi v31, v22, 6
+  vsll.vi v14, v9, 6
 
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vv v26, v13, v2
+  vsll.vv v8, v6, v4
 
-  li t2, 0x67b0ec0a05905b14
+  li t2, 0x705623fb88a586ab
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vx v23, v21, t2
+  vsll.vx v7, v1, t2
 
   vsetvli t1, t0, e32, m1, ta, ma
-  vand.vi v2, v18, -4
+  vsll.vi v31, v19, 0
 
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vv v22, v28, v14
+  vsll.vv v24, v18, v22
 
-  li t2, 0x1f95ca189379dd20
+  li t2, 0xa4c66c2c1edc66ea
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vx v22, v16, t2
+  vsll.vx v28, v20, t2
 
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vi v18, v22, -13
+  vsll.vi v30, v28, 20
 
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vv v26, v12, v20
+  vsll.vv v8, v16, v24
 
-  li t2, 0x0b7a0b857971fb95
+  li t2, 0x7d0c8574c4548759
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vx v12, v2, t2
+  vsll.vx v20, v8, t2
 
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vi v26, v24, -13
+  vsll.vi v2, v6, 21
 
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vv v10, v30, v2
+  vsll.vv v20, v8, v26
 
-  li t2, 0x9746835591bd541a
+  li t2, 0xedfbe94d168134b7
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vx v16, v26, t2
+  vsll.vx v16, v2, t2
 
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vi v16, v2, -8
+  vsll.vi v18, v10, 21
 
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vv v20, v6, v26
+  vsll.vv v8, v10, v18
 
-  li t2, 0x7c701f1c0845c684
+  li t2, 0x63a036924b34513a
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vx v12, v20, t2
+  vsll.vx v18, v26, t2
 
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vi v8, v18, 4
+  vsll.vi v4, v16, 14
 
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vv v10, v24, v18
+  vsll.vv v10, v8, v24
 
-  li t2, 0xf2c7eb048996f1c7
+  li t2, 0x774f9a2448b569fa
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vx v6, v12, t2
+  vsll.vx v4, v10, t2
 
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vi v26, v12, 0
+  vsll.vi v26, v12, 29
 
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vv v14, v22, v24
+  vsll.vv v18, v22, v10
 
-  li t2, 0x2fe97ae5365840fc
+  li t2, 0xba9194a03af11b72
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vx v22, v16, t2
+  vsll.vx v20, v8, t2
 
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vi v8, v10, 11
+  vsll.vi v8, v20, 6
 
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vv v26, v14, v22
+  vsll.vv v10, v30, v16
 
-  li t2, 0x701e5685b93981ed
+  li t2, 0x24a575bf5505ac5d
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vx v8, v30, t2
+  vsll.vx v22, v2, t2
 
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vi v12, v18, -12
+  vsll.vi v2, v4, 25
 
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vv v10, v2, v28
+  vsll.vv v26, v2, v6
 
-  li t2, 0x76b7f8a18968d5db
+  li t2, 0x7ce9768d83ac72ae
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vx v28, v2, t2
+  vsll.vx v16, v22, t2
 
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vi v20, v24, 2
+  vsll.vi v4, v24, 13
 
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vv v8, v6, v18
+  vsll.vv v22, v20, v16
 
-  li t2, 0x56e8f7554897df7c
+  li t2, 0x4a993513bcb33f28
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vx v14, v16, t2
+  vsll.vx v30, v6, t2
 
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vi v24, v2, 9
+  vsll.vi v16, v8, 22
 
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vv v24, v18, v8
+  vsll.vv v16, v22, v18
 
-  li t2, 0xaed1a98598d3a4c6
+  li t2, 0xdc443a5a0cfc821f
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vx v16, v10, t2
+  vsll.vx v18, v28, t2
 
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vi v28, v8, 8
+  vsll.vi v28, v24, 7
 
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vv v6, v24, v18
+  vsll.vv v8, v18, v4
 
-  li t2, 0x3605e90aa90c6615
+  li t2, 0x3dafdefe51995138
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vx v26, v12, t2
+  vsll.vx v10, v8, t2
 
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vi v30, v8, 12
+  vsll.vi v20, v30, 9
 
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vv v30, v18, v4
+  vsll.vv v4, v2, v8
 
-  li t2, 0xd088f7be4459dc41
+  li t2, 0xb2accc125501d579
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vx v18, v30, t2
+  vsll.vx v26, v28, t2
 
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vi v20, v22, 14
+  vsll.vi v30, v28, 21
 
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vv v24, v6, v2
+  vsll.vv v24, v12, v8
 
-  li t2, 0xe85dd0afdc6a670c
+  li t2, 0xfeabf37792b9e915
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vx v10, v6, t2
+  vsll.vx v30, v28, t2
 
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vi v18, v30, -13
+  vsll.vi v20, v6, 23
 
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vv v4, v26, v12
+  vsll.vv v26, v2, v4
 
-  li t2, 0x25afabb85f9b8697
+  li t2, 0xcedfad6aab4255c3
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vx v24, v4, t2
+  vsll.vx v30, v18, t2
 
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vi v10, v12, 2
+  vsll.vi v14, v20, 17
 
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vv v10, v14, v24
+  vsll.vv v18, v16, v4
 
-  li t2, 0xc6c372ee7e10a6c4
+  li t2, 0x4ae9c5799534e2e5
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vx v24, v10, t2
+  vsll.vx v2, v24, t2
 
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vi v2, v14, -15
+  vsll.vi v6, v18, 4
 
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vv v16, v12, v6
+  vsll.vv v6, v28, v10
 
-  li t2, 0xc8cf48e811dbefe7
+  li t2, 0x6b449fc18a2f3a17
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vx v18, v30, t2
+  vsll.vx v26, v4, t2
 
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vi v10, v6, -7
+  vsll.vi v28, v6, 7
 
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vv v16, v6, v20
+  vsll.vv v12, v4, v14
 
-  li t2, 0x0150e343fdcc8256
+  li t2, 0x162aaafd4aae683a
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vx v4, v26, t2
+  vsll.vx v30, v12, t2
 
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vi v18, v16, 11
+  vsll.vi v6, v8, 13
 
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vv v4, v10, v28
+  vsll.vv v22, v8, v12
 
-  li t2, 0x18b31badd4d22098
+  li t2, 0xc7e37de77cc42f90
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vx v26, v30, t2
+  vsll.vx v26, v22, t2
 
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vi v20, v22, -14
+  vsll.vi v2, v10, 8
 
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vv v12, v6, v28
+  vsll.vv v8, v24, v18
 
-  li t2, 0x788196a36547e41d
+  li t2, 0x7f2bed2fca1c5d9c
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vx v28, v4, t2
+  vsll.vx v16, v14, t2
 
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vi v28, v24, 8
+  vsll.vi v26, v4, 30
 
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vv v18, v30, v4
+  vsll.vv v12, v28, v18
 
-  li t2, 0x9c9ba13ef08bae71
+  li t2, 0xaa0bdd8a822939ef
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vx v2, v14, t2
+  vsll.vx v12, v30, t2
 
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vi v20, v24, -16
+  vsll.vi v28, v8, 0
 
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vv v14, v20, v28
+  vsll.vv v12, v24, v26
 
-  li t2, 0x1b0214a39dd06f8d
+  li t2, 0x4fd30bb3095f0422
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vx v22, v24, t2
+  vsll.vx v24, v18, t2
 
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vi v20, v8, 11
+  vsll.vi v18, v30, 9
 
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vv v26, v22, v16
+  vsll.vv v4, v12, v2
 
-  li t2, 0x8bc77ce44488633c
+  li t2, 0xf81cd1b2fa4fe4a8
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vx v4, v26, t2
+  vsll.vx v4, v30, t2
 
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vi v30, v10, -7
+  vsll.vi v30, v2, 13
 
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vv v16, v24, v2
+  vsll.vv v14, v2, v10
 
-  li t2, 0x22fd81245c6c227d
+  li t2, 0x5b41cfb168e512f8
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vx v14, v12, t2
+  vsll.vx v2, v16, t2
 
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vi v20, v12, 15
+  vsll.vi v10, v2, 5
 
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vv v28, v10, v18
+  vsll.vv v10, v30, v8
 
-  li t2, 0xfb6f3314b63879cf
+  li t2, 0xd3c1cbab2b6ac523
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vx v20, v22, t2
+  vsll.vx v4, v30, t2
 
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vi v24, v6, -5
+  vsll.vi v16, v8, 10
 
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vv v6, v28, v22
+  vsll.vv v14, v24, v20
 
-  li t2, 0x67d41a03492914ef
+  li t2, 0x3556aa14899e3f0d
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vx v20, v28, t2
+  vsll.vx v18, v30, t2
 
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vi v16, v8, 5
+  vsll.vi v28, v14, 31
 
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vv v22, v16, v26
+  vsll.vv v6, v24, v2
 
-  li t2, 0xddbf9b770070b784
+  li t2, 0x059dcf6294404d82
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vx v10, v28, t2
+  vsll.vx v10, v28, t2
 
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vi v12, v30, -12
+  vsll.vi v4, v24, 0
 
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vv v12, v28, v2
+  vsll.vv v2, v14, v24
 
-  li t2, 0x488d86ed42d1a923
+  li t2, 0x9b99aae9028c79ac
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vx v4, v26, t2
+  vsll.vx v12, v20, t2
 
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vi v24, v2, 13
+  vsll.vi v18, v30, 24
 
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vv v24, v4, v14
+  vsll.vv v14, v24, v8
 
-  li t2, 0xf1fe0728d878a645
+  li t2, 0x8e73c93c0ec6a3d3
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vx v22, v30, t2
+  vsll.vx v14, v8, t2
 
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vi v30, v18, -2
+  vsll.vi v6, v12, 16
 
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vv v4, v26, v20
+  vsll.vv v12, v4, v8
 
-  li t2, 0xe1cf787e73512a95
+  li t2, 0xf52fcb36b5e8f6c9
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vx v12, v28, t2
+  vsll.vx v8, v12, t2
 
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vi v16, v2, -2
+  vsll.vi v8, v28, 18
 
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vv v18, v20, v12
+  vsll.vv v22, v16, v18
 
-  li t2, 0x2bd25007e8dd3c3c
+  li t2, 0x37b3197e5f53f3fc
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vx v10, v18, t2
+  vsll.vx v24, v26, t2
 
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vi v6, v2, -6
+  vsll.vi v12, v10, 20
 
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vv v6, v14, v24
+  vsll.vv v28, v20, v4
 
-  li t2, 0xe33caf1b1763d331
+  li t2, 0x94919967ca4ce356
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vx v2, v16, t2
+  vsll.vx v18, v12, t2
 
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vi v18, v30, -16
+  vsll.vi v6, v4, 27
 
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vv v14, v30, v12
+  vsll.vv v10, v6, v28
 
-  li t2, 0x54f7278a6a0c7cd2
+  li t2, 0x49c1eec0b17fedec
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vx v20, v18, t2
+  vsll.vx v2, v6, t2
 
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vi v14, v30, 5
+  vsll.vi v6, v8, 17
 
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vv v10, v4, v26
+  vsll.vv v20, v26, v16
 
-  li t2, 0x3b161b984edc2643
+  li t2, 0xd44356366accb583
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vx v18, v26, t2
+  vsll.vx v6, v12, t2
 
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vi v12, v20, 11
+  vsll.vi v8, v26, 8
 
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vv v4, v6, v8
+  vsll.vv v10, v14, v8
 
-  li t2, 0x59b7fc1a5090cdc0
+  li t2, 0x1e2df2eeb84626bc
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vx v16, v8, t2
+  vsll.vx v16, v14, t2
 
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vi v16, v28, -3
+  vsll.vi v14, v24, 28
 
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vv v24, v2, v14
+  vsll.vv v20, v10, v8
 
-  li t2, 0x649e37b439d9e6d2
+  li t2, 0xfa630442237f1b81
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vx v16, v8, t2
+  vsll.vx v8, v18, t2
 
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vi v24, v12, 2
+  vsll.vi v26, v22, 16
 
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vv v26, v8, v18
+  vsll.vv v16, v28, v8
 
-  li t2, 0xe0876a060526a169
+  li t2, 0xe45c501178b6e6de
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vx v16, v2, t2
+  vsll.vx v2, v24, t2
 
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vi v14, v4, 3
+  vsll.vi v4, v26, 0
 
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vv v16, v24, v6
+  vsll.vv v26, v4, v2
 
-  li t2, 0x68520ae238a33576
+  li t2, 0x1479a7acbcfa6bd8
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vx v30, v18, t2
+  vsll.vx v20, v24, t2
 
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vi v22, v2, -13
+  vsll.vi v2, v24, 5
 
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vv v8, v26, v16
+  vsll.vv v10, v30, v14
 
-  li t2, 0x732287f06f59ffdb
+  li t2, 0x74844d3fea45ba07
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vx v22, v8, t2
+  vsll.vx v16, v18, t2
 
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vi v26, v10, -16
+  vsll.vi v30, v28, 0
 
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vv v12, v20, v28
+  vsll.vv v6, v28, v8
 
-  li t2, 0xff2d4458e5b628aa
+  li t2, 0x8c1bef2f752ced63
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vx v16, v14, t2
+  vsll.vx v10, v12, t2
 
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vi v10, v16, -1
+  vsll.vi v10, v2, 22
 
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vv v30, v18, v12
+  vsll.vv v4, v24, v14
 
-  li t2, 0x52da134cbb976fb7
+  li t2, 0x1b00ff9a164ddcb5
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vx v24, v16, t2
+  vsll.vx v6, v20, t2
 
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vi v20, v10, -7
+  vsll.vi v12, v8, 0
 
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vv v22, v12, v14
+  vsll.vv v26, v6, v10
 
-  li t2, 0xa72374aba291d885
+  li t2, 0xaf98e7b2f8f5b42f
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vx v6, v16, t2
+  vsll.vx v14, v18, t2
 
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vi v8, v26, 10
+  vsll.vi v24, v16, 8
 
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vv v14, v10, v24
+  vsll.vv v10, v14, v18
 
-  li t2, 0x17f66262ec49fa86
+  li t2, 0xba837c1497006979
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vx v10, v6, t2
+  vsll.vx v12, v22, t2
 
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vi v6, v4, -12
+  vsll.vi v8, v24, 11
 
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vv v14, v2, v8
+  vsll.vv v24, v26, v12
 
-  li t2, 0x305c357e948a7337
+  li t2, 0x2732c17ccb64d5cf
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vx v14, v16, t2
+  vsll.vx v12, v10, t2
 
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vi v24, v4, -8
+  vsll.vi v12, v26, 23
 
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vv v26, v6, v28
+  vsll.vv v28, v26, v6
 
-  li t2, 0x8d31ccdd1ed91f02
+  li t2, 0x96cabf3e641fbadc
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vx v16, v12, t2
+  vsll.vx v30, v18, t2
 
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vi v20, v28, -7
+  vsll.vi v20, v28, 13
 
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vv v28, v26, v22
+  vsll.vv v18, v20, v28
 
-  li t2, 0x746880d6ca03213a
+  li t2, 0x541b509493c2c24a
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vx v8, v10, t2
+  vsll.vx v8, v22, t2
 
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vi v24, v20, 9
+  vsll.vi v4, v8, 7
 
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vv v28, v4, v16
+  vsll.vv v14, v20, v24
 
-  li t2, 0x045f1a7954ed2f8a
+  li t2, 0x13b6e67aa75128be
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vx v28, v26, t2
+  vsll.vx v20, v8, t2
 
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vi v6, v24, -1
+  vsll.vi v16, v20, 21
 
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vv v2, v28, v12
+  vsll.vv v22, v28, v4
 
-  li t2, 0x9e72cd9cb4a2c975
+  li t2, 0xbde8a8ef7d9595cc
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vx v22, v28, t2
+  vsll.vx v24, v12, t2
 
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vi v18, v6, -13
+  vsll.vi v14, v24, 9
 
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vv v4, v16, v2
+  vsll.vv v4, v18, v30
 
-  li t2, 0x1526fcc5d5bb4feb
+  li t2, 0xda5a64cf317a3709
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vx v6, v20, t2
+  vsll.vx v8, v10, t2
 
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vi v12, v6, -7
+  vsll.vi v16, v6, 8
 
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vv v14, v18, v8
+  vsll.vv v16, v8, v14
 
-  li t2, 0x6dcd93b3c817eecc
+  li t2, 0x6f1b3df2458e6565
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vx v24, v22, t2
+  vsll.vx v8, v20, t2
 
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vi v24, v14, 14
+  vsll.vi v6, v28, 8
 
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vv v16, v6, v28
+  vsll.vv v2, v20, v28
 
-  li t2, 0x26cf2c1ec8ea8a22
+  li t2, 0xa6700155e4bd9995
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vx v30, v8, t2
+  vsll.vx v2, v26, t2
 
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vi v2, v26, 2
+  vsll.vi v10, v2, 13
 
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vv v6, v22, v26
+  vsll.vv v18, v10, v30
 
-  li t2, 0x4ee431f5074d9cd1
+  li t2, 0x5a94764efe92ee7b
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vx v14, v16, t2
+  vsll.vx v24, v10, t2
 
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vi v16, v8, 2
+  vsll.vi v16, v2, 27
 
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vv v26, v6, v18
+  vsll.vv v8, v20, v24
 
-  li t2, 0xc056aaf80dd36383
+  li t2, 0xc50d77a8c3c72375
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vx v2, v16, t2
+  vsll.vx v18, v4, t2
 
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vi v24, v20, 0
+  vsll.vi v22, v28, 13
 
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vv v26, v14, v22
+  vsll.vv v14, v18, v12
 
-  li t2, 0x8c33135650cbf581
+  li t2, 0xf72f0c12c7c7be0a
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vx v30, v26, t2
+  vsll.vx v20, v22, t2
 
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vi v20, v4, 11
+  vsll.vi v14, v4, 8
 
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vv v4, v26, v6
+  vsll.vv v20, v24, v26
 
-  li t2, 0xc7e49e671f5f776b
+  li t2, 0xdeaded2699a93200
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vx v10, v26, t2
+  vsll.vx v30, v26, t2
 
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vi v18, v12, -5
+  vsll.vi v10, v4, 20
 
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vv v28, v20, v14
+  vsll.vv v4, v10, v14
 
-  li t2, 0xdec3d14c7ed9355b
+  li t2, 0x0128e42576b91366
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vx v2, v4, t2
+  vsll.vx v8, v12, t2
 
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vi v6, v22, 3
+  vsll.vi v18, v10, 29
 
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vv v24, v20, v4
+  vsll.vv v16, v4, v14
 
-  li t2, 0x5e68cf4be0adc1f8
+  li t2, 0x817d2d558ae3e89b
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vx v24, v6, t2
+  vsll.vx v26, v10, t2
 
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vi v22, v16, -1
+  vsll.vi v12, v26, 23
 
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vv v24, v10, v28
+  vsll.vv v18, v16, v10
 
-  li t2, 0xb1815f6e062bfed8
+  li t2, 0x99cd0634bd9e046e
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vx v10, v4, t2
+  vsll.vx v4, v10, t2
 
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vi v16, v14, -8
+  vsll.vi v24, v6, 13
 
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vv v10, v28, v24
+  vsll.vv v22, v6, v18
 
-  li t2, 0x4174c7dcb4e8705d
+  li t2, 0xc678f8f5e317906c
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vx v16, v28, t2
+  vsll.vx v8, v10, t2
 
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vi v14, v16, 6
+  vsll.vi v6, v10, 26
 
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vv v8, v16, v14
+  vsll.vv v2, v28, v22
 
-  li t2, 0x683f5bf9e138fcd0
+  li t2, 0x7c98b6324052b098
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vx v24, v8, t2
+  vsll.vx v26, v2, t2
 
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vi v24, v26, -3
+  vsll.vi v8, v18, 18
 
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vv v18, v10, v12
+  vsll.vv v16, v22, v2
 
-  li t2, 0xe88c0daca4997364
+  li t2, 0x398df30c8687c253
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vx v10, v14, t2
+  vsll.vx v24, v18, t2
 
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vi v4, v10, -2
+  vsll.vi v20, v12, 12
 
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vv v4, v18, v28
+  vsll.vv v2, v10, v26
 
-  li t2, 0x413a32b774bd216c
+  li t2, 0x319e9f471d657fc0
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vx v6, v22, t2
+  vsll.vx v10, v22, t2
 
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vi v8, v10, 8
+  vsll.vi v30, v2, 11
 
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vv v2, v26, v22
+  vsll.vv v18, v26, v30
 
-  li t2, 0xe1b2a5d7ab62067e
+  li t2, 0x6059d060a8dabb2d
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vx v4, v14, t2
+  vsll.vx v16, v8, t2
 
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vi v24, v14, -4
+  vsll.vi v8, v20, 27
 
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vv v6, v22, v4
+  vsll.vv v12, v18, v2
 
-  li t2, 0x4ece46a833bf958a
+  li t2, 0x6aa34ecbcc4ddfb2
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vx v10, v30, t2
+  vsll.vx v20, v2, t2
 
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vi v18, v16, 2
+  vsll.vi v30, v28, 31
 
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vv v16, v28, v24
+  vsll.vv v6, v10, v18
 
-  li t2, 0x2f03adb7f76a5997
+  li t2, 0x6bae16630440691c
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vx v30, v22, t2
+  vsll.vx v4, v8, t2
 
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vi v8, v18, -6
+  vsll.vi v10, v24, 9
 
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vv v18, v2, v8
+  vsll.vv v2, v22, v12
 
-  li t2, 0xf104b058f71aa0a0
+  li t2, 0x96969a5a80817ed9
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vx v4, v20, t2
+  vsll.vx v10, v26, t2
 
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vi v26, v4, 3
+  vsll.vi v2, v14, 27
 
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vv v24, v12, v20
+  vsll.vv v26, v6, v14
 
-  li t2, 0xe7ee5354dd563866
+  li t2, 0xf99e0153ca2e8f98
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vx v28, v30, t2
+  vsll.vx v20, v8, t2
 
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vi v26, v6, -13
+  vsll.vi v26, v4, 6
 
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vv v2, v4, v26
+  vsll.vv v26, v14, v4
 
-  li t2, 0xf336d316ee23d789
+  li t2, 0xe5ce6053dd04a39c
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vx v16, v30, t2
+  vsll.vx v24, v22, t2
 
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vi v10, v2, 4
+  vsll.vi v16, v30, 20
 
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vv v16, v28, v12
+  vsll.vv v20, v16, v18
 
-  li t2, 0xab4bfa8eb9b20d84
+  li t2, 0x8c171fe1e1eaf2f4
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vx v30, v12, t2
+  vsll.vx v24, v4, t2
 
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vi v28, v24, 4
+  vsll.vi v14, v18, 1
 
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vv v28, v12, v14
+  vsll.vv v18, v16, v14
 
-  li t2, 0xd065e5cc114b57c1
+  li t2, 0xa9d908f3ad551a4c
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vx v24, v6, t2
+  vsll.vx v28, v12, t2
 
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vi v16, v24, -16
+  vsll.vi v4, v12, 27
 
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vv v22, v6, v24
+  vsll.vv v26, v22, v4
 
-  li t2, 0x21c8455a54c356d5
+  li t2, 0xb9da458ba6186544
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vx v10, v20, t2
+  vsll.vx v18, v28, t2
 
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vi v28, v12, 7
+  vsll.vi v16, v20, 27
 
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vv v28, v6, v14
+  vsll.vv v14, v18, v16
 
-  li t2, 0x6b3b680c43af6bba
+  li t2, 0x27fc03a016087b3c
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vx v12, v10, t2
+  vsll.vx v2, v28, t2
 
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vi v6, v18, -13
+  vsll.vi v4, v20, 27
 
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vv v22, v4, v14
+  vsll.vv v18, v14, v16
 
-  li t2, 0xdc7e98594f3e8bbb
+  li t2, 0x77cea7a5fcdecf2e
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vx v22, v12, t2
+  vsll.vx v10, v30, t2
 
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vi v28, v10, -9
+  vsll.vi v30, v10, 19
 
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vv v4, v14, v30
+  vsll.vv v2, v10, v14
 
-  li t2, 0x5118378cf71f5a82
+  li t2, 0xb1729608ef1d8164
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vx v28, v30, t2
+  vsll.vx v20, v4, t2
 
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vi v18, v24, -9
+  vsll.vi v22, v20, 15
 
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vv v16, v14, v8
+  vsll.vv v4, v26, v10
 
-  li t2, 0x84fe7e4b847e2f82
+  li t2, 0xaf124535e90173a0
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vx v2, v18, t2
+  vsll.vx v12, v8, t2
 
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vi v12, v16, 12
+  vsll.vi v28, v2, 30
 
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vv v14, v26, v8
+  vsll.vv v10, v16, v4
 
-  li t2, 0xbc3791c305cff425
+  li t2, 0xe3f25b98b24440d0
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vx v12, v22, t2
+  vsll.vx v2, v22, t2
 
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vi v14, v28, -15
+  vsll.vi v4, v16, 30
 
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vv v14, v24, v4
+  vsll.vv v30, v14, v6
 
-  li t2, 0x8827298875d2e9b6
+  li t2, 0xa7d5ea8d7516962c
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vx v30, v8, t2
+  vsll.vx v28, v16, t2
 
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vi v4, v8, 15
+  vsll.vi v10, v30, 25
 
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vv v8, v2, v12
+  vsll.vv v28, v26, v2
 
-  li t2, 0x63036bcf0d9856ae
+  li t2, 0x321eae3a96e104ba
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vx v14, v8, t2
+  vsll.vx v18, v20, t2
 
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vi v24, v12, -10
+  vsll.vi v10, v16, 24
 
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vv v16, v20, v28
+  vsll.vv v18, v10, v12
 
-  li t2, 0xd65f7125b02b858d
+  li t2, 0x4423a7498cd93a15
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vx v2, v28, t2
+  vsll.vx v20, v22, t2
 
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vi v30, v22, -2
+  vsll.vi v14, v16, 3
 
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vv v16, v2, v10
+  vsll.vv v16, v28, v20
 
-  li t2, 0x600a3d4e256e2d0d
+  li t2, 0xd6a876799cc1d2dc
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vx v24, v30, t2
+  vsll.vx v26, v12, t2
 
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vi v2, v6, -9
+  vsll.vi v12, v8, 29
 
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vv v6, v28, v4
+  vsll.vv v14, v12, v4
 
-  li t2, 0xc0c61166d07ccabb
+  li t2, 0x868d4350e0f80f10
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vx v28, v24, t2
+  vsll.vx v4, v6, t2
 
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vi v6, v10, 9
+  vsll.vi v2, v16, 8
 
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vv v10, v12, v20
+  vsll.vv v26, v30, v12
 
-  li t2, 0xf11681a25fae6b6f
+  li t2, 0x69858f6c2942e47f
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vx v14, v22, t2
+  vsll.vx v28, v22, t2
 
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vi v6, v2, 11
+  vsll.vi v4, v14, 28
 
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vv v10, v22, v20
+  vsll.vv v14, v10, v4
 
-  li t2, 0x3e37a43683682e51
+  li t2, 0x64e790f9da0cce29
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vx v30, v24, t2
+  vsll.vx v28, v10, t2
 
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vi v10, v8, 15
+  vsll.vi v10, v26, 3
 
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vv v12, v18, v22
+  vsll.vv v12, v6, v28
 
-  li t2, 0x07bffc9ecad7628b
+  li t2, 0x95a5922e87822a0e
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vx v18, v24, t2
+  vsll.vx v10, v18, t2
 
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vi v20, v18, 3
+  vsll.vi v10, v16, 12
 
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vv v2, v6, v14
+  vsll.vv v12, v30, v2
 
-  li t2, 0x67cc9d0bbdaa8d13
+  li t2, 0x1cc7411b5d7850b4
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vx v26, v6, t2
+  vsll.vx v20, v26, t2
 
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vi v26, v16, -14
+  vsll.vi v26, v20, 11
 
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vv v16, v20, v22
+  vsll.vv v16, v8, v6
 
-  li t2, 0x46dc8efbd4af87d6
+  li t2, 0x96e0bb56e32637c2
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vx v28, v10, t2
+  vsll.vx v16, v10, t2
 
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vi v12, v10, 14
+  vsll.vi v4, v12, 11
 
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vv v30, v28, v10
+  vsll.vv v2, v8, v30
 
-  li t2, 0x25e1dfc835f9e3e3
+  li t2, 0x4412a979346b3c99
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vx v6, v4, t2
+  vsll.vx v30, v10, t2
 
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vi v30, v4, 7
+  vsll.vi v8, v28, 24
 
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vv v24, v16, v28
+  vsll.vv v30, v18, v2
 
-  li t2, 0x25b8658484906f16
+  li t2, 0x24371aaae4f8232b
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vx v26, v16, t2
+  vsll.vx v22, v10, t2
 
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vi v6, v20, 7
+  vsll.vi v26, v14, 4
 
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vv v2, v10, v24
+  vsll.vv v24, v10, v4
 
-  li t2, 0x5aeb9484436860e8
+  li t2, 0xb1c48b034c74f919
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vx v20, v30, t2
+  vsll.vx v6, v10, t2
 
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vi v2, v26, -12
+  vsll.vi v2, v20, 4
 
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vv v28, v18, v8
+  vsll.vv v10, v18, v4
 
-  li t2, 0x739b59aae2b0d6ce
+  li t2, 0x3cfeaee42862a827
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vx v16, v30, t2
+  vsll.vx v18, v22, t2
 
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vi v24, v12, -1
+  vsll.vi v2, v24, 24
 
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vv v22, v12, v28
+  vsll.vv v26, v20, v16
 
-  li t2, 0xc50bfd68bd264b38
+  li t2, 0x44645dffacd17be8
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vx v28, v8, t2
+  vsll.vx v26, v24, t2
 
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vi v6, v14, 11
+  vsll.vi v30, v28, 1
 
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vv v26, v14, v4
+  vsll.vv v8, v2, v22
 
-  li t2, 0x2977f39b8b5ffce1
+  li t2, 0x37aa6214eb16dc76
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vx v18, v2, t2
+  vsll.vx v30, v26, t2
 
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vi v22, v8, -16
+  vsll.vi v8, v14, 15
 
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vv v8, v30, v4
+  vsll.vv v28, v6, v14
 
-  li t2, 0xa13e23e4c8186ab8
+  li t2, 0x0e9ca4efcb3ba26a
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vx v8, v16, t2
+  vsll.vx v4, v2, t2
 
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vi v28, v10, 6
+  vsll.vi v24, v2, 2
 
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vv v20, v10, v30
+  vsll.vv v8, v2, v26
 
-  li t2, 0xca256d442af90aea
+  li t2, 0x0679212bd0d6240b
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vx v8, v4, t2
+  vsll.vx v4, v20, t2
 
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vi v8, v4, 2
+  vsll.vi v6, v10, 10
 
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vv v10, v16, v12
+  vsll.vv v24, v12, v30
 
-  li t2, 0x8ad1a57e59d97350
+  li t2, 0xd8ed5df9729299f8
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vx v26, v16, t2
+  vsll.vx v26, v18, t2
 
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vi v26, v28, 2
+  vsll.vi v14, v20, 26
 
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vv v18, v26, v2
+  vsll.vv v16, v2, v22
 
-  li t2, 0xc65fe04291a4e76d
+  li t2, 0x5b8ea940d9db7c51
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vx v26, v20, t2
+  vsll.vx v10, v26, t2
 
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vi v8, v6, -9
+  vsll.vi v26, v28, 24
 
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vv v14, v4, v10
+  vsll.vv v6, v20, v22
 
-  li t2, 0x542003f5174a3a0b
+  li t2, 0xf4fd8fc5c994263d
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vx v14, v30, t2
+  vsll.vx v4, v22, t2
 
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vi v12, v8, -12
+  vsll.vi v20, v16, 12
 
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vv v6, v28, v10
+  vsll.vv v26, v22, v20
 
-  li t2, 0xbae65864111e7da8
+  li t2, 0x50973f56a5341ac6
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vx v12, v2, t2
+  vsll.vx v30, v26, t2
 
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vi v18, v28, 4
+  vsll.vi v2, v28, 13
 
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vv v26, v14, v24
+  vsll.vv v8, v28, v16
 
-  li t2, 0xc162598987c5a841
+  li t2, 0x9540f852574ba275
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vx v26, v6, t2
+  vsll.vx v12, v8, t2
 
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vi v30, v4, 4
+  vsll.vi v18, v14, 22
 
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vv v22, v4, v12
+  vsll.vv v6, v8, v12
 
-  li t2, 0x7f67229e175a4bb1
+  li t2, 0xfc4d1892315fe275
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vx v14, v22, t2
+  vsll.vx v10, v16, t2
 
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vi v24, v26, 7
+  vsll.vi v22, v16, 8
 
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vv v16, v20, v26
+  vsll.vv v30, v16, v2
 
-  li t2, 0xe569a57cd33634fb
+  li t2, 0x6283fa4eae3c366b
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vx v22, v4, t2
+  vsll.vx v24, v14, t2
 
   vsetvli t1, t0, e32, m2, ta, ma
-  vand.vi v22, v10, -3
+  vsll.vi v14, v2, 30
 
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vv v24, v8, v16
+  vsll.vv v8, v24, v28
 
-  li t2, 0xd926e032f0922462
+  li t2, 0x18106ea2a0fea197
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vx v4, v16, t2
+  vsll.vx v8, v4, t2
 
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vi v12, v8, -13
+  vsll.vi v12, v24, 5
 
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vv v20, v4, v16
+  vsll.vv v28, v16, v8
 
-  li t2, 0x5d01dd3994761cc2
+  li t2, 0x11a63b1bb852040f
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vx v24, v12, t2
+  vsll.vx v8, v24, t2
 
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vi v8, v4, -8
+  vsll.vi v4, v16, 7
 
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vv v20, v16, v12
+  vsll.vv v8, v12, v4
 
-  li t2, 0x09c91b1100f3edc5
+  li t2, 0x4eab78a57678e843
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vx v4, v28, t2
+  vsll.vx v24, v16, t2
 
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vi v16, v12, 0
+  vsll.vi v8, v4, 15
 
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vv v12, v16, v4
+  vsll.vv v24, v16, v8
 
-  li t2, 0x5322e5f688ea419f
+  li t2, 0x473acbd95ebcc9f5
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vx v20, v8, t2
+  vsll.vx v20, v12, t2
 
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vi v24, v12, -10
+  vsll.vi v4, v24, 26
 
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vv v28, v20, v12
+  vsll.vv v12, v20, v8
 
-  li t2, 0x378f6ad7b3ce7cf2
+  li t2, 0x4df82d73200ab55d
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vx v4, v8, t2
+  vsll.vx v16, v8, t2
 
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vi v28, v12, 5
+  vsll.vi v12, v20, 26
 
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vv v16, v12, v8
+  vsll.vv v20, v8, v4
 
-  li t2, 0x6de2720a3f8ab8cd
+  li t2, 0xb980d4825452a7e1
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vx v20, v24, t2
+  vsll.vx v12, v16, t2
 
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vi v20, v16, 2
+  vsll.vi v16, v12, 2
 
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vv v20, v12, v16
+  vsll.vv v24, v28, v8
 
-  li t2, 0xe3be998f2d45bd84
+  li t2, 0xf1b4b14c4d6adac4
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vx v4, v20, t2
+  vsll.vx v4, v12, t2
 
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vi v28, v8, -16
+  vsll.vi v8, v28, 6
 
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vv v20, v12, v8
+  vsll.vv v4, v24, v8
 
-  li t2, 0xf78783104beeed38
+  li t2, 0x621fb40064fe7ea8
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vx v20, v24, t2
+  vsll.vx v24, v12, t2
 
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vi v16, v4, -5
+  vsll.vi v16, v8, 5
 
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vv v12, v24, v28
+  vsll.vv v20, v8, v12
 
-  li t2, 0xd303ea76931b504b
+  li t2, 0x01e6eaa736390578
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vx v8, v4, t2
+  vsll.vx v8, v20, t2
 
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vi v20, v28, -3
+  vsll.vi v8, v28, 2
 
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vv v16, v4, v24
+  vsll.vv v20, v12, v4
 
-  li t2, 0x3db89a800df27253
+  li t2, 0x63bb22d23c95e87d
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vx v8, v28, t2
+  vsll.vx v16, v4, t2
 
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vi v4, v8, 4
+  vsll.vi v16, v12, 11
 
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vv v28, v4, v20
+  vsll.vv v16, v24, v20
 
-  li t2, 0xef81d38eb2db195e
+  li t2, 0x7675bb0988a021be
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vx v8, v24, t2
+  vsll.vx v12, v4, t2
 
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vi v20, v8, 11
+  vsll.vi v20, v4, 15
 
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vv v20, v8, v16
+  vsll.vv v28, v16, v4
 
-  li t2, 0x24bc12282978175f
+  li t2, 0x9154b8fc3b451b63
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vx v4, v8, t2
+  vsll.vx v4, v20, t2
 
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vi v12, v4, -15
+  vsll.vi v16, v4, 0
 
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vv v20, v12, v4
+  vsll.vv v4, v12, v24
 
-  li t2, 0x00c43a8d70c12ef9
+  li t2, 0x00c88db2c801a56c
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vx v20, v28, t2
+  vsll.vx v4, v12, t2
 
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vi v28, v4, -2
+  vsll.vi v8, v12, 31
 
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vv v4, v8, v16
+  vsll.vv v20, v4, v28
 
-  li t2, 0xf5f2ade4afd4b015
+  li t2, 0xdc352d592b77f651
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vx v20, v24, t2
+  vsll.vx v20, v12, t2
 
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vi v8, v12, -14
+  vsll.vi v20, v16, 14
 
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vv v28, v4, v20
+  vsll.vv v24, v8, v12
 
-  li t2, 0x8b040da4958cf978
+  li t2, 0x9527512d858c6c7d
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vx v24, v4, t2
+  vsll.vx v8, v20, t2
 
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vi v8, v16, -3
+  vsll.vi v12, v8, 20
 
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vv v28, v4, v8
+  vsll.vv v8, v12, v28
 
-  li t2, 0x698fc9c57d78b3b7
+  li t2, 0x6be289f44c93124a
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vx v4, v12, t2
+  vsll.vx v20, v28, t2
 
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vi v4, v24, 15
+  vsll.vi v28, v12, 25
 
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vv v24, v20, v12
+  vsll.vv v12, v16, v8
 
-  li t2, 0x2af36179709b6080
+  li t2, 0xfb17cfee6ca0fbdd
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vx v8, v24, t2
+  vsll.vx v16, v4, t2
 
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vi v4, v28, -5
+  vsll.vi v20, v16, 1
 
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vv v4, v24, v8
+  vsll.vv v28, v20, v24
 
-  li t2, 0xffa4ed1847f8c489
+  li t2, 0x704dc6f015ca1040
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vx v28, v8, t2
+  vsll.vx v28, v12, t2
 
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vi v4, v28, -10
+  vsll.vi v24, v16, 0
 
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vv v16, v28, v20
+  vsll.vv v12, v24, v4
 
-  li t2, 0xa944eb015260fae9
+  li t2, 0xd5e6aaa582158393
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vx v12, v16, t2
+  vsll.vx v28, v24, t2
 
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vi v12, v28, 0
+  vsll.vi v8, v20, 25
 
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vv v28, v4, v16
+  vsll.vv v24, v16, v8
 
-  li t2, 0x202703c711ed645e
+  li t2, 0x1c346d9e87a9c00c
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vx v28, v8, t2
+  vsll.vx v24, v4, t2
 
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vi v16, v28, 10
+  vsll.vi v16, v12, 29
 
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vv v12, v16, v8
+  vsll.vv v8, v4, v20
 
-  li t2, 0x8b73c8de7bd22c8e
+  li t2, 0x5587e3e306938cfa
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vx v24, v16, t2
+  vsll.vx v20, v8, t2
 
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vi v12, v8, 14
+  vsll.vi v20, v4, 24
 
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vv v20, v16, v12
+  vsll.vv v8, v24, v16
 
-  li t2, 0xf32a6019e2f42eba
+  li t2, 0x7f108e56a9cd9d16
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vx v12, v16, t2
+  vsll.vx v28, v24, t2
 
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vi v16, v24, 2
+  vsll.vi v8, v20, 24
 
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vv v8, v16, v12
+  vsll.vv v12, v16, v4
 
-  li t2, 0xeae9ed8342be9c9c
+  li t2, 0xadeae9a8e2e4e25b
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vx v16, v8, t2
+  vsll.vx v4, v24, t2
 
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vi v12, v16, -4
+  vsll.vi v20, v4, 30
 
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vv v20, v28, v12
+  vsll.vv v8, v16, v4
 
-  li t2, 0x63f28dbd03e8359b
+  li t2, 0x818037b8c4678fba
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vx v12, v8, t2
+  vsll.vx v20, v16, t2
 
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vi v28, v20, 1
+  vsll.vi v8, v20, 0
 
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vv v20, v28, v24
+  vsll.vv v20, v4, v24
 
-  li t2, 0xf2d4764798f34cca
+  li t2, 0xb828ad1216d84707
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vx v4, v12, t2
+  vsll.vx v16, v20, t2
 
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vi v28, v4, -9
+  vsll.vi v24, v16, 30
 
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vv v24, v12, v8
+  vsll.vv v24, v12, v8
 
-  li t2, 0x80be31bd988e89f9
+  li t2, 0x0e2ed29a8e649766
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vx v20, v28, t2
+  vsll.vx v24, v12, t2
 
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vi v20, v16, -2
+  vsll.vi v16, v4, 31
 
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vv v24, v8, v4
+  vsll.vv v8, v24, v12
 
-  li t2, 0x88b611048555cbcd
+  li t2, 0x22c9657c5aa93a78
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vx v20, v16, t2
+  vsll.vx v16, v20, t2
 
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vi v12, v28, 14
+  vsll.vi v16, v24, 5
 
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vv v16, v28, v4
+  vsll.vv v8, v24, v16
 
-  li t2, 0x46ce855c5efdc863
+  li t2, 0x7881be0380458b9b
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vx v4, v24, t2
+  vsll.vx v20, v24, t2
 
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vi v24, v16, 6
+  vsll.vi v4, v8, 0
 
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vv v28, v4, v12
+  vsll.vv v16, v24, v4
 
-  li t2, 0x70f319faf0546a07
+  li t2, 0x846bfc118b3677fd
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vx v28, v8, t2
+  vsll.vx v20, v8, t2
 
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vi v4, v12, 10
+  vsll.vi v16, v4, 31
 
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vv v20, v28, v24
+  vsll.vv v24, v4, v16
 
-  li t2, 0x1cb86606b94f3571
+  li t2, 0x69c832085f7fd5a2
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vx v24, v12, t2
+  vsll.vx v4, v20, t2
 
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vi v8, v12, 4
+  vsll.vi v24, v8, 18
 
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vv v12, v4, v16
+  vsll.vv v12, v8, v16
 
-  li t2, 0xb99757f047947076
+  li t2, 0x0011b05bb69a4010
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vx v28, v16, t2
+  vsll.vx v4, v28, t2
 
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vi v16, v24, 1
+  vsll.vi v4, v12, 4
 
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vv v28, v20, v4
+  vsll.vv v8, v20, v28
 
-  li t2, 0x761e9687440904e0
+  li t2, 0x7a72246df9d935ba
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vx v16, v8, t2
+  vsll.vx v28, v8, t2
 
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vi v24, v8, -14
+  vsll.vi v28, v20, 25
 
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vv v4, v16, v28
+  vsll.vv v24, v16, v4
 
-  li t2, 0xe3ae0f9e7ae79be5
+  li t2, 0x978f38f6d9b53331
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vx v4, v24, t2
+  vsll.vx v28, v4, t2
 
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vi v4, v8, -16
+  vsll.vi v24, v4, 13
 
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vv v28, v8, v16
+  vsll.vv v16, v28, v8
 
-  li t2, 0xeae0e1694bd0ef22
+  li t2, 0x95bc254109d93c46
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vx v12, v20, t2
+  vsll.vx v16, v28, t2
 
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vi v12, v8, -9
+  vsll.vi v28, v12, 29
 
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vv v8, v16, v24
+  vsll.vv v24, v12, v16
 
-  li t2, 0xb8d9e89d53ffd128
+  li t2, 0xb2642ac481235797
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vx v16, v24, t2
+  vsll.vx v24, v4, t2
 
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vi v16, v20, 0
+  vsll.vi v28, v4, 23
 
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vv v12, v8, v24
+  vsll.vv v4, v8, v12
 
-  li t2, 0xffc4e38c1d790952
+  li t2, 0xdcbd3f5da66e0dea
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vx v8, v24, t2
+  vsll.vx v28, v24, t2
 
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vi v24, v20, 0
+  vsll.vi v8, v28, 17
 
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vv v20, v8, v4
+  vsll.vv v24, v20, v28
 
-  li t2, 0x52d0b7860529c721
+  li t2, 0xff8fead098c68666
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vx v16, v8, t2
+  vsll.vx v24, v8, t2
 
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vi v20, v8, -8
+  vsll.vi v20, v28, 6
 
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vv v4, v16, v24
+  vsll.vv v16, v24, v4
 
-  li t2, 0x732064fbd14681fb
+  li t2, 0x50ef20985d53763c
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vx v12, v24, t2
+  vsll.vx v8, v28, t2
 
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vi v12, v24, 5
+  vsll.vi v28, v12, 15
 
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vv v12, v4, v24
+  vsll.vv v8, v20, v24
 
-  li t2, 0x8fbc7dedf799b8d9
+  li t2, 0xd11e803363f3df38
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vx v20, v28, t2
+  vsll.vx v12, v8, t2
 
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vi v20, v24, 4
+  vsll.vi v20, v24, 19
 
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vv v24, v28, v16
+  vsll.vv v24, v28, v20
 
-  li t2, 0x574c475f3340352f
+  li t2, 0x94e9a510120240c5
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vx v16, v28, t2
+  vsll.vx v24, v20, t2
 
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vi v24, v16, 6
+  vsll.vi v20, v8, 30
 
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vv v4, v20, v8
+  vsll.vv v8, v20, v4
 
-  li t2, 0xbf85206a20583140
+  li t2, 0x0b9b7d4a56106bc5
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vx v4, v16, t2
+  vsll.vx v16, v24, t2
 
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vi v20, v28, -12
+  vsll.vi v28, v24, 14
 
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vv v20, v8, v12
+  vsll.vv v4, v16, v28
 
-  li t2, 0xa78505217c80ed0e
+  li t2, 0x9c461fd55a60057f
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vx v28, v20, t2
+  vsll.vx v28, v16, t2
 
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vi v12, v8, 1
+  vsll.vi v28, v16, 21
 
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vv v24, v20, v16
+  vsll.vv v8, v16, v28
 
-  li t2, 0xe513d834d5312996
+  li t2, 0xeb76ffa58e16bf1c
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vx v20, v28, t2
+  vsll.vx v28, v8, t2
 
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vi v8, v24, -9
+  vsll.vi v28, v16, 21
 
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vv v20, v28, v12
+  vsll.vv v8, v24, v4
 
-  li t2, 0x7ba28e2046d501b0
+  li t2, 0x9ca7f8f3ac41d246
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vx v28, v16, t2
+  vsll.vx v8, v16, t2
 
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vi v16, v12, -13
+  vsll.vi v4, v28, 8
 
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vv v16, v4, v8
+  vsll.vv v28, v12, v4
 
-  li t2, 0x21599f6f20a9c750
+  li t2, 0xd4e3a945a343adaa
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vx v20, v8, t2
+  vsll.vx v8, v24, t2
 
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vi v20, v16, -8
+  vsll.vi v28, v16, 20
 
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vv v4, v16, v24
+  vsll.vv v8, v24, v28
 
-  li t2, 0x3d5feb94a87660a9
+  li t2, 0xde7ae02558960c31
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vx v12, v28, t2
+  vsll.vx v28, v24, t2
 
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vi v4, v28, -5
+  vsll.vi v24, v28, 25
 
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vv v4, v24, v16
+  vsll.vv v20, v28, v4
 
-  li t2, 0xc1e78db7ac54d3d7
+  li t2, 0x88ee4e81cb1b691d
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vx v16, v4, t2
+  vsll.vx v20, v8, t2
 
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vi v12, v16, 10
+  vsll.vi v24, v16, 30
 
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vv v12, v4, v16
+  vsll.vv v12, v28, v4
 
-  li t2, 0x5e6702b9589ee34b
+  li t2, 0xb69542267b174d1c
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vx v4, v8, t2
+  vsll.vx v8, v12, t2
 
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vi v16, v24, -4
+  vsll.vi v4, v16, 12
 
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vv v28, v4, v16
+  vsll.vv v4, v20, v28
 
-  li t2, 0xe475f53b657c1ad0
+  li t2, 0x97cf22e5e2c16050
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vx v28, v24, t2
+  vsll.vx v12, v28, t2
 
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vi v12, v24, -13
+  vsll.vi v4, v24, 4
 
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vv v28, v8, v12
+  vsll.vv v20, v12, v24
 
-  li t2, 0x366a9e71bf7d7fd0
+  li t2, 0x263164c10d44a8c0
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vx v8, v20, t2
+  vsll.vx v12, v24, t2
 
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vi v12, v4, 15
+  vsll.vi v12, v4, 31
 
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vv v16, v8, v24
+  vsll.vv v12, v28, v16
 
-  li t2, 0xa5e70640105fae3e
+  li t2, 0x56edcdcdc2fc754c
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vx v4, v8, t2
+  vsll.vx v28, v20, t2
 
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vi v12, v4, 13
+  vsll.vi v16, v24, 21
 
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vv v16, v28, v20
+  vsll.vv v20, v4, v8
 
-  li t2, 0x6f143311a13c38e2
+  li t2, 0x6e9b0c0a18d45614
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vx v12, v20, t2
+  vsll.vx v16, v12, t2
 
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vi v24, v4, -1
+  vsll.vi v4, v28, 3
 
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vv v12, v28, v24
+  vsll.vv v8, v4, v28
 
-  li t2, 0x62185b21514390fc
+  li t2, 0xd4625fd866065352
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vx v16, v24, t2
+  vsll.vx v24, v4, t2
 
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vi v16, v8, 15
+  vsll.vi v24, v4, 3
 
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vv v8, v24, v20
+  vsll.vv v28, v12, v16
 
-  li t2, 0x6e050ecf844c944c
+  li t2, 0x75bdb0210b907a1b
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vx v12, v4, t2
+  vsll.vx v16, v12, t2
 
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vi v12, v24, 7
+  vsll.vi v4, v8, 26
 
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vv v28, v16, v4
+  vsll.vv v12, v16, v28
 
-  li t2, 0x62e540bc31b15cd2
+  li t2, 0xd59f79f0229a98a3
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vx v4, v8, t2
+  vsll.vx v8, v24, t2
 
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vi v12, v16, -15
+  vsll.vi v20, v8, 14
 
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vv v24, v8, v4
+  vsll.vv v12, v20, v16
 
-  li t2, 0xc1fc3226a3c6ca10
+  li t2, 0xdfd2340f571de7a7
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vx v4, v8, t2
+  vsll.vx v16, v24, t2
 
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vi v24, v4, -9
+  vsll.vi v12, v24, 10
 
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vv v8, v20, v12
+  vsll.vv v8, v4, v24
 
-  li t2, 0xe213242efc8e9e55
+  li t2, 0x361473cadc919084
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vx v16, v12, t2
+  vsll.vx v20, v24, t2
 
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vi v4, v24, 6
+  vsll.vi v24, v4, 17
 
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vv v24, v4, v28
+  vsll.vv v4, v28, v8
 
-  li t2, 0xca31cbfc6330cb5a
+  li t2, 0x17c5a6c8abd17bb9
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vx v8, v28, t2
+  vsll.vx v24, v4, t2
 
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vi v8, v28, -3
+  vsll.vi v4, v16, 9
 
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vv v24, v28, v20
+  vsll.vv v12, v8, v24
 
-  li t2, 0x04356af6fd2857cf
+  li t2, 0x8a32772b8772c4e1
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vx v4, v8, t2
+  vsll.vx v4, v16, t2
 
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vi v24, v28, -9
+  vsll.vi v24, v12, 12
 
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vv v20, v8, v28
+  vsll.vv v24, v8, v12
 
-  li t2, 0xd626b64bcf10d305
+  li t2, 0x94918f95121d84ba
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vx v4, v20, t2
+  vsll.vx v20, v24, t2
 
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vi v16, v28, 4
+  vsll.vi v28, v12, 30
 
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vv v12, v24, v4
+  vsll.vv v20, v12, v8
 
-  li t2, 0x67b5372a446cfae9
+  li t2, 0x37f33f4eaf63514b
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vx v20, v28, t2
+  vsll.vx v12, v16, t2
 
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vi v28, v20, 8
+  vsll.vi v16, v4, 25
 
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vv v8, v24, v4
+  vsll.vv v4, v24, v28
 
-  li t2, 0xb131bfd48c9d2882
+  li t2, 0xe56fa4c5d5fe57e3
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vx v8, v16, t2
+  vsll.vx v28, v16, t2
 
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vi v4, v12, -9
+  vsll.vi v8, v16, 3
 
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vv v24, v4, v16
+  vsll.vv v8, v12, v24
 
-  li t2, 0xf651a9bb4acf374c
+  li t2, 0xb8f2250561a0ab07
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vx v24, v8, t2
+  vsll.vx v4, v24, t2
 
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vi v12, v8, -11
+  vsll.vi v4, v16, 31
 
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vv v16, v12, v8
+  vsll.vv v16, v12, v28
 
-  li t2, 0xb70e85505e5072ec
+  li t2, 0xf8aab6853c4be176
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vx v24, v20, t2
+  vsll.vx v24, v8, t2
 
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vi v24, v20, 5
+  vsll.vi v8, v16, 9
 
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vv v16, v12, v20
+  vsll.vv v16, v12, v24
 
-  li t2, 0xe7a3365bbbe36ca5
+  li t2, 0x12d80f64d281bec9
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vx v12, v8, t2
+  vsll.vx v8, v28, t2
 
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vi v24, v8, 5
+  vsll.vi v28, v20, 15
 
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vv v20, v12, v16
+  vsll.vv v8, v28, v20
 
-  li t2, 0x5e25dfdbb553e741
+  li t2, 0xe472398a800e2ec2
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vx v12, v16, t2
+  vsll.vx v4, v16, t2
 
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vi v24, v16, 5
+  vsll.vi v28, v24, 19
 
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vv v4, v12, v8
+  vsll.vv v24, v28, v8
 
-  li t2, 0xa0da3219f690f1fc
+  li t2, 0xc84891459600fe2f
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vx v28, v16, t2
+  vsll.vx v20, v4, t2
 
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vi v16, v24, 14
+  vsll.vi v12, v24, 4
 
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vv v12, v24, v16
+  vsll.vv v4, v12, v8
 
-  li t2, 0xc4b865a7e2886fd7
+  li t2, 0x902a310cd0540c3e
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vx v4, v12, t2
+  vsll.vx v20, v24, t2
 
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vi v4, v20, 9
+  vsll.vi v8, v4, 29
 
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vv v16, v28, v4
+  vsll.vv v8, v12, v16
 
-  li t2, 0x357415f95cb534d3
+  li t2, 0x2500f813bcd8e87d
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vx v12, v20, t2
+  vsll.vx v16, v8, t2
 
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vi v28, v8, -12
+  vsll.vi v4, v28, 9
 
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vv v28, v16, v24
+  vsll.vv v8, v28, v12
 
-  li t2, 0x2848c4d6f2932f6e
+  li t2, 0xeb168880ea93cafa
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vx v4, v8, t2
+  vsll.vx v20, v4, t2
 
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vi v12, v24, 12
+  vsll.vi v28, v8, 9
 
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vv v8, v12, v20
+  vsll.vv v24, v28, v20
 
-  li t2, 0xd97dc466cb838c44
+  li t2, 0x2630a8f021b45f52
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vx v20, v12, t2
+  vsll.vx v24, v20, t2
 
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vi v28, v8, 13
+  vsll.vi v28, v16, 10
 
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vv v28, v12, v20
+  vsll.vv v8, v16, v20
 
-  li t2, 0xcca0ee619b954940
+  li t2, 0x6f33971b8309d0b6
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vx v28, v20, t2
+  vsll.vx v28, v20, t2
 
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vi v8, v12, 4
+  vsll.vi v8, v16, 3
 
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vv v4, v12, v16
+  vsll.vv v28, v24, v16
 
-  li t2, 0xad8f7388003b1140
+  li t2, 0x56884a5ebf6e3db3
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vx v8, v20, t2
+  vsll.vx v20, v24, t2
 
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vi v16, v8, -10
+  vsll.vi v16, v12, 7
 
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vv v8, v4, v16
+  vsll.vv v28, v12, v8
 
-  li t2, 0x72329bc5480727a9
+  li t2, 0xb7e068aac2bb733d
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vx v16, v4, t2
+  vsll.vx v28, v16, t2
 
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vi v28, v16, 1
+  vsll.vi v12, v8, 11
 
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vv v28, v24, v16
+  vsll.vv v12, v16, v24
 
-  li t2, 0x69f299a8c746733f
+  li t2, 0xde590a5ccbef7228
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vx v20, v12, t2
+  vsll.vx v28, v16, t2
 
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vi v8, v28, -1
+  vsll.vi v12, v28, 17
 
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vv v16, v28, v20
+  vsll.vv v16, v28, v12
 
-  li t2, 0x4bba136264393cd1
+  li t2, 0x3d44ec1aefe61234
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vx v4, v20, t2
+  vsll.vx v8, v4, t2
 
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vi v28, v8, 10
+  vsll.vi v12, v4, 19
 
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vv v12, v16, v8
+  vsll.vv v28, v12, v24
 
-  li t2, 0xc0974e6912f6604d
+  li t2, 0x4787823702d58535
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vx v28, v4, t2
+  vsll.vx v28, v20, t2
 
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vi v16, v24, 9
+  vsll.vi v8, v16, 28
 
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vv v12, v8, v24
+  vsll.vv v24, v16, v8
 
-  li t2, 0x7a8c9cf64ba16a8f
+  li t2, 0x14fab2a2ec092ad8
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vx v8, v24, t2
+  vsll.vx v12, v20, t2
 
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vi v20, v4, -7
+  vsll.vi v8, v4, 21
 
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vv v24, v12, v28
+  vsll.vv v4, v8, v28
 
-  li t2, 0x18aaab7f243586c6
+  li t2, 0xea8d2abb64976ef7
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vx v28, v20, t2
+  vsll.vx v8, v16, t2
 
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vi v20, v12, 13
+  vsll.vi v24, v16, 26
 
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vv v16, v28, v4
+  vsll.vv v24, v16, v28
 
-  li t2, 0x5eebf95c54732d2b
+  li t2, 0xa30b43cd1a321599
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vx v28, v4, t2
+  vsll.vx v4, v12, t2
 
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vi v4, v8, 12
+  vsll.vi v16, v20, 31
 
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vv v8, v4, v16
+  vsll.vv v4, v20, v8
 
-  li t2, 0xd4f8ac2166890ea9
+  li t2, 0xfb9fd174591c9dc1
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vx v24, v16, t2
+  vsll.vx v4, v12, t2
 
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vi v28, v8, -13
+  vsll.vi v4, v28, 30
 
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vv v4, v12, v24
+  vsll.vv v8, v12, v28
 
-  li t2, 0x235ee9a3d485c921
+  li t2, 0x8cc64245aa854ce4
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vx v20, v12, t2
+  vsll.vx v12, v8, t2
 
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vi v12, v20, -7
+  vsll.vi v16, v20, 31
 
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vv v24, v16, v28
+  vsll.vv v4, v20, v28
 
-  li t2, 0x93ed7b69e7bc71e3
+  li t2, 0xd5573061f4f2ea72
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vx v12, v4, t2
+  vsll.vx v12, v28, t2
 
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vi v20, v4, 8
+  vsll.vi v28, v16, 14
 
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vv v24, v28, v20
+  vsll.vv v16, v12, v28
 
-  li t2, 0x59bfcd69e9998410
+  li t2, 0x2eddc5a13025ca6c
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vx v24, v8, t2
+  vsll.vx v8, v24, t2
 
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vi v24, v12, -7
+  vsll.vi v28, v16, 23
 
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vv v8, v4, v16
+  vsll.vv v12, v28, v24
 
-  li t2, 0xb857cdd335f7a948
+  li t2, 0xa7342b8f81711168
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vx v4, v28, t2
+  vsll.vx v24, v28, t2
 
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vi v8, v4, -15
+  vsll.vi v4, v24, 22
 
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vv v4, v12, v16
+  vsll.vv v24, v16, v4
 
-  li t2, 0x93c317edd9a76e96
+  li t2, 0x5938ee7acf63ee78
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vx v4, v28, t2
+  vsll.vx v20, v12, t2
 
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vi v4, v16, 10
+  vsll.vi v20, v24, 4
 
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vv v4, v8, v24
+  vsll.vv v28, v20, v12
 
-  li t2, 0x5a74e777564bcc70
+  li t2, 0x070559fce846eaae
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vx v24, v12, t2
+  vsll.vx v8, v20, t2
 
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vi v8, v24, -8
+  vsll.vi v28, v8, 18
 
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vv v28, v12, v16
+  vsll.vv v12, v20, v4
 
-  li t2, 0xd79a296bf3149300
+  li t2, 0x75c5e325f1a198ce
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vx v16, v24, t2
+  vsll.vx v16, v12, t2
 
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vi v24, v20, 0
+  vsll.vi v8, v12, 6
 
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vv v12, v4, v24
+  vsll.vv v20, v8, v4
 
-  li t2, 0x1baf1911857d226f
+  li t2, 0x96cfb77363adf947
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vx v12, v28, t2
+  vsll.vx v8, v16, t2
 
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vi v28, v4, -16
+  vsll.vi v16, v8, 25
 
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vv v16, v8, v4
+  vsll.vv v20, v16, v28
 
-  li t2, 0x61d85ac4ce53d116
+  li t2, 0x413827dd8da11599
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vx v4, v28, t2
+  vsll.vx v4, v28, t2
 
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vi v4, v16, -13
+  vsll.vi v28, v8, 9
 
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vv v12, v24, v4
+  vsll.vv v12, v20, v24
 
-  li t2, 0x891df45cb5a4d6a1
+  li t2, 0x90086c590fefc7d3
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vx v12, v24, t2
+  vsll.vx v28, v4, t2
 
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vi v8, v16, 14
+  vsll.vi v12, v8, 8
 
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vv v8, v16, v28
+  vsll.vv v24, v28, v16
 
-  li t2, 0xc7ef44813dcdc3fd
+  li t2, 0xd62ca886fa42c679
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vx v4, v28, t2
+  vsll.vx v8, v28, t2
 
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vi v28, v20, 14
+  vsll.vi v24, v4, 14
 
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vv v16, v8, v20
+  vsll.vv v20, v4, v24
 
-  li t2, 0xe378db1690f51030
+  li t2, 0x64042f8a0de5195c
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vx v28, v8, t2
+  vsll.vx v24, v4, t2
 
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vi v24, v28, 9
+  vsll.vi v4, v28, 1
 
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vv v28, v8, v24
+  vsll.vv v12, v16, v28
 
-  li t2, 0x636fa5f0de495e56
+  li t2, 0x0cf3e68ade20684b
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vx v8, v4, t2
+  vsll.vx v8, v12, t2
 
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vi v24, v8, -4
+  vsll.vi v16, v28, 0
 
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vv v4, v28, v24
+  vsll.vv v16, v8, v20
 
-  li t2, 0x143f07eaab0559e2
+  li t2, 0x5311224d742b8828
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vx v24, v28, t2
+  vsll.vx v4, v20, t2
 
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vi v16, v8, 9
+  vsll.vi v20, v4, 3
 
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vv v28, v24, v16
+  vsll.vv v28, v24, v16
 
-  li t2, 0x8a5519dbbd7aa54f
+  li t2, 0xd4f3c709ca084114
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vx v12, v4, t2
+  vsll.vx v24, v16, t2
 
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vi v28, v8, -6
+  vsll.vi v20, v28, 2
 
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vv v16, v28, v20
+  vsll.vv v8, v12, v28
 
-  li t2, 0x0f653d5b437798e5
+  li t2, 0x5d32fbb51ae79c39
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vx v20, v24, t2
+  vsll.vx v8, v28, t2
 
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vi v4, v12, 0
+  vsll.vi v4, v28, 20
 
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vv v28, v8, v16
+  vsll.vv v8, v28, v12
 
-  li t2, 0xdb13f2b64129a3dd
+  li t2, 0x10d8d5075cb812ea
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vx v8, v4, t2
+  vsll.vx v8, v28, t2
 
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vi v4, v8, -6
+  vsll.vi v28, v4, 10
 
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vv v8, v28, v24
+  vsll.vv v4, v28, v16
 
-  li t2, 0x0d8ce79319b22c43
+  li t2, 0xe3136437e9e75b2a
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vx v24, v8, t2
+  vsll.vx v20, v4, t2
 
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vi v24, v20, -15
+  vsll.vi v12, v28, 28
 
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vv v4, v16, v20
+  vsll.vv v20, v16, v24
 
-  li t2, 0x844a99afd3cb0f01
+  li t2, 0x28d905040a116a6d
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vx v4, v28, t2
+  vsll.vx v4, v28, t2
 
   vsetvli t1, t0, e32, m4, ta, ma
-  vand.vi v16, v20, 13
+  vsll.vi v24, v20, 18
 
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vv v16, v24, v8
+  vsll.vv v24, v16, v8
 
-  li t2, 0x3baf70b1df10faa5
+  li t2, 0x06bda4a4b1997815
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vx v16, v24, t2
+  vsll.vx v24, v8, t2
 
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vi v24, v8, -8
+  vsll.vi v16, v8, 16
 
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vv v16, v24, v8
+  vsll.vv v8, v24, v16
 
-  li t2, 0xcf961d96c1c4a985
+  li t2, 0xbfd1f033ceea6ea1
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vx v16, v24, t2
+  vsll.vx v8, v16, t2
 
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vi v8, v24, -8
+  vsll.vi v8, v16, 28
 
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vv v24, v16, v8
+  vsll.vv v16, v24, v8
 
-  li t2, 0xcd14827eaca221cb
+  li t2, 0x7bc4c5b6a331d1e2
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vx v8, v16, t2
+  vsll.vx v16, v8, t2
 
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vi v24, v16, 9
+  vsll.vi v16, v8, 21
 
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vv v16, v8, v24
+  vsll.vv v16, v8, v24
 
-  li t2, 0xa9018bc0cda71320
+  li t2, 0x4f7edf7508086adc
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vx v8, v16, t2
+  vsll.vx v16, v8, t2
 
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vi v8, v24, 13
+  vsll.vi v8, v16, 8
 
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vv v8, v24, v16
+  vsll.vv v24, v16, v8
 
-  li t2, 0x2470d0499e0fffd6
+  li t2, 0x329ea46e12437ae2
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vx v16, v8, t2
+  vsll.vx v8, v16, t2
 
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vi v16, v24, -1
+  vsll.vi v8, v24, 31
 
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vv v8, v24, v16
+  vsll.vv v8, v16, v24
 
-  li t2, 0x667f326d3c8408bf
+  li t2, 0xc7607c42606f2223
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vx v8, v16, t2
+  vsll.vx v8, v24, t2
 
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vi v8, v16, 7
+  vsll.vi v24, v8, 18
 
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vv v16, v8, v24
+  vsll.vv v16, v8, v24
 
-  li t2, 0x541974b9eb6826dc
+  li t2, 0x3a77896a4c285f4b
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vx v8, v16, t2
+  vsll.vx v24, v16, t2
 
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vi v24, v16, -9
+  vsll.vi v16, v8, 21
 
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vv v8, v24, v16
+  vsll.vv v16, v24, v8
 
-  li t2, 0x0997ff055d3d5cc8
+  li t2, 0x364908679cb95f84
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vx v16, v8, t2
+  vsll.vx v24, v8, t2
 
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vi v8, v24, 3
+  vsll.vi v8, v16, 22
 
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vv v8, v16, v24
+  vsll.vv v16, v24, v8
 
-  li t2, 0x7f40a82e941cdcd5
+  li t2, 0x7a7898147358d435
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vx v24, v8, t2
+  vsll.vx v8, v16, t2
 
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vi v16, v8, -12
+  vsll.vi v16, v8, 8
 
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vv v16, v8, v24
+  vsll.vv v24, v16, v8
 
-  li t2, 0x5f6599c0de9f3201
+  li t2, 0xac9a07ff743c575c
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vx v16, v24, t2
+  vsll.vx v16, v8, t2
 
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vi v16, v8, 13
+  vsll.vi v24, v8, 13
 
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vv v8, v24, v16
+  vsll.vv v24, v8, v16
 
-  li t2, 0x6ff5e2e379c9753e
+  li t2, 0xc3ebb77263f27d94
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vx v8, v16, t2
+  vsll.vx v8, v16, t2
 
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vi v8, v16, -12
+  vsll.vi v16, v8, 10
 
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vv v24, v8, v16
+  vsll.vv v8, v16, v24
 
-  li t2, 0x777f2bb8f3feb9bf
+  li t2, 0x5b7327ecdeecbd55
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vx v24, v16, t2
+  vsll.vx v24, v16, t2
 
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vi v16, v8, -14
+  vsll.vi v24, v8, 2
 
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vv v24, v8, v16
+  vsll.vv v24, v8, v16
 
-  li t2, 0xcd298a82a2e78ebf
+  li t2, 0xdfcbcef5dfcf6518
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vx v24, v16, t2
+  vsll.vx v24, v16, t2
 
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vi v16, v24, 5
+  vsll.vi v8, v24, 5
 
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vv v24, v16, v8
+  vsll.vv v24, v8, v16
 
-  li t2, 0x65eacd0f9f694f0e
+  li t2, 0x3f3291ef76f7c027
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vx v16, v8, t2
+  vsll.vx v8, v24, t2
 
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vi v8, v24, 13
+  vsll.vi v8, v24, 31
 
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vv v16, v24, v8
+  vsll.vv v24, v8, v16
 
-  li t2, 0xac0b15a504fe6e13
+  li t2, 0x335fff7aa3eb0a31
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vx v24, v16, t2
+  vsll.vx v8, v24, t2
 
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vi v16, v24, 4
+  vsll.vi v24, v8, 18
 
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vv v16, v8, v24
+  vsll.vv v16, v24, v8
 
-  li t2, 0x8dbea22ca23517eb
+  li t2, 0x9fe95cf6ef8fbdf4
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vx v8, v24, t2
+  vsll.vx v8, v16, t2
 
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vi v24, v16, 9
+  vsll.vi v8, v24, 30
 
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vv v8, v16, v24
+  vsll.vv v16, v24, v8
 
-  li t2, 0x38f250015346fb88
+  li t2, 0x983b1030b51886d9
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vx v16, v8, t2
+  vsll.vx v8, v16, t2
 
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vi v24, v8, 3
+  vsll.vi v24, v8, 21
 
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vv v16, v24, v8
+  vsll.vv v8, v24, v16
 
-  li t2, 0xdd9fa7d7aa079ac8
+  li t2, 0xe80fa9c45c15b6ed
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vx v8, v16, t2
+  vsll.vx v16, v8, t2
 
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vi v16, v24, -9
+  vsll.vi v24, v8, 19
 
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vv v16, v24, v8
+  vsll.vv v24, v16, v8
 
-  li t2, 0x80858b75fe1f6283
+  li t2, 0xecb8f4056989d381
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vx v16, v8, t2
+  vsll.vx v16, v24, t2
 
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vi v16, v8, -6
+  vsll.vi v16, v8, 16
 
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vv v24, v16, v8
+  vsll.vv v24, v16, v8
 
-  li t2, 0x868adec985f2d792
+  li t2, 0xf03fe67f759ace2a
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vx v24, v16, t2
+  vsll.vx v16, v8, t2
 
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vi v8, v24, 9
+  vsll.vi v8, v16, 2
 
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vv v16, v24, v8
+  vsll.vv v16, v8, v24
 
-  li t2, 0x8c629638044ce73b
+  li t2, 0x0504acb2d3567c4f
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vx v16, v24, t2
+  vsll.vx v8, v16, t2
 
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vi v8, v24, 14
+  vsll.vi v16, v24, 25
 
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vv v24, v8, v16
+  vsll.vv v8, v24, v16
 
-  li t2, 0x757b7dcafab1d9b8
+  li t2, 0x5093e585ec3f129d
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vx v16, v24, t2
+  vsll.vx v16, v8, t2
 
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vi v16, v8, 9
+  vsll.vi v8, v16, 7
 
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vv v24, v16, v8
+  vsll.vv v24, v16, v8
 
-  li t2, 0xf967febe2838ee6b
+  li t2, 0x757738f875627997
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vx v8, v24, t2
+  vsll.vx v16, v8, t2
 
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vi v8, v16, 3
+  vsll.vi v8, v16, 0
 
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vv v24, v16, v8
+  vsll.vv v16, v8, v24
 
-  li t2, 0x85301582a4ec464e
+  li t2, 0x24232dbf309624e0
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vx v24, v16, t2
+  vsll.vx v16, v8, t2
 
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vi v16, v8, -13
+  vsll.vi v24, v16, 3
 
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vv v8, v24, v16
+  vsll.vv v16, v8, v24
 
-  li t2, 0x327563fba79660a3
+  li t2, 0xeeda4c659082981a
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vx v8, v24, t2
+  vsll.vx v24, v16, t2
 
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vi v24, v16, 10
+  vsll.vi v8, v24, 29
 
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vv v8, v16, v24
+  vsll.vv v16, v24, v8
 
-  li t2, 0xfb1264e1e505208a
+  li t2, 0x464e43576f0f1964
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vx v16, v24, t2
+  vsll.vx v16, v24, t2
 
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vi v16, v8, -3
+  vsll.vi v24, v8, 24
 
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vv v8, v16, v24
+  vsll.vv v8, v24, v16
 
-  li t2, 0x2aa41a562dc1490a
+  li t2, 0x03bbfad5479753fa
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vx v24, v16, t2
+  vsll.vx v16, v24, t2
 
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vi v8, v24, 0
+  vsll.vi v16, v24, 26
 
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vv v24, v16, v8
+  vsll.vv v16, v24, v8
 
-  li t2, 0xd4af72f3356a6147
+  li t2, 0x0bcc2416f8851def
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vx v8, v24, t2
+  vsll.vx v16, v24, t2
 
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vi v24, v8, -3
+  vsll.vi v24, v8, 14
 
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vv v16, v8, v24
+  vsll.vv v16, v24, v8
 
-  li t2, 0xe798c6f7ac36c64d
+  li t2, 0xc50e17948e03e8d3
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vx v16, v24, t2
+  vsll.vx v16, v8, t2
 
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vi v16, v8, 11
+  vsll.vi v16, v24, 25
 
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vv v8, v24, v16
+  vsll.vv v8, v16, v24
 
-  li t2, 0xea11fdde50750d1f
+  li t2, 0x03ee41bdb5f0e0c4
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vx v8, v16, t2
+  vsll.vx v8, v16, t2
 
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vi v8, v16, 15
+  vsll.vi v24, v8, 6
 
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vv v24, v16, v8
+  vsll.vv v8, v16, v24
 
-  li t2, 0x0826293893bff8c7
+  li t2, 0xe725b7f3aeae659c
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vx v16, v8, t2
+  vsll.vx v24, v8, t2
 
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vi v24, v16, -15
+  vsll.vi v8, v24, 28
 
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vv v8, v16, v24
+  vsll.vv v16, v8, v24
 
-  li t2, 0xf3564718e01d418c
+  li t2, 0x2171d3c1f7aedebe
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vx v8, v24, t2
+  vsll.vx v16, v8, t2
 
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vi v24, v8, 13
+  vsll.vi v8, v16, 11
 
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vv v24, v16, v8
+  vsll.vv v8, v24, v16
 
-  li t2, 0xcab8db2971b285cc
+  li t2, 0x76cc586d0deaec8d
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vx v24, v16, t2
+  vsll.vx v8, v24, t2
 
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vi v24, v16, -7
+  vsll.vi v8, v16, 14
 
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vv v24, v16, v8
+  vsll.vv v24, v16, v8
 
-  li t2, 0x616d8ce54d34cbd3
+  li t2, 0xa00a2fc472866a8d
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vx v24, v8, t2
+  vsll.vx v24, v16, t2
 
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vi v24, v8, 14
+  vsll.vi v8, v16, 8
 
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vv v24, v16, v8
+  vsll.vv v8, v16, v24
 
-  li t2, 0x0b8e023688d68432
+  li t2, 0xa1c9b072285b5d02
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vx v8, v16, t2
+  vsll.vx v8, v24, t2
 
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vi v24, v8, 4
+  vsll.vi v16, v24, 12
 
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vv v8, v24, v16
+  vsll.vv v24, v8, v16
 
-  li t2, 0x233650633e7220ac
+  li t2, 0xa4148a395a50bac5
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vx v16, v24, t2
+  vsll.vx v8, v16, t2
 
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vi v8, v16, 8
+  vsll.vi v16, v8, 28
 
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vv v24, v8, v16
+  vsll.vv v24, v8, v16
 
-  li t2, 0xc8afaa1684333f58
+  li t2, 0xd79a810f6c4f5073
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vx v24, v8, t2
+  vsll.vx v8, v16, t2
 
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vi v16, v8, -16
+  vsll.vi v24, v16, 9
 
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vv v24, v16, v8
+  vsll.vv v8, v16, v24
 
-  li t2, 0xc3b6eab6822448db
+  li t2, 0x3c0a02e4cf6585c1
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vx v8, v16, t2
+  vsll.vx v24, v8, t2
 
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vi v8, v16, 3
+  vsll.vi v16, v24, 31
 
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vv v8, v16, v24
+  vsll.vv v16, v8, v24
 
-  li t2, 0x121965ca9f0b3b26
+  li t2, 0x05988e86a9da3a9a
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vx v8, v24, t2
+  vsll.vx v8, v16, t2
 
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vi v8, v24, 11
+  vsll.vi v24, v16, 14
 
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vv v24, v16, v8
+  vsll.vv v24, v8, v16
 
-  li t2, 0x83481f276c024537
+  li t2, 0x6dfdf0b51930e89d
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vx v8, v16, t2
+  vsll.vx v8, v16, t2
 
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vi v24, v16, 3
+  vsll.vi v16, v8, 3
 
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vv v8, v24, v16
+  vsll.vv v16, v24, v8
 
-  li t2, 0x5d8ce3db8141a234
+  li t2, 0x7d7961bd43ae2586
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vx v8, v24, t2
+  vsll.vx v16, v8, t2
 
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vi v16, v8, -13
+  vsll.vi v16, v24, 25
 
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vv v16, v24, v8
+  vsll.vv v24, v8, v16
 
-  li t2, 0x56171a1943cf3cd1
+  li t2, 0xd7de351473f49e29
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vx v16, v24, t2
+  vsll.vx v16, v24, t2
 
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vi v8, v16, -3
+  vsll.vi v16, v24, 31
 
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vv v8, v16, v24
+  vsll.vv v24, v16, v8
 
-  li t2, 0xd7930133867e7976
+  li t2, 0x87ff78b3704d472d
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vx v8, v24, t2
+  vsll.vx v8, v16, t2
 
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vi v16, v8, 4
+  vsll.vi v24, v8, 3
 
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vv v8, v24, v16
+  vsll.vv v16, v24, v8
 
-  li t2, 0x186a294b9652c38a
+  li t2, 0x48e49bfa0dba6f0e
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vx v16, v24, t2
+  vsll.vx v16, v8, t2
 
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vi v8, v24, 6
+  vsll.vi v16, v8, 0
 
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vv v8, v16, v24
+  vsll.vv v8, v24, v16
 
-  li t2, 0x5ed25ae0dab9b6d3
+  li t2, 0x82125844850ecf22
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vx v24, v8, t2
+  vsll.vx v16, v24, t2
 
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vi v16, v24, -2
+  vsll.vi v16, v24, 31
 
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vv v24, v16, v8
+  vsll.vv v16, v24, v8
 
-  li t2, 0xdc77e0b25958f2d1
+  li t2, 0x7a4178eed261ef37
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vx v24, v16, t2
+  vsll.vx v16, v8, t2
 
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vi v8, v16, 12
+  vsll.vi v16, v8, 28
 
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vv v8, v24, v16
+  vsll.vv v8, v24, v16
 
-  li t2, 0xa733450a77f85e28
+  li t2, 0x45750593396602c9
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vx v8, v16, t2
+  vsll.vx v8, v24, t2
 
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vi v16, v8, 0
+  vsll.vi v24, v16, 26
 
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vv v16, v8, v24
+  vsll.vv v24, v16, v8
 
-  li t2, 0xec78516f98b6d8fa
+  li t2, 0x8386d29172f0e193
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vx v16, v8, t2
+  vsll.vx v16, v8, t2
 
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vi v8, v24, 1
+  vsll.vi v16, v24, 16
 
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vv v24, v8, v16
+  vsll.vv v24, v8, v16
 
-  li t2, 0x7c9cfe935a196a20
+  li t2, 0xb382b16f06e58af3
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vx v16, v24, t2
+  vsll.vx v16, v8, t2
 
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vi v24, v8, -5
+  vsll.vi v8, v24, 3
 
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vv v16, v8, v24
+  vsll.vv v24, v16, v8
 
-  li t2, 0xe7905b300e608c2f
+  li t2, 0xef984b368a31220d
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vx v24, v16, t2
+  vsll.vx v8, v16, t2
 
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vi v8, v24, 8
+  vsll.vi v16, v24, 12
 
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vv v16, v8, v24
+  vsll.vv v16, v24, v8
 
-  li t2, 0xf704b882321be767
+  li t2, 0x52880f79f700438d
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vx v16, v24, t2
+  vsll.vx v8, v16, t2
 
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vi v16, v8, 1
+  vsll.vi v16, v24, 23
 
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vv v8, v16, v24
+  vsll.vv v8, v24, v16
 
-  li t2, 0x59bfaa75f628e236
+  li t2, 0x6b53de3e9c7816dd
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vx v16, v8, t2
+  vsll.vx v24, v16, t2
 
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vi v16, v8, -9
+  vsll.vi v24, v8, 14
 
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vv v16, v24, v8
+  vsll.vv v8, v24, v16
 
-  li t2, 0x744d6215a34c2f37
+  li t2, 0xac4fddd2b809bcce
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vx v24, v16, t2
+  vsll.vx v16, v24, t2
 
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vi v8, v16, -2
+  vsll.vi v8, v16, 17
 
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vv v16, v24, v8
+  vsll.vv v8, v24, v16
 
-  li t2, 0xfc585dd50a5a6455
+  li t2, 0xbc59403c5402864d
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vx v16, v8, t2
+  vsll.vx v24, v8, t2
 
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vi v16, v24, 13
+  vsll.vi v24, v8, 12
 
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vv v16, v24, v8
+  vsll.vv v16, v24, v8
 
-  li t2, 0x26d6aee04c8359cb
+  li t2, 0x119d2e6f4779d03e
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vx v24, v16, t2
+  vsll.vx v24, v16, t2
 
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vi v16, v8, 13
+  vsll.vi v8, v16, 10
 
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vv v24, v16, v8
+  vsll.vv v16, v8, v24
 
-  li t2, 0xd2834efd8d1e3b8e
+  li t2, 0xc11b676bc101b697
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vx v24, v8, t2
+  vsll.vx v8, v24, t2
 
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vi v8, v24, -13
+  vsll.vi v16, v24, 15
 
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vv v16, v8, v24
+  vsll.vv v16, v8, v24
 
-  li t2, 0xb56665ef53ac1cb1
+  li t2, 0xae3536f18c52e99f
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vx v16, v8, t2
+  vsll.vx v8, v16, t2
 
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vi v8, v24, -12
+  vsll.vi v24, v16, 22
 
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vv v24, v8, v16
+  vsll.vv v24, v8, v16
 
-  li t2, 0x90f0fa9c1c435c54
+  li t2, 0x8e5c79a347e07128
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vx v24, v16, t2
+  vsll.vx v8, v16, t2
 
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vi v8, v24, -2
+  vsll.vi v8, v16, 17
 
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vv v24, v16, v8
+  vsll.vv v24, v16, v8
 
-  li t2, 0x7f15e5614afa3778
+  li t2, 0x253eeb98b720316d
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vx v16, v8, t2
+  vsll.vx v8, v16, t2
 
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vi v24, v8, 15
+  vsll.vi v8, v24, 3
 
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vv v8, v16, v24
+  vsll.vv v8, v16, v24
 
-  li t2, 0x7c0363141e20239e
+  li t2, 0x5de14bf365ebb926
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vx v16, v8, t2
+  vsll.vx v16, v24, t2
 
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vi v24, v8, -9
+  vsll.vi v24, v8, 11
 
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vv v8, v16, v24
+  vsll.vv v16, v24, v8
 
-  li t2, 0x16d33de7de8a6ddf
+  li t2, 0x0c033461cbdb2a2e
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vx v16, v24, t2
+  vsll.vx v8, v16, t2
 
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vi v8, v16, 14
+  vsll.vi v24, v16, 18
 
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vv v24, v8, v16
+  vsll.vv v8, v16, v24
 
-  li t2, 0x6b4fb8ff81a0ca33
+  li t2, 0x2453ece2b2e20626
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vx v8, v16, t2
+  vsll.vx v16, v24, t2
 
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vi v8, v16, -2
+  vsll.vi v16, v24, 8
 
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vv v16, v24, v8
+  vsll.vv v16, v24, v8
 
-  li t2, 0xd4b6e20f17aaaa9c
+  li t2, 0x54673147e0433a2d
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vx v16, v8, t2
+  vsll.vx v16, v8, t2
 
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vi v24, v8, -8
+  vsll.vi v8, v24, 20
 
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vv v8, v16, v24
+  vsll.vv v16, v24, v8
 
-  li t2, 0x5de640473554ee4e
+  li t2, 0xd5a3d9f94aba7815
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vx v24, v8, t2
+  vsll.vx v8, v24, t2
 
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vi v16, v8, -15
+  vsll.vi v16, v8, 2
 
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vv v8, v24, v16
+  vsll.vv v24, v16, v8
 
-  li t2, 0xf7844a06b7b22d48
+  li t2, 0x475bfbd6d8661db5
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vx v8, v24, t2
+  vsll.vx v16, v24, t2
 
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vi v16, v24, 5
+  vsll.vi v24, v16, 30
 
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vv v16, v24, v8
+  vsll.vv v8, v16, v24
 
-  li t2, 0x5f1e644de3363b32
+  li t2, 0x208b735a0da356ba
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vx v8, v16, t2
+  vsll.vx v16, v8, t2
 
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vi v8, v24, 12
+  vsll.vi v16, v24, 23
 
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vv v8, v16, v24
+  vsll.vv v16, v8, v24
 
-  li t2, 0x9869fc8f85daa2c3
+  li t2, 0x1123386e3c788303
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vx v24, v16, t2
+  vsll.vx v24, v16, t2
 
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vi v8, v24, 11
+  vsll.vi v16, v24, 8
 
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vv v8, v24, v16
+  vsll.vv v16, v8, v24
 
-  li t2, 0xd2dbc01a0d9a5e7d
+  li t2, 0x369ea4b4f0104719
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vx v16, v8, t2
+  vsll.vx v16, v24, t2
 
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vi v24, v16, 9
+  vsll.vi v24, v16, 29
 
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vv v16, v8, v24
+  vsll.vv v16, v24, v8
 
-  li t2, 0xc6d7c50381abbcd0
+  li t2, 0x5d037bf7dde8befd
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vx v24, v8, t2
+  vsll.vx v24, v16, t2
 
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vi v16, v8, 7
+  vsll.vi v16, v8, 14
 
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vv v24, v16, v8
+  vsll.vv v16, v8, v24
 
-  li t2, 0x7088e612831ca887
+  li t2, 0x375367e8e14e8345
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vx v8, v24, t2
+  vsll.vx v8, v24, t2
 
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vi v16, v8, 12
+  vsll.vi v8, v16, 26
 
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vv v16, v8, v24
+  vsll.vv v8, v16, v24
 
-  li t2, 0x3344f9df109ca743
+  li t2, 0xf0196464fa986a36
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vx v8, v16, t2
+  vsll.vx v16, v24, t2
 
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vi v24, v16, 5
+  vsll.vi v8, v16, 13
 
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vv v24, v8, v16
+  vsll.vv v8, v24, v16
 
-  li t2, 0x59d95c4b3be8bb2f
+  li t2, 0x504cb8d239eeb00f
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vx v24, v8, t2
+  vsll.vx v24, v8, t2
 
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vi v24, v8, -1
+  vsll.vi v24, v16, 20
 
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vv v24, v8, v16
+  vsll.vv v16, v8, v24
 
-  li t2, 0x745fe4dc38eea2b4
+  li t2, 0x380f82d1796f023e
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vx v8, v16, t2
+  vsll.vx v8, v24, t2
 
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vi v16, v24, 5
+  vsll.vi v16, v8, 2
 
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vv v16, v8, v24
+  vsll.vv v16, v24, v8
 
-  li t2, 0x8d740f3a6f325e4e
+  li t2, 0x8ade19eaeb1b6575
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vx v24, v8, t2
+  vsll.vx v24, v8, t2
 
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vi v16, v8, 5
+  vsll.vi v8, v24, 14
 
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vv v8, v16, v24
+  vsll.vv v8, v16, v24
 
-  li t2, 0x0d733c87118be5cd
+  li t2, 0xfd9d18fe0821be87
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vx v8, v24, t2
+  vsll.vx v16, v8, t2
 
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vi v8, v24, -8
+  vsll.vi v24, v16, 20
 
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vv v16, v24, v8
+  vsll.vv v16, v8, v24
 
-  li t2, 0x85e510048fe44d6e
+  li t2, 0x70b80b8d182f9d0b
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vx v8, v16, t2
+  vsll.vx v16, v8, t2
 
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vi v8, v16, -2
+  vsll.vi v8, v24, 28
 
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vv v24, v8, v16
+  vsll.vv v24, v16, v8
 
-  li t2, 0x3161c5764a29f117
+  li t2, 0x0cc8af13f7702e43
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vx v24, v8, t2
+  vsll.vx v24, v16, t2
 
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vi v8, v24, 10
+  vsll.vi v16, v24, 8
 
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vv v8, v16, v24
+  vsll.vv v24, v8, v16
 
-  li t2, 0xfc4abbf41c3258b3
+  li t2, 0x7a1f03c206c5b51e
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vx v16, v24, t2
+  vsll.vx v16, v8, t2
 
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vi v8, v16, 6
+  vsll.vi v8, v16, 15
 
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vv v24, v8, v16
+  vsll.vv v8, v24, v16
 
-  li t2, 0x3f65cfffae1323b3
+  li t2, 0xb9d23f76f86e0ae1
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vx v8, v16, t2
+  vsll.vx v8, v24, t2
 
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vi v24, v16, -6
+  vsll.vi v24, v8, 16
 
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vv v16, v8, v24
+  vsll.vv v16, v8, v24
 
-  li t2, 0x770039bb29e38d5f
+  li t2, 0x3c41ec5316723ff4
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vx v24, v16, t2
+  vsll.vx v8, v16, t2
 
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vi v8, v24, -3
+  vsll.vi v16, v8, 12
 
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vv v24, v8, v16
+  vsll.vv v24, v8, v16
 
-  li t2, 0xa55882d280bda691
+  li t2, 0xaae0492c1f9ce716
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vx v8, v24, t2
+  vsll.vx v24, v8, t2
 
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vi v8, v24, -14
+  vsll.vi v16, v24, 12
 
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vv v24, v8, v16
+  vsll.vv v8, v24, v16
 
-  li t2, 0xd0c3e48044f49346
+  li t2, 0x017ff5f57c2b4c16
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vx v16, v24, t2
+  vsll.vx v8, v16, t2
 
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vi v16, v24, 5
+  vsll.vi v16, v24, 12
 
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vv v16, v24, v8
+  vsll.vv v8, v16, v24
 
-  li t2, 0x6bb79bf64c4a8f0a
+  li t2, 0xe80969d6309560e8
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vx v8, v16, t2
+  vsll.vx v16, v24, t2
 
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vi v8, v16, 2
+  vsll.vi v8, v16, 4
 
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vv v24, v8, v16
+  vsll.vv v16, v8, v24
 
-  li t2, 0x75ad0c333fd7b6fe
+  li t2, 0x4bcb84bf502ea9fc
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vx v8, v24, t2
+  vsll.vx v24, v16, t2
 
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vi v16, v8, 14
+  vsll.vi v24, v8, 0
 
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vv v24, v8, v16
+  vsll.vv v16, v24, v8
 
-  li t2, 0x28bdf456266d4b78
+  li t2, 0x058913304c10597b
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vx v8, v16, t2
+  vsll.vx v8, v16, t2
 
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vi v24, v8, -14
+  vsll.vi v16, v24, 24
 
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vv v16, v24, v8
+  vsll.vv v8, v16, v24
 
-  li t2, 0xa44c0de4e2a93743
+  li t2, 0xc500b35fcbb26abf
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vx v24, v16, t2
+  vsll.vx v24, v16, t2
 
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vi v8, v16, 9
+  vsll.vi v8, v16, 31
 
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vv v8, v16, v24
+  vsll.vv v24, v8, v16
 
-  li t2, 0x195d018be5d5210e
+  li t2, 0x409e7b51e62c7ddc
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vx v24, v16, t2
+  vsll.vx v24, v8, t2
 
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vi v8, v16, 0
+  vsll.vi v8, v24, 24
 
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vv v16, v24, v8
+  vsll.vv v8, v24, v16
 
-  li t2, 0x3dacc6c936ecd81e
+  li t2, 0x81a68c1deb697561
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vx v24, v16, t2
+  vsll.vx v24, v16, t2
 
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vi v24, v8, -11
+  vsll.vi v8, v24, 5
 
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vv v16, v24, v8
+  vsll.vv v8, v16, v24
 
-  li t2, 0xdc6e29075ed06883
+  li t2, 0x58799c01642593c9
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vx v8, v24, t2
+  vsll.vx v24, v16, t2
 
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vi v16, v8, 6
+  vsll.vi v16, v24, 21
 
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vv v24, v8, v16
+  vsll.vv v24, v16, v8
 
-  li t2, 0x48e4337a950b6fda
+  li t2, 0xb272db4b70199361
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vx v24, v16, t2
+  vsll.vx v24, v16, t2
 
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vi v24, v16, -12
+  vsll.vi v16, v8, 9
 
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vv v16, v8, v24
+  vsll.vv v24, v16, v8
 
-  li t2, 0xef91eeb5a9f4d7f4
+  li t2, 0x3773776181ab2efa
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vx v8, v16, t2
+  vsll.vx v8, v16, t2
 
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vi v16, v8, 5
+  vsll.vi v16, v8, 7
 
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vv v24, v8, v16
+  vsll.vv v8, v16, v24
 
-  li t2, 0x40051ee61d26387f
+  li t2, 0x809873e3be551a80
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vx v24, v16, t2
+  vsll.vx v24, v8, t2
 
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vi v8, v24, -12
+  vsll.vi v8, v24, 10
 
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vv v16, v24, v8
+  vsll.vv v24, v8, v16
 
-  li t2, 0xa1d43749ebaefc24
+  li t2, 0x44179f5f0d6a8869
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vx v24, v8, t2
+  vsll.vx v8, v24, t2
 
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vi v16, v8, 15
+  vsll.vi v8, v16, 5
 
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vv v24, v8, v16
+  vsll.vv v16, v8, v24
 
-  li t2, 0xa9e70478f68400eb
+  li t2, 0x7b7a5ef5934ac4bc
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vx v24, v8, t2
+  vsll.vx v16, v8, t2
 
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vi v16, v24, -11
+  vsll.vi v24, v16, 14
 
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vv v24, v16, v8
+  vsll.vv v8, v16, v24
 
-  li t2, 0xb6c0b85f01bc0a84
+  li t2, 0x2cbc5fb1d0853afa
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vx v8, v24, t2
+  vsll.vx v16, v8, t2
 
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vi v24, v8, 14
+  vsll.vi v24, v8, 28
 
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vv v16, v24, v8
+  vsll.vv v16, v8, v24
 
-  li t2, 0x2f3e46d81f9ef961
+  li t2, 0x125e7643bd5b777f
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vx v16, v24, t2
+  vsll.vx v24, v8, t2
 
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vi v16, v8, -4
+  vsll.vi v8, v16, 30
 
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vv v8, v16, v24
+  vsll.vv v16, v8, v24
 
-  li t2, 0x03f9f597908b7c13
+  li t2, 0xe7dc2f5d6adf7502
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vx v16, v24, t2
+  vsll.vx v16, v24, t2
 
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vi v16, v24, -15
+  vsll.vi v16, v8, 28
 
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vv v24, v16, v8
+  vsll.vv v8, v24, v16
 
-  li t2, 0x4ec1808a2271d831
+  li t2, 0x84c9bb3977652f9b
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vx v16, v24, t2
+  vsll.vx v8, v16, t2
 
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vi v24, v16, 12
+  vsll.vi v24, v16, 3
 
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vv v24, v8, v16
+  vsll.vv v24, v16, v8
 
-  li t2, 0x2ea2a836a079bcbf
+  li t2, 0x6192e60971f61f11
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vx v8, v16, t2
+  vsll.vx v8, v16, t2
 
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vi v24, v8, -4
+  vsll.vi v16, v24, 14
 
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vv v16, v8, v24
+  vsll.vv v24, v16, v8
 
-  li t2, 0x775834b87f6ee673
+  li t2, 0xef1a6aeb54cce4e4
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vx v16, v24, t2
+  vsll.vx v8, v24, t2
 
   vsetvli t1, t0, e32, m8, ta, ma
-  vand.vi v24, v16, -1
+  vsll.vi v24, v16, 14
 
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vv v11, v22, v23
+  vsll.vv v13, v29, v19
 
-  li t2, 0x6d9dcba0ed187583
+  li t2, 0x5ec79ae180fdb0dd
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vx v25, v31, t2
+  vsll.vx v18, v12, t2
 
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vi v16, v7, -10
+  vsll.vi v27, v20, 26
 
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vv v14, v18, v24
+  vsll.vv v21, v15, v27
 
-  li t2, 0x249518f5147484ff
+  li t2, 0x65242aaa29d6c4cd
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vx v17, v13, t2
+  vsll.vx v10, v30, t2
 
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vi v30, v31, 14
+  vsll.vi v19, v30, 4
 
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vv v21, v16, v7
+  vsll.vv v2, v10, v25
 
-  li t2, 0x38cb09929db21074
+  li t2, 0xc623ed4052a95844
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vx v27, v6, t2
+  vsll.vx v19, v17, t2
 
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vi v13, v25, -2
+  vsll.vi v31, v6, 1
 
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vv v30, v4, v24
+  vsll.vv v9, v27, v26
 
-  li t2, 0x6b8e6eef255f6884
+  li t2, 0x9c442a91123f8bab
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vx v17, v11, t2
+  vsll.vx v10, v22, t2
 
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vi v26, v24, -12
+  vsll.vi v29, v12, 1
 
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vv v6, v28, v11
+  vsll.vv v25, v27, v30
 
-  li t2, 0xa4af23dd3bf06048
+  li t2, 0x4c4e993aac2da0d4
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vx v21, v10, t2
+  vsll.vx v23, v12, t2
 
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vi v8, v15, 7
+  vsll.vi v2, v10, 25
 
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vv v17, v22, v30
+  vsll.vv v18, v19, v15
 
-  li t2, 0x13215b3d164892a9
+  li t2, 0x225a60fcc2b71c9f
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vx v9, v18, t2
+  vsll.vx v24, v6, t2
 
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vi v29, v3, -4
+  vsll.vi v11, v4, 22
 
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vv v22, v20, v29
+  vsll.vv v7, v9, v17
 
-  li t2, 0x17d57801d6631353
+  li t2, 0x363bcc81be66e48a
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vx v16, v12, t2
+  vsll.vx v17, v3, t2
 
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vi v6, v24, 0
+  vsll.vi v18, v31, 12
 
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vv v24, v8, v21
+  vsll.vv v18, v26, v19
 
-  li t2, 0x40318f1499de658a
+  li t2, 0x9c60ab14a3fa8772
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vx v8, v2, t2
+  vsll.vx v28, v15, t2
 
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vi v3, v20, -14
+  vsll.vi v31, v11, 10
 
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vv v16, v6, v7
+  vsll.vv v7, v13, v1
 
-  li t2, 0x7d2345de52383d01
+  li t2, 0x8f72f03ebf3c7f5e
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vx v15, v22, t2
+  vsll.vx v10, v9, t2
 
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vi v4, v15, -2
+  vsll.vi v21, v5, 22
 
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vv v21, v2, v5
+  vsll.vv v18, v26, v17
 
-  li t2, 0xe018d1d5b79256aa
+  li t2, 0x8847645f1ad21f7c
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vx v13, v25, t2
+  vsll.vx v30, v11, t2
 
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vi v23, v16, 4
+  vsll.vi v14, v19, 2
 
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vv v20, v12, v5
+  vsll.vv v9, v8, v3
 
-  li t2, 0xb01aeb11626f664d
+  li t2, 0x9f0dd5b20ffd4d0c
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vx v3, v2, t2
+  vsll.vx v22, v23, t2
 
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vi v3, v30, -15
+  vsll.vi v5, v2, 7
 
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vv v20, v9, v27
+  vsll.vv v18, v9, v31
 
-  li t2, 0x3e79d896785d70dd
+  li t2, 0xf5fe7ac2bc730741
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vx v15, v25, t2
+  vsll.vx v29, v8, t2
 
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vi v5, v11, 15
+  vsll.vi v15, v24, 6
 
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vv v27, v11, v7
+  vsll.vv v3, v11, v25
 
-  li t2, 0x896038674e06eec4
+  li t2, 0x9cbe02b348ac194c
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vx v27, v9, t2
+  vsll.vx v23, v6, t2
 
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vi v19, v8, -1
+  vsll.vi v11, v26, 31
 
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vv v1, v27, v31
+  vsll.vv v18, v23, v30
 
-  li t2, 0x30ffb13ac671fbab
+  li t2, 0x52ee26e37d7bc817
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vx v2, v11, t2
+  vsll.vx v9, v17, t2
 
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vi v24, v14, -16
+  vsll.vi v25, v26, 2
 
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vv v28, v2, v11
+  vsll.vv v13, v30, v6
 
-  li t2, 0x143fd279bb0ded28
+  li t2, 0x424ee3d617dd719a
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vx v24, v16, t2
+  vsll.vx v10, v20, t2
 
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vi v22, v27, 1
+  vsll.vi v17, v24, 31
 
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vv v2, v6, v13
+  vsll.vv v29, v31, v22
 
-  li t2, 0xa956a43702512c58
+  li t2, 0xbb8dd26e8cd37ae8
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vx v11, v4, t2
+  vsll.vx v28, v31, t2
 
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vi v2, v6, 2
+  vsll.vi v31, v16, 4
 
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vv v3, v10, v27
+  vsll.vv v1, v17, v11
 
-  li t2, 0xd9f62cd9633db759
+  li t2, 0x4e3c928df897da7c
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vx v9, v5, t2
+  vsll.vx v31, v11, t2
 
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vi v26, v4, 3
+  vsll.vi v31, v23, 1
 
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vv v11, v25, v22
+  vsll.vv v3, v28, v5
 
-  li t2, 0x9687fa385b7ae660
+  li t2, 0x57215ff732a81efa
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vx v24, v16, t2
+  vsll.vx v25, v13, t2
 
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vi v14, v11, 12
+  vsll.vi v2, v22, 29
 
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vv v10, v19, v14
+  vsll.vv v12, v6, v1
 
-  li t2, 0x6617b1ec48ceeccd
+  li t2, 0xa539003e9fa3e3fc
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vx v27, v12, t2
+  vsll.vx v11, v9, t2
 
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vi v22, v17, -9
+  vsll.vi v26, v15, 23
 
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vv v31, v16, v18
+  vsll.vv v11, v14, v25
 
-  li t2, 0x650e67d7d92cfca2
+  li t2, 0x4c478cbbf0545c91
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vx v30, v10, t2
+  vsll.vx v10, v21, t2
 
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vi v12, v6, 14
+  vsll.vi v1, v25, 25
 
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vv v26, v17, v28
+  vsll.vv v29, v21, v23
 
-  li t2, 0x03c0453b99f516c5
+  li t2, 0xa799d0c0c8a240ea
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vx v30, v3, t2
+  vsll.vx v16, v30, t2
 
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vi v21, v2, 0
+  vsll.vi v27, v6, 21
 
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vv v22, v3, v16
+  vsll.vv v13, v6, v12
 
-  li t2, 0xd5e185193e811511
+  li t2, 0x8df2a599e3cfb417
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vx v2, v19, t2
+  vsll.vx v10, v8, t2
 
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vi v27, v31, 9
+  vsll.vi v18, v11, 13
 
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vv v28, v7, v3
+  vsll.vv v10, v31, v23
 
-  li t2, 0x3805817867300cce
+  li t2, 0x8a7f3e1b9bb4c32e
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vx v6, v15, t2
+  vsll.vx v18, v7, t2
 
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vi v21, v5, 3
+  vsll.vi v21, v3, 7
 
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vv v15, v21, v25
+  vsll.vv v22, v26, v9
 
-  li t2, 0x512ffdac1048c82b
+  li t2, 0x586a1d91d3c12ea9
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vx v16, v25, t2
+  vsll.vx v24, v10, t2
 
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vi v3, v7, -7
+  vsll.vi v10, v29, 28
 
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vv v11, v6, v9
+  vsll.vv v15, v8, v26
 
-  li t2, 0xfd5087bc256c50c3
+  li t2, 0x2409786b2333aa8f
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vx v2, v15, t2
+  vsll.vx v6, v7, t2
 
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vi v28, v15, -6
+  vsll.vi v26, v13, 17
 
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vv v14, v7, v17
+  vsll.vv v1, v2, v28
 
-  li t2, 0x6c9841ac8a60d120
+  li t2, 0x3f7840d6c8e7e033
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vx v13, v7, t2
+  vsll.vx v26, v21, t2
 
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vi v11, v14, -3
+  vsll.vi v2, v9, 5
 
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vv v6, v5, v1
+  vsll.vv v24, v31, v12
 
-  li t2, 0xeb0e4c441cb9baf2
+  li t2, 0xefa8bb0ebbd5caa6
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vx v11, v2, t2
+  vsll.vx v3, v24, t2
 
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vi v1, v7, -5
+  vsll.vi v4, v7, 13
 
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vv v28, v24, v25
+  vsll.vv v5, v29, v18
 
-  li t2, 0x88cc85c16d91b5c5
+  li t2, 0xbf63d92cda4a4b7b
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vx v12, v20, t2
+  vsll.vx v26, v19, t2
 
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vi v21, v15, -11
+  vsll.vi v31, v8, 24
 
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vv v9, v12, v2
+  vsll.vv v27, v18, v9
 
-  li t2, 0x55a01c290cc23924
+  li t2, 0x5d0559eabb54a980
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vx v31, v18, t2
+  vsll.vx v19, v23, t2
 
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vi v21, v20, 4
+  vsll.vi v31, v1, 5
 
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vv v6, v19, v5
+  vsll.vv v14, v27, v7
 
-  li t2, 0x2d2806858cb71a6e
+  li t2, 0x705563b8b111501f
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vx v28, v16, t2
+  vsll.vx v17, v20, t2
 
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vi v8, v15, -10
+  vsll.vi v20, v19, 15
 
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vv v8, v14, v12
+  vsll.vv v21, v19, v31
 
-  li t2, 0x441cb4c9eb48a91f
+  li t2, 0xb164bbad74f257a7
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vx v22, v20, t2
+  vsll.vx v15, v17, t2
 
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vi v5, v2, -8
+  vsll.vi v23, v17, 11
 
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vv v30, v21, v12
+  vsll.vv v29, v7, v26
 
-  li t2, 0xb530a23487819920
+  li t2, 0x2cd831e4a57adc53
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vx v26, v22, t2
+  vsll.vx v6, v7, t2
 
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vi v20, v14, -13
+  vsll.vi v5, v27, 28
 
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vv v28, v10, v8
+  vsll.vv v14, v18, v23
 
-  li t2, 0x16b799c0ac69d77a
+  li t2, 0x31a60f20f1253091
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vx v31, v29, t2
+  vsll.vx v2, v18, t2
 
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vi v29, v24, -16
+  vsll.vi v14, v10, 16
 
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vv v26, v29, v14
+  vsll.vv v5, v28, v29
 
-  li t2, 0x155f9d49fdfd51f9
+  li t2, 0x82bda86055f0c4ca
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vx v18, v3, t2
+  vsll.vx v22, v20, t2
 
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vi v2, v15, -10
+  vsll.vi v1, v9, 7
 
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vv v15, v30, v20
+  vsll.vv v22, v17, v11
 
-  li t2, 0xe1b9b4f04fc24c37
+  li t2, 0x593ad873727929ec
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vx v10, v11, t2
+  vsll.vx v20, v14, t2
 
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vi v23, v1, 1
+  vsll.vi v11, v24, 22
 
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vv v29, v13, v7
+  vsll.vv v8, v17, v26
 
-  li t2, 0x082f8231862866f2
+  li t2, 0x4dd61bff58073ea6
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vx v26, v17, t2
+  vsll.vx v26, v7, t2
 
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vi v6, v12, 9
+  vsll.vi v2, v29, 4
 
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vv v25, v11, v22
+  vsll.vv v3, v17, v6
 
-  li t2, 0x6eb3ed6723bffbb2
+  li t2, 0xd090f1b659d2d37f
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vx v21, v3, t2
+  vsll.vx v26, v16, t2
 
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vi v18, v3, 15
+  vsll.vi v13, v20, 0
 
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vv v28, v15, v11
+  vsll.vv v15, v8, v26
 
-  li t2, 0x4ca2a83f236afb2c
+  li t2, 0x9961485b5f2251c4
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vx v9, v16, t2
+  vsll.vx v1, v27, t2
 
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vi v29, v9, 13
+  vsll.vi v16, v19, 28
 
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vv v22, v13, v16
+  vsll.vv v16, v27, v3
 
-  li t2, 0x250a80c6a5905b42
+  li t2, 0x5b06e604762730b1
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vx v25, v27, t2
+  vsll.vx v4, v19, t2
 
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vi v18, v7, -15
+  vsll.vi v13, v29, 4
 
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vv v31, v11, v23
+  vsll.vv v29, v20, v15
 
-  li t2, 0x6026bd6e217e3989
+  li t2, 0xe14af5f4e159e2f9
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vx v29, v7, t2
+  vsll.vx v7, v1, t2
 
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vi v10, v19, -6
+  vsll.vi v10, v9, 18
 
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vv v30, v23, v15
+  vsll.vv v27, v9, v22
 
-  li t2, 0x9fa957587ec99ab0
+  li t2, 0xeb040734b8edf6ca
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vx v26, v27, t2
+  vsll.vx v28, v30, t2
 
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vi v19, v24, 5
+  vsll.vi v12, v8, 3
 
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vv v2, v18, v7
+  vsll.vv v14, v1, v10
 
-  li t2, 0xda3f6586751b7807
+  li t2, 0x2947d0761c6b59e6
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vx v17, v24, t2
+  vsll.vx v31, v9, t2
 
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vi v20, v19, 1
+  vsll.vi v26, v27, 7
 
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vv v22, v19, v27
+  vsll.vv v25, v30, v23
 
-  li t2, 0x2f72a60f091f77ac
+  li t2, 0xc7a58841e67c72b2
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vx v11, v26, t2
+  vsll.vx v3, v27, t2
 
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vi v21, v18, 0
+  vsll.vi v26, v30, 19
 
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vv v22, v21, v27
+  vsll.vv v22, v3, v9
 
-  li t2, 0xf96c53e500c4bc5c
+  li t2, 0xf9c616f925921f51
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vx v20, v27, t2
+  vsll.vx v22, v15, t2
 
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vi v12, v2, 0
+  vsll.vi v16, v12, 28
 
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vv v1, v15, v29
+  vsll.vv v12, v27, v7
 
-  li t2, 0x18bae362dc4888ca
+  li t2, 0x7912d0d5d522246f
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vx v3, v8, t2
+  vsll.vx v5, v18, t2
 
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vi v28, v16, 10
+  vsll.vi v5, v3, 10
 
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vv v1, v16, v28
+  vsll.vv v22, v30, v1
 
-  li t2, 0x322324f685e0ff50
+  li t2, 0x124cbf39d433bc43
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vx v20, v25, t2
+  vsll.vx v6, v11, t2
 
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vi v29, v23, 10
+  vsll.vi v8, v24, 19
 
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vv v9, v6, v20
+  vsll.vv v14, v28, v23
 
-  li t2, 0x0becacc1a626a539
+  li t2, 0x767f120068907299
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vx v2, v27, t2
+  vsll.vx v15, v16, t2
 
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vi v1, v13, -4
+  vsll.vi v7, v17, 5
 
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vv v25, v16, v19
+  vsll.vv v2, v9, v25
 
-  li t2, 0xf53ed16eff4f5351
+  li t2, 0xabe6247ce4255956
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vx v31, v26, t2
+  vsll.vx v25, v27, t2
 
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vi v13, v4, -7
+  vsll.vi v13, v30, 12
 
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vv v31, v28, v21
+  vsll.vv v1, v4, v9
 
-  li t2, 0xb645f1ab40c000a1
+  li t2, 0xe694fcf8c7019a82
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vx v9, v30, t2
+  vsll.vx v10, v27, t2
 
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vi v5, v12, -5
+  vsll.vi v19, v2, 23
 
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vv v30, v10, v18
+  vsll.vv v28, v24, v27
 
-  li t2, 0x2d9248d0e46e73aa
+  li t2, 0x7ced0c4e2829e161
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vx v11, v22, t2
+  vsll.vx v17, v21, t2
 
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vi v18, v6, -7
+  vsll.vi v3, v13, 8
 
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vv v23, v15, v22
+  vsll.vv v22, v14, v23
 
-  li t2, 0xe197b4e240f0f465
+  li t2, 0x020fa81684ba00cf
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vx v6, v26, t2
+  vsll.vx v27, v18, t2
 
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vi v30, v16, 8
+  vsll.vi v5, v21, 22
 
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vv v12, v3, v27
+  vsll.vv v31, v22, v24
 
-  li t2, 0xa664b1314bea12e6
+  li t2, 0x9ae8cafcec0f7435
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vx v26, v21, t2
+  vsll.vx v11, v21, t2
 
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vi v21, v16, 9
+  vsll.vi v4, v16, 9
 
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vv v2, v22, v9
+  vsll.vv v19, v12, v15
 
-  li t2, 0x1d4e4300f6975a73
+  li t2, 0xea954b345959cbc0
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vx v1, v6, t2
+  vsll.vx v27, v12, t2
 
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vi v23, v18, 4
+  vsll.vi v2, v10, 27
 
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vv v22, v28, v17
+  vsll.vv v26, v9, v28
 
-  li t2, 0x2075bf73869df2a9
+  li t2, 0xe732b0ed27b5c222
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vx v1, v6, t2
+  vsll.vx v14, v11, t2
 
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vi v16, v20, 7
+  vsll.vi v25, v29, 12
 
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vv v9, v30, v16
+  vsll.vv v17, v31, v6
 
-  li t2, 0x3adb316960cd596e
+  li t2, 0xc91a06d6b174d6e2
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vx v18, v15, t2
+  vsll.vx v16, v14, t2
 
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vi v31, v12, 1
+  vsll.vi v25, v19, 11
 
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vv v6, v22, v8
+  vsll.vv v15, v7, v2
 
-  li t2, 0xb64f95d463d51d6c
+  li t2, 0x08525ef8b13ffe77
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vx v17, v24, t2
+  vsll.vx v9, v1, t2
 
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vi v13, v18, 10
+  vsll.vi v11, v21, 23
 
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vv v11, v13, v16
+  vsll.vv v8, v21, v29
 
-  li t2, 0x6e7325c4e5d7e540
+  li t2, 0x5c3618bfe8e39123
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vx v18, v26, t2
+  vsll.vx v6, v27, t2
 
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vi v19, v18, 3
+  vsll.vi v2, v14, 16
 
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vv v19, v8, v23
+  vsll.vv v1, v29, v20
 
-  li t2, 0xa263b58eebae439b
+  li t2, 0xe716a150232226fe
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vx v20, v23, t2
+  vsll.vx v25, v26, t2
 
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vi v7, v24, 3
+  vsll.vi v19, v4, 4
 
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vv v10, v28, v20
+  vsll.vv v1, v20, v15
 
-  li t2, 0x0c57238e1af0212a
+  li t2, 0x154dc42811656411
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vx v14, v21, t2
+  vsll.vx v15, v6, t2
 
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vi v26, v10, -2
+  vsll.vi v13, v9, 1
 
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vv v8, v18, v5
+  vsll.vv v24, v18, v22
 
-  li t2, 0x94d86c327b94cb09
+  li t2, 0x73e15ea4786a9b30
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vx v6, v26, t2
+  vsll.vx v26, v18, t2
 
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vi v2, v31, -9
+  vsll.vi v4, v1, 7
 
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vv v26, v30, v29
+  vsll.vv v29, v22, v21
 
-  li t2, 0xc5ac8287d857e162
+  li t2, 0x630c343bf260bd2c
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vx v28, v15, t2
+  vsll.vx v15, v6, t2
 
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vi v18, v12, 1
+  vsll.vi v6, v17, 0
 
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vv v11, v26, v17
+  vsll.vv v28, v31, v26
 
-  li t2, 0x88841c04b813f0a4
+  li t2, 0xbb6869f7ad652d1b
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vx v26, v10, t2
+  vsll.vx v20, v19, t2
 
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vi v2, v17, -2
+  vsll.vi v20, v19, 1
 
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vv v14, v4, v13
+  vsll.vv v7, v8, v11
 
-  li t2, 0x79b6522919409fe5
+  li t2, 0x55d4797df5d8a14d
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vx v8, v12, t2
+  vsll.vx v7, v16, t2
 
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vi v28, v16, -14
+  vsll.vi v19, v29, 10
 
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vv v12, v18, v27
+  vsll.vv v31, v4, v19
 
-  li t2, 0x69914ca4684cbc21
+  li t2, 0x365370a0b70d046e
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vx v22, v31, t2
+  vsll.vx v23, v22, t2
 
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vi v20, v30, -1
+  vsll.vi v26, v3, 10
 
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vv v18, v9, v12
+  vsll.vv v16, v19, v2
 
-  li t2, 0xa9dda055c2a0ad80
+  li t2, 0x0def774ade6ce865
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vx v9, v15, t2
+  vsll.vx v15, v12, t2
 
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vi v20, v13, -3
+  vsll.vi v16, v15, 21
 
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vv v9, v8, v19
+  vsll.vv v6, v26, v17
 
-  li t2, 0x43f5e5ce12ba84ed
+  li t2, 0xf4749625c21049b7
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vx v3, v2, t2
+  vsll.vx v29, v15, t2
 
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vi v15, v6, -12
+  vsll.vi v18, v15, 22
 
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vv v14, v4, v17
+  vsll.vv v26, v6, v20
 
-  li t2, 0xd14fa1d13959b05e
+  li t2, 0xee799c1019470996
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vx v17, v9, t2
+  vsll.vx v14, v25, t2
 
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vi v13, v29, -5
+  vsll.vi v19, v15, 5
 
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vv v15, v5, v12
+  vsll.vv v21, v19, v30
 
-  li t2, 0xbd3842476100cf29
+  li t2, 0x5670f76c9c8a6b70
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vx v14, v22, t2
+  vsll.vx v3, v1, t2
 
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vi v22, v2, 13
+  vsll.vi v12, v28, 15
 
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vv v20, v4, v25
+  vsll.vv v7, v14, v1
 
-  li t2, 0x7ed18ac63db2a0c5
+  li t2, 0xc56be8dd9b45c88f
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vx v26, v23, t2
+  vsll.vx v25, v11, t2
 
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vi v29, v21, 14
+  vsll.vi v6, v10, 7
 
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vv v26, v16, v14
+  vsll.vv v29, v21, v1
 
-  li t2, 0xf174aa479f1e0bfc
+  li t2, 0x16edf8764ab12c1c
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vx v20, v21, t2
+  vsll.vx v24, v21, t2
 
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vi v2, v26, -5
+  vsll.vi v23, v10, 3
 
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vv v15, v1, v4
+  vsll.vv v28, v14, v15
 
-  li t2, 0x95014cfbbd76e469
+  li t2, 0xebac9ce924c54e1b
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vx v17, v30, t2
+  vsll.vx v27, v30, t2
 
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vi v12, v8, 5
+  vsll.vi v29, v21, 20
 
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vv v22, v2, v12
+  vsll.vv v17, v3, v19
 
-  li t2, 0x43863ea3b5162481
+  li t2, 0xbb6628f11817bbb7
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vx v2, v5, t2
+  vsll.vx v15, v6, t2
 
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vi v30, v4, -12
+  vsll.vi v4, v13, 1
 
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vv v16, v19, v3
+  vsll.vv v25, v13, v5
 
-  li t2, 0x50cacaa513a25ac2
+  li t2, 0xa6555ce608e14201
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vx v30, v10, t2
+  vsll.vx v2, v18, t2
 
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vi v23, v8, -15
+  vsll.vi v6, v5, 16
 
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vv v31, v4, v26
+  vsll.vv v4, v20, v9
 
-  li t2, 0x11986b07f6db913b
+  li t2, 0xe0dddbd892fe8486
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vx v31, v6, t2
+  vsll.vx v2, v26, t2
 
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vi v29, v22, -6
+  vsll.vi v4, v31, 21
 
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vv v18, v22, v25
+  vsll.vv v10, v3, v25
 
-  li t2, 0x73aab01e22e1aa5c
+  li t2, 0x4b667b4964ab3a6a
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vx v3, v9, t2
+  vsll.vx v3, v10, t2
 
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vi v5, v14, 14
+  vsll.vi v14, v19, 22
 
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vv v15, v22, v19
+  vsll.vv v6, v5, v9
 
-  li t2, 0xbf729a8ce81dd500
+  li t2, 0x9851b0bab2fdafd2
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vx v22, v10, t2
+  vsll.vx v26, v31, t2
 
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vi v29, v17, -16
+  vsll.vi v22, v23, 25
 
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vv v26, v18, v20
+  vsll.vv v15, v19, v16
 
-  li t2, 0x9770a29caab0293c
+  li t2, 0xd95174c8a28261e7
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vx v14, v5, t2
+  vsll.vx v20, v26, t2
 
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vi v6, v31, -6
+  vsll.vi v18, v20, 28
 
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vv v11, v29, v5
+  vsll.vv v17, v13, v4
 
-  li t2, 0x03c8ce7582895ed9
+  li t2, 0xfb5db5dbfab8ad89
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vx v9, v16, t2
+  vsll.vx v1, v29, t2
 
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vi v27, v8, 8
+  vsll.vi v27, v3, 26
 
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vv v20, v26, v14
+  vsll.vv v11, v26, v23
 
-  li t2, 0xaa60a085a424abb8
+  li t2, 0xa179073c0b306d7f
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vx v15, v3, t2
+  vsll.vx v29, v10, t2
 
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vi v29, v10, 7
+  vsll.vi v5, v19, 21
 
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vv v10, v16, v30
+  vsll.vv v30, v1, v22
 
-  li t2, 0xc11a0d0cf537e536
+  li t2, 0x05ea0fd64cf79a7c
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vx v18, v13, t2
+  vsll.vx v17, v29, t2
 
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vi v15, v25, 12
+  vsll.vi v17, v27, 22
 
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vv v28, v1, v3
+  vsll.vv v16, v1, v2
 
-  li t2, 0xd72f435376a414f7
+  li t2, 0x0f3c417775781c3d
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vx v31, v3, t2
+  vsll.vx v28, v24, t2
 
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vi v24, v16, -1
+  vsll.vi v2, v5, 12
 
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vv v5, v25, v15
+  vsll.vv v6, v23, v21
 
-  li t2, 0x85dd0034c1bdf3b5
+  li t2, 0x2863921dd2bc4500
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vx v22, v25, t2
+  vsll.vx v9, v5, t2
 
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vi v25, v21, -12
+  vsll.vi v18, v27, 25
 
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vv v4, v15, v10
+  vsll.vv v12, v25, v26
 
-  li t2, 0x1152dffda7f12bfa
+  li t2, 0x415d8912f64e26ec
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vx v6, v2, t2
+  vsll.vx v2, v18, t2
 
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vi v26, v20, 1
+  vsll.vi v14, v24, 13
 
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vv v12, v2, v11
+  vsll.vv v24, v28, v14
 
-  li t2, 0xe942e463ac957326
+  li t2, 0xedb5eeaeee0616d4
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vx v26, v24, t2
+  vsll.vx v26, v20, t2
 
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vi v30, v2, 1
+  vsll.vi v17, v30, 18
 
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vv v16, v18, v20
+  vsll.vv v1, v14, v28
 
-  li t2, 0x77945efadc26f891
+  li t2, 0xe70013a9d916f42b
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vx v26, v18, t2
+  vsll.vx v25, v28, t2
 
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vi v20, v8, 0
+  vsll.vi v27, v8, 18
 
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vv v19, v5, v26
+  vsll.vv v28, v31, v17
 
-  li t2, 0x66770388dedfd6fb
+  li t2, 0x62c49212bfdf6cb9
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vx v31, v1, t2
+  vsll.vx v28, v6, t2
 
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vi v22, v11, 14
+  vsll.vi v30, v26, 15
 
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vv v5, v14, v10
+  vsll.vv v28, v14, v18
 
-  li t2, 0x40a1c6056f318df1
+  li t2, 0xa8939aa36e992b2f
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vx v2, v23, t2
+  vsll.vx v9, v15, t2
 
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vi v30, v20, -13
+  vsll.vi v14, v2, 20
 
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vv v20, v16, v7
+  vsll.vv v9, v14, v5
 
-  li t2, 0x7b1131e5492988fa
+  li t2, 0x63f405f0ba3fb5e6
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vx v22, v5, t2
+  vsll.vx v13, v27, t2
 
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vi v21, v15, -16
+  vsll.vi v12, v16, 22
 
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vv v25, v28, v29
+  vsll.vv v24, v4, v9
 
-  li t2, 0x95268d767b2d8966
+  li t2, 0x106044de2dc60d13
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vx v1, v7, t2
+  vsll.vx v30, v13, t2
 
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vi v30, v9, -12
+  vsll.vi v9, v7, 20
 
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vv v28, v31, v24
+  vsll.vv v21, v13, v28
 
-  li t2, 0x8014ac46b099eb9a
+  li t2, 0xc1dbe45cdeec7d11
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vx v26, v16, t2
+  vsll.vx v26, v23, t2
 
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vi v2, v29, -14
+  vsll.vi v8, v14, 27
 
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vv v12, v11, v21
+  vsll.vv v30, v16, v20
 
-  li t2, 0x762240a6074cfedf
+  li t2, 0x15abeac4a60d145c
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vx v23, v6, t2
+  vsll.vx v20, v31, t2
 
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vi v3, v19, 6
+  vsll.vi v1, v4, 21
 
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vv v12, v13, v22
+  vsll.vv v23, v16, v9
 
-  li t2, 0x2efb031457055fc4
+  li t2, 0xa4e29389d6750e6f
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vx v12, v6, t2
+  vsll.vx v2, v1, t2
 
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vi v28, v23, -16
+  vsll.vi v2, v5, 4
 
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vv v29, v11, v9
+  vsll.vv v9, v10, v21
 
-  li t2, 0x7f072755eef23cf7
+  li t2, 0xf35c9b9017aceb71
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vx v27, v9, t2
+  vsll.vx v4, v21, t2
 
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vi v14, v22, -10
+  vsll.vi v16, v21, 20
 
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vv v29, v10, v20
+  vsll.vv v13, v5, v11
 
-  li t2, 0x26c5400b677900fb
+  li t2, 0xac23ab9c14ba1ab8
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vx v13, v12, t2
+  vsll.vx v20, v19, t2
 
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vi v11, v21, -13
+  vsll.vi v23, v29, 17
 
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vv v31, v2, v29
+  vsll.vv v5, v14, v25
 
-  li t2, 0xee19a730b0ba08a1
+  li t2, 0x817ab6e255ac6584
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vx v14, v25, t2
+  vsll.vx v5, v13, t2
 
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vi v29, v17, -15
+  vsll.vi v8, v26, 16
 
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vv v21, v15, v4
+  vsll.vv v10, v20, v25
 
-  li t2, 0x7f0e58fca7aae97b
+  li t2, 0x8bb9ae37e9be9715
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vx v25, v1, t2
+  vsll.vx v2, v31, t2
 
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vi v21, v6, 13
+  vsll.vi v27, v17, 4
 
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vv v3, v1, v24
+  vsll.vv v23, v15, v30
 
-  li t2, 0x8976761d8b2b6905
+  li t2, 0xcaeb17c824427f03
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vx v19, v14, t2
+  vsll.vx v16, v9, t2
 
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vi v7, v11, 12
+  vsll.vi v28, v21, 0
 
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vv v26, v24, v28
+  vsll.vv v13, v14, v4
 
-  li t2, 0x1ecd104eb2fccaee
+  li t2, 0xa2a65fae198da39f
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vx v26, v12, t2
+  vsll.vx v31, v27, t2
 
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vi v23, v16, -9
+  vsll.vi v21, v28, 21
 
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vv v7, v18, v26
+  vsll.vv v20, v16, v8
 
-  li t2, 0x48609d6661a288df
+  li t2, 0x9092e829df540d45
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vx v7, v2, t2
+  vsll.vx v1, v5, t2
 
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vi v15, v18, 7
+  vsll.vi v28, v18, 13
 
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vv v11, v22, v16
+  vsll.vv v28, v1, v25
 
-  li t2, 0x65a6e4cf0de7e62c
+  li t2, 0xfaaeff337d9cc667
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vx v8, v26, t2
+  vsll.vx v3, v26, t2
 
   vsetvli t1, t0, e64, m1, ta, ma
-  vand.vi v9, v29, 10
+  vsll.vi v2, v15, 28
 
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vv v4, v24, v14
+  vsll.vv v8, v26, v4
 
-  li t2, 0xa07a7d3a13906954
+  li t2, 0x04fc3820efafb598
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vx v30, v28, t2
+  vsll.vx v10, v30, t2
 
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vi v28, v4, 8
+  vsll.vi v8, v24, 8
 
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vv v6, v26, v8
+  vsll.vv v6, v22, v30
 
-  li t2, 0x70fcf0c3e066e7c6
+  li t2, 0xc28d74204f9e384e
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vx v12, v22, t2
+  vsll.vx v28, v18, t2
 
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vi v4, v30, 1
+  vsll.vi v2, v22, 8
 
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vv v2, v12, v16
+  vsll.vv v22, v20, v2
 
-  li t2, 0x4e8d299779b68e61
+  li t2, 0xac6784bff0f91164
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vx v26, v10, t2
+  vsll.vx v12, v20, t2
 
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vi v8, v28, -11
+  vsll.vi v6, v24, 27
 
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vv v28, v10, v2
+  vsll.vv v16, v26, v30
 
-  li t2, 0xba911fb63d55f234
+  li t2, 0x18cf5a715dd79fef
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vx v30, v8, t2
+  vsll.vx v2, v8, t2
 
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vi v6, v4, 12
+  vsll.vi v10, v30, 27
 
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vv v2, v30, v18
+  vsll.vv v24, v22, v10
 
-  li t2, 0xc5976e3c85e7f978
+  li t2, 0x285182201a6b2ae5
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vx v6, v22, t2
+  vsll.vx v8, v28, t2
 
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vi v8, v14, -2
+  vsll.vi v24, v6, 21
 
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vv v22, v30, v2
+  vsll.vv v14, v2, v12
 
-  li t2, 0x5bb1f4291aa91c3e
+  li t2, 0x61d04dfb8f64dcdb
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vx v18, v8, t2
+  vsll.vx v14, v30, t2
 
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vi v14, v2, -4
+  vsll.vi v28, v10, 28
 
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vv v8, v2, v30
+  vsll.vv v20, v10, v24
 
-  li t2, 0x119c7c33eb0bb4b3
+  li t2, 0x34e994c5e7118bcc
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vx v4, v6, t2
+  vsll.vx v24, v14, t2
 
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vi v30, v22, -9
+  vsll.vi v28, v26, 30
 
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vv v24, v8, v18
+  vsll.vv v26, v24, v10
 
-  li t2, 0x41695338012e21e1
+  li t2, 0x9422f3dbc9b333bc
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vx v20, v6, t2
+  vsll.vx v12, v26, t2
 
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vi v18, v12, -13
+  vsll.vi v4, v30, 18
 
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vv v14, v4, v26
+  vsll.vv v20, v18, v12
 
-  li t2, 0x59b19d300061718a
+  li t2, 0x824d4b7170cc125b
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vx v22, v4, t2
+  vsll.vx v28, v2, t2
 
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vi v4, v6, 14
+  vsll.vi v20, v24, 16
 
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vv v24, v2, v20
+  vsll.vv v24, v14, v8
 
-  li t2, 0x7a57c644e69187e6
+  li t2, 0x3682916d81588706
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vx v24, v20, t2
+  vsll.vx v22, v30, t2
 
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vi v14, v30, 11
+  vsll.vi v12, v28, 19
 
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vv v6, v24, v20
+  vsll.vv v22, v18, v10
 
-  li t2, 0xd867ba6997bc8023
+  li t2, 0x6fe3b4aa181825d8
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vx v10, v24, t2
+  vsll.vx v16, v28, t2
 
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vi v26, v16, -8
+  vsll.vi v12, v26, 7
 
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vv v20, v14, v10
+  vsll.vv v8, v16, v20
 
-  li t2, 0x987ea08ac4c114f3
+  li t2, 0x2ecc4efc0322ec10
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vx v28, v14, t2
+  vsll.vx v14, v6, t2
 
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vi v14, v10, 1
+  vsll.vi v12, v26, 24
 
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vv v12, v16, v18
+  vsll.vv v2, v30, v16
 
-  li t2, 0x274bb660fb063924
+  li t2, 0xe23308fc4c65c238
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vx v20, v14, t2
+  vsll.vx v30, v20, t2
 
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vi v16, v24, 10
+  vsll.vi v22, v16, 15
 
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vv v14, v24, v16
+  vsll.vv v2, v18, v4
 
-  li t2, 0xd988504c7c2f75b8
+  li t2, 0x6886184dcfd9e6bd
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vx v16, v30, t2
+  vsll.vx v24, v2, t2
 
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vi v24, v8, 12
+  vsll.vi v8, v24, 14
 
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vv v30, v22, v4
+  vsll.vv v24, v12, v22
 
-  li t2, 0x74d6fd616e79bbfd
+  li t2, 0x6afb3e2fd8f483ea
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vx v18, v28, t2
+  vsll.vx v10, v22, t2
 
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vi v4, v24, 12
+  vsll.vi v18, v22, 22
 
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vv v22, v4, v30
+  vsll.vv v2, v14, v22
 
-  li t2, 0x07f721e5089232e9
+  li t2, 0xe78b2df54af7c012
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vx v10, v12, t2
+  vsll.vx v6, v2, t2
 
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vi v24, v4, -16
+  vsll.vi v2, v10, 5
 
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vv v16, v4, v28
+  vsll.vv v4, v2, v14
 
-  li t2, 0xd3693a72b6b4b78e
+  li t2, 0x173b5e0e6399df4a
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vx v18, v22, t2
+  vsll.vx v20, v30, t2
 
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vi v28, v20, 10
+  vsll.vi v6, v22, 19
 
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vv v6, v10, v20
+  vsll.vv v18, v22, v14
 
-  li t2, 0x7508b4a268ace417
+  li t2, 0x4bdc65fb843b176d
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vx v22, v12, t2
+  vsll.vx v30, v24, t2
 
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vi v6, v16, -15
+  vsll.vi v18, v6, 23
 
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vv v8, v14, v4
+  vsll.vv v2, v22, v10
 
-  li t2, 0xac0accebf2498334
+  li t2, 0x079f4ebd85ecd8bb
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vx v10, v30, t2
+  vsll.vx v4, v28, t2
 
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vi v26, v14, 6
+  vsll.vi v16, v12, 8
 
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vv v16, v12, v14
+  vsll.vv v12, v10, v14
 
-  li t2, 0x918dc13fdeaa8d8c
+  li t2, 0xade1f40c1bf462da
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vx v20, v4, t2
+  vsll.vx v20, v18, t2
 
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vi v18, v16, -1
+  vsll.vi v18, v4, 18
 
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vv v26, v4, v20
+  vsll.vv v6, v28, v2
 
-  li t2, 0xd691124de9e45770
+  li t2, 0xe84ddcf729a97e01
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vx v16, v4, t2
+  vsll.vx v18, v8, t2
 
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vi v4, v6, -4
+  vsll.vi v10, v28, 19
 
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vv v4, v26, v16
+  vsll.vv v4, v12, v6
 
-  li t2, 0xbfd8273a7073aacd
+  li t2, 0xc3b9b10b55c83b45
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vx v26, v30, t2
+  vsll.vx v10, v6, t2
 
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vi v28, v6, 8
+  vsll.vi v2, v24, 6
 
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vv v16, v30, v26
+  vsll.vv v10, v18, v22
 
-  li t2, 0xe23151a31f30ad34
+  li t2, 0xf9611adab46e0d6e
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vx v8, v28, t2
+  vsll.vx v24, v10, t2
 
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vi v18, v24, -9
+  vsll.vi v28, v20, 2
 
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vv v8, v18, v10
+  vsll.vv v10, v6, v12
 
-  li t2, 0x9f1b596ca3c29c3b
+  li t2, 0x94161da0b008c746
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vx v8, v14, t2
+  vsll.vx v8, v20, t2
 
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vi v20, v10, -14
+  vsll.vi v28, v16, 5
 
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vv v8, v18, v26
+  vsll.vv v18, v6, v20
 
-  li t2, 0xfbb1dfa8a05a9962
+  li t2, 0xb5104f401a99823c
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vx v20, v26, t2
+  vsll.vx v12, v30, t2
 
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vi v20, v6, 2
+  vsll.vi v6, v22, 21
 
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vv v20, v16, v30
+  vsll.vv v28, v6, v12
 
-  li t2, 0x8f630625ab49894d
+  li t2, 0xb71717e90149099f
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vx v24, v4, t2
+  vsll.vx v28, v24, t2
 
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vi v6, v26, 0
+  vsll.vi v28, v14, 31
 
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vv v20, v26, v2
+  vsll.vv v28, v10, v22
 
-  li t2, 0x4e825fbd5155fb59
+  li t2, 0x7192604a0f96df83
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vx v4, v14, t2
+  vsll.vx v10, v2, t2
 
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vi v12, v10, 8
+  vsll.vi v30, v4, 30
 
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vv v10, v20, v14
+  vsll.vv v12, v14, v10
 
-  li t2, 0x5bf6d10266e5d03a
+  li t2, 0xbb2af7021e122e25
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vx v10, v28, t2
+  vsll.vx v12, v24, t2
 
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vi v8, v30, -6
+  vsll.vi v18, v28, 28
 
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vv v30, v18, v28
+  vsll.vv v14, v6, v10
 
-  li t2, 0x2fcc3956dc70fd26
+  li t2, 0xfa5d10e207f76987
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vx v20, v22, t2
+  vsll.vx v22, v12, t2
 
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vi v16, v28, 13
+  vsll.vi v12, v8, 13
 
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vv v28, v26, v22
+  vsll.vv v16, v6, v22
 
-  li t2, 0x85add18bb8a729c0
+  li t2, 0xa76f86ef0f8582b1
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vx v26, v18, t2
+  vsll.vx v28, v14, t2
 
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vi v16, v30, 0
+  vsll.vi v12, v22, 29
 
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vv v26, v10, v18
+  vsll.vv v22, v4, v30
 
-  li t2, 0xeb6cc6c6c5895686
+  li t2, 0xb4fda0cb36443f3a
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vx v14, v8, t2
+  vsll.vx v22, v16, t2
 
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vi v24, v16, 6
+  vsll.vi v14, v12, 17
 
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vv v2, v28, v6
+  vsll.vv v16, v26, v24
 
-  li t2, 0xb71b11445de7cbf8
+  li t2, 0xb4f509d7574c3510
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vx v10, v6, t2
+  vsll.vx v26, v20, t2
 
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vi v8, v10, -2
+  vsll.vi v24, v12, 15
 
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vv v16, v20, v30
+  vsll.vv v20, v10, v16
 
-  li t2, 0x15108a61c51faff0
+  li t2, 0xdbf0e671338b96c2
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vx v6, v24, t2
+  vsll.vx v16, v22, t2
 
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vi v26, v6, -2
+  vsll.vi v2, v24, 26
 
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vv v6, v18, v24
+  vsll.vv v28, v20, v24
 
-  li t2, 0xa29e80889222c768
+  li t2, 0x2680585de1cb6ea0
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vx v22, v2, t2
+  vsll.vx v10, v12, t2
 
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vi v6, v8, 8
+  vsll.vi v20, v28, 17
 
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vv v24, v6, v20
+  vsll.vv v16, v26, v22
 
-  li t2, 0x256b054f295eb299
+  li t2, 0xe3b104f937d463cd
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vx v16, v2, t2
+  vsll.vx v4, v6, t2
 
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vi v14, v24, 15
+  vsll.vi v14, v16, 15
 
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vv v2, v30, v16
+  vsll.vv v14, v16, v6
 
-  li t2, 0xbdde80ae7b53d409
+  li t2, 0x2394aafc39c36d12
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vx v14, v12, t2
+  vsll.vx v10, v24, t2
 
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vi v20, v10, -15
+  vsll.vi v2, v10, 2
 
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vv v2, v6, v22
+  vsll.vv v26, v4, v24
 
-  li t2, 0x3864de324c4f106f
+  li t2, 0xb73fba76ebdf4440
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vx v30, v16, t2
+  vsll.vx v26, v28, t2
 
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vi v22, v30, 11
+  vsll.vi v18, v30, 0
 
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vv v20, v4, v6
+  vsll.vv v28, v2, v22
 
-  li t2, 0xe741829b245d5a0a
+  li t2, 0x6f1912ddfda8f12d
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vx v30, v24, t2
+  vsll.vx v22, v18, t2
 
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vi v2, v28, 14
+  vsll.vi v18, v10, 8
 
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vv v14, v6, v18
+  vsll.vv v8, v20, v22
 
-  li t2, 0x25c92e1dcc430a58
+  li t2, 0x198f5ee284f76948
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vx v14, v6, t2
+  vsll.vx v20, v6, t2
 
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vi v2, v18, -7
+  vsll.vi v20, v2, 30
 
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vv v6, v10, v18
+  vsll.vv v6, v14, v20
 
-  li t2, 0x1501202e1ea2c04c
+  li t2, 0x84db13c3698b237e
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vx v18, v6, t2
+  vsll.vx v14, v10, t2
 
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vi v10, v24, 12
+  vsll.vi v10, v24, 29
 
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vv v8, v22, v4
+  vsll.vv v2, v30, v12
 
-  li t2, 0x487e61a579d83417
+  li t2, 0x8c2535fa43bdeb79
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vx v4, v20, t2
+  vsll.vx v24, v30, t2
 
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vi v24, v18, 7
+  vsll.vi v2, v4, 17
 
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vv v24, v12, v6
+  vsll.vv v10, v14, v30
 
-  li t2, 0x01819e55e3339839
+  li t2, 0xb055c73aa5346071
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vx v12, v10, t2
+  vsll.vx v14, v22, t2
 
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vi v26, v30, -16
+  vsll.vi v24, v12, 20
 
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vv v30, v18, v12
+  vsll.vv v28, v20, v12
 
-  li t2, 0x9a986b3bd1d9f1ca
+  li t2, 0xf42ecea868a74245
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vx v2, v10, t2
+  vsll.vx v26, v30, t2
 
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vi v4, v28, -3
+  vsll.vi v2, v14, 18
 
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vv v28, v10, v16
+  vsll.vv v12, v30, v2
 
-  li t2, 0x8c32c7b12eaf671a
+  li t2, 0x1eb6b0d9058ebfa2
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vx v10, v14, t2
+  vsll.vx v8, v12, t2
 
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vi v8, v2, 5
+  vsll.vi v12, v22, 13
 
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vv v20, v14, v24
+  vsll.vv v4, v24, v18
 
-  li t2, 0xa623115880edd868
+  li t2, 0x8780f4a842e0369d
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vx v30, v26, t2
+  vsll.vx v4, v24, t2
 
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vi v8, v30, -9
+  vsll.vi v4, v8, 26
 
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vv v26, v20, v14
+  vsll.vv v10, v18, v26
 
-  li t2, 0x62c1956f0eea9170
+  li t2, 0x68264b74ed950dd2
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vx v12, v10, t2
+  vsll.vx v18, v26, t2
 
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vi v18, v10, 6
+  vsll.vi v28, v30, 10
 
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vv v20, v2, v22
+  vsll.vv v26, v14, v4
 
-  li t2, 0x55f2b5993c0adef6
+  li t2, 0xd92090e2510ba53a
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vx v30, v4, t2
+  vsll.vx v20, v22, t2
 
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vi v6, v20, 14
+  vsll.vi v8, v12, 17
 
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vv v4, v2, v16
+  vsll.vv v6, v24, v14
 
-  li t2, 0xbb234d4cc582953c
+  li t2, 0x694cb37c31a6f8f2
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vx v30, v10, t2
+  vsll.vx v30, v14, t2
 
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vi v4, v6, 10
+  vsll.vi v28, v26, 19
 
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vv v22, v14, v6
+  vsll.vv v8, v24, v14
 
-  li t2, 0xd52002935cf6a851
+  li t2, 0x11c0b9a5720b4b8e
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vx v14, v28, t2
+  vsll.vx v24, v28, t2
 
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vi v16, v26, 5
+  vsll.vi v12, v26, 14
 
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vv v30, v26, v10
+  vsll.vv v18, v26, v24
 
-  li t2, 0xcf85b89e7039c06c
+  li t2, 0x38f0c80b7a684ffa
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vx v28, v24, t2
+  vsll.vx v6, v4, t2
 
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vi v8, v10, -10
+  vsll.vi v10, v14, 26
 
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vv v6, v4, v30
+  vsll.vv v2, v4, v24
 
-  li t2, 0xbe15c45de39077fa
+  li t2, 0x546d71db602efb70
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vx v10, v16, t2
+  vsll.vx v10, v18, t2
 
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vi v18, v30, 7
+  vsll.vi v24, v22, 21
 
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vv v4, v26, v2
+  vsll.vv v2, v28, v22
 
-  li t2, 0xda4c0ea8da793411
+  li t2, 0x2a062258681f548d
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vx v8, v4, t2
+  vsll.vx v14, v10, t2
 
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vi v6, v16, 9
+  vsll.vi v4, v14, 1
 
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vv v4, v14, v6
+  vsll.vv v12, v14, v8
 
-  li t2, 0xacb1591ad0b330ae
+  li t2, 0xe16aa8c9ddbb7233
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vx v28, v24, t2
+  vsll.vx v4, v26, t2
 
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vi v30, v22, -9
+  vsll.vi v4, v2, 2
 
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vv v16, v10, v22
+  vsll.vv v10, v14, v22
 
-  li t2, 0x4e59ba0e9aeffb53
+  li t2, 0x5cf56cb0c925e180
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vx v30, v2, t2
+  vsll.vx v24, v10, t2
 
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vi v20, v26, -10
+  vsll.vi v10, v20, 6
 
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vv v4, v2, v18
+  vsll.vv v2, v28, v12
 
-  li t2, 0xf71939d14c59cbb9
+  li t2, 0x5bbca2a3fbdce957
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vx v30, v26, t2
+  vsll.vx v12, v28, t2
 
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vi v20, v24, -6
+  vsll.vi v22, v12, 6
 
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vv v26, v22, v4
+  vsll.vv v14, v8, v18
 
-  li t2, 0x1a2d636557c9f8cf
+  li t2, 0xf183ec2e568b7143
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vx v20, v18, t2
+  vsll.vx v18, v10, t2
 
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vi v14, v30, -12
+  vsll.vi v4, v12, 19
 
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vv v22, v6, v28
+  vsll.vv v12, v16, v6
 
-  li t2, 0x150567e12ef74f3b
+  li t2, 0x06689e74f5a216e2
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vx v16, v10, t2
+  vsll.vx v14, v2, t2
 
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vi v6, v10, 10
+  vsll.vi v8, v10, 23
 
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vv v28, v12, v10
+  vsll.vv v18, v10, v30
 
-  li t2, 0x9c148ff830227654
+  li t2, 0x01624fb60aee6ce4
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vx v10, v20, t2
+  vsll.vx v20, v10, t2
 
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vi v20, v4, -10
+  vsll.vi v6, v2, 20
 
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vv v14, v16, v4
+  vsll.vv v20, v28, v2
 
-  li t2, 0x9b34db69a3bcbed7
+  li t2, 0xf8eaab809c0b6c33
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vx v2, v24, t2
+  vsll.vx v8, v16, t2
 
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vi v6, v26, 1
+  vsll.vi v26, v22, 2
 
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vv v12, v30, v14
+  vsll.vv v18, v20, v14
 
-  li t2, 0x67a9e334ee29ea1d
+  li t2, 0x1b79e71295e5d096
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vx v16, v18, t2
+  vsll.vx v18, v30, t2
 
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vi v18, v6, 3
+  vsll.vi v16, v14, 27
 
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vv v4, v8, v26
+  vsll.vv v30, v16, v28
 
-  li t2, 0x192c028ff59a192e
+  li t2, 0x67bc1d18443d949f
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vx v28, v26, t2
+  vsll.vx v10, v12, t2
 
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vi v20, v24, -1
+  vsll.vi v6, v20, 2
 
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vv v30, v20, v12
+  vsll.vv v20, v4, v24
 
-  li t2, 0x8bed4da9f7a6d47d
+  li t2, 0xddc8fa9bd092168c
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vx v6, v26, t2
+  vsll.vx v30, v4, t2
 
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vi v8, v22, -10
+  vsll.vi v20, v2, 12
 
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vv v16, v14, v4
+  vsll.vv v18, v30, v4
 
-  li t2, 0xf1c44a5c00dfacee
+  li t2, 0x49e7c1e0947a1b13
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vx v8, v26, t2
+  vsll.vx v30, v26, t2
 
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vi v18, v16, -6
+  vsll.vi v16, v14, 10
 
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vv v16, v4, v18
+  vsll.vv v20, v4, v8
 
-  li t2, 0xb864aa880d501fa6
+  li t2, 0xd19b0be6b161b982
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vx v14, v6, t2
+  vsll.vx v6, v10, t2
 
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vi v16, v30, 7
+  vsll.vi v24, v14, 4
 
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vv v28, v2, v6
+  vsll.vv v10, v24, v14
 
-  li t2, 0x4a3b363e7a7ca0a8
+  li t2, 0x7217f687c47cc7ed
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vx v16, v4, t2
+  vsll.vx v10, v24, t2
 
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vi v8, v16, 1
+  vsll.vi v18, v28, 12
 
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vv v10, v8, v20
+  vsll.vv v22, v26, v6
 
-  li t2, 0x06e433f23fe6759a
+  li t2, 0x945a3e0843d0891a
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vx v2, v18, t2
+  vsll.vx v4, v10, t2
 
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vi v12, v4, -6
+  vsll.vi v14, v20, 1
 
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vv v16, v6, v10
+  vsll.vv v28, v10, v26
 
-  li t2, 0x3848f2020fb56db8
+  li t2, 0xc292f22886ae9330
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vx v10, v26, t2
+  vsll.vx v14, v10, t2
 
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vi v16, v12, -1
+  vsll.vi v4, v30, 26
 
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vv v10, v12, v16
+  vsll.vv v30, v8, v26
 
-  li t2, 0x6a8ed7f1c15db160
+  li t2, 0x10e42c8dd1e1063c
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vx v10, v8, t2
+  vsll.vx v22, v10, t2
 
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vi v16, v12, -15
+  vsll.vi v8, v2, 25
 
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vv v10, v2, v14
+  vsll.vv v28, v2, v22
 
-  li t2, 0xbce036f36c508157
+  li t2, 0xc1fb8f3568e15dfd
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vx v6, v14, t2
+  vsll.vx v4, v20, t2
 
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vi v26, v18, 8
+  vsll.vi v22, v14, 12
 
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vv v12, v10, v24
+  vsll.vv v22, v8, v4
 
-  li t2, 0x939f22812a3bf306
+  li t2, 0xf2855c3ee815ae26
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vx v28, v6, t2
+  vsll.vx v16, v26, t2
 
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vi v6, v18, -13
+  vsll.vi v22, v6, 29
 
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vv v24, v12, v20
+  vsll.vv v14, v10, v30
 
-  li t2, 0x68e2da456e133245
+  li t2, 0x000798b19a48e863
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vx v6, v22, t2
+  vsll.vx v2, v26, t2
 
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vi v22, v26, -7
+  vsll.vi v16, v12, 13
 
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vv v30, v20, v12
+  vsll.vv v12, v26, v30
 
-  li t2, 0x8f079bb46d249083
+  li t2, 0x72d903403962d15d
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vx v28, v24, t2
+  vsll.vx v28, v8, t2
 
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vi v18, v26, 3
+  vsll.vi v26, v8, 12
 
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vv v12, v10, v16
+  vsll.vv v28, v2, v6
 
-  li t2, 0xcf04a5a71164ab43
+  li t2, 0x24645b4fa68c377c
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vx v10, v12, t2
+  vsll.vx v18, v20, t2
 
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vi v2, v22, -6
+  vsll.vi v12, v2, 2
 
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vv v28, v26, v14
+  vsll.vv v18, v22, v28
 
-  li t2, 0x895e91d6438a47c1
+  li t2, 0x691f7de639c7a803
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vx v26, v12, t2
+  vsll.vx v8, v14, t2
 
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vi v26, v30, -9
+  vsll.vi v20, v26, 24
 
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vv v12, v22, v8
+  vsll.vv v10, v18, v4
 
-  li t2, 0xd62abde7877e5b5d
+  li t2, 0x11637a482fa80cef
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vx v4, v26, t2
+  vsll.vx v2, v14, t2
 
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vi v2, v18, -16
+  vsll.vi v28, v12, 2
 
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vv v14, v8, v10
+  vsll.vv v2, v10, v30
 
-  li t2, 0x3ba8a9de6686de42
+  li t2, 0xe5333b23da65f911
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vx v8, v4, t2
+  vsll.vx v10, v22, t2
 
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vi v28, v14, 11
+  vsll.vi v12, v10, 31
 
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vv v6, v16, v24
+  vsll.vv v22, v30, v14
 
-  li t2, 0x986d9404131e404d
+  li t2, 0xed0d397a21f80c51
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vx v4, v2, t2
+  vsll.vx v14, v24, t2
 
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vi v30, v14, 4
+  vsll.vi v12, v20, 30
 
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vv v24, v18, v10
+  vsll.vv v16, v18, v8
 
-  li t2, 0xc22ce61f39677a6d
+  li t2, 0x343d8979b0f3959a
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vx v10, v30, t2
+  vsll.vx v8, v28, t2
 
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vi v18, v30, 14
+  vsll.vi v20, v24, 7
 
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vv v26, v16, v20
+  vsll.vv v16, v22, v8
 
-  li t2, 0x6dedd831513f4f05
+  li t2, 0xcf5eaef63e56c52c
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vx v12, v10, t2
+  vsll.vx v14, v18, t2
 
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vi v16, v26, 8
+  vsll.vi v8, v28, 22
 
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vv v2, v24, v28
+  vsll.vv v2, v30, v18
 
-  li t2, 0xd2b1f8e4832b5f44
+  li t2, 0x97435c135f0c86b1
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vx v12, v30, t2
+  vsll.vx v22, v12, t2
 
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vi v4, v30, 12
+  vsll.vi v24, v20, 23
 
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vv v2, v26, v22
+  vsll.vv v30, v20, v2
 
-  li t2, 0xc236fb1309444473
+  li t2, 0xa940844e5066e65c
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vx v26, v8, t2
+  vsll.vx v20, v26, t2
 
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vi v28, v6, 4
+  vsll.vi v14, v10, 21
 
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vv v8, v2, v18
+  vsll.vv v20, v28, v18
 
-  li t2, 0x251c79c6db43aea0
+  li t2, 0xa42312df9ab119b4
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vx v8, v10, t2
+  vsll.vx v10, v30, t2
 
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vi v18, v28, -4
+  vsll.vi v4, v22, 6
 
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vv v10, v6, v8
+  vsll.vv v18, v24, v10
 
-  li t2, 0xf88206ede13ae220
+  li t2, 0x79023b63e1339c0b
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vx v14, v12, t2
+  vsll.vx v28, v24, t2
 
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vi v4, v2, -12
+  vsll.vi v22, v28, 15
 
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vv v10, v4, v2
+  vsll.vv v8, v10, v24
 
-  li t2, 0xc4ff0563aff45f76
+  li t2, 0x25a6e330bba9c55f
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vx v20, v14, t2
+  vsll.vx v28, v20, t2
 
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vi v16, v14, -16
+  vsll.vi v8, v20, 10
 
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vv v14, v2, v6
+  vsll.vv v18, v12, v8
 
-  li t2, 0x80ea06fdc9a8ed56
+  li t2, 0x9ee6e79188a5e756
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vx v16, v14, t2
+  vsll.vx v26, v2, t2
 
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vi v26, v22, -13
+  vsll.vi v18, v2, 17
 
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vv v18, v16, v8
+  vsll.vv v6, v14, v18
 
-  li t2, 0xb86d29f5a9e155a7
+  li t2, 0x96bc33eaadac71b5
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vx v14, v24, t2
+  vsll.vx v18, v22, t2
 
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vi v6, v4, 14
+  vsll.vi v26, v16, 19
 
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vv v8, v12, v14
+  vsll.vv v6, v26, v18
 
-  li t2, 0xf5cb6cb83eacf792
+  li t2, 0x1debcbede9b64465
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vx v16, v4, t2
+  vsll.vx v18, v16, t2
 
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vi v14, v20, 10
+  vsll.vi v6, v10, 14
 
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vv v12, v10, v26
+  vsll.vv v18, v24, v4
 
-  li t2, 0xbc219f3cca3fad93
+  li t2, 0xd8b8765c973a3e9e
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vx v10, v28, t2
+  vsll.vx v10, v12, t2
 
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vi v12, v22, 15
+  vsll.vi v30, v4, 27
 
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vv v2, v10, v20
+  vsll.vv v24, v12, v8
 
-  li t2, 0x825eec7adc957fb1
+  li t2, 0x35bd45ea16c93917
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vx v18, v14, t2
+  vsll.vx v14, v16, t2
 
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vi v10, v4, 4
+  vsll.vi v24, v30, 27
 
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vv v14, v26, v20
+  vsll.vv v10, v4, v20
 
-  li t2, 0xf077922c5af6b23b
+  li t2, 0x3273fa9e351049c8
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vx v22, v2, t2
+  vsll.vx v26, v16, t2
 
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vi v16, v6, -7
+  vsll.vi v20, v14, 8
 
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vv v14, v18, v2
+  vsll.vv v6, v26, v4
 
-  li t2, 0xae8389d6fd28c177
+  li t2, 0x90f7d21da891a1ef
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vx v12, v16, t2
+  vsll.vx v12, v30, t2
 
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vi v4, v28, -5
+  vsll.vi v8, v26, 10
 
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vv v22, v24, v20
+  vsll.vv v2, v24, v10
 
-  li t2, 0x5ef0dcf7a9086544
+  li t2, 0x1db7b81d5d440b90
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vx v2, v20, t2
+  vsll.vx v8, v4, t2
 
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vi v22, v12, 3
+  vsll.vi v12, v26, 28
 
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vv v24, v8, v22
+  vsll.vv v26, v22, v16
 
-  li t2, 0x2848630f707a9b44
+  li t2, 0xe20f43e50e898fad
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vx v12, v18, t2
+  vsll.vx v16, v28, t2
 
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vi v18, v2, -6
+  vsll.vi v30, v2, 1
 
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vv v26, v24, v22
+  vsll.vv v10, v14, v4
 
-  li t2, 0x9ddd19bdd07184ca
+  li t2, 0x2133893cc25c5c3c
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vx v22, v20, t2
+  vsll.vx v28, v10, t2
 
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vi v10, v24, -13
+  vsll.vi v4, v24, 26
 
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vv v6, v24, v16
+  vsll.vv v4, v10, v22
 
-  li t2, 0x958653f69998f9ed
+  li t2, 0xab4005bbc9f6a68f
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vx v30, v16, t2
+  vsll.vx v14, v18, t2
 
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vi v12, v22, -10
+  vsll.vi v28, v6, 31
 
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vv v12, v20, v14
+  vsll.vv v24, v14, v30
 
-  li t2, 0xb7593b51081b9be1
+  li t2, 0x28d93604c78aea4a
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vx v18, v28, t2
+  vsll.vx v6, v18, t2
 
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vi v28, v30, 5
+  vsll.vi v18, v20, 10
 
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vv v24, v16, v8
+  vsll.vv v4, v26, v10
 
-  li t2, 0xd4f6c6cc62e73da4
+  li t2, 0x3f7d513bc6320ae6
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vx v16, v30, t2
+  vsll.vx v30, v4, t2
 
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vi v18, v10, 3
+  vsll.vi v14, v28, 21
 
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vv v6, v10, v28
+  vsll.vv v20, v16, v4
 
-  li t2, 0xf3a788b1f5e35744
+  li t2, 0x438d64d6e90a7c28
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vx v10, v6, t2
+  vsll.vx v6, v18, t2
 
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vi v2, v10, -9
+  vsll.vi v24, v8, 15
 
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vv v14, v4, v30
+  vsll.vv v26, v4, v16
 
-  li t2, 0x09c6eee988406b84
+  li t2, 0x147553ffda8e9eff
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vx v16, v4, t2
+  vsll.vx v4, v30, t2
 
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vi v24, v10, -3
+  vsll.vi v24, v22, 26
 
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vv v22, v10, v26
+  vsll.vv v24, v14, v16
 
-  li t2, 0x09827730b001080f
+  li t2, 0xdc59569a2a6baf4a
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vx v6, v4, t2
+  vsll.vx v30, v22, t2
 
   vsetvli t1, t0, e64, m2, ta, ma
-  vand.vi v12, v2, 9
+  vsll.vi v16, v20, 25
 
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vv v16, v4, v24
+  vsll.vv v20, v16, v28
 
-  li t2, 0x1ab382f32e721ec3
+  li t2, 0xb7f4232c4b8ab53c
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vx v24, v4, t2
+  vsll.vx v28, v4, t2
 
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vi v4, v20, 11
+  vsll.vi v16, v28, 20
 
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vv v28, v16, v12
+  vsll.vv v8, v28, v16
 
-  li t2, 0xd2be6771fd8cac62
+  li t2, 0x146f29c02addd5fd
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vx v12, v16, t2
+  vsll.vx v24, v20, t2
 
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vi v8, v20, -8
+  vsll.vi v28, v20, 27
 
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vv v8, v28, v24
+  vsll.vv v24, v8, v12
 
-  li t2, 0x82b09891b5b1f810
+  li t2, 0x5dc8df9c13544267
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vx v4, v16, t2
+  vsll.vx v20, v16, t2
 
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vi v20, v4, 2
+  vsll.vi v8, v28, 6
 
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vv v24, v8, v20
+  vsll.vv v4, v16, v12
 
-  li t2, 0x28c1928f0e1d0f7e
+  li t2, 0xeb9b06b152bc4651
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vx v4, v24, t2
+  vsll.vx v20, v28, t2
 
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vi v20, v12, 9
+  vsll.vi v24, v28, 18
 
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vv v20, v16, v12
+  vsll.vv v20, v4, v8
 
-  li t2, 0xaa2d28566ef8f2ba
+  li t2, 0xe7da206200150029
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vx v16, v28, t2
+  vsll.vx v28, v20, t2
 
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vi v16, v28, 9
+  vsll.vi v8, v24, 31
 
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vv v24, v28, v4
+  vsll.vv v28, v20, v4
 
-  li t2, 0x0362190eb463e1d1
+  li t2, 0x36cc3bd25092b9b1
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vx v12, v16, t2
+  vsll.vx v16, v8, t2
 
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vi v8, v12, 3
+  vsll.vi v24, v12, 24
 
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vv v8, v4, v12
+  vsll.vv v24, v20, v28
 
-  li t2, 0x4c98cdf524ecf960
+  li t2, 0x6ad6543ec06935a6
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vx v12, v16, t2
+  vsll.vx v24, v20, t2
 
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vi v12, v20, 4
+  vsll.vi v16, v8, 22
 
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vv v28, v8, v16
+  vsll.vv v4, v16, v20
 
-  li t2, 0xa3d61a28d524dd46
+  li t2, 0x5f918707a10c92ff
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vx v4, v8, t2
+  vsll.vx v16, v28, t2
 
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vi v12, v28, -8
+  vsll.vi v28, v16, 23
 
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vv v4, v12, v16
+  vsll.vv v4, v28, v24
 
-  li t2, 0xce531f9d1f534f76
+  li t2, 0xa0c62d65b61d0c71
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vx v28, v8, t2
+  vsll.vx v12, v4, t2
 
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vi v4, v16, -5
+  vsll.vi v20, v8, 24
 
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vv v24, v4, v8
+  vsll.vv v20, v24, v28
 
-  li t2, 0xcacfbde415c90e07
+  li t2, 0x3f034eb141831c13
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vx v12, v20, t2
+  vsll.vx v24, v28, t2
 
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vi v24, v8, 3
+  vsll.vi v20, v4, 14
 
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vv v28, v16, v24
+  vsll.vv v28, v4, v24
 
-  li t2, 0x54d6278d1f43dec1
+  li t2, 0x7ef36fa0ef7b019f
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vx v16, v20, t2
+  vsll.vx v12, v20, t2
 
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vi v24, v4, -3
+  vsll.vi v20, v8, 23
 
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vv v16, v20, v4
+  vsll.vv v12, v8, v20
 
-  li t2, 0x2f012c5596443a6b
+  li t2, 0xe1f2e254385d57bc
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vx v16, v4, t2
+  vsll.vx v16, v4, t2
 
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vi v8, v20, 3
+  vsll.vi v20, v16, 11
 
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vv v8, v16, v24
+  vsll.vv v4, v24, v8
 
-  li t2, 0x90406ab9133fe00b
+  li t2, 0x429b68de056ab808
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vx v8, v16, t2
+  vsll.vx v24, v28, t2
 
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vi v12, v16, -2
+  vsll.vi v20, v4, 0
 
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vv v16, v8, v24
+  vsll.vv v12, v16, v24
 
-  li t2, 0xe70f45b48b55dcab
+  li t2, 0x4fdd8d4e39d3022c
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vx v4, v28, t2
+  vsll.vx v24, v8, t2
 
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vi v16, v12, 2
+  vsll.vi v16, v8, 22
 
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vv v8, v28, v4
+  vsll.vv v16, v8, v12
 
-  li t2, 0x14a7429ca9dd6b87
+  li t2, 0x26f3b02c0c559fad
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vx v8, v4, t2
+  vsll.vx v16, v8, t2
 
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vi v4, v8, 6
+  vsll.vi v16, v24, 11
 
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vv v16, v12, v8
+  vsll.vv v4, v12, v16
 
-  li t2, 0xbd500af0135c5f91
+  li t2, 0xa8894ff439e69d7f
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vx v12, v24, t2
+  vsll.vx v8, v12, t2
 
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vi v24, v28, 11
+  vsll.vi v8, v12, 4
 
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vv v20, v28, v12
+  vsll.vv v16, v4, v28
 
-  li t2, 0x1eb34d28525f324a
+  li t2, 0xbbd66d3b606905fe
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vx v24, v4, t2
+  vsll.vx v8, v16, t2
 
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vi v28, v16, 9
+  vsll.vi v24, v16, 16
 
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vv v12, v24, v16
+  vsll.vv v4, v20, v16
 
-  li t2, 0xed8aeb500cd0e830
+  li t2, 0xe8bac74cefbb1b6d
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vx v12, v4, t2
+  vsll.vx v28, v16, t2
 
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vi v8, v24, 10
+  vsll.vi v24, v4, 8
 
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vv v28, v16, v20
+  vsll.vv v24, v12, v4
 
-  li t2, 0xc3cb6d7f5ae28488
+  li t2, 0xd64d140707112092
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vx v12, v20, t2
+  vsll.vx v16, v24, t2
 
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vi v12, v28, 14
+  vsll.vi v12, v28, 6
 
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vv v24, v4, v12
+  vsll.vv v4, v8, v28
 
-  li t2, 0x11aba4b3520caaff
+  li t2, 0xc210988fa225d5dd
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vx v28, v24, t2
+  vsll.vx v12, v16, t2
 
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vi v16, v28, -3
+  vsll.vi v4, v20, 3
 
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vv v4, v12, v28
+  vsll.vv v24, v4, v16
 
-  li t2, 0xf70a6ce50465510f
+  li t2, 0xd054eee5324d5842
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vx v4, v16, t2
+  vsll.vx v28, v4, t2
 
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vi v8, v28, -7
+  vsll.vi v24, v4, 14
 
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vv v4, v16, v28
+  vsll.vv v28, v16, v24
 
-  li t2, 0x5c3f334b2fc44f38
+  li t2, 0x649c98cc9a7b87c0
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vx v28, v20, t2
+  vsll.vx v24, v20, t2
 
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vi v16, v24, -7
+  vsll.vi v12, v24, 21
 
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vv v24, v4, v16
+  vsll.vv v16, v8, v12
 
-  li t2, 0x44b91bfc9362d0bc
+  li t2, 0xf96512c7d41585a4
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vx v8, v12, t2
+  vsll.vx v20, v8, t2
 
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vi v12, v8, -1
+  vsll.vi v28, v16, 5
 
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vv v20, v4, v24
+  vsll.vv v28, v20, v12
 
-  li t2, 0xcb36152dc9bda30a
+  li t2, 0xed1ba8cd8249af56
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vx v20, v12, t2
+  vsll.vx v28, v20, t2
 
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vi v20, v4, 7
+  vsll.vi v20, v8, 23
 
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vv v4, v12, v28
+  vsll.vv v12, v24, v16
 
-  li t2, 0xa671503503ea830b
+  li t2, 0x87a63877b1227035
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vx v4, v8, t2
+  vsll.vx v4, v24, t2
 
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vi v16, v8, -4
+  vsll.vi v16, v24, 8
 
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vv v20, v12, v16
+  vsll.vv v12, v20, v24
 
-  li t2, 0x591698319a56e391
+  li t2, 0x085f34c44d5996c2
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vx v12, v20, t2
+  vsll.vx v4, v20, t2
 
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vi v12, v16, -6
+  vsll.vi v16, v24, 11
 
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vv v4, v16, v28
+  vsll.vv v8, v16, v12
 
-  li t2, 0xcbf2d90a2af479d8
+  li t2, 0x2c02ce50efca8311
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vx v12, v20, t2
+  vsll.vx v4, v8, t2
 
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vi v8, v16, 9
+  vsll.vi v16, v28, 10
 
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vv v16, v20, v4
+  vsll.vv v28, v24, v12
 
-  li t2, 0x45352468d13bc2ac
+  li t2, 0xb53bb88d076d2286
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vx v24, v16, t2
+  vsll.vx v24, v4, t2
 
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vi v12, v8, -5
+  vsll.vi v12, v20, 25
 
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vv v24, v28, v12
+  vsll.vv v20, v8, v12
 
-  li t2, 0x84bc3d0a99c59a69
+  li t2, 0x874c4a9e605b2483
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vx v24, v28, t2
+  vsll.vx v4, v24, t2
 
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vi v28, v8, 10
+  vsll.vi v12, v24, 15
 
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vv v28, v12, v16
+  vsll.vv v8, v24, v28
 
-  li t2, 0xc83cec3d4ef65c54
+  li t2, 0xbff48ed1f6f52522
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vx v28, v8, t2
+  vsll.vx v16, v8, t2
 
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vi v12, v16, 4
+  vsll.vi v20, v28, 26
 
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vv v16, v4, v28
+  vsll.vv v12, v24, v4
 
-  li t2, 0x605bb06055987f85
+  li t2, 0x672e8d6435a4180c
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vx v4, v28, t2
+  vsll.vx v28, v16, t2
 
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vi v12, v20, 14
+  vsll.vi v4, v8, 5
 
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vv v20, v28, v16
+  vsll.vv v16, v28, v8
 
-  li t2, 0x30c5de5bd61f372d
+  li t2, 0x2b7122728a15a6b1
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vx v8, v20, t2
+  vsll.vx v16, v12, t2
 
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vi v20, v4, -8
+  vsll.vi v4, v20, 14
 
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vv v28, v24, v16
+  vsll.vv v4, v20, v8
 
-  li t2, 0xaf8b3640a54c20cc
+  li t2, 0x81f29db6f9b5f1e6
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vx v28, v8, t2
+  vsll.vx v24, v28, t2
 
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vi v16, v12, 15
+  vsll.vi v8, v12, 6
 
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vv v8, v28, v12
+  vsll.vv v24, v20, v12
 
-  li t2, 0x859049a3e05d299a
+  li t2, 0x77dc75485b68f1b5
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vx v8, v28, t2
+  vsll.vx v8, v28, t2
 
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vi v28, v16, -14
+  vsll.vi v28, v24, 26
 
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vv v4, v8, v20
+  vsll.vv v20, v24, v4
 
-  li t2, 0x8641de5172bc7eff
+  li t2, 0x56542cca26b168d0
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vx v24, v16, t2
+  vsll.vx v8, v4, t2
 
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vi v8, v24, -10
+  vsll.vi v12, v8, 8
 
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vv v28, v24, v12
+  vsll.vv v4, v8, v24
 
-  li t2, 0x40b762d1b6565140
+  li t2, 0x1fa7b148458e92ed
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vx v28, v4, t2
+  vsll.vx v8, v28, t2
 
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vi v28, v20, -11
+  vsll.vi v16, v12, 5
 
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vv v8, v4, v24
+  vsll.vv v20, v16, v24
 
-  li t2, 0xb43cb665d2c7eb71
+  li t2, 0x6ed2b7e809026746
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vx v12, v20, t2
+  vsll.vx v20, v28, t2
 
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vi v16, v24, 11
+  vsll.vi v4, v28, 15
 
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vv v24, v16, v20
+  vsll.vv v12, v16, v28
 
-  li t2, 0x9107dadc64f4ed4d
+  li t2, 0x61e3702ef288f3d3
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vx v24, v12, t2
+  vsll.vx v28, v24, t2
 
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vi v8, v24, 0
+  vsll.vi v16, v12, 5
 
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vv v16, v24, v28
+  vsll.vv v24, v20, v16
 
-  li t2, 0x96b522c08c84187d
+  li t2, 0xf489231eeacd41d4
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vx v24, v20, t2
+  vsll.vx v16, v20, t2
 
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vi v4, v16, -13
+  vsll.vi v4, v28, 26
 
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vv v16, v24, v28
+  vsll.vv v20, v24, v12
 
-  li t2, 0x3e1d95d6da7d4c30
+  li t2, 0x931a322755f227fb
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vx v20, v24, t2
+  vsll.vx v24, v12, t2
 
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vi v8, v4, -5
+  vsll.vi v4, v20, 10
 
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vv v12, v24, v16
+  vsll.vv v12, v16, v24
 
-  li t2, 0x1bfc2f2e96f1b5d3
+  li t2, 0xe761f039ad710abf
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vx v24, v8, t2
+  vsll.vx v12, v8, t2
 
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vi v4, v8, 13
+  vsll.vi v4, v20, 24
 
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vv v4, v16, v20
+  vsll.vv v24, v28, v12
 
-  li t2, 0xf83939190ecf22cd
+  li t2, 0xd5b31afeea55484d
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vx v4, v16, t2
+  vsll.vx v16, v24, t2
 
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vi v16, v28, -12
+  vsll.vi v28, v4, 19
 
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vv v20, v4, v16
+  vsll.vv v20, v28, v8
 
-  li t2, 0xd2734ab9c060543c
+  li t2, 0xf151f0f54e4d55bb
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vx v4, v24, t2
+  vsll.vx v8, v16, t2
 
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vi v24, v12, 13
+  vsll.vi v4, v16, 30
 
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vv v20, v12, v8
+  vsll.vv v8, v24, v16
 
-  li t2, 0xdcf696e421d2069c
+  li t2, 0x3ab878435a469fde
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vx v8, v28, t2
+  vsll.vx v8, v12, t2
 
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vi v28, v20, 10
+  vsll.vi v8, v16, 23
 
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vv v28, v24, v20
+  vsll.vv v20, v24, v12
 
-  li t2, 0x7be8f404f1db7090
+  li t2, 0xa07adb94eaefca9a
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vx v24, v20, t2
+  vsll.vx v12, v20, t2
 
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vi v4, v16, -7
+  vsll.vi v16, v24, 24
 
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vv v8, v24, v12
+  vsll.vv v4, v20, v24
 
-  li t2, 0x8b6c347f9704458d
+  li t2, 0xb376ff361d755036
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vx v20, v8, t2
+  vsll.vx v12, v28, t2
 
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vi v20, v16, -6
+  vsll.vi v4, v20, 23
 
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vv v4, v24, v8
+  vsll.vv v28, v12, v4
 
-  li t2, 0x44022acc9de94f15
+  li t2, 0x0e99d72489a31f3b
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vx v4, v16, t2
+  vsll.vx v20, v28, t2
 
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vi v20, v12, -9
+  vsll.vi v24, v12, 9
 
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vv v8, v4, v24
+  vsll.vv v28, v8, v12
 
-  li t2, 0xef82ed056c6c7fce
+  li t2, 0xba6b4dbde836e075
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vx v4, v28, t2
+  vsll.vx v4, v20, t2
 
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vi v8, v12, -13
+  vsll.vi v12, v8, 21
 
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vv v12, v20, v8
+  vsll.vv v12, v24, v20
 
-  li t2, 0x8a0babae43b3a06e
+  li t2, 0x84825eef0e09e9b6
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vx v28, v20, t2
+  vsll.vx v20, v24, t2
 
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vi v16, v20, -14
+  vsll.vi v4, v8, 21
 
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vv v20, v12, v16
+  vsll.vv v8, v24, v16
 
-  li t2, 0xf6b250628707e80f
+  li t2, 0xaa61a8b2b44b3a2b
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vx v8, v4, t2
+  vsll.vx v12, v16, t2
 
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vi v8, v28, -5
+  vsll.vi v28, v20, 23
 
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vv v24, v20, v16
+  vsll.vv v8, v12, v4
 
-  li t2, 0xcfea977edf5ab72e
+  li t2, 0x7bee3d23a87606ee
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vx v12, v24, t2
+  vsll.vx v28, v4, t2
 
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vi v24, v28, -11
+  vsll.vi v20, v28, 2
 
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vv v16, v8, v4
+  vsll.vv v24, v16, v8
 
-  li t2, 0xc34f1cb7e4a12124
+  li t2, 0xeae9ba342cce526d
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vx v28, v20, t2
+  vsll.vx v20, v16, t2
 
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vi v16, v20, 9
+  vsll.vi v20, v24, 6
 
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vv v24, v8, v16
+  vsll.vv v28, v24, v12
 
-  li t2, 0xbe3f41e0c752492e
+  li t2, 0xddeb5d961fd246d2
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vx v8, v16, t2
+  vsll.vx v4, v8, t2
 
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vi v20, v24, -4
+  vsll.vi v28, v12, 19
 
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vv v20, v8, v16
+  vsll.vv v16, v12, v28
 
-  li t2, 0x2aa59fd35be8a693
+  li t2, 0xdf8c9fd759972544
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vx v12, v8, t2
+  vsll.vx v12, v24, t2
 
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vi v8, v28, -11
+  vsll.vi v20, v24, 15
 
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vv v24, v4, v28
+  vsll.vv v28, v20, v8
 
-  li t2, 0xe8803b8a46cc5a62
+  li t2, 0x7fc2eba2e6600694
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vx v24, v16, t2
+  vsll.vx v8, v20, t2
 
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vi v12, v8, -7
+  vsll.vi v20, v12, 8
 
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vv v28, v12, v8
+  vsll.vv v16, v4, v12
 
-  li t2, 0xb03ec30288580fe9
+  li t2, 0xb59ddbe428be6ad4
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vx v12, v24, t2
+  vsll.vx v4, v20, t2
 
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vi v16, v8, -16
+  vsll.vi v20, v4, 9
 
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vv v4, v20, v24
+  vsll.vv v8, v28, v4
 
-  li t2, 0xa6eba5e3734cf40d
+  li t2, 0x3a9edc86cfcea3ff
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vx v28, v16, t2
+  vsll.vx v8, v12, t2
 
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vi v16, v12, -4
+  vsll.vi v28, v8, 13
 
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vv v24, v28, v16
+  vsll.vv v16, v24, v28
 
-  li t2, 0x9183126351376d54
+  li t2, 0xaa23c1f23f411924
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vx v16, v24, t2
+  vsll.vx v20, v24, t2
 
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vi v16, v20, 0
+  vsll.vi v16, v24, 6
 
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vv v20, v16, v24
+  vsll.vv v28, v24, v20
 
-  li t2, 0xac46989f6bfc6d68
+  li t2, 0xc5eb4d846ecef75e
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vx v20, v4, t2
+  vsll.vx v20, v28, t2
 
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vi v20, v8, 15
+  vsll.vi v24, v12, 14
 
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vv v20, v4, v28
+  vsll.vv v12, v8, v20
 
-  li t2, 0x9bf2e5704d018a97
+  li t2, 0x9b95245d54212792
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vx v16, v4, t2
+  vsll.vx v4, v8, t2
 
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vi v24, v28, -9
+  vsll.vi v12, v24, 9
 
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vv v24, v20, v4
+  vsll.vv v8, v24, v28
 
-  li t2, 0x2dabbd89cc48bd62
+  li t2, 0x9bb14f4f435c538b
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vx v12, v4, t2
+  vsll.vx v16, v4, t2
 
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vi v4, v8, 15
+  vsll.vi v4, v12, 17
 
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vv v20, v8, v28
+  vsll.vv v4, v12, v24
 
-  li t2, 0xae3dc8186ddc99db
+  li t2, 0x84708f9f3afcb00d
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vx v24, v4, t2
+  vsll.vx v24, v8, t2
 
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vi v24, v8, -8
+  vsll.vi v4, v20, 8
 
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vv v24, v8, v12
+  vsll.vv v28, v4, v12
 
-  li t2, 0xedaa3b5fa42b5d25
+  li t2, 0x6516f9551d73cf5f
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vx v12, v8, t2
+  vsll.vx v16, v12, t2
 
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vi v12, v8, -9
+  vsll.vi v12, v8, 17
 
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vv v12, v8, v24
+  vsll.vv v12, v8, v4
 
-  li t2, 0x91d364b45b22c7ef
+  li t2, 0x7d051cee274327a0
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vx v20, v24, t2
+  vsll.vx v28, v12, t2
 
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vi v16, v12, -8
+  vsll.vi v8, v24, 18
 
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vv v12, v8, v16
+  vsll.vv v20, v8, v24
 
-  li t2, 0xf53bfd5d7ac0f5fa
+  li t2, 0xd107a25e6bc740c3
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vx v24, v28, t2
+  vsll.vx v16, v4, t2
 
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vi v4, v16, 12
+  vsll.vi v20, v4, 28
 
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vv v12, v20, v4
+  vsll.vv v28, v4, v20
 
-  li t2, 0xc3fcd71b4e04f140
+  li t2, 0x66c8ddcc831cc245
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vx v8, v28, t2
+  vsll.vx v16, v4, t2
 
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vi v20, v4, -11
+  vsll.vi v8, v16, 0
 
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vv v12, v28, v8
+  vsll.vv v12, v24, v20
 
-  li t2, 0x0a017762e6a99292
+  li t2, 0x3ba80aab9b2df0ca
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vx v28, v12, t2
+  vsll.vx v20, v16, t2
 
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vi v8, v20, 14
+  vsll.vi v12, v4, 16
 
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vv v28, v16, v8
+  vsll.vv v16, v28, v8
 
-  li t2, 0xd8bbfc43a6b25ce7
+  li t2, 0xe9907b1e5c81d6ec
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vx v20, v8, t2
+  vsll.vx v16, v12, t2
 
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vi v8, v16, 2
+  vsll.vi v28, v20, 26
 
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vv v24, v28, v16
+  vsll.vv v8, v24, v12
 
-  li t2, 0xfe069b2a1a1aee32
+  li t2, 0x0fbd1a7b5bc55bc8
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vx v16, v24, t2
+  vsll.vx v12, v28, t2
 
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vi v8, v4, -16
+  vsll.vi v28, v16, 10
 
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vv v16, v12, v20
+  vsll.vv v28, v8, v4
 
-  li t2, 0x531f3f438994bd99
+  li t2, 0x606848d67263a7bd
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vx v8, v28, t2
+  vsll.vx v24, v8, t2
 
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vi v8, v12, -10
+  vsll.vi v12, v28, 16
 
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vv v8, v20, v4
+  vsll.vv v24, v4, v12
 
-  li t2, 0xf7e5af094d54769c
+  li t2, 0xb3e1836c8d5af5f0
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vx v28, v16, t2
+  vsll.vx v4, v24, t2
 
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vi v20, v4, 7
+  vsll.vi v8, v16, 8
 
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vv v28, v20, v12
+  vsll.vv v28, v4, v20
 
-  li t2, 0x57af34b803fd823e
+  li t2, 0xc6f8967b0121ee16
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vx v28, v12, t2
+  vsll.vx v4, v24, t2
 
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vi v28, v8, 7
+  vsll.vi v12, v24, 18
 
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vv v24, v8, v16
+  vsll.vv v4, v16, v8
 
-  li t2, 0x1206cc1052e188a6
+  li t2, 0x0e4603b4e5d2377e
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vx v20, v16, t2
+  vsll.vx v4, v8, t2
 
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vi v16, v4, 2
+  vsll.vi v28, v8, 24
 
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vv v8, v4, v28
+  vsll.vv v28, v12, v20
 
-  li t2, 0x1d3a720e9670c95c
+  li t2, 0x768c8288ceb9321d
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vx v12, v20, t2
+  vsll.vx v16, v4, t2
 
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vi v12, v8, -7
+  vsll.vi v20, v8, 14
 
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vv v24, v16, v4
+  vsll.vv v12, v16, v20
 
-  li t2, 0x671561a5b92bca17
+  li t2, 0x2275d705b7c9d679
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vx v24, v4, t2
+  vsll.vx v20, v8, t2
 
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vi v8, v28, 1
+  vsll.vi v12, v16, 31
 
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vv v8, v16, v24
+  vsll.vv v8, v12, v20
 
-  li t2, 0xa7b610da40aa6c00
+  li t2, 0xa97d124cb1d8a708
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vx v28, v20, t2
+  vsll.vx v16, v8, t2
 
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vi v12, v24, -1
+  vsll.vi v16, v24, 14
 
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vv v4, v20, v16
+  vsll.vv v28, v12, v16
 
-  li t2, 0x4042ac5eb4c92d46
+  li t2, 0xd10d0d5f2d4ebb62
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vx v8, v24, t2
+  vsll.vx v8, v20, t2
 
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vi v8, v16, -15
+  vsll.vi v24, v20, 3
 
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vv v24, v28, v16
+  vsll.vv v16, v8, v24
 
-  li t2, 0x38246e6238ac30fb
+  li t2, 0xfb737b15033afba2
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vx v4, v8, t2
+  vsll.vx v28, v4, t2
 
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vi v4, v24, 14
+  vsll.vi v12, v28, 23
 
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vv v16, v12, v8
+  vsll.vv v8, v12, v4
 
-  li t2, 0x6a5e5048f7f81318
+  li t2, 0x12493c6a2fa816d5
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vx v28, v20, t2
+  vsll.vx v8, v16, t2
 
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vi v20, v28, 4
+  vsll.vi v28, v4, 16
 
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vv v20, v24, v8
+  vsll.vv v16, v28, v12
 
-  li t2, 0x253ceb90fe6ef26a
+  li t2, 0xaa2d46b7846a2b26
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vx v24, v28, t2
+  vsll.vx v12, v20, t2
 
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vi v4, v20, 3
+  vsll.vi v8, v28, 10
 
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vv v16, v12, v20
+  vsll.vv v4, v28, v12
 
-  li t2, 0xf8c73a3efeefbab0
+  li t2, 0x146aa8bb50dcbe2c
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vx v8, v4, t2
+  vsll.vx v12, v16, t2
 
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vi v24, v16, 5
+  vsll.vi v16, v28, 9
 
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vv v20, v8, v28
+  vsll.vv v20, v4, v12
 
-  li t2, 0xcabdd3f7724ec869
+  li t2, 0x906454fdaf4d522d
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vx v12, v28, t2
+  vsll.vx v20, v12, t2
 
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vi v28, v12, 14
+  vsll.vi v4, v28, 15
 
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vv v4, v20, v28
+  vsll.vv v4, v28, v12
 
-  li t2, 0x2e5d444760dc8c40
+  li t2, 0x703bb943ad01932d
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vx v4, v24, t2
+  vsll.vx v8, v16, t2
 
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vi v12, v28, -13
+  vsll.vi v28, v12, 4
 
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vv v8, v4, v24
+  vsll.vv v8, v20, v4
 
-  li t2, 0x15bb81ecdf0ceab1
+  li t2, 0x02b351f027989e55
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vx v20, v28, t2
+  vsll.vx v24, v4, t2
 
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vi v8, v24, 4
+  vsll.vi v28, v16, 20
 
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vv v12, v4, v20
+  vsll.vv v28, v24, v12
 
-  li t2, 0xdde30920aba78af3
+  li t2, 0x09c7ba371e809593
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vx v28, v24, t2
+  vsll.vx v12, v8, t2
 
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vi v12, v16, -15
+  vsll.vi v28, v20, 1
 
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vv v4, v16, v12
+  vsll.vv v4, v8, v24
 
-  li t2, 0x92440ec772d217b9
+  li t2, 0x35771ceb27ea9843
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vx v8, v12, t2
+  vsll.vx v12, v24, t2
 
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vi v28, v8, -5
+  vsll.vi v28, v16, 15
 
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vv v8, v4, v16
+  vsll.vv v8, v16, v12
 
-  li t2, 0xf058f30ef271ff70
+  li t2, 0x5adc6399a3d7d765
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vx v8, v4, t2
+  vsll.vx v4, v12, t2
 
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vi v8, v12, -12
+  vsll.vi v12, v4, 24
 
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vv v8, v24, v4
+  vsll.vv v4, v8, v16
 
-  li t2, 0x098821756f767eea
+  li t2, 0xc484503aa2c18d5c
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vx v8, v28, t2
+  vsll.vx v20, v8, t2
 
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vi v28, v16, 7
+  vsll.vi v24, v4, 12
 
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vv v24, v12, v28
+  vsll.vv v24, v8, v20
 
-  li t2, 0x838950ac513ee0e9
+  li t2, 0x5bde5616ac98adf0
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vx v20, v16, t2
+  vsll.vx v12, v4, t2
 
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vi v20, v24, -7
+  vsll.vi v24, v20, 19
 
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vv v8, v4, v12
+  vsll.vv v20, v12, v28
 
-  li t2, 0x030be308a2a22ac2
+  li t2, 0x4d973447187ffddb
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vx v16, v28, t2
+  vsll.vx v20, v4, t2
 
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vi v28, v12, 4
+  vsll.vi v8, v20, 10
 
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vv v8, v24, v12
+  vsll.vv v28, v20, v16
 
-  li t2, 0xa0c274c12d90ec27
+  li t2, 0x014435a79ad9db65
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vx v24, v8, t2
+  vsll.vx v12, v20, t2
 
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vi v4, v20, -13
+  vsll.vi v24, v16, 4
 
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vv v4, v12, v20
+  vsll.vv v28, v8, v12
 
-  li t2, 0x2d7d13a190453e3a
+  li t2, 0x493a90fddecfd45f
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vx v16, v8, t2
+  vsll.vx v12, v4, t2
 
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vi v8, v16, 2
+  vsll.vi v16, v4, 20
 
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vv v12, v4, v16
+  vsll.vv v12, v4, v8
 
-  li t2, 0x4849f6b82a6315e6
+  li t2, 0x26f3a0ee5c6b5f9f
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vx v28, v8, t2
+  vsll.vx v20, v12, t2
 
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vi v8, v12, -11
+  vsll.vi v12, v8, 21
 
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vv v20, v8, v12
+  vsll.vv v4, v20, v8
 
-  li t2, 0x1f60eeee078e290b
+  li t2, 0x62b0c0ae529f1e32
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vx v16, v28, t2
+  vsll.vx v20, v12, t2
 
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vi v8, v28, 8
+  vsll.vi v8, v16, 1
 
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vv v28, v12, v8
+  vsll.vv v8, v20, v24
 
-  li t2, 0x960a9428973221b1
+  li t2, 0x385b79d17061d3ce
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vx v4, v24, t2
+  vsll.vx v24, v20, t2
 
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vi v12, v4, 10
+  vsll.vi v12, v16, 27
 
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vv v28, v8, v4
+  vsll.vv v4, v8, v16
 
-  li t2, 0xdad22bf71f7c6908
+  li t2, 0x46d971ffef735dc1
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vx v20, v8, t2
+  vsll.vx v28, v4, t2
 
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vi v16, v20, 4
+  vsll.vi v20, v4, 9
 
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vv v16, v4, v24
+  vsll.vv v4, v24, v28
 
-  li t2, 0xe1ccbe57a3506d5c
+  li t2, 0xc11b3f2c6378710a
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vx v4, v28, t2
+  vsll.vx v24, v4, t2
 
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vi v4, v16, -10
+  vsll.vi v4, v12, 12
 
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vv v20, v28, v8
+  vsll.vv v12, v4, v16
 
-  li t2, 0xfbd63d9cc8c2da12
+  li t2, 0xeadb501535ff7575
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vx v16, v12, t2
+  vsll.vx v4, v20, t2
 
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vi v24, v28, 11
+  vsll.vi v16, v12, 3
 
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vv v4, v20, v16
+  vsll.vv v20, v4, v24
 
-  li t2, 0xd5b2dd47abb707ae
+  li t2, 0xf9adea7581309afa
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vx v20, v8, t2
+  vsll.vx v20, v24, t2
 
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vi v4, v8, -3
+  vsll.vi v12, v16, 16
 
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vv v28, v16, v8
+  vsll.vv v4, v24, v20
 
-  li t2, 0xac3dcc9231ffd100
+  li t2, 0x2a0a71d72d220f23
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vx v28, v20, t2
+  vsll.vx v16, v12, t2
 
   vsetvli t1, t0, e64, m4, ta, ma
-  vand.vi v8, v12, -16
+  vsll.vi v20, v16, 0
 
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vv v24, v16, v8
+  vsll.vv v8, v24, v16
 
-  li t2, 0xd93cb4a39dcacdf3
+  li t2, 0x8a98c8f42a4e3c0b
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vx v16, v8, t2
+  vsll.vx v16, v24, t2
 
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vi v8, v16, 0
+  vsll.vi v8, v16, 11
 
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vv v24, v8, v16
+  vsll.vv v16, v24, v8
 
-  li t2, 0x67ceaee6ded01bc6
+  li t2, 0x2b4a005c04479f83
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vx v8, v16, t2
+  vsll.vx v16, v8, t2
 
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vi v24, v8, -1
+  vsll.vi v8, v24, 8
 
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vv v16, v8, v24
+  vsll.vv v8, v16, v24
 
-  li t2, 0xf6c74c3c8b40abaa
+  li t2, 0xa94768fa542f8465
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vx v16, v8, t2
+  vsll.vx v8, v24, t2
 
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vi v24, v8, -12
+  vsll.vi v24, v8, 11
 
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vv v16, v24, v8
+  vsll.vv v16, v8, v24
 
-  li t2, 0x74c821f454810f2c
+  li t2, 0xd9b0ddffd61694c7
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vx v8, v24, t2
+  vsll.vx v8, v24, t2
 
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vi v24, v8, -1
+  vsll.vi v8, v24, 28
 
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vv v24, v8, v16
+  vsll.vv v8, v16, v24
 
-  li t2, 0xc1c25b7f8dccc97e
+  li t2, 0x8ab5b3c8499a5adc
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vx v16, v8, t2
+  vsll.vx v16, v24, t2
 
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vi v8, v24, -12
+  vsll.vi v8, v24, 23
 
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vv v16, v8, v24
+  vsll.vv v24, v16, v8
 
-  li t2, 0x7c9a0e9f270be0c0
+  li t2, 0xb0861944ba8884ba
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vx v24, v16, t2
+  vsll.vx v24, v16, t2
 
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vi v24, v16, 4
+  vsll.vi v8, v16, 28
 
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vv v8, v24, v16
+  vsll.vv v8, v16, v24
 
-  li t2, 0xe4ae16ec117692f5
+  li t2, 0x8079d9cf972c0951
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vx v24, v16, t2
+  vsll.vx v16, v24, t2
 
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vi v16, v24, 8
+  vsll.vi v16, v8, 12
 
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vv v8, v16, v24
+  vsll.vv v16, v8, v24
 
-  li t2, 0x52b1e5a4fa5a3f65
+  li t2, 0x2220e495a5bfbf29
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vx v24, v16, t2
+  vsll.vx v8, v16, t2
 
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vi v24, v16, 8
+  vsll.vi v8, v16, 24
 
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vv v16, v8, v24
+  vsll.vv v16, v8, v24
 
-  li t2, 0x4669403a6d8d2739
+  li t2, 0x985d550d6c068b7b
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vx v24, v8, t2
+  vsll.vx v8, v16, t2
 
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vi v24, v8, 8
+  vsll.vi v8, v24, 9
 
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vv v24, v8, v16
+  vsll.vv v8, v24, v16
 
-  li t2, 0x82badced8dff8f01
+  li t2, 0x8bb90aefe9500ab0
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vx v8, v16, t2
+  vsll.vx v16, v8, t2
 
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vi v8, v24, -2
+  vsll.vi v16, v8, 28
 
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vv v8, v24, v16
+  vsll.vv v16, v24, v8
 
-  li t2, 0xd723f102b1ee1b48
+  li t2, 0x8155e6813e17b5ba
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vx v24, v16, t2
+  vsll.vx v16, v8, t2
 
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vi v16, v8, -3
+  vsll.vi v16, v8, 30
 
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vv v24, v16, v8
+  vsll.vv v8, v16, v24
 
-  li t2, 0x74412634070ac264
+  li t2, 0x86399cd668baa71f
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vx v8, v16, t2
+  vsll.vx v16, v8, t2
 
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vi v8, v16, 14
+  vsll.vi v16, v8, 23
 
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vv v8, v16, v24
+  vsll.vv v8, v24, v16
 
-  li t2, 0x1d7f0c55b388d339
+  li t2, 0x2c50d6a5d98ba0ed
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vx v24, v8, t2
+  vsll.vx v24, v8, t2
 
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vi v8, v24, -4
+  vsll.vi v8, v16, 11
 
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vv v16, v8, v24
+  vsll.vv v16, v24, v8
 
-  li t2, 0x3096251049478cd2
+  li t2, 0xe001fe1ceefeedc9
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vx v24, v16, t2
+  vsll.vx v8, v16, t2
 
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vi v16, v8, 15
+  vsll.vi v16, v24, 17
 
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vv v16, v8, v24
+  vsll.vv v8, v16, v24
 
-  li t2, 0x99ca8d4eaa12085f
+  li t2, 0xbf2a1d68a37992fa
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vx v16, v8, t2
+  vsll.vx v16, v24, t2
 
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vi v8, v16, 9
+  vsll.vi v16, v24, 0
 
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vv v8, v24, v16
+  vsll.vv v24, v16, v8
 
-  li t2, 0xa4f0ea14135151be
+  li t2, 0xfe1467c1915f5c6a
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vx v24, v8, t2
+  vsll.vx v24, v8, t2
 
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vi v16, v8, -12
+  vsll.vi v24, v8, 26
 
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vv v16, v24, v8
+  vsll.vv v8, v24, v16
 
-  li t2, 0xb345814bda104214
+  li t2, 0x32dfe826916136f6
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vx v16, v24, t2
+  vsll.vx v8, v16, t2
 
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vi v8, v16, 0
+  vsll.vi v24, v16, 14
 
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vv v8, v24, v16
+  vsll.vv v8, v24, v16
 
-  li t2, 0x5ed19ef41921e087
+  li t2, 0xb2734c9e3a9b6ea4
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vx v8, v16, t2
+  vsll.vx v24, v16, t2
 
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vi v24, v16, 11
+  vsll.vi v16, v24, 3
 
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vv v8, v16, v24
+  vsll.vv v8, v16, v24
 
-  li t2, 0xe8072e725e5ba887
+  li t2, 0x4794b7536546726f
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vx v8, v24, t2
+  vsll.vx v8, v16, t2
 
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vi v24, v16, 14
+  vsll.vi v8, v16, 16
 
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vv v24, v8, v16
+  vsll.vv v16, v8, v24
 
-  li t2, 0xb59ba42232ffec09
+  li t2, 0x6d228f22851e8627
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vx v16, v8, t2
+  vsll.vx v16, v24, t2
 
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vi v16, v8, -10
+  vsll.vi v24, v8, 25
 
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vv v24, v16, v8
+  vsll.vv v16, v8, v24
 
-  li t2, 0xbdd4f2496825d85d
+  li t2, 0x223cacb1379463b1
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vx v24, v8, t2
+  vsll.vx v16, v8, t2
 
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vi v16, v24, 8
+  vsll.vi v24, v8, 13
 
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vv v16, v24, v8
+  vsll.vv v8, v24, v16
 
-  li t2, 0xf79b28b371ff91b7
+  li t2, 0x4ebe2561180294bd
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vx v24, v8, t2
+  vsll.vx v16, v24, t2
 
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vi v24, v8, 11
+  vsll.vi v24, v16, 18
 
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vv v16, v24, v8
+  vsll.vv v24, v8, v16
 
-  li t2, 0x0b014517fd484fd0
+  li t2, 0x8109a581378d92a6
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vx v16, v24, t2
+  vsll.vx v16, v24, t2
 
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vi v24, v8, 9
+  vsll.vi v8, v16, 13
 
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vv v16, v24, v8
+  vsll.vv v16, v8, v24
 
-  li t2, 0x3212a1a5f23e9e4d
+  li t2, 0x640a21f5366ff402
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vx v16, v24, t2
+  vsll.vx v16, v24, t2
 
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vi v8, v16, -14
+  vsll.vi v24, v8, 8
 
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vv v16, v8, v24
+  vsll.vv v8, v24, v16
 
-  li t2, 0xfb25bd1b52db913b
+  li t2, 0x748a5b915cdf8165
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vx v8, v16, t2
+  vsll.vx v8, v16, t2
 
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vi v16, v24, 4
+  vsll.vi v8, v24, 22
 
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vv v8, v16, v24
+  vsll.vv v24, v8, v16
 
-  li t2, 0x584e47a46b6c6688
+  li t2, 0x4fc1b2c832cbcd6a
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vx v24, v8, t2
+  vsll.vx v24, v8, t2
 
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vi v16, v24, 8
+  vsll.vi v8, v24, 31
 
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vv v24, v16, v8
+  vsll.vv v8, v24, v16
 
-  li t2, 0xfc649fbf2b986588
+  li t2, 0x0d4b1edd399dfaae
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vx v16, v24, t2
+  vsll.vx v8, v16, t2
 
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vi v16, v24, 5
+  vsll.vi v24, v16, 23
 
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vv v24, v16, v8
+  vsll.vv v24, v16, v8
 
-  li t2, 0x924aa321df62830f
+  li t2, 0x75406493456e1396
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vx v24, v16, t2
+  vsll.vx v16, v8, t2
 
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vi v16, v8, 4
+  vsll.vi v24, v8, 13
 
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vv v16, v24, v8
+  vsll.vv v16, v24, v8
 
-  li t2, 0x1d259e6389010f38
+  li t2, 0x79df104e9dcd329c
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vx v24, v16, t2
+  vsll.vx v8, v16, t2
 
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vi v16, v8, 14
+  vsll.vi v8, v24, 1
 
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vv v24, v8, v16
+  vsll.vv v16, v8, v24
 
-  li t2, 0x4cf5cc8de2c1901c
+  li t2, 0x3f734f3a92553c5d
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vx v8, v16, t2
+  vsll.vx v24, v16, t2
 
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vi v16, v8, -2
+  vsll.vi v8, v24, 20
 
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vv v8, v16, v24
+  vsll.vv v16, v24, v8
 
-  li t2, 0xb462e135f614f5a6
+  li t2, 0x20bf50d4d545cce4
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vx v24, v8, t2
+  vsll.vx v8, v16, t2
 
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vi v8, v24, -16
+  vsll.vi v16, v24, 14
 
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vv v16, v8, v24
+  vsll.vv v16, v8, v24
 
-  li t2, 0x576a790f5c01b01d
+  li t2, 0xb9ed5face4db3081
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vx v24, v8, t2
+  vsll.vx v16, v8, t2
 
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vi v8, v24, 13
+  vsll.vi v24, v8, 1
 
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vv v8, v24, v16
+  vsll.vv v8, v24, v16
 
-  li t2, 0x991d1dc0ed276db7
+  li t2, 0xb6c66c321f043eea
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vx v16, v8, t2
+  vsll.vx v16, v8, t2
 
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vi v8, v24, -16
+  vsll.vi v16, v8, 6
 
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vv v8, v24, v16
+  vsll.vv v8, v24, v16
 
-  li t2, 0x6731552ecde82a3c
+  li t2, 0x939c9d7c86abf176
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vx v8, v24, t2
+  vsll.vx v16, v8, t2
 
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vi v16, v8, 1
+  vsll.vi v24, v16, 18
 
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vv v8, v16, v24
+  vsll.vv v8, v24, v16
 
-  li t2, 0x9e832ed4f3a1d793
+  li t2, 0x8b4f11197256c0ed
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vx v8, v16, t2
+  vsll.vx v8, v16, t2
 
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vi v24, v8, -7
+  vsll.vi v24, v16, 26
 
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vv v8, v16, v24
+  vsll.vv v24, v8, v16
 
-  li t2, 0x6ca3c5762484adaa
+  li t2, 0x2764c449b79b8cb9
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vx v8, v16, t2
+  vsll.vx v24, v16, t2
 
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vi v24, v8, -4
+  vsll.vi v24, v16, 21
 
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vv v8, v24, v16
+  vsll.vv v8, v16, v24
 
-  li t2, 0x8b11de5f487936fd
+  li t2, 0x421c7fa82d6d162c
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vx v16, v24, t2
+  vsll.vx v24, v8, t2
 
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vi v16, v24, -6
+  vsll.vi v16, v8, 14
 
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vv v16, v8, v24
+  vsll.vv v8, v16, v24
 
-  li t2, 0x7b599a7cde9e0515
+  li t2, 0xa44e2bc06ed36aab
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vx v24, v16, t2
+  vsll.vx v8, v24, t2
 
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vi v8, v24, 11
+  vsll.vi v8, v24, 25
 
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vv v16, v8, v24
+  vsll.vv v24, v16, v8
 
-  li t2, 0xb7f9a1200c1be672
+  li t2, 0x657766cac362fd48
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vx v8, v24, t2
+  vsll.vx v8, v24, t2
 
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vi v24, v16, 3
+  vsll.vi v24, v8, 29
 
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vv v8, v24, v16
+  vsll.vv v16, v8, v24
 
-  li t2, 0x5133d7eedcc99d84
+  li t2, 0xd785c87902732c6a
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vx v24, v16, t2
+  vsll.vx v24, v8, t2
 
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vi v8, v24, 0
+  vsll.vi v24, v8, 11
 
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vv v8, v24, v16
+  vsll.vv v24, v8, v16
 
-  li t2, 0xffa4c66786dbe2d7
+  li t2, 0x1c4bc30f8db3bda8
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vx v8, v24, t2
+  vsll.vx v8, v24, t2
 
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vi v16, v24, 7
+  vsll.vi v24, v8, 24
 
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vv v8, v24, v16
+  vsll.vv v24, v16, v8
 
-  li t2, 0x58cca23b4b6d0dab
+  li t2, 0x872aacc9382a53e2
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vx v24, v8, t2
+  vsll.vx v16, v24, t2
 
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vi v24, v8, 12
+  vsll.vi v8, v24, 11
 
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vv v8, v16, v24
+  vsll.vv v24, v8, v16
 
-  li t2, 0x3b40c2e2db4cc857
+  li t2, 0xab70ea6a284007ca
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vx v8, v24, t2
+  vsll.vx v16, v8, t2
 
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vi v24, v16, -10
+  vsll.vi v8, v16, 3
 
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vv v8, v24, v16
+  vsll.vv v8, v24, v16
 
-  li t2, 0xb54657314b026b76
+  li t2, 0x1307b6794ad94ce1
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vx v24, v8, t2
+  vsll.vx v8, v24, t2
 
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vi v24, v16, 2
+  vsll.vi v8, v24, 30
 
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vv v8, v16, v24
+  vsll.vv v16, v8, v24
 
-  li t2, 0x034d10a30eeb5111
+  li t2, 0x812831208b1d4672
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vx v8, v16, t2
+  vsll.vx v24, v16, t2
 
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vi v16, v24, -14
+  vsll.vi v16, v8, 7
 
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vv v16, v8, v24
+  vsll.vv v24, v8, v16
 
-  li t2, 0x5b223cd161059bbe
+  li t2, 0xf471f49c9b0d2ec2
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vx v24, v8, t2
+  vsll.vx v8, v24, t2
 
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vi v8, v24, -11
+  vsll.vi v8, v24, 9
 
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vv v8, v16, v24
+  vsll.vv v24, v8, v16
 
-  li t2, 0xc32d6602e3f5e5ed
+  li t2, 0x1252a3f65980fe10
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vx v8, v16, t2
+  vsll.vx v16, v24, t2
 
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vi v24, v8, 1
+  vsll.vi v8, v16, 20
 
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vv v24, v16, v8
+  vsll.vv v24, v16, v8
 
-  li t2, 0x32ffb6b1aada0102
+  li t2, 0x78c53f341dc1ef48
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vx v24, v8, t2
+  vsll.vx v24, v16, t2
 
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vi v16, v24, 15
+  vsll.vi v16, v24, 17
 
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vv v8, v16, v24
+  vsll.vv v8, v16, v24
 
-  li t2, 0x0c46177fafcb1113
+  li t2, 0xa029c2482cbbf1d3
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vx v16, v24, t2
+  vsll.vx v16, v24, t2
 
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vi v16, v24, -3
+  vsll.vi v24, v8, 2
 
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vv v24, v16, v8
+  vsll.vv v16, v8, v24
 
-  li t2, 0x4a484b240440d216
+  li t2, 0x3d3ce85f4a75e71d
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vx v16, v8, t2
+  vsll.vx v24, v8, t2
 
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vi v8, v16, 2
+  vsll.vi v24, v16, 7
 
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vv v8, v16, v24
+  vsll.vv v16, v8, v24
 
-  li t2, 0xf319449aa23ec21f
+  li t2, 0x61738fb4da9f5683
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vx v8, v24, t2
+  vsll.vx v8, v16, t2
 
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vi v8, v16, 9
+  vsll.vi v24, v8, 29
 
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vv v24, v8, v16
+  vsll.vv v8, v24, v16
 
-  li t2, 0x6029b743a315547e
+  li t2, 0xb546f0badfacf79e
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vx v16, v8, t2
+  vsll.vx v24, v8, t2
 
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vi v16, v24, 5
+  vsll.vi v16, v8, 12
 
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vv v24, v8, v16
+  vsll.vv v24, v16, v8
 
-  li t2, 0x753a3d11ec14e27c
+  li t2, 0xdcd1c099a66cf62c
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vx v24, v16, t2
+  vsll.vx v24, v16, t2
 
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vi v8, v24, -11
+  vsll.vi v8, v16, 28
 
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vv v8, v16, v24
+  vsll.vv v24, v8, v16
 
-  li t2, 0x1ac74d0f66ba9057
+  li t2, 0x715a6d3b6fb3cb3a
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vx v24, v16, t2
+  vsll.vx v16, v8, t2
 
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vi v16, v8, -16
+  vsll.vi v16, v8, 16
 
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vv v8, v24, v16
+  vsll.vv v8, v16, v24
 
-  li t2, 0xf19041f354522813
+  li t2, 0xab7ee2dad1cfd5fd
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vx v16, v24, t2
+  vsll.vx v8, v24, t2
 
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vi v24, v16, 4
+  vsll.vi v16, v24, 16
 
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vv v16, v24, v8
+  vsll.vv v16, v24, v8
 
-  li t2, 0x22eaf7fc8e2a4c71
+  li t2, 0x96c43b1be6b7cfcc
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vx v16, v24, t2
+  vsll.vx v24, v8, t2
 
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vi v16, v8, -5
+  vsll.vi v8, v16, 25
 
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vv v8, v16, v24
+  vsll.vv v16, v8, v24
 
-  li t2, 0xc9f7600893d596cf
+  li t2, 0x2d34b33a92a7a639
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vx v16, v24, t2
+  vsll.vx v8, v16, t2
 
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vi v16, v8, -16
+  vsll.vi v8, v24, 3
 
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vv v24, v16, v8
+  vsll.vv v24, v8, v16
 
-  li t2, 0xc8f5de376821883c
+  li t2, 0xf1af945e030a9a2e
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vx v24, v16, t2
+  vsll.vx v24, v16, t2
 
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vi v16, v24, -13
+  vsll.vi v8, v24, 8
 
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vv v24, v8, v16
+  vsll.vv v24, v16, v8
 
-  li t2, 0xe082cefe766a7fdc
+  li t2, 0x9fea02267847d728
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vx v8, v16, t2
+  vsll.vx v16, v8, t2
 
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vi v16, v24, -5
+  vsll.vi v24, v8, 10
 
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vv v24, v16, v8
+  vsll.vv v8, v24, v16
 
-  li t2, 0x42864d15a4673cf1
+  li t2, 0xb1a967bebb14ed0c
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vx v24, v8, t2
+  vsll.vx v8, v16, t2
 
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vi v24, v16, -5
+  vsll.vi v16, v24, 31
 
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vv v16, v8, v24
+  vsll.vv v16, v8, v24
 
-  li t2, 0xf12dea57741f270a
+  li t2, 0x1ca38cf9abe544ff
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vx v24, v8, t2
+  vsll.vx v16, v8, t2
 
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vi v16, v24, -9
+  vsll.vi v8, v24, 9
 
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vv v16, v8, v24
+  vsll.vv v16, v8, v24
 
-  li t2, 0x7452f46faf0c4885
+  li t2, 0x9e8cba2d603d2497
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vx v8, v16, t2
+  vsll.vx v16, v24, t2
 
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vi v24, v16, -7
+  vsll.vi v8, v16, 12
 
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vv v24, v8, v16
+  vsll.vv v8, v24, v16
 
-  li t2, 0xd05fdadbf2499567
+  li t2, 0x60c87753d13e1540
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vx v24, v16, t2
+  vsll.vx v24, v16, t2
 
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vi v8, v24, 2
+  vsll.vi v24, v8, 22
 
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vv v8, v24, v16
+  vsll.vv v24, v16, v8
 
-  li t2, 0x3cd8c1652a28777f
+  li t2, 0x581471bccc889320
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vx v24, v16, t2
+  vsll.vx v24, v16, t2
 
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vi v8, v16, -3
+  vsll.vi v8, v16, 29
 
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vv v24, v8, v16
+  vsll.vv v8, v16, v24
 
-  li t2, 0x334dd51f5585d3ef
+  li t2, 0xeb032b5deec6650c
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vx v24, v16, t2
+  vsll.vx v24, v16, t2
 
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vi v24, v8, -5
+  vsll.vi v8, v24, 31
 
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vv v8, v16, v24
+  vsll.vv v8, v16, v24
 
-  li t2, 0x062091d6b39cade9
+  li t2, 0x0725c0f461f11cb9
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vx v16, v8, t2
+  vsll.vx v24, v16, t2
 
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vi v24, v16, -15
+  vsll.vi v16, v8, 7
 
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vv v24, v16, v8
+  vsll.vv v16, v24, v8
 
-  li t2, 0x429ad8cd80d566f0
+  li t2, 0xd36aa77068896d82
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vx v24, v8, t2
+  vsll.vx v16, v24, t2
 
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vi v24, v16, 14
+  vsll.vi v24, v8, 26
 
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vv v16, v24, v8
+  vsll.vv v8, v24, v16
 
-  li t2, 0x60b4775aa996357c
+  li t2, 0x79f98ff83b65898d
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vx v8, v16, t2
+  vsll.vx v8, v16, t2
 
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vi v8, v24, 11
+  vsll.vi v24, v8, 9
 
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vv v8, v24, v16
+  vsll.vv v16, v24, v8
 
-  li t2, 0x9155344f2683a904
+  li t2, 0x890e5352964a39d6
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vx v16, v24, t2
+  vsll.vx v8, v24, t2
 
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vi v24, v16, 1
+  vsll.vi v24, v16, 9
 
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vv v24, v16, v8
+  vsll.vv v8, v24, v16
 
-  li t2, 0x499bd3519f7eaa7c
+  li t2, 0x5a2de567da178be9
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vx v16, v8, t2
+  vsll.vx v16, v24, t2
 
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vi v24, v16, 0
+  vsll.vi v24, v8, 20
 
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vv v16, v8, v24
+  vsll.vv v8, v24, v16
 
-  li t2, 0xf229e99c072cf45b
+  li t2, 0xb3e89ab70a17360f
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vx v16, v8, t2
+  vsll.vx v16, v24, t2
 
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vi v24, v16, -9
+  vsll.vi v16, v8, 11
 
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vv v24, v16, v8
+  vsll.vv v8, v24, v16
 
-  li t2, 0x5bf9577f1c401297
+  li t2, 0x54781a59a6cbe472
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vx v16, v8, t2
+  vsll.vx v8, v24, t2
 
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vi v16, v24, 5
+  vsll.vi v16, v8, 8
 
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vv v8, v24, v16
+  vsll.vv v16, v8, v24
 
-  li t2, 0x175abec43e543668
+  li t2, 0x6ecf91486f2b40b0
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vx v8, v16, t2
+  vsll.vx v24, v16, t2
 
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vi v16, v24, 0
+  vsll.vi v16, v8, 21
 
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vv v24, v8, v16
+  vsll.vv v16, v24, v8
 
-  li t2, 0x50754a5f716ddc95
+  li t2, 0xd7b3c8176530900d
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vx v16, v8, t2
+  vsll.vx v24, v8, t2
 
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vi v16, v8, 6
+  vsll.vi v24, v16, 23
 
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vv v8, v24, v16
+  vsll.vv v16, v8, v24
 
-  li t2, 0x4e907fd32a4c04fa
+  li t2, 0xea46dc2fad3f4c90
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vx v16, v24, t2
+  vsll.vx v8, v24, t2
 
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vi v16, v8, -16
+  vsll.vi v16, v8, 30
 
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vv v16, v8, v24
+  vsll.vv v24, v16, v8
 
-  li t2, 0x2edc6a83e7f49e21
+  li t2, 0xc71ba3778a75447c
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vx v24, v16, t2
+  vsll.vx v8, v16, t2
 
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vi v8, v16, 5
+  vsll.vi v24, v8, 6
 
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vv v24, v16, v8
+  vsll.vv v24, v8, v16
 
-  li t2, 0x637fcc8722a4e88b
+  li t2, 0x77aecd8816457631
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vx v8, v16, t2
+  vsll.vx v16, v8, t2
 
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vi v8, v24, -5
+  vsll.vi v24, v16, 27
 
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vv v24, v8, v16
+  vsll.vv v16, v24, v8
 
-  li t2, 0x38cca3673fe9eb7b
+  li t2, 0x60cc8d02fb55f375
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vx v24, v8, t2
+  vsll.vx v16, v8, t2
 
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vi v16, v8, 14
+  vsll.vi v8, v24, 8
 
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vv v24, v16, v8
+  vsll.vv v16, v8, v24
 
-  li t2, 0xedbcc25538e1f2ae
+  li t2, 0xb6401ab9a6d5bd01
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vx v8, v16, t2
+  vsll.vx v8, v16, t2
 
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vi v8, v24, -4
+  vsll.vi v16, v24, 28
 
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vv v16, v8, v24
+  vsll.vv v16, v8, v24
 
-  li t2, 0x5e9be977effef774
+  li t2, 0xe9e73496b0ed7ea0
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vx v16, v8, t2
+  vsll.vx v16, v8, t2
 
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vi v8, v16, -14
+  vsll.vi v16, v24, 4
 
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vv v24, v8, v16
+  vsll.vv v8, v16, v24
 
-  li t2, 0xd5de87774198599d
+  li t2, 0x89e139deb82c6007
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vx v24, v8, t2
+  vsll.vx v16, v24, t2
 
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vi v24, v16, -6
+  vsll.vi v8, v24, 21
 
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vv v8, v24, v16
+  vsll.vv v8, v16, v24
 
-  li t2, 0xd00034e993c15589
+  li t2, 0x723ab3c0a4f3458b
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vx v16, v24, t2
+  vsll.vx v24, v16, t2
 
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vi v8, v16, -15
+  vsll.vi v16, v8, 17
 
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vv v24, v16, v8
+  vsll.vv v24, v16, v8
 
-  li t2, 0x3b6e55b24bd3795c
+  li t2, 0xb077352cddd260a9
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vx v16, v8, t2
+  vsll.vx v8, v24, t2
 
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vi v24, v8, 5
+  vsll.vi v24, v8, 24
 
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vv v24, v16, v8
+  vsll.vv v16, v8, v24
 
-  li t2, 0xd136e455d5464345
+  li t2, 0xa824c799e0a53546
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vx v16, v24, t2
+  vsll.vx v16, v24, t2
 
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vi v24, v16, 1
+  vsll.vi v8, v16, 1
 
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vv v16, v24, v8
+  vsll.vv v8, v24, v16
 
-  li t2, 0x2bdc96b3c73c6c2f
+  li t2, 0x3b26090e60527ff0
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vx v8, v24, t2
+  vsll.vx v8, v16, t2
 
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vi v8, v16, 14
+  vsll.vi v24, v16, 18
 
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vv v24, v8, v16
+  vsll.vv v24, v8, v16
 
-  li t2, 0xb0c70024eba5bedb
+  li t2, 0xd1af7ea5183708e4
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vx v8, v24, t2
+  vsll.vx v16, v24, t2
 
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vi v16, v8, 5
+  vsll.vi v16, v24, 14
 
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vv v24, v8, v16
+  vsll.vv v24, v8, v16
 
-  li t2, 0x1f6787d1cc72c104
+  li t2, 0x5ce83ee480b187b9
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vx v16, v24, t2
+  vsll.vx v16, v24, t2
 
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vi v24, v8, -15
+  vsll.vi v8, v24, 31
 
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vv v16, v8, v24
+  vsll.vv v24, v16, v8
 
-  li t2, 0x06fa29cbe654c9b7
+  li t2, 0xa8092dccfa772e46
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vx v24, v8, t2
+  vsll.vx v8, v16, t2
 
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vi v24, v8, -15
+  vsll.vi v24, v16, 28
 
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vv v24, v8, v16
+  vsll.vv v24, v8, v16
 
-  li t2, 0x04f88c1bbcbd8f6f
+  li t2, 0x98834f40c451bbea
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vx v16, v24, t2
+  vsll.vx v8, v16, t2
 
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vi v8, v16, -11
+  vsll.vi v8, v24, 12
 
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vv v16, v24, v8
+  vsll.vv v16, v24, v8
 
-  li t2, 0x5711eb542b9eb762
+  li t2, 0x99aa870ec157af64
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vx v24, v8, t2
+  vsll.vx v16, v24, t2
 
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vi v8, v16, 13
+  vsll.vi v24, v16, 7
 
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vv v16, v24, v8
+  vsll.vv v24, v16, v8
 
-  li t2, 0x1d98f7f829e6e0cd
+  li t2, 0x299ee5824689d34c
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vx v8, v16, t2
+  vsll.vx v16, v8, t2
 
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vi v24, v8, 2
+  vsll.vi v16, v24, 28
 
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vv v16, v8, v24
+  vsll.vv v16, v24, v8
 
-  li t2, 0x3835b0382fa9d566
+  li t2, 0x2a0a9b0fba143b87
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vx v16, v8, t2
+  vsll.vx v8, v24, t2
 
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vi v24, v16, -3
+  vsll.vi v8, v16, 30
 
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vv v16, v24, v8
+  vsll.vv v8, v24, v16
 
-  li t2, 0xc10e58606ac30c98
+  li t2, 0xd13295b7a3d126e2
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vx v16, v8, t2
+  vsll.vx v16, v24, t2
 
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vi v8, v16, 4
+  vsll.vi v8, v16, 20
 
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vv v8, v16, v24
+  vsll.vv v24, v8, v16
 
-  li t2, 0xfdaf662dc89aa5d9
+  li t2, 0xd66cebf30c592cb9
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vx v24, v8, t2
+  vsll.vx v8, v24, t2
 
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vi v16, v8, -8
+  vsll.vi v8, v24, 15
 
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vv v8, v16, v24
+  vsll.vv v24, v8, v16
 
-  li t2, 0x91246da9430a684d
+  li t2, 0x02b282cb2351e176
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vx v8, v24, t2
+  vsll.vx v24, v8, t2
 
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vi v24, v16, -3
+  vsll.vi v16, v8, 0
 
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vv v16, v8, v24
+  vsll.vv v16, v8, v24
 
-  li t2, 0x26c45339a5621fed
+  li t2, 0x1af23b5b8ada983e
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vx v8, v24, t2
+  vsll.vx v16, v8, t2
 
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vi v8, v24, -13
+  vsll.vi v16, v24, 26
 
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vv v24, v8, v16
+  vsll.vv v8, v24, v16
 
-  li t2, 0x178988f032de98ad
+  li t2, 0x0576c3df3735beba
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vx v16, v24, t2
+  vsll.vx v8, v24, t2
 
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vi v24, v16, -13
+  vsll.vi v16, v24, 7
 
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vv v24, v16, v8
+  vsll.vv v24, v8, v16
 
-  li t2, 0x944a6e0863cf4a7f
+  li t2, 0x1daa21e8505d2160
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vx v8, v24, t2
+  vsll.vx v16, v24, t2
 
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vi v8, v16, -2
+  vsll.vi v24, v8, 10
 
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vv v8, v24, v16
+  vsll.vv v24, v8, v16
 
-  li t2, 0x72e6c3a753a789e2
+  li t2, 0x31ac4fbf3583d26e
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vx v8, v16, t2
+  vsll.vx v16, v8, t2
 
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vi v8, v16, -16
+  vsll.vi v8, v16, 28
 
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vv v8, v24, v16
+  vsll.vv v8, v24, v16
 
-  li t2, 0xf3c5f9d43d7014e8
+  li t2, 0x0aa1c3ffa08581de
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vx v16, v24, t2
+  vsll.vx v16, v8, t2
 
   vsetvli t1, t0, e64, m8, ta, ma
-  vand.vi v24, v16, -3
+  vsll.vi v8, v16, 0
 
   la a0, res
   TEST_CASE(1, t0, 0, ld t0, 0(a0); addi a0, a0, 8)
