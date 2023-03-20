@@ -34,5 +34,15 @@ rv64uv_sc_tests = \
   vsll \
   vsra \
   vsrl \
+  vnsrl \
+  vnsra \
+  vredsum \
+  vredand \
+  vredor \
+  vredxor \
+  vredminu \
+  vredmin \
+  vredmaxu \
+  vredmax \
 
 rv64uv_p_tests = $(addprefix rv64uv-p-, $(rv64uv_sc_tests))
