@@ -60,5 +60,8 @@ rv64uv_sc_tests = \
   vmnor \
   vmorn \
   vmxnor \
+  vmv \
+  vslide1up \
+  vslide1down \
 
 rv64uv_p_tests = $(addprefix rv64uv-p-, $(rv64uv_sc_tests))
