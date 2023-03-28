@@ -63,5 +63,12 @@ rv64uv_sc_tests = \
   vmv \
   vslide1up \
   vslide1down \
+  vpopc \
+  vfirst \
+  vmsbf \
+  vmsif \
+  vmsof \
+  viota \
+  vid \
 
 rv64uv_p_tests = $(addprefix rv64uv-p-, $(rv64uv_sc_tests))
