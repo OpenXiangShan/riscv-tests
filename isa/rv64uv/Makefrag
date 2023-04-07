@@ -78,5 +78,18 @@ rv64uv_sc_tests = \
   test1-vfalu \
   vle \
   vfpu \
+  vsaddu \
+  vsadd \
+  vssubu \
+  vssub \
+  vaaddu \
+  vaadd \
+  vasubu \
+  vasub \
+  vsmul \
+  vssrl \
+  vssra \
+  vnclipu \
+  vnclip \
 
 rv64uv_p_tests = $(addprefix rv64uv-p-, $(rv64uv_sc_tests))
