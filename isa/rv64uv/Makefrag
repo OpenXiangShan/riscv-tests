@@ -91,5 +91,11 @@ rv64uv_sc_tests = \
   vssra \
   vnclipu \
   vnclip \
+  vmerge \
+  vwredsum \
+  vwredsumu \
+  vrgather \
+  vrgatherei16\
+  vcompress \
 
 rv64uv_p_tests = $(addprefix rv64uv-p-, $(rv64uv_sc_tests))
