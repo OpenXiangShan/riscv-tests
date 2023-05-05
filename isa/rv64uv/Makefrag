@@ -97,5 +97,33 @@ rv64uv_sc_tests = \
   vrgather \
   vrgatherei16\
   vcompress \
+  vmul \
+  vmulh \
+  vmulhu \
+  vmulhsu \
+  vdiv \
+  vdivu \
+  vrem \
+  vremu \
+  vmacc \
+  vnmsac \
+  vmadd \
+  vnmsub \
+  vmv.s.x \
+  vmv.x.s \
+  vfmv.s.f \
+  vfmv.f.s \
+  vmv1r \
+  vmv2r \
+  vmv4r \
+  vmv8r \
+  vwmul \
+  vwmulsu \
+  vwmulu \
+  vwmaccu \
+  vwmacc \
+  vwmaccsu \
+  vwmaccus \
+
 
 rv64uv_p_tests = $(addprefix rv64uv-p-, $(rv64uv_sc_tests))
