@@ -124,6 +124,13 @@ rv64uv_sc_tests = \
   vwmacc \
   vwmaccsu \
   vwmaccus \
+  vadd.vv \
+  vadd.vx \
+  vadd.vi \
+  vwadd.w \
+  vwaddu.w \
+  vwsub.w \
+  vwsubu.w \
 
 
 rv64uv_p_tests = $(addprefix rv64uv-p-, $(rv64uv_sc_tests))
