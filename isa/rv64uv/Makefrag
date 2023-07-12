@@ -131,6 +131,18 @@ rv64uv_sc_tests = \
   vwaddu.w \
   vwsub.w \
   vwsubu.w \
+  vfwadd \
+  vfdiv \
+  vfwadd.w \
+  vfsub \
+  vfwsub \
+  vfwsub.w \
+  vfrsub \
+  vfmin \
+  vfmax \
+  vfsgnj \
+  vfsgnjn \
+  vfsgnjx \
 
 
 rv64uv_p_tests = $(addprefix rv64uv-p-, $(rv64uv_sc_tests))
