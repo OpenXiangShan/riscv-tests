@@ -31,6 +31,10 @@ RVTEST_CODE_BEGIN
   sll a1, a1, PTE_PPN_SHIFT; \
   ori a1, a1, (PTE_V | PTE_R | PTE_W | PTE_A | PTE_D);
 
+#define SET_TVM \
+  li a0, MSTATUS_TVM; \
+  csrs mstatus, a0;
+
 test_begin:
 
   la a0, mtvec_handler
@@ -199,7 +203,7 @@ test_begin:
   ld a1, (a1)
   bne a0, a1, die
 
-  csrw 0x5c4, x0 // clear svinval csr
+  SET_TVM // sfence.w.inval/sinval.vma/sfence.inval.ir will illegal instruction exception when mstatus.TVM=1 in HS mode
   fence // flush pipe
 
   li gp, 5
