@@ -22,6 +22,7 @@ rv64mi_sc_tests = \
 	zicntr \
 	sfence \
 	svinval \
+	svinval_EX-II \
  	pbmt \
 	xret_clear_mprv \
 	xtvec \
