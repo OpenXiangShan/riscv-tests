@@ -45,7 +45,13 @@
 #define RVTEST_RV64S                                                    \
   .macro init;                                                          \
   RVTEST_ENABLE_SUPERVISOR;                                             \
-  .endm
+  .endm                                                         
+  
+
+#define RVTEST_RV64VS                                                   \
+  .macro init;                                                          \
+  RVTEST_ENABLE_VIRTUAL_SUPERVISOR                                      \
+  .endm 
 
 #define RVTEST_RV32M                                                    \
   .macro init;                                                          \
@@ -129,6 +135,14 @@
   li a0, SIP_SSIP | SIP_STIP;                                           \
   csrs mideleg, a0;                                                     \
 
+#define RVTEST_ENABLE_VIRTUAL_SUPERVISOR                                \
+  li a0, (MSTATUS_MPP & (MSTATUS_MPP >> 1)) | MSTATUS_MPV;              \
+  csrs mstatus, a0;                                                     \
+  li a0, SIP_SSIP | SIP_STIP | HIP_VSSIP | HIP_VSTIP;                   \
+  csrs mideleg, a0;                                                     \
+  li a0, HIP_VSSIP | HIP_VSTIP;                                         \
+  csrs hideleg, a0;                                                     \
+
 #define RVTEST_ENABLE_MACHINE                                           \
   li a0, MSTATUS_MPP;                                                   \
   csrs mstatus, a0;                                                     \
@@ -149,10 +163,55 @@
   csrr a0, mhartid;                                                     \
   1: bnez a0, 1b
 
+#define RVTEST_MTVEC_HANDLER_INIT                                       \
+  la t0, stvec_handler;                                                 \
+  la t1, vstvec_handler;                                                \
+  li t2, (1 << CAUSE_LOAD_PAGE_FAULT) |                                 \
+         (1 << CAUSE_STORE_PAGE_FAULT) |                                \
+         (1 << CAUSE_ILLEGAL_INSTRUCTION) |                             \
+         (1 << CAUSE_FETCH_PAGE_FAULT) |                                \
+         (1 << CAUSE_MISALIGNED_FETCH) |                                \
+         (1 << CAUSE_USER_ECALL) |                                      \
+         (1 << CAUSE_VIRTUAL_INSTR) |                                   \
+         (1 << CAUSE_BREAKPOINT);                                       \
+  beqz t0, 1f;                                                          \
+  csrw stvec, t0;                                                       \
+  csrw medeleg, t2;                                                     \
+  j 1f;                                                                 \
+1:                                                                      \
+  beqz t1, 1f;                                                          \
+  csrw vstvec, t1;                                                      \
+  csrw medeleg, t2;                                                     \
+  csrw hedeleg, t2;                                                     \
+1:                                                                      \
+  csrr a1, vstvec;                                                      \
+  csrr t0, mepc;                                                        \
+  addi t0, t0, 4;                                                       \
+  csrw mepc, t0;
+
+
 #define EXTRA_TVEC_USER
 #define EXTRA_TVEC_MACHINE
 #define EXTRA_INIT
 #define EXTRA_INIT_TIMER
+
+#define RVTEST_RV64S_SET_MSTATUS_TVM                                    \
+                                                       \
+  li a0, MSTATUS_TVM;                                                   \
+  csrs mstatus, a0;                                                     \
+
+#define RVTEST_SET_MENVCFG_STCE                                         \
+  li a0, ENVCFG_STCE;                                                   \
+  csrs menvcfg, a0;                                                     
+
+#define RVTEST_SET_HENVCFG_STCE                                         \
+  li a0, ENVCFG_STCE;                                                   \
+  csrs henvcfg, a0;                                                    
+
+#define RVTEST_SET_MCOUNTEREN_TM                                        \
+  li a0, ENVCFG_STCE;                                                   \
+  csrs henvcfg, a0;                                                     \
+
 
 #define INTERRUPT_HANDLER j other_exception /* No interrupts should occur */
 
@@ -161,6 +220,8 @@
         .align  6;                                                      \
         .weak stvec_handler;                                            \
         .weak mtvec_handler;                                            \
+        .weak vstvec_handler;                                           \
+        .weak nodeleg;                                                  \
         .globl _start;                                                  \
 _start:                                                                 \
         /* reset vector */                                              \
@@ -205,17 +266,26 @@ reset_vector:                                                           \
         CHECK_XLEN;                                                     \
         /* if an stvec_handler is defined, delegate exceptions to it */ \
         la t0, stvec_handler;                                           \
-        beqz t0, 1f;                                                    \
-        csrw stvec, t0;                                                 \
-        li t0, (1 << CAUSE_LOAD_PAGE_FAULT) |                           \
+        la t1, vstvec_handler;                                          \
+        li t2, (1 << CAUSE_LOAD_PAGE_FAULT) |                           \
                (1 << CAUSE_STORE_PAGE_FAULT) |                          \
                (1 << CAUSE_ILLEGAL_INSTRUCTION) |                       \
                (1 << CAUSE_FETCH_PAGE_FAULT) |                          \
                (1 << CAUSE_MISALIGNED_FETCH) |                          \
                (1 << CAUSE_USER_ECALL) |                                \
+               (1 << CAUSE_VIRTUAL_INSTR) |                             \
                (1 << CAUSE_BREAKPOINT);                                 \
-        csrw medeleg, t0;                                               \
-        csrr t1, medeleg;                                               \
+        la t3, nodeleg;                                                 \
+        bnez t3, 1f;                                                    \
+        beqz t0, check_vstvec;                                          \
+        csrw stvec, t0;                                                 \
+        csrw medeleg, t2;                                               \
+        j 1f;                                                           \
+check_vstvec:                                                           \
+        beqz t1, 1f;                                                    \
+        csrw vstvec, t1;                                                \
+        csrw medeleg, t2;                                               \
+        csrw hedeleg, t2;                                               \
 1:      csrwi mstatus, 0;                                               \
         init;                                                           \
         EXTRA_INIT;                                                     \

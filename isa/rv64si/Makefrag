@@ -15,6 +15,13 @@ rv64si_sc_tests = \
 	immio-af \
 	debugCsrEXII \
 	triggerCsrEXII \
+	csrEXII_1 \
+	csrEXII_2 \
+	csrEXII_3 \
+	csrEXII_4 \
+	csrEXII_5 \
+	csrEXII_6 \
+	csrEXII_7 \
 		
 
 rv64si_p_tests = $(addprefix rv64si-p-, $(rv64si_sc_tests))
