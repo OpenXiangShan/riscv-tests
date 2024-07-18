@@ -10,5 +10,6 @@ rv64vsi_sc_tests = \
 	csrEXVI_2 \
 	csrEXVI_3 \
 	csrEXVI_4 \
+	csrPrivCheck \
 
 rv64vsi_p_tests = $(addprefix rv64vsi-p-, $(rv64vsi_sc_tests))

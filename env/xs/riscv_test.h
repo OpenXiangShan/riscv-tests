@@ -42,15 +42,33 @@
   RVTEST_ENABLE_MACHINE;                                                \
   .endm
 
+#define RVTEST_RV64MV                                                   \
+  .macro init;                                                          \
+  RVTEST_ENABLE_MACHINE;                                                \
+  RVTEST_VECTOR_ENABLE;                                                 \
+  .endm
+
 #define RVTEST_RV64S                                                    \
   .macro init;                                                          \
   RVTEST_ENABLE_SUPERVISOR;                                             \
   .endm                                                         
   
+#define RVTEST_RV64SV                                                   \
+  .macro init;                                                          \
+  RVTEST_ENABLE_SUPERVISOR;                                             \
+  RVTEST_VECTOR_ENABLE;                                                 \
+  .endm  
 
 #define RVTEST_RV64VS                                                   \
   .macro init;                                                          \
   RVTEST_ENABLE_VIRTUAL_SUPERVISOR                                      \
+  .endm 
+
+#define RVTEST_RV64VSV                                                  \
+  .macro init;                                                          \
+  RVTEST_ENABLE_VIRTUAL_SUPERVISOR;                                     \
+  RVTEST_VECTOR_ENABLE;                                                 \
+  RVTEST_VIRTUAL_SUPERVISOR_VECTOR_ENABLE;                              \
   .endm 
 
 #define RVTEST_RV32M                                                    \
@@ -156,6 +174,13 @@
   li a0, (MSTATUS_VS & (MSTATUS_VS >> 1)) |                             \
          (MSTATUS_FS & (MSTATUS_FS >> 1));                              \
   csrs mstatus, a0;                                                     \
+  csrwi fcsr, 0;                                                        \
+  csrwi vcsr, 0;
+
+#define RVTEST_VIRTUAL_SUPERVISOR_VECTOR_ENABLE                         \
+  li a0, (MSTATUS_VS & (MSTATUS_VS >> 1)) |                             \
+         (MSTATUS_FS & (MSTATUS_FS >> 1));                              \
+  csrs vsstatus, a0;                                                    \
   csrwi fcsr, 0;                                                        \
   csrwi vcsr, 0;
 

@@ -29,6 +29,7 @@ rv64mi_sc_tests = \
 	trigger \
 	loadTrigger \
 	debugCsrEXII \
+	csrPrivCheck \
 
 
 
