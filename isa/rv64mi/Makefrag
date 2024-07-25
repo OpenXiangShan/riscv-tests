@@ -19,6 +19,9 @@ rv64mi_sc_tests = \
 	sh-misaligned \
 	sw-misaligned \
 	sd-misaligned \
+	ld-hd-misaligned \
+	lw-hd-misaligned \
+	lh-hd-misaligned \
 	zicntr \
 	sfence \
 	svinval \
