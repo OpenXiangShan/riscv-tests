@@ -326,7 +326,7 @@ check_vstvec:                                                           \
 //-----------------------------------------------------------------------
 #define NEMU_TRAP(code)                                                 \
         li a0, code;                                                    \
-        .word 0x0000006b
+        .word 0x0005006b
 
 #define RVTEST_CODE_END                                                 \
         NEMU_TRAP(0)
