@@ -15,9 +15,15 @@ RVTEST_RV64M
 RVTEST_CODE_BEGIN
 
   # not cross 16 bytes boundary
-  TEST_LD_OP( 2, lh, 0x0302,  1,  tdat );
+  TEST_LD_OP( 2, lh, 0x0302,   1,  tdat );
+  TEST_LD_OP( 3, lh, 0x0504,   3,  tdat );
+  TEST_LD_OP( 4, lh, 0x0706,   5,  tdat );
+  TEST_LD_OP( 5, lh, 0x0908,   7,  tdat );
+  TEST_LD_OP( 6, lh, 0x0b0a,   9,  tdat );
+  TEST_LD_OP( 7, lh, 0x0d0c,  11,  tdat );
+  TEST_LD_OP( 8, lh, 0x0f0e,  13,  tdat );
   # cross 16 bytes boundary
-  TEST_LD_OP( 3, lh, 0x0110, 15,  tdat );
+  TEST_LD_OP( 9, lh, 0x0110,  15,  tdat );
 
 2:
   TEST_PASSFAIL
