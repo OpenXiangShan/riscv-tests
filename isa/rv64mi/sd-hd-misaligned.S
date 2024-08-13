@@ -10,9 +10,18 @@
 
 #include "riscv_test.h"
 #include "test_macros.h"
+#include "misalign_macros.h"
 
 RVTEST_RV64M
 RVTEST_CODE_BEGIN
+
+  # map tdat -> tdat
+  MAKE_PAGE_TABLE(tdat, tdat, page_table)
+  # map newpg -> newpg
+  MAKE_PAGE_TABLE(newpg, newpg, page_table)
+
+  TURN_ON_VM(page_table)
+  USE_VA_IN_M_MODE
 
   # not cross 16 bytes boundary
   TEST_ST_OP( 2, ld, sd, 0x090a0b0c0d0e0f10, 1, tdat );
@@ -54,7 +63,13 @@ RVTEST_DATA_BEGIN
 
   TEST_DATA
 
-.align 4
+# 2MB align
+.align 21
+page_table: .dword 0
+
+# align to 4KB * 8, to make room for page_table
+# WARNING: make sure tdat and newpg are in the same 2MB page if you use MAKE_PAGE_TABLE
+.align 15
 tdat:
     .zero 32
 
