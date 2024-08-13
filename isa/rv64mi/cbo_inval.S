@@ -38,10 +38,10 @@ RVTEST_CODE_BEGIN
   ld   x4, 0(x1)
   csrr x5, mcycle
   # check potential result
-  beq  x4, x0, 1b
-  beq  x4, x2, 1b
+  beq  x4, x0, 2f
+  beq  x4, x2, 2f
   j die
-1:
+2:
   # check load latency, load after inval should be longer than 20 cycles?
   sub  x5, x5, x3
   li   x6, 20
