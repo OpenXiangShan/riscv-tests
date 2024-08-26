@@ -1,0 +1,8 @@
+#=======================================================================
+# Makefrag for rv64uzfhmin tests
+#-----------------------------------------------------------------------
+
+rv64uzfhmin_sc_tests = fzfhmincvt
+
+rv64uzfhmin_p_tests = $(addprefix rv64uzfhmin-p-, $(rv64uzfhmin_sc_tests))
+rv64uzfhmin_v_tests = $(addprefix rv64uzfhmin-v-, $(rv64uzfhmin_sc_tests))

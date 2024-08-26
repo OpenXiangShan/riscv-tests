@@ -19,6 +19,7 @@ include $(src_dir)/rv64ua/Makefrag
 include $(src_dir)/rv64uf/Makefrag
 include $(src_dir)/rv64ud/Makefrag
 include $(src_dir)/rv64uzfh/Makefrag
+include $(src_dir)/rv64uzfhmin/Makefrag
 include $(src_dir)/rv64si/Makefrag
 include $(src_dir)/rv64ssvnapot/Makefrag
 include $(src_dir)/rv64mi/Makefrag
@@ -146,6 +147,7 @@ $(foreach s, $(SUITES), $(eval $(call compile_template,$(s),-march=rv64g -mabi=l
 $(eval $(call compile_template,rv32uzfh,-march=rv32g_zfh -mabi=ilp32))
 ifeq ($(XLEN),64)
 $(eval $(call compile_template,rv64uzfh,-march=rv64g_zfh -mabi=lp64))
+$(eval $(call compile_template,rv64uzfhmin,-march=rv64g_zfh -mabi=lp64))
 $(eval $(call compile_template,rv64mzicbo,-march=rv64g_zicboz -mabi=lp64))
 $(eval $(call compile_template,rv64ssvnapot,-march=rv64g -mabi=lp64))
 endif

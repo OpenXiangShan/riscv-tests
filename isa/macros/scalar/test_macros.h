@@ -491,12 +491,12 @@ test_ ## testnum: \
   TEST_FP_OP_S_INTERNAL( testnum, 0, float result, val1, 0.0, 0.0, \
                     fcvt.d.s f3, f0; fcvt.s.d f3, f3; fmv.x.s a0, f3)
 
-#define TEST_FCVT_H_S( testnum, result, val1 ) \
-  TEST_FP_OP_H_INTERNAL( testnum, 0, float16 result, val1, 0.0, 0.0, \
+#define TEST_FCVT_H_S( testnum, result, val1, flag ) \
+  TEST_FP_OP_H_INTERNAL( testnum, flag, float16 result, val1, 0.0, 0.0, \
                     fcvt.s.h f3, f0; fcvt.h.s f3, f3; fmv.x.h a0, f3)
 
-#define TEST_FCVT_H_D( testnum, result, val1 ) \
-  TEST_FP_OP_H_INTERNAL( testnum, 0, float16 result, val1, 0.0, 0.0, \
+#define TEST_FCVT_H_D( testnum, result, val1, flag ) \
+  TEST_FP_OP_H_INTERNAL( testnum, flag, float16 result, val1, 0.0, 0.0, \
                     fcvt.d.h f3, f0; fcvt.h.d f3, f3; fmv.x.h a0, f3)
 
 
