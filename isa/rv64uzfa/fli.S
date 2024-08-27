@@ -1,0 +1,113 @@
+# See LICENSE for license details.
+
+#*****************************************************************************
+# fli.S
+#-----------------------------------------------------------------------------
+# author: yzy
+# date: 2024-08-19
+# This test verifies that the fli.{s.d} instructions.
+#
+
+#include "riscv_test.h"
+#include "test_macros.h"
+
+RVTEST_RV64UF
+RVTEST_CODE_BEGIN
+
+#define TEST_FLIS( testnum, inputdata, outputdata) \
+test_ ## testnum: \
+    li TESTNUM, testnum; \
+    fli.s ft1, inputdata; \
+    fmv.x.s a0, ft1; \
+    li a1, outputdata; \
+    bne a0, a1, fail;
+
+#define TEST_FLID( testnum, inputdata, outputdata) \
+test_ ## testnum: \
+    li TESTNUM, testnum; \
+    fli.d ft1, inputdata; \
+    fmv.x.d a0, ft1; \
+    li a1, outputdata; \
+    bne a0, a1, fail;
+
+  li TESTNUM, 1
+
+  /* fli.s */
+  TEST_FLIS(2,  -1.000000e+00,     0xFFFFFFFFBF800000); // fmv.x.s signExt
+  TEST_FLIS(3,  min,               0x00800000);
+  TEST_FLIS(4,  1.52587890625e-05, 0x37800000);
+  TEST_FLIS(5,  3.0517578125e-05,  0x38000000);
+  TEST_FLIS(6,  3.906250e-03,      0x3b800000);
+  TEST_FLIS(7,  7.812500e-03,      0x3c000000);
+  TEST_FLIS(8,  6.250000e-02,      0x3d800000);
+  TEST_FLIS(9,  1.250000e-01,      0x3e000000);
+  TEST_FLIS(10, 2.500000e-01,      0x3e800000);
+  TEST_FLIS(11, 3.125000e-01,      0x3ea00000);
+  TEST_FLIS(12, 3.750000e-01,      0x3ec00000);
+  TEST_FLIS(13, 4.375000e-01,      0x3ee00000);
+  TEST_FLIS(14, 5.000000e-01,      0x3f000000);
+  TEST_FLIS(15, 6.250000e-01,      0x3f200000);
+  TEST_FLIS(16, 7.500000e-01,      0x3f400000);
+  TEST_FLIS(17, 8.750000e-01,      0x3f600000);
+  TEST_FLIS(18, 1.000000e+00,      0x3f800000);
+  TEST_FLIS(19, 1.250000e+00,      0x3fa00000);
+  TEST_FLIS(20, 1.500000e+00,      0x3fc00000);
+  TEST_FLIS(21, 1.750000e+00,      0x3fe00000);
+  TEST_FLIS(22, 2.000000e+00,      0x40000000);
+  TEST_FLIS(23, 2.500000e+00,      0x40200000);
+  TEST_FLIS(24, 3.000000e+00,      0x40400000);
+  TEST_FLIS(25, 4.000000e+00,      0x40800000);
+  TEST_FLIS(26, 8.000000e+00,      0x41000000);
+  TEST_FLIS(27, 1.600000e+01,      0x41800000);
+  TEST_FLIS(28, 1.280000e+02,      0x43000000);
+  TEST_FLIS(29, 2.560000e+02,      0x43800000);
+  TEST_FLIS(30, 3.276800e+04,      0x47000000);
+  TEST_FLIS(31, 6.553600e+04,      0x47800000);
+  TEST_FLIS(32, inf,               0x7f800000);
+  TEST_FLIS(33, nan,               0x7fc00000);
+
+  /* fli.d */
+  TEST_FLID(34, -1.000000e+00,     0xbff0000000000000);
+  TEST_FLID(35, min,               0x0010000000000000);
+  TEST_FLID(36, 1.52587890625e-05, 0x3ef0000000000000);
+  TEST_FLID(37, 3.0517578125e-05,  0x3f00000000000000);
+  TEST_FLID(38, 3.906250e-03,      0x3f70000000000000);
+  TEST_FLID(39, 7.812500e-03,      0x3f80000000000000);
+  TEST_FLID(40, 6.250000e-02,      0x3fb0000000000000);
+  TEST_FLID(41, 1.250000e-01,      0x3fc0000000000000);
+  TEST_FLID(42, 2.500000e-01,      0x3fd0000000000000);
+  TEST_FLID(43, 3.125000e-01,      0x3fd4000000000000);
+  TEST_FLID(44, 3.750000e-01,      0x3fd8000000000000);
+  TEST_FLID(45, 4.375000e-01,      0x3fdc000000000000);
+  TEST_FLID(46, 5.000000e-01,      0x3fe0000000000000);
+  TEST_FLID(47, 6.250000e-01,      0x3fe4000000000000);
+  TEST_FLID(48, 7.500000e-01,      0x3fe8000000000000);
+  TEST_FLID(49, 8.750000e-01,      0x3fec000000000000);
+  TEST_FLID(50, 1.000000e+00,      0x3ff0000000000000);
+  TEST_FLID(51, 1.250000e+00,      0x3ff4000000000000);
+  TEST_FLID(52, 1.500000e+00,      0x3ff8000000000000);
+  TEST_FLID(53, 1.750000e+00,      0x3ffc000000000000);
+  TEST_FLID(54, 2.000000e+00,      0x4000000000000000);
+  TEST_FLID(55, 2.500000e+00,      0x4004000000000000);
+  TEST_FLID(56, 3.000000e+00,      0x4008000000000000);
+  TEST_FLID(57, 4.000000e+00,      0x4010000000000000);
+  TEST_FLID(58, 8.000000e+00,      0x4020000000000000);
+  TEST_FLID(59, 1.600000e+01,      0x4030000000000000);
+  TEST_FLID(60, 1.280000e+02,      0x4060000000000000);
+  TEST_FLID(61, 2.560000e+02,      0x4070000000000000);
+  TEST_FLID(62, 3.276800e+04,      0x40e0000000000000);
+  TEST_FLID(63, 6.553600e+04,      0x40f0000000000000);
+  TEST_FLID(64, inf,               0x7ff0000000000000);
+  TEST_FLID(65, nan,               0x7ff8000000000000);
+
+
+  TEST_PASSFAIL
+
+RVTEST_CODE_END
+
+  .data
+RVTEST_DATA_BEGIN
+
+  TEST_DATA
+
+RVTEST_DATA_END
