@@ -1,0 +1,10 @@
+#=======================================================================
+# Makefrag for rv64zfa tests
+#-----------------------------------------------------------------------
+
+rv64uzfa_sc_tests = \
+  fli fminm fleq \
+  fround froundnx fcvtmod_w_d \
+
+
+rv64uzfa_p_tests = $(addprefix rv64uzfa-p-, $(rv64uzfa_sc_tests))
