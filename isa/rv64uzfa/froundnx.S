@@ -14,6 +14,26 @@
 RVTEST_RV64UF
 RVTEST_CODE_BEGIN
 
+#define TEST_FROUNDNXH_RM( testnum, flags, result, val1, frmdata, rm) \
+test_ ## testnum: \
+    li  TESTNUM, testnum; \
+    csrwi frm, frmdata; \
+    la  a0, test_ ## testnum ## _data; \
+    flh ft0, 0(a0); \
+    flh ft1, 2(a0); \
+    froundnx.h ft2, ft0, rm; \
+    fmv.x.h a1, ft1; \
+    fmv.x.h a2, ft2; \
+    fsflags a3, x0; \
+    li  a4, flags; \
+    bne a3, a4, fail; \
+    bne a1, a2, fail; \
+    .pushsection .data; \
+    .align 1; \
+    test_ ## testnum ## _data: \
+    .float16 val1; \
+    .float16 result; \
+    .popsection;
 
 #define TEST_FROUNDNXS_RM( testnum, flags, result, val1, frmdata, rm) \
 test_ ## testnum: \
@@ -141,6 +161,62 @@ test_ ## testnum: \
   TEST_FROUNDNXD_RM(70,   0x1,  -0.0,  -0.5,  0, rup);
   TEST_FROUNDNXD_RM(71,   0x1,  -1.0,  -0.5,  0, rmm);
 
+  TEST_FROUNDNXS_RM(72,     0,   1.0,   1.0,  0, rne);
+  TEST_FROUNDNXS_RM(73,     0,   3.0,   3.0,  0, rne);
+  TEST_FROUNDNXD_RM(74,     0,   1.0,   1.0,  0, rne);
+  TEST_FROUNDNXD_RM(75,     0,   3.0,   3.0,  0, rne);
+
+  TEST_FROUNDNXS_RM(76,     0,  -1.0,  -1.0,  0, rne);
+  TEST_FROUNDNXS_RM(77,     0,  -3.0,  -3.0,  0, rne);
+  TEST_FROUNDNXD_RM(78,     0,  -1.0,  -1.0,  0, rne);
+  TEST_FROUNDNXD_RM(79,     0,  -3.0,  -3.0,  0, rne);
+
+  /* froundnx.h */
+  TEST_FROUNDNXH_RM(80,   0x1,   4.0,   3.6,  0, rne);
+  TEST_FROUNDNXH_RM(81,   0x1,   3.0,   3.6,  0, rtz);
+  TEST_FROUNDNXH_RM(82,   0x1,   3.0,   3.6,  0, rdn);
+  TEST_FROUNDNXH_RM(83,   0x1,   4.0,   3.6,  0, rup);
+  TEST_FROUNDNXH_RM(84,   0x1,   4.0,   3.6,  0, rmm);
+
+  TEST_FROUNDNXH_RM(85,   0x1,   4.0,   3.6,  0, dyn);
+  TEST_FROUNDNXH_RM(86,   0x1,   3.0,   3.6,  1, dyn);
+  TEST_FROUNDNXH_RM(87,   0x1,   3.0,   3.6,  2, dyn);
+  TEST_FROUNDNXH_RM(88,   0x1,   4.0,   3.6,  3, dyn);
+  TEST_FROUNDNXH_RM(89,   0x1,   4.0,   3.6,  4, dyn);
+  TEST_FROUNDNXH_RM(90,     0,  -0.0,  -0.0,  0, dyn);
+  TEST_FROUNDNXH_RM(91,     0,  +0.0,  +0.0,  0, dyn);
+  TEST_FROUNDNXH_RM(92,     0,  +inf,  +inf,  0, dyn);
+  TEST_FROUNDNXH_RM(93,     0,  -inf,  -inf,  0, dyn);
+  TEST_FROUNDNXH_RM(94,  0x10, qNaNh, sNaNh,  0, dyn);
+
+  TEST_FROUNDNXH_RM(95,   0x1,   2.0,   2.5,  0, rne);
+  TEST_FROUNDNXH_RM(96,   0x1,   2.0,   2.5,  0, rtz);
+  TEST_FROUNDNXH_RM(97,   0x1,   2.0,   2.5,  0, rdn);
+  TEST_FROUNDNXH_RM(98,   0x1,   3.0,   2.5,  0, rup);
+  TEST_FROUNDNXH_RM(99,   0x1,   3.0,   2.5,  0, rmm);
+
+  TEST_FROUNDNXH_RM(100,   0x1,  -2.0,  -2.5,  0, rne);
+  TEST_FROUNDNXH_RM(101,   0x1,  -2.0,  -2.5,  0, rtz);
+  TEST_FROUNDNXH_RM(102,   0x1,  -3.0,  -2.5,  0, rdn);
+  TEST_FROUNDNXH_RM(103,   0x1,  -2.0,  -2.5,  0, rup);
+  TEST_FROUNDNXH_RM(104,   0x1,  -3.0,  -2.5,  0, rmm);
+
+  TEST_FROUNDNXH_RM(105,   0x1,  +0.0,   0.5,  0, rne);
+  TEST_FROUNDNXH_RM(106,   0x1,  +0.0,   0.5,  0, rtz);
+  TEST_FROUNDNXH_RM(107,   0x1,  +0.0,   0.5,  0, rdn);
+  TEST_FROUNDNXH_RM(108,   0x1,   1.0,   0.5,  0, rup);
+  TEST_FROUNDNXH_RM(109,   0x1,   1.0,   0.5,  0, rmm);
+
+  TEST_FROUNDNXH_RM(110,   0x1,  -0.0,  -0.5,  0, rne);
+  TEST_FROUNDNXH_RM(111,   0x1,  -0.0,  -0.5,  0, rtz);
+  TEST_FROUNDNXH_RM(112,   0x1,  -1.0,  -0.5,  0, rdn);
+  TEST_FROUNDNXH_RM(113,   0x1,  -0.0,  -0.5,  0, rup);
+  TEST_FROUNDNXH_RM(114,   0x1,  -1.0,  -0.5,  0, rmm);
+
+  TEST_FROUNDNXH_RM(115,     0,   1.0,   1.0,  0, rne);
+  TEST_FROUNDNXH_RM(116,     0,   3.0,   3.0,  0, rne);
+  TEST_FROUNDNXH_RM(117,     0,  -1.0,  -1.0,  0, rne);
+  TEST_FROUNDNXH_RM(118,     0,  -3.0,  -3.0,  0, rne);
 
   TEST_PASSFAIL
 

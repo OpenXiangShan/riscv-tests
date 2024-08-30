@@ -70,6 +70,30 @@ RVTEST_CODE_BEGIN
   TEST_FP_OP2_D(36,  fmaxm.d, 0,        0.0,       -0.0,        0.0 );
   TEST_FP_OP2_D(37,  fmaxm.d, 0,        0.0,        0.0,       -0.0 );
 
+  /* fminm.h fmaxm.h */
+  TEST_FP_OP2_H(38,  fminm.h, 0,        1.0,        2.5,        1.0 );
+  TEST_FP_OP2_H(39,  fminm.h, 0,    -1235.1,    -1235.1,        1.1 );
+  TEST_FP_OP2_H(40,  fminm.h, 0,    -1235.1,        1.1,    -1235.1 );
+  TEST_FP_OP2_H(41,  fminm.h, 0,      qNaNh,        NaN,    -1235.1 );
+  TEST_FP_OP2_H(42,  fminm.h, 0, 0.00000001, 3.14159265, 0.00000001 );
+  TEST_FP_OP2_H(43,  fminm.h, 0,       -2.0,       -1.0,       -2.0 );
+
+  TEST_FP_OP2_H(44,  fmaxm.h, 0,        2.5,        2.5,        1.0 );
+  TEST_FP_OP2_H(45,  fmaxm.h, 0,        1.1,    -1235.1,        1.1 );
+  TEST_FP_OP2_H(46,  fmaxm.h, 0,        1.1,        1.1,    -1235.1 );
+  TEST_FP_OP2_H(47,  fmaxm.h, 0,      qNaNh,        NaN,    -1235.1 );
+  TEST_FP_OP2_H(48,  fmaxm.h, 0, 3.14159265, 3.14159265, 0.00000001 );
+  TEST_FP_OP2_H(49,  fmaxm.h, 0,       -1.0,       -1.0,       -2.0 );
+
+  TEST_FP_OP2_H(50,  fmaxm.h, 0x10, qNaNh, sNaNh, 1.0);
+  TEST_FP_OP2_H(51,  fmaxm.h, 0x00, qNaNh,   NaN, NaN);
+
+  TEST_FP_OP2_H(52,  fminm.h, 0,       -0.0,       -0.0,        0.0 );
+  TEST_FP_OP2_H(53,  fminm.h, 0,       -0.0,        0.0,       -0.0 );
+  TEST_FP_OP2_H(54,  fmaxm.h, 0,        0.0,       -0.0,        0.0 );
+  TEST_FP_OP2_H(55,  fmaxm.h, 0,        0.0,        0.0,       -0.0 );
+
+
   TEST_PASSFAIL
 
 RVTEST_CODE_END

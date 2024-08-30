@@ -14,6 +14,27 @@
 RVTEST_RV64UF
 RVTEST_CODE_BEGIN
 
+#define TEST_FROUNDH_RM( testnum, flags, result, val1, frmdata, rm) \
+test_ ## testnum: \
+    li  TESTNUM, testnum; \
+    csrwi frm,  frmdata; \
+    la a0, test_ ## testnum ## _data; \
+    flh ft0,  0(a0);  \
+    flh ft1,  2(a0);  \
+    fround.h  ft2, ft0, rm; \
+    fmv.x.h   a1, ft1;  \
+    fmv.x.h   a2, ft2;  \
+    fsflags   a3, x0; \
+    li  a4, flags;  \
+    bne a3, a4, fail; \
+    bne a1, a2, fail; \
+    .pushsection  .data;  \
+    .align  1;  \
+    test_ ## testnum ## _data:  \
+    .float16 val1;  \
+    .float16 result;  \
+    .popsection;
+
 #define TEST_FROUNDS_RM( testnum, flags, result, val1, frmdata, rm) \
 test_ ## testnum: \
     li  TESTNUM, testnum; \
@@ -147,6 +168,42 @@ test_ ## testnum: \
   TEST_FROUNDD_RM(75,    0,  -3.0, -2.6,  0, rdn);
   TEST_FROUNDD_RM(76,    0,  -2.0, -2.6,  0, rup);
   TEST_FROUNDD_RM(77,    0,  -3.0, -2.6,  0, rmm);
+
+  /* fround.h */
+  TEST_FROUNDH_RM(78,    0,   4.0,  3.6,  0, rne);
+  TEST_FROUNDH_RM(79,    0,   3.0,  3.6,  0, rtz);
+  TEST_FROUNDH_RM(80,    0,   3.0,  3.6,  0, rdn);
+  TEST_FROUNDH_RM(81,    0,   4.0,  3.6,  0, rup);
+  TEST_FROUNDH_RM(82,    0,   4.0,  3.6,  0, rmm);
+
+  TEST_FROUNDH_RM(83,    0,   4.0,  3.6,  0, dyn);
+  TEST_FROUNDH_RM(84,    0,   3.0,  3.6,  1, dyn);
+  TEST_FROUNDH_RM(85,    0,   3.0,  3.6,  2, dyn);
+  TEST_FROUNDH_RM(86,    0,   4.0,  3.6,  3, dyn);
+  TEST_FROUNDH_RM(87,    0,   4.0,  3.6,  4, dyn);
+  TEST_FROUNDH_RM(88,    0,  -0.0, -0.0,  0, dyn);
+  TEST_FROUNDH_RM(89,    0,  +0.0, +0.0,  0, dyn);
+  TEST_FROUNDH_RM(90,    0,  +inf, +inf,  0, dyn);
+  TEST_FROUNDH_RM(91,    0,  -inf, -inf,  0, dyn);
+  TEST_FROUNDH_RM(92, 0x10, qNaNh,sNaNh,  0, dyn);
+
+  TEST_FROUNDH_RM(93,    0,   2.0,  2.5,  0, rne);
+  TEST_FROUNDH_RM(94,    0,   3.0,  2.5,  0, rmm);
+  TEST_FROUNDH_RM(95,    0,  -2.0, -2.5,  0, rne);
+  TEST_FROUNDH_RM(96,    0,  -3.0, -2.5,  0, rmm);
+
+  TEST_FROUNDH_RM(97,     0,   1.0,  0.6,  0, rne);
+  TEST_FROUNDH_RM(98,     0,  +0.0,  0.6,  0, rtz);
+  TEST_FROUNDH_RM(99,     0,   2.0,  2.6,  0, rdn);
+  TEST_FROUNDH_RM(100,    0,   3.0,  2.6,  0, rup);
+  TEST_FROUNDH_RM(101,    0,   3.0,  2.6,  0, rmm);
+
+  TEST_FROUNDH_RM(102,    0,  -1.0, -0.6,  0, rne);
+  TEST_FROUNDH_RM(103,    0,  -0.0, -0.6,  0, rtz);
+  TEST_FROUNDH_RM(104,    0,  -3.0, -2.6,  0, rdn);
+  TEST_FROUNDH_RM(105,    0,  -2.0, -2.6,  0, rup);
+  TEST_FROUNDH_RM(106,    0,  -3.0, -2.6,  0, rmm);
+
 
   TEST_PASSFAIL
 
