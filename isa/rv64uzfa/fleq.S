@@ -51,6 +51,19 @@ RVTEST_CODE_BEGIN
   TEST_FP_CMP_OP_D(21, fleq.d, 0x00, 0,  NaN,  NaN);
   TEST_FP_CMP_OP_D(22, fleq.d, 0x10, 0, sNaN,    0);
 
+  /* fleq.h fltq.h */
+  TEST_FP_CMP_OP_H(23, fleq.h, 0x00, 1, -1.36, -1.36);
+  TEST_FP_CMP_OP_H(24, fltq.h, 0x00, 0, -1.36, -1.36);
+
+  TEST_FP_CMP_OP_H(25, fleq.h, 0x00, 1, -1.37, -1.36);
+  TEST_FP_CMP_OP_H(26, fltq.h, 0x00, 1, -1.37, -1.36);
+
+  TEST_FP_CMP_OP_H(27, fltq.h, 0x00, 0,   NaN,    0);
+  TEST_FP_CMP_OP_H(28, fltq.h, 0x00, 0,   NaN,  NaN);
+  TEST_FP_CMP_OP_H(29, fltq.h, 0x10, 0, sNaNh,    0);
+  TEST_FP_CMP_OP_H(30, fleq.h, 0x00, 0,   NaN,    0);
+  TEST_FP_CMP_OP_H(31, fleq.h, 0x00, 0,   NaN,  NaN);
+  TEST_FP_CMP_OP_H(32, fleq.h, 0x10, 0, sNaNh,    0);
 
   TEST_PASSFAIL
 

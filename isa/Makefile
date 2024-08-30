@@ -134,7 +134,7 @@ $(eval $(call compile_template,rv64mzicbo,-march=rv64g_zicboz -mabi=lp64))
 $(eval $(call compile_template,rv64si,-march=rv64g -mabi=lp64))
 $(eval $(call compile_template,rv64ssvnapot,-march=rv64g -mabi=lp64))
 $(eval $(call compile_template,rv64mi,-march=rv64g -mabi=lp64))
-$(eval $(call compile_template,rv64uzfa,-march=rv64g_zfa -mabi=lp64))
+$(eval $(call compile_template,rv64uzfa,-march=rv64g_zfh_zfa -mabi=lp64))
 endif
 
 SUITES = rv64mi rv64si rv64ua rv64ui rv64um rv64uc rv64uf rv64ud rv64vsi
