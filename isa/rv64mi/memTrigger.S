@@ -1,4 +1,3 @@
-
 # See LICENSE for license details.
 
 #*****************************************************************************
@@ -13,41 +12,65 @@
 RVTEST_RV64M
 RVTEST_CODE_BEGIN
 
-  li TESTNUM, 2 #末尾会判断gp和0的关系
+  li TESTNUM, 2
 
   csrw tcontrol, 8
-  # triggr adder
-  la t2, data1
 
-  # store trigger
+  # test0: mmio mem access begin
+  # triggr adder
+  li t2, 0x3A000000
+  li a1, 0x11223344
+
+  # store
   csrw tselect, 0
   csrw tdata2, t2
   li t1, (2 << (__riscv_xlen - 4)) | MCONTROL_M | MCONTROL_STORE
   csrw tdata1, t1
+  SW a1, 0(t2)
 
-  li a1, 0xffffffff
+  # load
+  csrw tselect, 0
+  csrw tdata2, t2
+  li t1, (2 << (__riscv_xlen - 4)) | MCONTROL_M | MCONTROL_LOAD 
+  csrw tdata1, t1
+  LWU a2, 0(t2)
+
+  # check
+  bne a1, a2, fail
+  # test0: mmio mem access end
+
+  #test1: misaligned mem access begin
+  la t2, data1
+  addi t2, t2, 1
+  li a1, 0xaabbccdd
+
+  # store
+  csrw tselect, 0
+  csrw tdata2, t2
+  li t1, (2 << (__riscv_xlen - 4)) | MCONTROL_M | MCONTROL_STORE
+  csrw tdata1, t1
   SW a1, 0(t2)
 
   # load trigger
-  csrw tselect, 1
+  csrw tselect, 0
   csrw tdata2, t2
   li t1, (2 << (__riscv_xlen - 4)) | MCONTROL_M | MCONTROL_LOAD 
   csrw tdata1, t1
 
   LWU a2, 0(t2)
-
+  # check
   bne a1, a2, fail
+  #test1: misaligned mem access end
+
   TEST_PASSFAIL
 
   .align 2
   .global mtvec_handler
 
 mtvec_handler:
-  # Only even-numbered tests should trap.
   li t0, CAUSE_BREAKPOINT
   csrr t1, mcause
   bne t0, t1, fail
-
   # mret
   csrw tdata1, x0
   mret

@@ -37,7 +37,7 @@ rv64mi_sc_tests = \
 	xret_clear_mprv \
 	xtvec \
 	trigger \
-	loadTrigger \
+	memTrigger \
 	debugCsrEXII \
 	csrPrivCheck \
 
