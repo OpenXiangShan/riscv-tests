@@ -13,20 +13,20 @@
 RVTEST_RV64M
 RVTEST_CODE_BEGIN
 
-  li TESTNUM, 2 #末尾会判断gp和0的关系
-
-  csrw tcontrol, 8
+  li TESTNUM, 2
+  li t1, 8
+  csrs mstatus, t1
   # store chain
   csrw tselect, 0
   la t2, data1
   csrw tdata2, t2
-  li t1, (2 << (__riscv_xlen - 4)) | MCONTROL_M | MCONTROL_STORE | (2 << 7) | MCONTROL_CHAIN
+  li t1, (6 << (__riscv_xlen - 4)) | MCONTROL_M | MCONTROL_STORE | (2 << 7) | MCONTROL_CHAIN
   csrw tdata1, t1
 
   csrw tselect, 1
   la t2, data3
   csrw tdata2, t2
-  li t1, (2 << (__riscv_xlen - 4)) | MCONTROL_M | MCONTROL_STORE | (3 << 7)
+  li t1, (6 << (__riscv_xlen - 4)) | MCONTROL_M | MCONTROL_STORE | (3 << 7)
   csrw tdata1, t1
 
   la t2, data2
@@ -38,13 +38,13 @@ RVTEST_CODE_BEGIN
   csrw tselect, 0
   la t2, data1
   csrw tdata2, t2
-  li t1, (2 << (__riscv_xlen - 4)) | MCONTROL_M | MCONTROL_LOAD | (2 << 7) | MCONTROL_CHAIN
+  li t1, (6 << (__riscv_xlen - 4)) | MCONTROL_M | MCONTROL_LOAD | (2 << 7) | MCONTROL_CHAIN
   csrw tdata1, t1
 
   csrw tselect, 1
   la t2, data3
   csrw tdata2, t2
-  li t1, (2 << (__riscv_xlen - 4)) | MCONTROL_M | MCONTROL_LOAD | (3 << 7)
+  li t1, (6 << (__riscv_xlen - 4)) | MCONTROL_M | MCONTROL_LOAD | (3 << 7)
   csrw tdata1, t1
 
   la t2, data2

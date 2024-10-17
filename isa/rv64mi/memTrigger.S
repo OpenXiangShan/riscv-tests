@@ -13,8 +13,9 @@ RVTEST_RV64M
 RVTEST_CODE_BEGIN
 
   li TESTNUM, 2
-
-  csrw tcontrol, 8
+  
+  li t1, 8
+  csrs mstatus, t1
 
   # test0: mmio mem access begin
   # triggr adder
@@ -24,14 +25,14 @@ RVTEST_CODE_BEGIN
   # store
   csrw tselect, 0
   csrw tdata2, t2
-  li t1, (2 << (__riscv_xlen - 4)) | MCONTROL_M | MCONTROL_STORE
+  li t1, (6 << (__riscv_xlen - 4)) | MCONTROL_M | MCONTROL_STORE
   csrw tdata1, t1
   SW a1, 0(t2)
 
   # load
   csrw tselect, 0
   csrw tdata2, t2
-  li t1, (2 << (__riscv_xlen - 4)) | MCONTROL_M | MCONTROL_LOAD 
+  li t1, (6 << (__riscv_xlen - 4)) | MCONTROL_M | MCONTROL_LOAD 
   csrw tdata1, t1
   LWU a2, 0(t2)
 
@@ -47,14 +48,14 @@ RVTEST_CODE_BEGIN
   # store
   csrw tselect, 0
   csrw tdata2, t2
-  li t1, (2 << (__riscv_xlen - 4)) | MCONTROL_M | MCONTROL_STORE
+  li t1, (6 << (__riscv_xlen - 4)) | MCONTROL_M | MCONTROL_STORE
   csrw tdata1, t1
   SW a1, 0(t2)
 
   # load trigger
   csrw tselect, 0
   csrw tdata2, t2
-  li t1, (2 << (__riscv_xlen - 4)) | MCONTROL_M | MCONTROL_LOAD 
+  li t1, (6 << (__riscv_xlen - 4)) | MCONTROL_M | MCONTROL_LOAD 
   csrw tdata1, t1
 
   LWU a2, 0(t2)
