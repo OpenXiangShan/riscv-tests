@@ -5,6 +5,8 @@
 rv64vsi_sc_tests = \
 	csrEXII_1 \
 	csrEXII_3 \
+	csrEXII_4 \
+	csrEXII_5 \
 	csrEXII_7 \
 	csrEXVI_1 \
 	csrEXVI_2 \

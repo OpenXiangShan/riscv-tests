@@ -134,7 +134,7 @@
 #define INIT_SATP                                                      \
   la t0, 1f;                                                            \
   csrw mtvec, t0;                                                       \
-  csrwi sptbr, 0;                                                       \
+  csrwi satp, 0;                                                       \
   .align 2;                                                             \
 1:
 
@@ -286,7 +286,7 @@ reset_vector:                                                           \
         INIT_PMP;                                                       \
         DELEGATE_NO_TRAPS;                                              \
         li TESTNUM, 0;                                                  \
-        la t0, trap_vector;                                             \
+        la t0, mtvec_handler;                                           \
         csrw mtvec, t0;                                                 \
         CHECK_XLEN;                                                     \
         /* if an stvec_handler is defined, delegate exceptions to it */ \

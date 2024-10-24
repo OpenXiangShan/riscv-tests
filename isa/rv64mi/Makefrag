@@ -40,7 +40,11 @@ rv64mi_sc_tests = \
 	memTrigger \
 	debugCsrEXII \
 	csrPrivCheck \
-	vldst_trigger
+	vldst_trigger \
+	mnreg \
+	hpmreg \
+	hpm-overflow \
+	smdbltrp_criticalerror \
 
 
 

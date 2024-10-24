@@ -42,6 +42,10 @@ stvec_handler:
   csrr t0, stval
 
   bne t0, t1, fail
+
+  csrr t0, scause
+  li t1, 2
+  bne t0, t1, fail
   csrr t0, sepc
   addi t0, t0, 4
   csrw sepc, t0
